@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "CVE-2021-23434",
   "upstream": "object-path@0.11.4",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "set",
+  "keystring": "[['__proto__'], 'polluted']",
+  "location": "index.js:110:28",
   "downstream": []
 }

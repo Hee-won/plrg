@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "",
   "upstream": "node-ini@1.0.0",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "parse",
+  "keystring": "[__proto__]\npolluted = yes",
+  "location": "node-ini.js:25:66",
   "downstream": []
 }

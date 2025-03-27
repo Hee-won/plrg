@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "",
   "upstream": "lutils-merge@0.2.6",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "merge.js:156:23",
   "downstream": []
 }

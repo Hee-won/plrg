@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "VE",
   "upstream": "objutil@2.17.3",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "dist/objutil.cjs.js:192:59",
   "downstream": []
 }

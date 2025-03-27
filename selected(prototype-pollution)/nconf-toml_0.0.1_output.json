@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "CVE-2021-25946",
   "upstream": "nconf-toml@0.0.1",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "parse",
+  "keystring": "[__proto__]\npolluted = 'yes'",
+  "location": "lib/compiler.js:55:18",
   "downstream": []
 }

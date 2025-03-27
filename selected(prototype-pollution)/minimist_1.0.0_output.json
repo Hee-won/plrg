@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "CVE-2020-7598",
   "upstream": "minimist@1.0.0",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "#main",
+  "keystring": "--__proto__.polluted",
+  "location": "index.js:189:16",
   "downstream": []
 }

@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "CVE-2021-23329",
   "upstream": "nested-object-assign@1.0.3",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/nestedObjectAssign.js:1:787",
   "downstream": []
 }

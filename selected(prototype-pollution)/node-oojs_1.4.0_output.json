@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "CVE-2020-7721",
   "upstream": "node-oojs@1.4.0",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "setPath",
+  "keystring": "{ '__proto__.polluted': 'yes' })",
+  "location": "bin/format/oojs.js:65:39",
   "downstream": []
 }

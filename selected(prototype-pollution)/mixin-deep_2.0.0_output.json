@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "CVE-2019-10746",
   "upstream": "mixin-deep@2.0.0",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "#main",
+  "keystring": "{ constructor: { prototype: { polluted: 'yes' } } }",
+  "location": "index.js:21:17",
   "downstream": []
 }

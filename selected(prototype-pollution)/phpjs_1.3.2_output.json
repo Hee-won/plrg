@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "CVE-2020-7700",
   "upstream": "phpjs@1.3.2",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "parse_str",
+  "keystring": "__proto__[polluted]=yes",
+  "location": "build/npm.js:6406:24",
   "downstream": []
 }

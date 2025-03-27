@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "CVE-2021-23396",
   "upstream": "lutils@2.4.0",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "merge/merge.ts:114:18",
   "downstream": []
 }

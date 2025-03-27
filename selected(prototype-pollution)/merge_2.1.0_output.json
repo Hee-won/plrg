@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "CVE-2020-28499",
   "upstream": "merge@2.1.0",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "recursive",
+  "keystring": "{ x: { ['__proto__']: { polluted: 'yes' } } }",
+  "location": "lib/src/index.js:59:19",
   "downstream": []
 }

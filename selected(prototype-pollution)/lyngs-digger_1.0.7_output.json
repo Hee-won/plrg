@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "",
   "upstream": "lyngs-digger@1.0.7",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "digger",
+  "keystring": "__proto__.polluted",
+  "location": "digger/dist/index.js:2120:23",
   "downstream": []
 }

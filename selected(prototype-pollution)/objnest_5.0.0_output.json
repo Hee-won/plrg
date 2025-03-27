@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "",
   "upstream": "objnest@5.0.0",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "expand",
+  "keystring": "{ '__proto__.polluted': 'yes' }",
+  "location": "lib/objnest.js:44:35",
   "downstream": []
 }

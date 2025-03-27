@@ -1,0 +1,19 @@
+{
+    "id": "CVE-2020-8132",
+    "upstream": "pdf-image@2.0.0",
+    "keymethod": "getInfo",
+    "keystring": "; touch pdf-image_2 #",
+    "location": "index.js:44:7",
+    "downstreams": [
+        "@edropin/canvas@1.1.0",
+        "@launchtray/hatch-test-pdf@0.11.10",
+        "@nodearch/pdf@0.2.0",
+        "@pantherx.dev/node-pdf-signature@0.0.2",
+        "ccxc-ocr@0.0.12",
+        "covers-extractor@0.19.5",
+        "offfice-to-img@1.0.0",
+        "scandigilib@1.0.0",
+        "stats-fr-emarque-basketball-extractor@0.3.0",
+        "@andromeda/mir-da@0.0.13"
+    ]
+}

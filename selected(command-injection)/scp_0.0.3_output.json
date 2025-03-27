@@ -1,0 +1,31 @@
+{
+    "id": "CVE-2019-10776",
+    "upstream": "scp@0.0.3",
+    "keymethod": "send",
+    "keystring": "& touch scp; #",
+    "location": "scp.js:21:3",
+    "downstreams": [
+        "gulp-scp@0.0.3",
+        "gitbook-start-iaas-ull-es-merquililycony@1.0.22",
+        "microservicebus.node@0.0.42",
+        "gitbook-start-iaas-ull-es-josue-nayra@1.4.3",
+        "pano-tools@0.4.0",
+        "revo@0.2.2",
+        "deploy-scp-auto@0.0.6",
+        "lime-updater@1.0.0",
+        "ember-cli-deploy-scp@0.0.8",
+        "microservicebus.core@0.0.1",
+        "harmox@0.1.0",
+        "scpsync@1.0.0",
+        "edy@0.0.11",
+        "scp-node-client@0.0.1",
+        "@tsatse/scaffolder@1.1.1",
+        "secret-service@0.0.10",
+        "totalcross-core-dev@0.0.0",
+        "totalcross-npm-cli@1.1.1",
+        "umi-plugin-publish@0.0.3",
+        "upp@0.0.1",
+        "yun-programmer@0.0.1",
+        "@jkhong/mom@1.0.0"
+    ]
+}

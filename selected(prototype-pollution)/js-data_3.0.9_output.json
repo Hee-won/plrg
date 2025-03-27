@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23574",
+  "upstream": "js-data@3.0.9",
+  "keymethod": "deepMixIn",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "src/utils.js:487:18",
+  "downstream": []
+}

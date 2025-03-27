@@ -1,0 +1,13 @@
+{
+    "id": "CVE-2021-26543",
+    "upstream": "git-parse@1.0.3",
+    "keymethod": "gitDiff",
+    "keystring": ". || touch git-parse",
+    "location": "src/git_diff.js:13:3",
+    "downstreams": [
+        "apollo@2.18.0",
+        "apollo-persisted-hash@2.18.1",
+        "zipolupu-apollo@2.6.2",
+        "@steelbrain/apollo@2.11.0-beta"
+    ]
+}

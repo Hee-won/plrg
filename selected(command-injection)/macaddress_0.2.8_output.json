@@ -1,0 +1,10 @@
+{
+    "id": "CVE-2018-13797",
+    "upstream": "macaddress@0.2.8",
+    "keymethod": "one",
+    "keystring": "; touch macaddress; echo ",
+    "location": "lib/unix.js:4:5",
+    "downstreams": [
+        "iobroker.yahka@0.5.4"
+    ]
+}

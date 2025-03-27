@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28449",
+  "upstream": "decal@2.0.0",
+  "keymethod": "__proto__.polluted",
+  "keystring": "set",
+  "location": "src/utils/set.js:62:21",
+  "downstream": []
+}

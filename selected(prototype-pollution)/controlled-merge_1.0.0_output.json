@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28268",
+  "upstream": "controlled-merge@1.0.0",
+  "keymethod": "#main",
+  "keystring": "{ testProperty: 'hi', prototype: { polluted: 'yes' } }",
+  "location": "",
+  "downstream": []
+}

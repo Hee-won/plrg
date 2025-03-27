@@ -1,0 +1,8 @@
+{
+    "id": "",
+    "upstream": "node-unrar@0.1.0",
+    "keymethod": "_execute",
+    "keystring": "; touch node-unrar;",
+    "location": "lib/index.js:23:3",
+    "downstreams": []
+}

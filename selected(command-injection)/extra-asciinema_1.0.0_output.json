@@ -1,0 +1,8 @@
+{
+    "id": "",
+    "upstream": "extra-asciinema@1.0.0",
+    "keymethod": "uploadSync",
+    "keystring": "; touch extra-asciinema",
+    "location": "index.js:208:20",
+    "downstreams": []
+}

@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2014-9682",
+    "upstream": "dns-sync@0.1.0",
+    "keymethod": "resolve",
+    "keystring": "$(touch dns-sync)",
+    "location": "lib/dns-sync.js:21:26",
+    "downstreams": []
+}

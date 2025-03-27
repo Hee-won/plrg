@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "flat-wrap@1.0.2",
+  "keymethod": "unflatten",
+  "keystring": "{'__proto__.polluted': 'yes'}",
+  "location": "index.js:193:43",
+  "downstream": []
+}

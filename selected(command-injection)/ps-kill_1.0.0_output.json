@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2021-23355",
+    "upstream": "ps-kill@1.0.0",
+    "keymethod": "kill",
+    "keystring": "$(touch ps-kill)",
+    "location": "index.js:8:3",
+    "downstreams": []
+}

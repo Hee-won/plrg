@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2021-23375",
+    "upstream": "psnode@0.0.1",
+    "keymethod": "kill",
+    "keystring": "$(touch psnode)",
+    "location": "lib/index.js:59:16",
+    "downstreams": []
+}

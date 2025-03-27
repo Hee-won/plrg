@@ -1,0 +1,10 @@
+{
+    "id": "CVE-2020-7781",
+    "upstream": "connection-tester@0.2.0",
+    "keymethod": "test",
+    "keystring": "& touch connection-tester",
+    "location": "index.js:15:28",
+    "downstreams": [
+        "@mdslab/iotronic-lightning-rod@2.3.1"
+    ]
+}

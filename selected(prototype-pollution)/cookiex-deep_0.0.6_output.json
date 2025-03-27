@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23442",
+  "upstream": "cookiex-deep@0.0.6",
+  "keymethod": "default",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "deep/dist/assigner.js:13:31",
+  "downstream": []
+}

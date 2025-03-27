@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2018-16462",
+    "upstream": "apex-publish-static-files@2.0.0",
+    "keymethod": "publish",
+    "keystring": ";touch apex-publish-static-files;",
+    "location": "index.js:54:25",
+    "downstreams": []
+}

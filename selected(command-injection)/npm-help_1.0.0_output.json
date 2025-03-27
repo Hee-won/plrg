@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2020-28445",
+    "upstream": "npm-help@1.0.0",
+    "keymethod": "latestVersion",
+    "keystring": "& touch npm-help",
+    "location": "index.js:13:22",
+    "downstreams": []
+}

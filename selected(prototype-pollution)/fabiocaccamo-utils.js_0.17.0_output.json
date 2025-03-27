@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-3815",
+  "upstream": "fabiocaccamo-utils.js@0.17.0",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "utils.js/dist/utils.js:2365:33",
+  "downstream": []
+}

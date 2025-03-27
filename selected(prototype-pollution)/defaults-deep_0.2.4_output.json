@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2018-16486",
+  "upstream": "defaults-deep@0.2.4",
+  "keymethod": "#main",
+  "keystring": "{ constructor: { prototype: { polluted: 'yes' } } }",
+  "location": "index.js:26:21",
+  "downstream": []
+}

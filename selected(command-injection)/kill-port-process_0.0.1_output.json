@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2019-15609",
+    "upstream": "kill-port-process@0.0.1",
+    "keymethod": "kill-port-process()",
+    "keystring": "$(touch kill-port-process)",
+    "location": "src/index.js:44:4",
+    "downstreams": []
+}

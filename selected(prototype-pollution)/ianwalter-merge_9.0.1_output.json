@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23397",
+  "upstream": "ianwalter-merge@9.0.1",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "",
+  "downstream": []
+}

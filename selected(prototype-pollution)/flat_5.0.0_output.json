@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-25927",
+  "upstream": "flat@5.0.0",
+  "keymethod": "unflatten",
+  "keystring": "{'__proto__.polluted': 'yes'}",
+  "location": "index.js:145:21",
+  "downstream": []
+}

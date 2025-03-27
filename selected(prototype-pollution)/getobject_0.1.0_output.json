@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28282",
+  "upstream": "getobject@0.1.0",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "lib/getobject.js:48:23",
+  "downstream": []
+}

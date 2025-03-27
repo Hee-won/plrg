@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28472",
+  "upstream": "aws-sdk-shared-ini-file-loader@1.0.0-rc.8",
+  "keymethod": "loadSharedConfigFiles",
+  "keystring": "./payload.toml",
+  "location": "shared-ini-file-loader/src/index.ts:108:20",
+  "downstream": []
+}

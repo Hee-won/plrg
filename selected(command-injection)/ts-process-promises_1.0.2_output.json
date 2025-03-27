@@ -1,0 +1,11 @@
+{
+    "id": "CVE-2020-7784",
+    "upstream": "ts-process-promises@1.0.2",
+    "keymethod": "exec",
+    "keystring": "touch ts-process-promises",
+    "location": "lib/process-promises.js:45:31",
+    "downstreams": [
+        "verda@0.1.0",
+        "hltc-webapi-master@1.0.0"
+    ]
+}

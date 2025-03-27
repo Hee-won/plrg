@@ -1,0 +1,17 @@
+{
+    "id": "",
+    "upstream": "gry@5.0.8",
+    "keymethod": "pull",
+    "keystring": "test; touch gry; #",
+    "location": "lib/index.js:88:20",
+    "downstreams": [
+        "git-package-json@1.4.11",
+        "np-init@1.0.10",
+        "markdownalint-cli2@1.0.0",
+        "machine-ip@1.0.0",
+        "git-stats@2.10.0",
+        "angularvezba@1.0.0",
+        "tools_may_24@1.0.0",
+        "@frenzie24/logger@1.0.4"
+    ]
+}

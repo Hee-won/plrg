@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28461",
+  "upstream": "js-ini@1.2.0",
+  "keymethod": "parse",
+  "keystring": "[__proto__]\npolluted=yes",
+  "location": "src/parse.ts:68:58",
+  "downstream": []
+}

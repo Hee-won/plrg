@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28269",
+  "upstream": "field@1.0.1",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "lib/field.js:50:20",
+  "downstream": []
+}

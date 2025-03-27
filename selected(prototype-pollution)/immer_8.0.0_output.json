@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23436",
+  "upstream": "immer@8.0.0",
+  "keymethod": "applyPatches",
+  "keystring": "[ { op: 'add', path: ['__proto__', 'polluted'], value: 'yes' },]",
+  "location": "src/plugins/patches.ts:245:16",
+  "downstream": []
+}

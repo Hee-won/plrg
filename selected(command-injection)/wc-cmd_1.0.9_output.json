@@ -1,0 +1,11 @@
+{
+    "id": "CVE-2020-28431",
+    "upstream": "wc-cmd@1.0.9",
+    "keymethod": "wc-cmd()",
+    "keystring": "touch wc-cmd",
+    "location": "index.js:49:19",
+    "downstreams": [
+        "wc-plugin@1.0.4",
+        "wc-build@1.0.3"
+    ]
+}

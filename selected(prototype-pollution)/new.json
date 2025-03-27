@@ -1,0 +1,693 @@
+{
+    "id": "CVE-2021-25946",
+    "upstream": "nconf-toml@unknown",
+    "keymethod": "parse()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2021-25945",
+    "upstream": "js-extend@unknown",
+    "keymethod": "extend(o1,o2)",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2021-25944",
+    "upstream": "deep-defaults@unknown",
+    "keymethod": "deep-defaults()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2021-25943",
+    "upstream": "101@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2021-25941",
+    "upstream": "deep-override@unknown",
+    "keymethod": "deepoverride()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2021-25928",
+    "upstream": "safe-obj@unknown",
+    "keymethod": "expand()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2021-25927",
+    "upstream": "safe-flat@unknown",
+    "keymethod": "unflatten(obj, [delimiter])",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2021-25915",
+    "upstream": "changeset@unknown",
+    "keymethod": "apply(changes, a, true);",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2021-25914",
+    "upstream": "Object Collider@unknown",
+    "keymethod": "collide(obj1, obj2)",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2021-25913",
+    "upstream": "set-or-get@unknown",
+    "keymethod": "SetOrGet(input, field, def)",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2021-25912",
+    "upstream": "dotty@unknown",
+    "keymethod": "put(obj,path,val)",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2021-23329",
+    "upstream": "nested-object-assign@unknown",
+    "keymethod": "assign () using JSON.parse",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-8268",
+    "upstream": "json8-merge-patch@unknown",
+    "keymethod": "mergePatch.apply",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-8158",
+    "upstream": "TypeORM@unknown",
+    "keymethod": "deepmerge()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-8147",
+    "upstream": "utils-extend@unknown",
+    "keymethod": "extend()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28442",
+    "upstream": "js-data@unknown",
+    "keymethod": "deepFillIn({}, source)",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7771",
+    "upstream": "asciitable.js@unknown",
+    "keymethod": "any_dunc({},b);",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7768",
+    "upstream": "grpc/grpc-js@unknown",
+    "keymethod": "loadPackageDefinition",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7766",
+    "upstream": "json-ptr@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7737",
+    "upstream": "safetydance@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7736",
+    "upstream": "bmoor@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7727",
+    "upstream": "gedi@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7725",
+    "upstream": "worksmith@unknown",
+    "keymethod": "setValue()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7724",
+    "upstream": "tinyConf@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7723",
+    "upstream": "promisehelpers@unknown",
+    "keymethod": "insert()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7722",
+    "upstream": "nodee-utils@unknown",
+    "keymethod": "deepset()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7721",
+    "upstream": "node-oojs@unknown",
+    "keymethod": "setpath()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7720",
+    "upstream": "node-forge@unknown",
+    "keymethod": "setpath()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7719",
+    "upstream": "locutus@unknown",
+    "keymethod": "parse_str()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7718",
+    "upstream": "gammautils@unknown",
+    "keymethod": "deepMerge",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7717",
+    "upstream": "dot-prop@unknown",
+    "keymethod": "create",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7716",
+    "upstream": "deeps@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7714",
+    "upstream": "confucious@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7713",
+    "upstream": "arr-flatten-unflatten@unknown",
+    "keymethod": "unflatten(obj, [delimiter])",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7704",
+    "upstream": "linux-cmdline@unknown",
+    "keymethod": "linuxCmdline()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7703",
+    "upstream": "nis-utils@unknown",
+    "keymethod": "setValue ()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7702",
+    "upstream": "Templ8@unknown",
+    "keymethod": "parse()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7701",
+    "upstream": "madlib-object-utils@unknown",
+    "keymethod": "setValue ()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7700",
+    "upstream": "phpjs@unknown",
+    "keymethod": "parse_str()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7679",
+    "upstream": "casperjs@unknown",
+    "keymethod": "mergeObjects",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7643",
+    "upstream": "paypal-adaptive@unknown",
+    "keymethod": "PayPal ()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7637",
+    "upstream": "class-transformer@unknown",
+    "keymethod": ".classToPlainFromExist(payload,{});",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7600",
+    "upstream": "querymen@unknown",
+    "keymethod": "handler(type, name, fn)",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28503",
+    "upstream": "copy-props@unknown",
+    "keymethod": "copyprops()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28499",
+    "upstream": "merge@unknown",
+    "keymethod": "recursive()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28495",
+    "upstream": "total.js@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28480",
+    "upstream": "jointjs@2.2.1@unknown",
+    "keymethod": "setByPath()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28283",
+    "upstream": "libnested@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28282",
+    "upstream": "getobject@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28281",
+    "upstream": "set-object-value@unknown",
+    "keymethod": "setObjectValue",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28280",
+    "upstream": "predefine@unknown",
+    "keymethod": "merge",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28279",
+    "upstream": "flattenizer@unknown",
+    "keymethod": "unflatten()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28277",
+    "upstream": "dset@unknown",
+    "keymethod": "dset()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28276",
+    "upstream": "deep-set@unknown",
+    "keymethod": "deepSet()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28274",
+    "upstream": "deepref@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28273",
+    "upstream": "set_in@unknown",
+    "keymethod": "set_in()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28272",
+    "upstream": "keyget@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28271",
+    "upstream": "deephas@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28269",
+    "upstream": "field@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28268",
+    "upstream": "controlled-merge@unknown",
+    "keymethod": "merge()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28267",
+    "upstream": "@strikeentco/set@unknown",
+    "keymethod": "sset(obj, '__proto__.polluted', \"yes\");",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-15256",
+    "upstream": "object-path-set@unknown",
+    "keymethod": "setpath()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-26245",
+    "upstream": "systeminformation@unknown",
+    "keymethod": "The function recursively set the property in the target object, however it does not properly check the key being set, leading to a prototype pollution",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2019-10793",
+    "upstream": "dot-object@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2019-10792",
+    "upstream": "bodymen@unknown",
+    "keymethod": "handler()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2019-10750",
+    "upstream": "deeply@unknown",
+    "keymethod": "#main#",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2019-10747",
+    "upstream": "set-value@unknown",
+    "keymethod": "#main#",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2019-10746",
+    "upstream": "mixin-deep@2.0.0@unknown",
+    "keymethod": "#main#",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2019-10745",
+    "upstream": "assign-deep@unknown",
+    "keymethod": "#main#",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2018-16492",
+    "upstream": "extend@unknown",
+    "keymethod": "#main#",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2018-16491",
+    "upstream": "node.extend@unknown",
+    "keymethod": "#main#",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2018-16490",
+    "upstream": "mpath@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2018-16489",
+    "upstream": "just-extend@unknown",
+    "keymethod": "#main#",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2018-16486",
+    "upstream": "defaults-deep@unknown",
+    "keymethod": "#main#",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2018-3728",
+    "upstream": "hoek@unknown",
+    "keymethod": "merge()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2018-3749",
+    "upstream": "deap@unknown",
+    "keymethod": "merge()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2018-3751",
+    "upstream": "merge-recursive@unknown",
+    "keymethod": "#main#",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7717",
+    "upstream": "dot-notes@unknown",
+    "keymethod": "create()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7765",
+    "upstream": "@firebase/util@unknown",
+    "keymethod": "deepExtend()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28477",
+    "upstream": "immer@unknown",
+    "keymethod": "applyPatches()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28461",
+    "upstream": "js-ini@unknown",
+    "keymethod": "parse()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "link",
+    "upstream": "upmerge@unknown",
+    "keymethod": "merge()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "link",
+    "upstream": "keyd@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "link",
+    "upstream": "nested-property@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "link",
+    "upstream": "objtools@unknown",
+    "keymethod": "merge()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7608",
+    "upstream": "yargs-parser@unknown",
+    "keymethod": "#main#",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7774",
+    "upstream": "y18n@unknown",
+    "keymethod": "updateLocale()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7724",
+    "upstream": "tiny-conf@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "link",
+    "upstream": "supermixer@unknown",
+    "keymethod": "merge()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "link",
+    "upstream": "smart-extend@unknown",
+    "keymethod": "deep()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28278",
+    "upstream": "shvl@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-28273",
+    "upstream": "set-in@unknown",
+    "keymethod": "#main#",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7707",
+    "upstream": "property-expr@unknown",
+    "keymethod": "setter()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2021-25949",
+    "upstream": "set-getter@unknown",
+    "keymethod": "#main#",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2021-25948",
+    "upstream": "expand-hash@unknown",
+    "keymethod": "#main#",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7792",
+    "upstream": "mout@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7726",
+    "upstream": "safe-object2@unknown",
+    "keymethod": "setter()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2020-7708",
+    "upstream": "irrelon-path@unknown",
+    "keymethod": "set()",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }
+  {
+    "id": "CVE-2021-28860",
+    "upstream": "mixme@unknown",
+    "keymethod": "#main#",
+    "keystring": "__proto__.polluted",
+    "downstreams": []
+  }

@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2017-16034",
+    "upstream": "pidusage@1.0.0",
+    "keymethod": "stat",
+    "keystring": "$(touch pidusage)",
+    "location": "lib/stats.js:108:5",
+    "downstreams": []
+}

@@ -1,0 +1,14 @@
+{
+    "id": "CVE-2015-7982",
+    "upstream": "gm@1.20.0",
+    "keymethod": "compare",
+    "keystring": "$(touch gm)",
+    "location": "lib/compare.js:72:5",
+    "downstreams": [
+        "svgutils@0.13.6",
+        "miaow-css-sprite@3.0.2",
+        "sails-service-image@3.0.0",
+        "maglev@4.6.12",
+        "@openveo/core@1.1.0"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "CVE-2020-28429",
+    "upstream": "geojson2kml@0.1.1",
+    "keymethod": "geojson2kml()",
+    "keystring": "& touch geojson2kml",
+    "location": "index.js:6:3",
+    "downstreams": [
+        "geojson2@0.1.1"
+    ]
+}

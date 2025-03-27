@@ -1,0 +1,11 @@
+{
+    "id": "",
+    "upstream": "arpping@2.0.0",
+    "keymethod": "ping",
+    "keystring": ";touch arpping;",
+    "location": "index.js:120:13",
+    "downstreams": [
+        "node-red-contrib-self-healing@0.9.1",
+        "homebridge-modern-forms@0.0.2"
+    ]
+}

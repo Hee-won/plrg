@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "brikcss-merge@1.3.0",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "merge/dist/lib/merge.js:2:1599",
+  "downstream": []
+}

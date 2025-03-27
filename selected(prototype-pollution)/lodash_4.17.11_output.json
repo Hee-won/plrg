@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-8203",
+  "upstream": "lodash@4.17.11",
+  "keymethod": "zipObjectDeep",
+  "keystring": "['__proto__.polluted']",
+  "location": "lodash.js:2559:21",
+  "downstream": []
+}

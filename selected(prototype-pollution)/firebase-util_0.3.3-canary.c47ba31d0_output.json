@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7765",
+  "upstream": "firebase-util@0.3.3-canary.c47ba31d0",
+  "keymethod": "deepExtend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "util/src/deepCopy.ts:68:49",
+  "downstream": []
+}

@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "",
   "upstream": "upmerge@0.1.7",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/upmerge.js:1:1247",
   "downstream": []
 }

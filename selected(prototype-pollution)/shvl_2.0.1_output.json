@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "",
   "upstream": "shvl@2.0.1",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "set",
+  "keystring": "constructor.prototype.polluted",
+  "location": "index.js:10:40",
   "downstream": []
 }

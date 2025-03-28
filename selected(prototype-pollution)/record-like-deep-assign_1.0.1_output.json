@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "CVE-2021-23402",
   "upstream": "record-like-deep-assign@1.0.1",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "src/mod.ts:34:9",
   "downstream": []
 }

@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "CVE-2020-7737",
   "upstream": "safetydance@2.0.1",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "index.js:215:25",
   "downstream": []
 }

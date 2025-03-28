@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "",
   "upstream": "ts-dot-prop@1.4.0",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "src/index.ts:72:21",
   "downstream": []
 }

@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "",
   "upstream": "prototyped.js@2.0.0",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "default",
+  "keystring": "__proto__.isAdmin",
+  "location": "lib/index.js:66:14",
   "downstream": []
 }

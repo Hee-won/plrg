@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "CVE-2020-8158",
   "upstream": "typeorm@0.2.24",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "mergeDeep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
   "downstream": []
 }

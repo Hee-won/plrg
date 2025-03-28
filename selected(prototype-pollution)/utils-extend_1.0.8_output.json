@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "CVE-2020-8147",
   "upstream": "utils-extend@1.0.8",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "extend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "index.js:46:19",
   "downstream": []
 }

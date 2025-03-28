@@ -1,8 +1,8 @@
 {
-  "id": "CVE",
+  "id": "CVE-2021-25953",
   "upstream": "putil-merge@3.0.0",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/merge.js:72:19",
   "downstream": []
 }

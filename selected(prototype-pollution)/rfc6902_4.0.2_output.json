@@ -1,8 +1,8 @@
 {
   "id": "CVE",
   "upstream": "rfc6902@4.0.2",
-  "keymethod": "",
-  "keystring": "",
-  "location": "",
+  "keymethod": "applyPatch",
+  "keystring": "/__proto__/polluted",
+  "location": "patch.js:57:21",
   "downstream": []
 }

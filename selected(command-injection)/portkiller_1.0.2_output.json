@@ -1,7 +1,7 @@
 {
   "id": "CVE-2021-23379",
   "upstream": "portkiller@1.0.2",
-  "keymethod": "main",
+  "keymethod": "#main",
   "keystring": "$(touch portkiller)",
   "location": "index.js:10:5",
   "downstreams": []

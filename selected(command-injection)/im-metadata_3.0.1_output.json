@@ -1,7 +1,7 @@
 {
   "id": "CVE-2019-10788",
   "upstream": "im-metadata@3.0.1",
-  "keymethod": "main",
+  "keymethod": "#main",
   "keystring": "./foo.jpg;touch im-metadata",
   "location": "index.js:15:3",
   "downstreams": [

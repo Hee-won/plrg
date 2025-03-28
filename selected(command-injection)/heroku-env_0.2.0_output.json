@@ -1,7 +1,7 @@
 {
   "id": "CVE-2020-28437",
   "upstream": "heroku-env@0.2.0",
-  "keymethod": "main",
+  "keymethod": "#main",
   "keystring": "& touch heroku-env",
   "location": "lib/get.js:3:3",
   "downstreams": []

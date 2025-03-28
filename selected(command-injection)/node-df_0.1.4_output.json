@@ -1,7 +1,7 @@
 {
   "id": "CVE-2019-15597",
   "upstream": "node-df@0.1.4",
-  "keymethod": "main",
+  "keymethod": "#main",
   "keystring": "/;touch node-df",
   "location": "lib/index.js:41:5",
   "downstreams": [

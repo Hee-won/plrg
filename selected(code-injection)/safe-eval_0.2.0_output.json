@@ -1,7 +1,7 @@
 {
   "id": " CVE-2020-7710",
   "upstream": "safe-eval@0.2.0",
-  "keymethod": "main",
+  "keymethod": "#main",
   "keystring": "this.constructor.prototype.polluted=`yes`",
   "location": "index.js:13:6",
   "downstreams": [

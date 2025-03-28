@@ -1,7 +1,7 @@
 {
   "id": "CVE-2020-7673",
   "upstream": "node-extend@0.2.0",
-  "keymethod": "main",
+  "keymethod": "#main",
   "keystring": "function (){});require(`fs`).writeFileSync('node-extend',''); //(){console.log(123)}",
   "location": "lib/extend.js:31:11",
   "downstreams": [

@@ -1,7 +1,7 @@
 {
   "id": "CVE-2020-7677",
   "upstream": "thenify@3.3.0",
-  "keymethod": "main",
+  "keymethod": "#main",
   "keystring": "fake() {\" fs=require('fs');fs.writeFileSync('thenify','',) \";})();(function(){//",
   "location": "index.js:17:10",
   "downstreams": [

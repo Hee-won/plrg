@@ -1,7 +1,7 @@
 {
   "id": "CVE-2017-16042",
   "upstream": "growl@1.9.0",
-  "keymethod": "main",
+  "keymethod": "#main",
   "keystring": "`touch growl`",
   "location": "lib/growl.js:289:3",
   "downstreams": [

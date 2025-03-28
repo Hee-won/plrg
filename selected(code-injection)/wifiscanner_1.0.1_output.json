@@ -1,7 +1,7 @@
 {
   "id": "CVE-2020-15362",
   "upstream": "wifiscanner@1.0.1",
-  "keymethod": "main",
+  "keymethod": "#main",
   "keystring": "touch",
   "location": "scanners/wifiscanner.js:12:22",
   "downstreams": [

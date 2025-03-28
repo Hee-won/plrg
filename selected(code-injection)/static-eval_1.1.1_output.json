@@ -1,7 +1,7 @@
 {
   "id": "",
   "upstream": "static-eval@1.1.1",
-  "keymethod": "main",
+  "keymethod": "#main",
   "keystring": "(function(){1 + (Object.prototype.polluted = `yes`)}())",
   "location": "index.js:118:20",
   "downstreams": [

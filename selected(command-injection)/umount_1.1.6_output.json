@@ -1,7 +1,7 @@
 {
   "id": "CVE-2020-7628",
   "upstream": "umount@1.1.6",
-  "keymethod": "main",
+  "keymethod": "#main",
   "keystring": "\" $(touch umount) \"",
   "location": "build/umount.js:52:24",
   "downstreams": [

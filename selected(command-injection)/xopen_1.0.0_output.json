@@ -1,7 +1,7 @@
 {
   "id": "CVE-2020-28447",
   "upstream": "xopen@1.0.0",
-  "keymethod": "main",
+  "keymethod": "#main",
   "keystring": "& touch xopen",
   "location": "index.js:13:5",
   "downstreams": []

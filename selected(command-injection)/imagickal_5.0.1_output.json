@@ -1,7 +1,7 @@
 {
   "id": "",
   "upstream": "imagickal@5.0.1",
-  "keymethod": "main",
+  "keymethod": "#main",
   "keystring": ";touch imagickal;",
   "location": "lib/imagickal.js:127:17",
   "downstreams": []

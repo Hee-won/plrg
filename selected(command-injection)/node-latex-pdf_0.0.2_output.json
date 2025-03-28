@@ -1,7 +1,7 @@
 {
   "id": "CVE-2020-28433",
   "upstream": "node-latex-pdf@0.0.2",
-  "keymethod": "main",
+  "keymethod": "#main",
   "keystring": "& touch node-latex-pdf",
   "location": "node-latex-pdf.js:10:5",
   "downstreams": [

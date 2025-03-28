@@ -1,14 +1,14 @@
 {
-    "id": "",
-    "upstream": "local-devices@2.0.0",
-    "keymethod": "local-devices()",
-    "keystring": "127.0.0.1 | touch local-devices",
-    "location": "src/index.js:114:13",
-    "downstreams": [
-        "alfred-show-network-info@0.2.1",
-        "arvis-show-network-info@0.0.1",
-        "homebridge-webos-tv-ext@1.6.1",
-        "panalyze@0.1.0",
-        "@andromeda/mir-da@0.0.13"
-    ]
+  "id": "",
+  "upstream": "local-devices@2.0.0",
+  "keymethod": "main",
+  "keystring": "127.0.0.1 | touch local-devices",
+  "location": "src/index.js:114:13",
+  "downstreams": [
+    "alfred-show-network-info@0.2.1",
+    "arvis-show-network-info@0.0.1",
+    "homebridge-webos-tv-ext@1.6.1",
+    "panalyze@0.1.0",
+    "@andromeda/mir-da@0.0.13"
+  ]
 }

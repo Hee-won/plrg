@@ -1,0 +1,12 @@
+{
+    "id": "",
+    "upstream": "mongoosemask@0.0.6",
+    "keymethod": "mask",
+    "keystring": "id\"]; require(`fs`)[\"writeFileSync\"](`mongoosemask`,``)//",
+    "location": "index.js:181:5",
+    "downstreams": [
+        "mockgoose@2.0.3",
+        "mockgoose-mongoose4@2.0.4",
+        "@andromeda/mir-da@0.0.13"
+    ]
+}

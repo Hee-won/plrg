@@ -2,7 +2,7 @@
   "id": "",
   "upstream": "open@0.0.5",
   "keymethod": "main",
-  "keystring": "`touch open`",
+  "keystring": "\"\"`touch open`",
   "location": "lib/open.js:58:10",
   "downstreams": [
     "webpack-dev-server@1.16.5",

@@ -1,0 +1,11 @@
+{
+    "id": "CVE-2020-28438",
+    "upstream": "deferred-exec@0.3.1",
+    "keymethod": "deferred-exec(\"\",{})",
+    "keystring": " touch deferred-exec ",
+    "location": "lib/deferred-exec.js:42:19",
+    "downstreams": [
+        "proud-badge@0.0.2",
+        "bear@0.1.0"
+    ]
+}

@@ -1,11 +1,11 @@
 {
-    "id": "CVE-2021-23381",
-    "upstream": "killing@1.0.6",
-    "keymethod": "killing()",
-    "keystring": "$(touch killing & exit 1)",
-    "location": "lib/killing.js:35:7",
-    "downstreams": [
-        "reliable-slave@1.0.0",
-        "reliable-macaca-slave@1.0.0"
-    ]
+  "id": "CVE-2021-23381",
+  "upstream": "killing@1.0.6",
+  "keymethod": "main",
+  "keystring": "$(touch killing & exit 1)",
+  "location": "lib/killing.js:35:7",
+  "downstreams": [
+    "reliable-slave@1.0.0",
+    "reliable-macaca-slave@1.0.0"
+  ]
 }

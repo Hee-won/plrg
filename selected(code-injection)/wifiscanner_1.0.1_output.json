@@ -1,10 +1,10 @@
 {
-    "id": "CVE-2020-15362",
-    "upstream": "wifiscanner@1.0.1",
-    "keymethod": "wifiscanner()",
-    "keystring": "touch",
-    "location": "scanners/wifiscanner.js:12:22",
-    "downstreams": [
-        "@andromeda/mir-da@0.0.13"
-    ]
+  "id": "CVE-2020-15362",
+  "upstream": "wifiscanner@1.0.1",
+  "keymethod": "main",
+  "keystring": "touch",
+  "location": "scanners/wifiscanner.js:12:22",
+  "downstreams": [
+    "@andromeda/mir-da@0.0.13"
+  ]
 }

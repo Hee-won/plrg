@@ -1,13 +1,13 @@
 {
-    "id": "CVE-2018-3772",
-    "upstream": "whereis@0.4.0",
-    "keymethod": "whereis()",
-    "keystring": "; touch whereis",
-    "location": "index.js:4:6",
-    "downstreams": [
-        "browsertime@0.9.4",
-        "sitespeed.io@3.5.0",
-        "gifify@2.1.2",
-        "cssnow@2.0.0"
-    ]
+  "id": "CVE-2018-3772",
+  "upstream": "whereis@0.4.0",
+  "keymethod": "main",
+  "keystring": "; touch whereis",
+  "location": "index.js:4:6",
+  "downstreams": [
+    "browsertime@0.9.4",
+    "sitespeed.io@3.5.0",
+    "gifify@2.1.2",
+    "cssnow@2.0.0"
+  ]
 }

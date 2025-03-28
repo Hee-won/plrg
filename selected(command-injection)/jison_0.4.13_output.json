@@ -1,0 +1,27 @@
+{
+    "id": "CVE-2020-8178",
+    "upstream": "jison@0.4.13",
+    "keymethod": "exec",
+    "keystring": "; touch jison",
+    "location": "build/queueRunner.js:45:12",
+    "downstreams": [
+        "jsonpath@0.2.12",
+        "@ramonornela/jsonpath@0.2.10",
+        "genome-parser@0.0.85",
+        "jsonpath-lite@0.2.7",
+        "jsonpath-wdf@1.0.0",
+        "jsonpath-bespoken@1.0.0",
+        "@livereach/jsonpath@1.2.0",
+        "jsonpath-ng@1.0.1",
+        "yaql@0.0.3",
+        "jsonpath-pa@0.2.11",
+        "tempath@0.0.4",
+        "m.js@0.1.8",
+        "makise@0.0.0",
+        "nomnoml@0.0.1",
+        "syncpeng-jsonpath@0.2.12",
+        "jsonpath-extension@1.0.0",
+        "@davidmarek/jsonpath@1.0.0",
+        "@conscia/jsonpath@0.2.11"
+    ]
+}

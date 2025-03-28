@@ -1,18 +1,18 @@
 {
-    "id": "",
-    "upstream": "static-eval@1.1.1",
-    "keymethod": "static-eval()",
-    "keystring": "(function(){1 + (Object.prototype.polluted = `yes`)}())",
-    "location": "index.js:118:20",
-    "downstreams": [
-        "sheetify@6.2.0",
-        "glslify@6.1.0",
-        "flobot@0.0.12",
-        "@fsslc/jsonpath@0.2.9",
-        "data-expression@0.3.2",
-        "scopedify@1.0.0",
-        "cncjs@1.9.10",
-        "tymly@0.0.15",
-        "@andromeda/mir-da@0.0.13"
-    ]
+  "id": "",
+  "upstream": "static-eval@1.1.1",
+  "keymethod": "main",
+  "keystring": "(function(){1 + (Object.prototype.polluted = `yes`)}())",
+  "location": "index.js:118:20",
+  "downstreams": [
+    "sheetify@6.2.0",
+    "glslify@6.1.0",
+    "flobot@0.0.12",
+    "@fsslc/jsonpath@0.2.9",
+    "data-expression@0.3.2",
+    "scopedify@1.0.0",
+    "cncjs@1.9.10",
+    "tymly@0.0.15",
+    "@andromeda/mir-da@0.0.13"
+  ]
 }

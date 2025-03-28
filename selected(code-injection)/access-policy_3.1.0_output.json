@@ -1,0 +1,11 @@
+{
+    "id": "CVE-2020-7674",
+    "upstream": "access-policy@3.1.0",
+    "keymethod": "encode",
+    "keystring": "`; require(`fs`).writeFileSync(`\" + path + \"`,``);//",
+    "location": "lib/encode.js:6:10",
+    "downstreams": [
+        "app-policy-auth@4.5.0",
+        "@andromeda/mir-da@0.0.13"
+    ]
+}

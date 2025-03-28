@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2018-16462",
+    "upstream": "alfred-workflow-nodejs@2.0.1",
+    "keymethod": "utils.wfVars.remove",
+    "keystring": " \"; touch alfred-workflow-nodejs #",
+    "location": "alfredNode.js:445:17",
+    "downstreams": []
+}

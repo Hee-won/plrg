@@ -1,11 +1,11 @@
 {
-    "id": "CVE-2020-7630",
-    "upstream": "git-add-remote@1.0.0",
-    "keymethod": "git-add-remote()",
-    "keystring": "& touch git-add-remote",
-    "location": "index.js:21:8",
-    "downstreams": [
-        "generate-gh-repo@1.1.0",
-        "nodejs-github-to-bitbucket-backup-repo-updater@1.0.4"
-    ]
+  "id": "CVE-2020-7630",
+  "upstream": "git-add-remote@1.0.0",
+  "keymethod": "main",
+  "keystring": "& touch git-add-remote",
+  "location": "index.js:21:8",
+  "downstreams": [
+    "generate-gh-repo@1.1.0",
+    "nodejs-github-to-bitbucket-backup-repo-updater@1.0.4"
+  ]
 }

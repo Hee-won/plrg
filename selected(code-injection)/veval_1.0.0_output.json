@@ -1,8 +1,8 @@
 {
-    "id": "",
-    "upstream": "veval@1.0.0",
-    "keymethod": "veval()",
-    "keystring": "1 + (this.constructor.prototype.polluted = `yes`);",
-    "location": "index.js:13:21",
-    "downstreams": []
+  "id": "",
+  "upstream": "veval@1.0.0",
+  "keymethod": "main",
+  "keystring": "1 + (this.constructor.prototype.polluted = `yes`);",
+  "location": "index.js:13:21",
+  "downstreams": []
 }

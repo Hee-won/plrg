@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "upstream": "@uifabric:utilities@7.5.0",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "",
+  "downstreams": [
+    "@microsoft/sp-loader@1.11.0"
+  ]
+}

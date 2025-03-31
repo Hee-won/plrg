@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "upstream": "style-dictionary@2.7.0",
+  "keymethod": "extend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/utils/deepExtend.js:76:26",
+  "downstreams": [
+    "@inmotionnow/momentum-tokens@10.2.1-next.0"
+  ]
+}

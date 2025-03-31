@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "keyd@1.1.6",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "index.js:76:60",
+  "downstreams": []
+}

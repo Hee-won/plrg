@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2020-15256",
+  "upstream": "object-path@0.10.0",
+  "keymethod": "set",
+  "keystring": "[['__proto__'], 'polluted']",
+  "location": "index.js:19:13",
+  "downstreams": [
+    "entu-cms@0.6.3",
+    "@klient/core@1.0.1"
+  ]
+}

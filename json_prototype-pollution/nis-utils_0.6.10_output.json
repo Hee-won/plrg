@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2020-7703",
+  "upstream": "nis-utils@0.6.10",
+  "keymethod": "setValue",
+  "keystring": "__proto__.polluted",
+  "location": "lib/object.js:166:40",
+  "downstreams": [
+    "nis-view@0.1.1",
+    "nis-model@0.6.0"
+  ]
+}

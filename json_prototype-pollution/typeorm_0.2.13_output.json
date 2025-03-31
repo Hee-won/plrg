@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2020-8158",
+  "upstream": "typeorm@0.2.13",
+  "keymethod": "mergeDeep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@primecms/core@0.3.3-beta.0",
+    "@quancheng/valkyriejs@1.0.0",
+    "@rucken/auth-nestjs@1.0.1",
+    "@hatiolab/things-shell@0.6.114"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "CVE-2021-23820",
+  "upstream": "json-pointer@0.6.0",
+  "keymethod": "set",
+  "keystring": "/__proto__/polluted",
+  "location": "index.js:98:18",
+  "downstreams": [
+    "gavel@9.1.5",
+    "json-magic@0.0.10",
+    "@cysonius/json-utils@0.0.3",
+    "@jaspero/form-builder@3.21.0",
+    "jp2p@0.0.10",
+    "roads-starter@1.0.0-beta.14",
+    "openapi-examples-validator@1.1.1",
+    "oapi-generator@1.0.2-fix-dependencies.0",
+    "be5-react@0.1.54",
+    "swagger-examples-validator@1.1.0",
+    "@cysonius/schema-utils@0.0.10"
+  ]
+}

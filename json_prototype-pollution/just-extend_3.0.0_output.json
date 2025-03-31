@@ -1,0 +1,17 @@
+{
+  "id": "CVE-2018-16489",
+  "upstream": "just-extend@3.0.0",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "index.js:52:23",
+  "downstreams": [
+    "miniapp-token-based-login@0.1.4",
+    "miniapp-login-middleware@0.1.0",
+    "miniapp-request-middleware@0.1.1",
+    "miniapp-basepath-middleware@0.1.0",
+    "nise@1.4.4",
+    "request-queue-middleware@0.1.0",
+    "wx-http-middleware@0.0.1",
+    "http-queue-middleware@0.1.0"
+  ]
+}

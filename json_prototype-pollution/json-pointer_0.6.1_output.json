@@ -1,0 +1,15 @@
+{
+  "id": "CVE-2021-23820",
+  "upstream": "json-pointer@0.6.1",
+  "keymethod": "set",
+  "keystring": "/__proto__/polluted",
+  "location": "index.js:98:18",
+  "downstreams": [
+    "json-magic@0.1.0",
+    "openapi-examples-validator@4.3.3",
+    "dummy-package-four@1.0.1",
+    "jp2p@1.0.0",
+    "@nureva/nu-console-cli@2.0.0",
+    "@lyra-network/openapi-dev-tool@9.3.0"
+  ]
+}

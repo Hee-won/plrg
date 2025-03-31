@@ -1,0 +1,17 @@
+{
+  "id": "CVE-2020-7724",
+  "upstream": "tiny-conf@1.1.0",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "tiny-conf.js:73:17",
+  "downstreams": [
+    "kevoree-registry-client@3.0.1",
+    "kevoree-kevscript@5.0.9",
+    "kevoree-registry-api@1.7.6",
+    "kevoree-cli@6.2.1",
+    "kevoree-nodejs-runtime@5.7.0-alpha.1",
+    "language-kevscript@1.0.0",
+    "grunt-kevoree-registry@3.0.2",
+    "grunt-kevoree@5.9.0"
+  ]
+}

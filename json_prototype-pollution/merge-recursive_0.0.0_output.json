@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2018-3751",
+  "upstream": "merge-recursive@0.0.0",
+  "keymethod": "recursive",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/index.js:66:14",
+  "downstreams": [
+    "rest-auth@0.0.0",
+    "node-conf@0.0.0"
+  ]
+}

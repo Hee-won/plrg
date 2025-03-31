@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2020-7720",
+  "upstream": "node-forge@0.7.0",
+  "keymethod": "setPath",
+  "keystring": "['__proto__', 'polluted']",
+  "location": "lib/util.js:2536:22",
+  "downstreams": [
+    "nativescript-cloud@0.1.0",
+    "nativescript-javascript-cli@0.1.0",
+    "ssg-web-sdk@1.2.0",
+    "nativescript-angular-cli@0.1.0"
+  ]
+}

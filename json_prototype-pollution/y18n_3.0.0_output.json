@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7774",
+  "upstream": "y18n@3.0.0",
+  "keymethod": "setLocale, updateLocale",
+  "keystring": "'__proto__'",
+  "location": "index.js:156:34",
+  "downstreams": []
+}

@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-7702",
+  "upstream": "Templ8@0.2.1",
+  "keymethod": "parse",
+  "keystring": "{{__proto__.polluted='yes'}}",
+  "location": "",
+  "downstreams": [
+    "zkubanyi@0.0.2"
+  ]
+}

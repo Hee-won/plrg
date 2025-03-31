@@ -1,0 +1,14 @@
+{
+  "id": "CVE-2020-7639",
+  "upstream": "eivindfjeldstad-dot@0.0.1",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "index.js:20:13",
+  "downstreams": [
+    "validate@4.5.1",
+    "gulp-workspace@0.0.2",
+    "@wingmanimd/validate@4.5.1",
+    "validate-object-schema@1.0.0",
+    "@aslijia/validate@4.5.1"
+  ]
+}

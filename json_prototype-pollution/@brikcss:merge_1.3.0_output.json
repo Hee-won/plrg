@@ -1,0 +1,14 @@
+{
+  "id": "",
+  "upstream": "@brikcss:merge@1.3.0",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "",
+  "downstreams": [
+    "@bundles/core@0.3.3",
+    "@brikcss/stakcss-bundler-ejs@0.0.1",
+    "@bundles/bundles-tplit@0.0.1",
+    "@brikcss/stakcss@0.0.0",
+    "@brikcss/rollup-config-generator@0.0.15"
+  ]
+}

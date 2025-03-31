@@ -1,0 +1,14 @@
+{
+  "id": "CVE-2020-8158",
+  "upstream": "typeorm@0.1.0-alpha.50",
+  "keymethod": "mergeDeep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "exort@0.1.18",
+    "oly-orm@0.15.0",
+    "skynar-orm@1.0.0",
+    "skynarorm@1.0.10",
+    "@boundstate/hapi-typeorm@0.0.1"
+  ]
+}

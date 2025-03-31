@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7701",
+  "upstream": "madlib-object-utils@0.1.6",
+  "keymethod": "setValue",
+  "keystring": "__proto__.polluted",
+  "location": "lib/utils.js:56:22",
+  "downstreams": []
+}

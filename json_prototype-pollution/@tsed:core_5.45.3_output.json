@@ -1,0 +1,21 @@
+{
+  "id": "",
+  "upstream": "@tsed:core@5.45.3",
+  "keymethod": "deepExtends",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "",
+  "downstreams": [
+    "@tsed/di@5.45.3",
+    "@tsed/common@5.45.3",
+    "@tsed/multipartfiles@5.45.3",
+    "@tsed/mongoose@5.45.3",
+    "ts-express-decorators@5.45.3",
+    "@tsed/passport@5.45.3",
+    "@tsed/seq@5.45.3",
+    "@tsed/platform-express@5.45.3",
+    "@tsed/testing-mongoose@5.45.3",
+    "@tsed/typeorm@5.45.3",
+    "@tsed/graphql@5.45.3",
+    "@tsed/ajv@5.45.3"
+  ]
+}

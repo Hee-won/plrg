@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "upstream": "i18next@19.1.0",
+  "keymethod": "deepExtend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@focus4/core@10.2.0",
+    "@freckle/i18n-scripts@1.0.0",
+    "@lskjs/i18@1.0.11",
+    "@nitro/app@5.2.0",
+    "@remote.it/components@0.10.0",
+    "igo@3.1.14",
+    "@energyweb/origin-ui-core@0.2.2-alpha.3546.0"
+  ]
+}

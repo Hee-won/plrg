@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23421",
+  "upstream": "merge-change@1.0.1",
+  "keymethod": "set",
+  "keystring": "['__proto__', 'polluted']",
+  "location": "utils.js:63:26",
+  "downstreams": []
+}

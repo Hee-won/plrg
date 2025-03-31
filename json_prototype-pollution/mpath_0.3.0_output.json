@@ -1,0 +1,18 @@
+{
+  "id": "CVE-2021-23438",
+  "upstream": "mpath@0.3.0",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "lib/index.js:269:17",
+  "downstreams": [
+    "mongoose@4.11.14",
+    "json-schema-deref-sync@0.4.0",
+    "mongoose-hidden@1.5.0",
+    "mapperjs@3.0.0",
+    "lounge@0.14.0",
+    "json-schema-deref@0.4.1",
+    "raptor-app@5.0.2",
+    "twittersearchstream@1.0.10",
+    "@gplatform/settings@1.1.0"
+  ]
+}

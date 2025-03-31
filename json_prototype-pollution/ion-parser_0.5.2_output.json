@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-28462",
+  "upstream": "ion-parser@0.5.2",
+  "keymethod": "parses",
+  "keystring": "[__proto__]\npolluted=yes",
+  "location": "parser.js:359:13",
+  "downstreams": [
+    "@arnau/gatsby-transformer-toml@1.0.0"
+  ]
+}

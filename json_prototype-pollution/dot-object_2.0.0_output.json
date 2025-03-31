@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2019-10793",
+  "upstream": "dot-object@2.0.0",
+  "keymethod": "set",
+  "keystring": "__proto__",
+  "location": "index.js:415:25",
+  "downstreams": [
+    "@nitro/app@5.0.0-beta"
+  ]
+}

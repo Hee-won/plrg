@@ -1,0 +1,12 @@
+{
+  "id": "",
+  "upstream": "i18next@19.6.2",
+  "keymethod": "deepExtend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@nitro/app@5.6.0",
+    "igo@3.2.0",
+    "@energyweb/origin-ui-core@1.6.1-alpha.7481.0"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "upstream": "@cookiex:deep@0.0.1",
+  "keymethod": "default",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "",
+  "downstreams": [
+    "@cookiex/class-state@0.0.1"
+  ]
+}

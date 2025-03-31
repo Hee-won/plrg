@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2020-7743",
+  "upstream": "mathjs@7.3.0",
+  "keymethod": "config",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/utils/object.js:131:17",
+  "downstreams": [
+    "@choiceform/ui@1.0.0-rc.34",
+    "wise-paas-datahub-utility@2.0.12",
+    "@baic/yolk-miniapp@1.0.0-alpha.35"
+  ]
+}

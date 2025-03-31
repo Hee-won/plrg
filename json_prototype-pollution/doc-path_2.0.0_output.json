@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-7772",
+  "upstream": "doc-path@2.0.0",
+  "keymethod": "setPath",
+  "keystring": "__proto__.polluted",
+  "location": "src/path.js:54:27",
+  "downstreams": [
+    "json-2-csv@3.2.0"
+  ]
+}

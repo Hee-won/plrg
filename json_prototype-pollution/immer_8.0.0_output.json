@@ -1,0 +1,27 @@
+{
+  "id": "CVE-2021-23436",
+  "upstream": "immer@8.0.0",
+  "keymethod": "applyPatches",
+  "keystring": "[ { op: 'add', path: ['__proto__', 'polluted'], value: 'yes' },]",
+  "location": "src/plugins/patches.ts:245:16",
+  "downstreams": [
+    "@platform/state@0.7.22",
+    "@redux-model/core@9.0.3",
+    "@kengic/ng.common@3.4.101",
+    "@react-compiler-ap/local-client@3.0.1",
+    "@jsxnb/client@1.0.1",
+    "mhy@10.2.1",
+    "kresus@0.16.0-dev-20201211",
+    "drifting@1.0.10",
+    "core-native@2.3.4",
+    "core-fe@1.24.1",
+    "@magicflow/editor@0.0.1-wip.1",
+    "webpackpluto.jl@0.19.1-1.1",
+    "sanity-plugin-media@0.5.0-beta.1",
+    "mhyd@10.3.0",
+    "musetric@0.0.10-dev.588",
+    "apistart@0.7.0",
+    "@laughflow/editor@0.1.1",
+    "@brudi-toolbox/next@2.0.6"
+  ]
+}

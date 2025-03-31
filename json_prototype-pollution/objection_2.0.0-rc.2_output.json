@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-3766",
+  "upstream": "objection@2.0.0-rc.2",
+  "keymethod": "set",
+  "keystring": "['__proto__', 'polluted']",
+  "location": "lib/utils/objectUtils.js:246:32",
+  "downstreams": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "",
+  "upstream": "lutils@2.4.0",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "merge.js:156:23",
+  "downstreams": [
+    "bundle-bundler@0.3.1",
+    "lance@2.10.14",
+    "serverless-openapi-documentation@0.4.0",
+    "broadlink@0.0.10",
+    "serverless-grv-openapi-documentation@0.1.0",
+    "grv-serverless-openapi-documentation@0.4.0",
+    "@motymichaely/serverless-openapi-documentation@0.5.3",
+    "node-red-contrib-samsung-airconditioner@0.0.2",
+    "grvsls-openapi-documentation@0.1.0",
+    "serverless-build-plugin@2.0.0-1",
+    "@setitch/serverless-openapi-documentation@0.5.41",
+    "@conqa/serverless-openapi-documentation@1.0.1",
+    "serverless-openapi-documentation-v2@0.4.5",
+    "serverless-openapi-documentation_ginger@0.0.1",
+    "typescript-schema-tools@2.14.0",
+    "@apalchys/serverless-openapi-documentation@0.1.0"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "CVE-2020-8158",
+  "upstream": "typeorm@0.2.9",
+  "keymethod": "mergeDeep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@things-real/shell@0.6.25",
+    "eris-command-framework@2.4.3",
+    "pigallery2@1.5.0",
+    "platform-vendor-v2@1.0.3",
+    "simple-discordjs@2.0.0",
+    "typeorm-seed@0.1.0",
+    "typeorm-transactional-tests@1.1.0",
+    "@hatiolab/things-shell@0.5.36"
+  ]
+}

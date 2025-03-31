@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7742",
+  "upstream": "simpl-schema@1.7.0",
+  "keymethod": "setDefaultMessages",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "dist/utility/merge.js:31:27",
+  "downstreams": []
+}

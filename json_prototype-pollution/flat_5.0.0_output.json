@@ -1,0 +1,27 @@
+{
+  "id": "",
+  "upstream": "flat@5.0.0",
+  "keymethod": "unflatten",
+  "keystring": "{'__proto__.polluted': 'yes'}",
+  "location": "index.js:193:43",
+  "downstreams": [
+    "golgoth@1.2.0",
+    "@design-systems/load-config@0.74.13",
+    "@fjandin/config-man@1.2.0",
+    "@sirena/earth-common@3.34.3",
+    "@tidepool/data-tools@2.3.0",
+    "@wwwouter/typed-knex@2.10.0",
+    "terrafactor@0.2.1",
+    "q3-core-composer@1.0.20",
+    "good-config@1.1.2",
+    "gowento-logger@3.0.0",
+    "locize-cli@7.0.0",
+    "my-form-state@1.0.0",
+    "my-react-form-state@2.0.0",
+    "node-red-contrib-home-assistant-websocket@0.16.0",
+    "q3-api@1.0.21",
+    "es-painless-fields@0.5.1",
+    "@shelf/es-painless-fields@0.5.2",
+    "@emartech/angular-translate@2.0.0"
+  ]
+}

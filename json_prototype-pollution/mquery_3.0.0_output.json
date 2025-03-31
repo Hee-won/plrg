@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "upstream": "mquery@3.0.0",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/utils.js:137:15",
+  "downstreams": [
+    "mongoose@5.0.18"
+  ]
+}

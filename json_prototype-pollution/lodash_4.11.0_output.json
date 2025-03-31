@@ -1,0 +1,18 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.11.0",
+  "keymethod": "zipObjectDeep",
+  "keystring": "['__proto__.polluted']",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "express-integrator-extension@0.1.0",
+    "iar-node-stat@0.2.2",
+    "integrator-extension@0.2.0",
+    "lodash-cli@4.11.0",
+    "sample-shared-ui@0.0.4",
+    "theeye-node-stat@0.2.1",
+    "webpack-config-validationscheme@1.0.0",
+    "webpack-validator@1.1.0",
+    "chump@1.1.0"
+  ]
+}

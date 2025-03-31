@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2019-10745",
+  "upstream": "assign-deep@1.0.0",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "index.js:22:23",
+  "downstreams": [
+    "@peak-stone/vue-admin@1.0.1"
+  ]
+}

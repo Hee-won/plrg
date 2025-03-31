@@ -1,0 +1,12 @@
+{
+  "id": "",
+  "upstream": "@aws-sdk:shared-ini-file-loader@1.0.0-beta.4",
+  "keymethod": "loadSharedConfigFiles",
+  "keystring": "./payload.toml",
+  "location": "",
+  "downstreams": [
+    "@aws-sdk/credential-provider-ini@1.0.0-beta.4",
+    "@aws-sdk/credential-provider-process@1.0.0-beta.4",
+    "@aws-sdk/region-provider@1.0.0-beta.4"
+  ]
+}

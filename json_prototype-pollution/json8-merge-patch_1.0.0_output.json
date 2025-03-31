@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-8268",
+  "upstream": "json8-merge-patch@1.0.0",
+  "keymethod": "apply",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/apply.js:25:12",
+  "downstreams": []
+}

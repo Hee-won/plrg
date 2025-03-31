@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2020-7718",
+  "upstream": "gammautils@0.0.73",
+  "keymethod": "deepMerge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/objectUtils.js:146:34",
+  "downstreams": [
+    "relatorio@1.0.0",
+    "brasil-consultas@1.0.0"
+  ]
+}

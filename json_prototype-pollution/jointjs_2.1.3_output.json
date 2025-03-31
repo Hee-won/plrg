@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2021-23444",
+  "upstream": "jointjs@2.1.3",
+  "keymethod": "setByPath",
+  "keystring": "__proto__/polluted",
+  "location": "dist/joint.min.js:49:1313",
+  "downstreams": [
+    "spring-flo@0.8.0"
+  ]
+}

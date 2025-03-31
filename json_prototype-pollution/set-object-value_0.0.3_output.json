@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28281",
+  "upstream": "set-object-value@0.0.3",
+  "keymethod": "#main",
+  "keystring": "['__proto__', 'polluted']",
+  "location": "build/cjs/src/index.js:24:15",
+  "downstreams": []
+}

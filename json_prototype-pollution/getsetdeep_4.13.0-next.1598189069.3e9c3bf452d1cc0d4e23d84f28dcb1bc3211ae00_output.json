@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "getsetdeep@4.13.0-next.1598189069.3e9c3bf452d1cc0d4e23d84f28dcb1bc3211ae00",
+  "keymethod": "setDeep",
+  "keystring": "__proto__.polluted",
+  "location": "edition-esnext/index.js:74:17",
+  "downstreams": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2020-7743",
+  "upstream": "mathjs@7.2.0",
+  "keymethod": "config",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/utils/object.js:131:17",
+  "downstreams": [
+    "@baic/yolk-miniapp@1.0.0-alpha.1",
+    "@choiceform/ui@1.0.0-rc.27",
+    "danfojs@0.1.2",
+    "@baic/yolk@1.0.0-alpha.36"
+  ]
+}

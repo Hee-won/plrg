@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2021-23444",
+  "upstream": "jointjs@3.3.1",
+  "keymethod": "setByPath",
+  "keystring": "__proto__/polluted",
+  "location": "dist/joint.min.js:49:1313",
+  "downstreams": [
+    "@cronapp/tools@1.0.0-SNAPSHOT.10",
+    "@geneontology/noctua-form-base@1.5.10",
+    "noctua-form-base@1.2.0",
+    "@convergence/jointjs-utils@0.6.0"
+  ]
+}

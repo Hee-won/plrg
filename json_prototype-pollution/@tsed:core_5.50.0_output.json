@@ -1,0 +1,12 @@
+{
+  "id": "",
+  "upstream": "@tsed:core@5.50.0",
+  "keymethod": "deepExtends",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "",
+  "downstreams": [
+    "@tsed/di@5.50.0",
+    "@tsed/common@5.50.0",
+    "ts-express-decorators@5.50.0"
+  ]
+}

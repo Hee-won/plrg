@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2020-7788",
+  "upstream": "ini@1.0.0",
+  "keymethod": "parse",
+  "keystring": "[__proto__]\npolluted=yes",
+  "location": "ini.js:109:14",
+  "downstreams": [
+    "fis-repo-client@0.1.14",
+    "lightjs@0.0.4",
+    "lights@0.0.4",
+    "gqconfig@1.0.2"
+  ]
+}

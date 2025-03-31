@@ -1,0 +1,22 @@
+{
+  "id": "",
+  "upstream": "objtools@3.0.0",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/index.js:440:18",
+  "downstreams": [
+    "common-schema@3.0.0",
+    "common-query@3.0.0",
+    "unimodel-core@2.0.0",
+    "flexperm@3.0.0",
+    "polytoken@2.0.0",
+    "yaar@3.0.2",
+    "unimodel-schema-types@2.0.1",
+    "ziplog@3.0.0",
+    "rediz-lock@3.0.0",
+    "unimodel-mongo@3.0.0",
+    "unimodel-fake@2.0.0",
+    "unimodel-crud-routes@2.0.0",
+    "littleconf@1.0.0"
+  ]
+}

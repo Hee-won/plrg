@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28279",
+  "upstream": "flattenizer@0.0.2",
+  "keymethod": "unflatten",
+  "keystring": "{'__proto__.polluted': 'yes'}",
+  "location": "lib/flattenizer.min.js:1:1550",
+  "downstreams": []
+}

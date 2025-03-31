@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-7751",
+  "upstream": "pathval@1.1.0",
+  "keymethod": "setPathValue",
+  "keystring": "__proto__.polluted",
+  "location": "index.js:158:25",
+  "downstreams": [
+    "config3@1.1.0"
+  ]
+}

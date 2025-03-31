@@ -1,0 +1,23 @@
+{
+  "id": "CVE-2020-8158",
+  "upstream": "typeorm@0.0.11",
+  "keymethod": "mergeDeep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@schubergphilis/microchassis@0.4.3",
+    "black-boxes@0.1.2",
+    "discordjs-commands@0.1.0",
+    "farm-server@1.0.1",
+    "microchassis@0.4.2",
+    "microframework-typeorm@0.0.1",
+    "node-private-tools@1.6.0",
+    "oly-orm@0.10.0",
+    "pigallery2@1.0.0-beta.0",
+    "rmicroservice@0.1.10",
+    "sample-node-express-typeorm-api@1.0.0",
+    "simple-discordjs@0.1.2",
+    "ts-fw-db@0.0.1",
+    "@episodehunter/datastore@1.0.0"
+  ]
+}

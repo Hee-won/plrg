@@ -1,0 +1,19 @@
+{
+  "id": "CVE-2020-7617",
+  "upstream": "ini-parser@0.0.2",
+  "keymethod": "parse",
+  "keystring": "[__proto__]\npolluted=yes",
+  "location": "index.js:14:20",
+  "downstreams": [
+    "confman@0.2.12",
+    "eslint-plugin-mozilla@0.4.3",
+    "config-parser@0.0.2",
+    "tf-rules@0.10.0",
+    "gendiff-az@0.0.10",
+    "helen_gendiff@0.0.2",
+    "req-cli@1.0.0",
+    "project-2-egupsv@1.0.14",
+    "com.articatech.node.v3@1.0.0-beta",
+    "artemproject2@1.2.1"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "upstream": "style-dictionary@2.10.2",
+  "keymethod": "extend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/utils/deepExtend.js:76:26",
+  "downstreams": [
+    "@fluentui/token-pipeline@0.10.0"
+  ]
+}

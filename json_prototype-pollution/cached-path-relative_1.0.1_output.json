@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2018-16472",
+  "upstream": "cached-path-relative@1.0.1",
+  "keymethod": "#main",
+  "keystring": "__proto__",
+  "location": "lib/index.js:39:19",
+  "downstreams": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "",
+  "upstream": "style-dictionary@2.10.0",
+  "keymethod": "extend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/utils/deepExtend.js:76:26",
+  "downstreams": [
+    "@tiendanube/design-tokens-nimbus@0.1.1",
+    "digix-ui@3.0.0",
+    "@yandex/themekit@1.0.0"
+  ]
+}

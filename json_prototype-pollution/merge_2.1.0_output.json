@@ -1,0 +1,16 @@
+{
+  "id": "CVE-2018-3751",
+  "upstream": "merge@2.1.0",
+  "keymethod": "recursive",
+  "keystring": "{ x: { ['__proto__']: { polluted: 'yes' } } }",
+  "location": "lib/index.js:66:14",
+  "downstreams": [
+    "soajs@4.0.19",
+    "rollup-plugin-merge@0.2.1",
+    "evillogger@1.4.4",
+    "soajs.controller@4.0.30",
+    "redux-localstorage-simple@2.4.0",
+    "@kyma-project/busola@0.0.1-rc.4",
+    "@instacart/eslint-config@0.3.0"
+  ]
+}

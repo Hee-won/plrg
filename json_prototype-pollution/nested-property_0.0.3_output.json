@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "nested-property@0.0.3",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "index.js:95:27",
+  "downstreams": []
+}

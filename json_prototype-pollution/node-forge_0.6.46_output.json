@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2020-7720",
+  "upstream": "node-forge@0.6.46",
+  "keymethod": "setPath",
+  "keystring": "['__proto__', 'polluted']",
+  "location": "lib/util.js:2536:22",
+  "downstreams": [
+    "nodewrite-core-keys@1.0.16",
+    "luminati-proxy-stripped@1.101.871",
+    "@nexusapp/luminati-proxy@1.168.142",
+    "@luminati-io/luminati-proxy@1.100.316"
+  ]
+}

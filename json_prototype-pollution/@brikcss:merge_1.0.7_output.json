@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "upstream": "@brikcss:merge@1.0.7",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "",
+  "downstreams": [
+    "@brikcss/stakcss@0.8.0"
+  ]
+}

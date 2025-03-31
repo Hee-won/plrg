@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "upstream": "objutil@2.11.1",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "dist/objutil.cjs.js:192:59",
+  "downstreams": [
+    "cssobj-converter@2.4.3"
+  ]
+}

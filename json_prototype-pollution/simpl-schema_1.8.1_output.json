@@ -1,0 +1,20 @@
+{
+  "id": "CVE-2020-7742",
+  "upstream": "simpl-schema@1.8.1",
+  "keymethod": "setDefaultMessages",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "dist/utility/merge.js:31:27",
+  "downstreams": [
+    "@reactioncommerce/api-plugin-tags@1.0.4",
+    "@reactioncommerce/api-plugin-shops@1.1.2",
+    "@goodcastle/api-plugin-tags@0.0.1",
+    "@idigi/reaction-plugin-contact-us@0.0.1",
+    "@idigi/reaction-plugin-files@0.0.1",
+    "@idigi/reaction-plugin-newsletters@0.0.1",
+    "@reactioncommerce/api-plugin-files@1.0.10",
+    "@idigi/reaction-plugin-sliders@0.0.1",
+    "@idigi/reaction-plugin-blocks@0.0.1",
+    "@goodcastle/api-plugin-files@1.0.14",
+    "@demandcluster/api-plugin-files@1.0.3"
+  ]
+}

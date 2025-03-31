@@ -1,0 +1,15 @@
+{
+  "id": "CVE-2019-11358",
+  "upstream": "jquery@1.6.2",
+  "keymethod": "extend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "dist/jquery.js:230:21",
+  "downstreams": [
+    "form-validator@0.0.11",
+    "jsgrep@1.0.0",
+    "open.core@0.1.100",
+    "palsu-app@0.0.1",
+    "zappa@0.2.0",
+    "heightline@1.0.1"
+  ]
+}

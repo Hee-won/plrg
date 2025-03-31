@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28448",
+  "upstream": "multi-ini@2.0.0",
+  "keymethod": "read",
+  "keystring": "[__proto__]\npolluted = 'yes'",
+  "location": "lib/parser.js:193:38",
+  "downstreams": []
+}

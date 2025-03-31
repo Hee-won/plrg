@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2020-8158",
+  "upstream": "typeorm@0.2.15",
+  "keymethod": "mergeDeep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@vendure/core@0.1.0-alpha.16",
+    "dripjs@0.0.25",
+    "odi@0.3.7",
+    "@hatiolab/things-shell@0.6.130"
+  ]
+}

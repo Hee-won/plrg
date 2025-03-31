@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2018-3728",
+  "upstream": "hoek@5.0.0",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/index.js:137:29",
+  "downstreams": [
+    "hapi-greenkeeper-keeper@1.2.8",
+    "vulnerable-js@1.0.0",
+    "@aptoma/hapi-grimm-logger@1.0.0"
+  ]
+}

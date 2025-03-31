@@ -1,0 +1,22 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.4.0",
+  "keymethod": "zipObjectDeep",
+  "keystring": "['__proto__.polluted']",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "@badgeteam/db@0.0.53",
+    "allinone-config@0.0.0",
+    "hashdo-xandgo@0.3.21",
+    "fink-www@0.3.2",
+    "grunt-i18n-js@0.1.4",
+    "grunt-xmlpoke@0.8.2",
+    "ec.datamanager@0.7.1",
+    "heroku-cli-util@5.8.1",
+    "ks-parse@1.0.3",
+    "lodash-cli@4.4.0",
+    "ofa-config@1.0.0",
+    "webpack-validator@1.0.0-beta.4",
+    "@medturki/inline-critical@1.0.0"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CVE-2020-7742",
+  "upstream": "simpl-schema@1.7.3",
+  "keymethod": "setDefaultMessages",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "dist/utility/merge.js:31:27",
+  "downstreams": [
+    "@reactioncommerce/api-plugin-files@1.0.2",
+    "@reactioncommerce/api-plugin-settings@1.0.2",
+    "@reactioncommerce/api-plugin-shops@1.1.1",
+    "api-plugin-shops@0.0.0-development",
+    "file-plugin@0.0.0",
+    "stylidev-api-plugin-shops@1.0.0",
+    "@goodcastle/api-plugin-files@1.0.11"
+  ]
+}

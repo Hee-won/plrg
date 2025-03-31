@@ -1,0 +1,21 @@
+{
+  "id": "CVE-2020-7720",
+  "upstream": "node-forge@0.8.2",
+  "keymethod": "setPath",
+  "keystring": "['__proto__', 'polluted']",
+  "location": "lib/util.js:2536:22",
+  "downstreams": [
+    "wildduck@1.17.0",
+    "selfsigned@1.10.6",
+    "focus-develop>1.2.3>selfsigned@1.10.6",
+    "focus-develop>1.2.5>selfsigned@1.10.6",
+    "focus-develop>1.2.6>selfsigned@1.10.6",
+    "focus-develop>1.2.7>selfsigned@1.10.6",
+    "focus-develop>1.2.9>selfsigned@1.10.6",
+    "focus-develop>1.2.8>selfsigned@1.10.6",
+    "focus-develop>1.2.4>selfsigned@1.10.6",
+    "uptc-angular2-commons@2.5.0",
+    "focus-develop>1.2.2>selfsigned@1.10.6",
+    "focus-develop>1.1.0>selfsigned@1.10.6"
+  ]
+}

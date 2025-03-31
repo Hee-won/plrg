@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-15256",
+  "upstream": "object-path@0.11.1",
+  "keymethod": "set",
+  "keystring": "[['__proto__'], 'polluted']",
+  "location": "index.js:19:13",
+  "downstreams": [
+    "antd-form-designer@1.0.4"
+  ]
+}

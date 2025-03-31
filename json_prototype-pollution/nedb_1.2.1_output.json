@@ -1,0 +1,17 @@
+{
+  "id": "CVE-2021-23395",
+  "upstream": "nedb@1.2.1",
+  "keymethod": "updates",
+  "keystring": "{ $set: { '__proto__.polluted': 'yes' } }",
+  "location": "lib/model.js:304:14",
+  "downstreams": [
+    "alchemymvc@0.2.0",
+    "clawer_aggregate@1.0.0",
+    "github-puller@1.0.1",
+    "js-data-nedb@1.0.0",
+    "sync-server@0.0.1",
+    "wftda-bouttime@0.0.23",
+    "zero.lib@0.0.3",
+    "@bouttime/bouttime@0.0.30"
+  ]
+}

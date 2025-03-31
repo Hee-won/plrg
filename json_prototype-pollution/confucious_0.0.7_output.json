@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-7714",
+  "upstream": "confucious@0.0.7",
+  "keymethod": "set",
+  "keystring": "__proto__:polluted",
+  "location": "confucious.js:48:21",
+  "downstreams": [
+    "task-mule@1.1.4"
+  ]
+}

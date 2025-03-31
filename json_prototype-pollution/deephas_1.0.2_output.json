@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28271",
+  "upstream": "deephas@1.0.2",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "deepHas.js:65:20",
+  "downstreams": []
+}

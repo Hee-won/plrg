@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7722",
+  "upstream": "nodee-utils@1.1.0",
+  "keymethod": "deepSet",
+  "keystring": "__proto__.polluted",
+  "location": "lib/object.js:210:40",
+  "downstreams": []
+}

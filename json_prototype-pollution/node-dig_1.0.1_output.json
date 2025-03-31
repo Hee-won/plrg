@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "node-dig@1.0.1",
+  "keymethod": "#main",
+  "keystring": "['__proto__', 'polluted']",
+  "location": "lib/dig/index.js:4:33",
+  "downstreams": []
+}

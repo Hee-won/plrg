@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7608",
+  "upstream": "yargs-parser@6.0.0",
+  "keymethod": "#main",
+  "keystring": "--foo.__proto__.polluted yes",
+  "location": "index.js:587:14",
+  "downstreams": []
+}

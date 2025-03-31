@@ -1,0 +1,23 @@
+{
+  "id": "CVE-2021-23820",
+  "upstream": "json-pointer@0.2.2",
+  "keymethod": "set",
+  "keystring": "/__proto__/polluted",
+  "location": "index.js:98:18",
+  "downstreams": [
+    "tsd@0.6.5",
+    "gavel@0.3.10",
+    "rfc6902-json-diff@0.1.2",
+    "express-markdown-browser@0.0.2",
+    "lewd@0.7.1",
+    "gavel2html@0.0.1",
+    "dtsgenerator@0.1.0",
+    "json-compile@0.1.0",
+    "gandhi@0.0.1",
+    "json-strictify@0.1.0",
+    "jp2p@0.0.0",
+    "immpatch@0.1.0",
+    "diff-ini@0.0.4",
+    "@sourcegraph/typescript@2.1.0"
+  ]
+}

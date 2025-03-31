@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2019-10806",
+  "upstream": "vega-util@1.2.1",
+  "keymethod": "mergeConfig",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/vega-util.js:203:16",
+  "downstreams": [
+    "vega-lite@2.0.0-alpha.10"
+  ]
+}

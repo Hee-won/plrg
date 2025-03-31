@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2020-7736",
+  "upstream": "bmoor@0.3.55555",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "src/core.js:194:18",
+  "downstreams": [
+    "v-graph@0.6.0",
+    "scripz@0.0.4"
+  ]
+}

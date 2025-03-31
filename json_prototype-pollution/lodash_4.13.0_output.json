@@ -1,0 +1,30 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.13.0",
+  "keymethod": "zipObjectDeep",
+  "keystring": "['__proto__.polluted']",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "pancakes@0.1.140",
+    "closure-util@1.15.0",
+    "jangular@0.2.64",
+    "fakeblock@0.0.81",
+    "pancakes-mongo@0.0.131",
+    "kitze-js-helpers@1.7.2",
+    "hashdo@0.10.50",
+    "pancakes-angular@0.2.132",
+    "actor-sdk@1.0.372",
+    "sails-hook-fixtures@0.12.0",
+    "lodash-cli@4.13.0",
+    "para-client-js@1.18.4",
+    "pancakes-hapi@0.1.148",
+    "pancakes-syrup@0.0.143",
+    "pancakes-recipe@0.1.174",
+    "hashdo-db-mongo@0.3.8",
+    "batter@0.1.40",
+    "pouchdb-event-store@1.2.5",
+    "@springworks/static-api-server@3.0.7",
+    "taste@0.2.33",
+    "@kaliber/react-bundle@0.0.1"
+  ]
+}

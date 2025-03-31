@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-25928",
+  "upstream": "safe-obj@1.0.0",
+  "keymethod": "expand",
+  "keystring": "__proto__.polluted",
+  "location": "lib/index.js:122:28",
+  "downstreams": []
+}

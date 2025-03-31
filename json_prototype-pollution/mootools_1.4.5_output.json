@@ -1,0 +1,15 @@
+{
+  "id": "CVE-2021-23432",
+  "upstream": "mootools@1.4.5",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/mootools-core-1.5.2-server.js:355:24",
+  "downstreams": [
+    "mattisg.configloader@0.1.5",
+    "watai@0.2.9",
+    "mootools-more@1.4.0-1",
+    "mootools-validations@0.0.1",
+    "magfa@0.0.1",
+    "epitome@0.4.0"
+  ]
+}

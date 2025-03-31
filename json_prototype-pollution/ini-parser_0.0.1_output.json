@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7617",
+  "upstream": "ini-parser@0.0.1",
+  "keymethod": "parse",
+  "keystring": "[__proto__]\npolluted=yes",
+  "location": "index.js:14:20",
+  "downstreams": []
+}

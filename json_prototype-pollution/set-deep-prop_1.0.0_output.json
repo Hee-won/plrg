@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23373",
+  "upstream": "set-deep-prop@1.0.0",
+  "keymethod": "#main",
+  "keystring": "['__proto__', 'polluted']",
+  "location": "set-deep-prop.js:20:34",
+  "downstreams": []
+}

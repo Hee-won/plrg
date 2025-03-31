@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7724",
+  "upstream": "tiny-conf@1.0.5",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "tiny-conf.js:73:17",
+  "downstreams": []
+}

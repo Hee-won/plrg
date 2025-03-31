@@ -1,0 +1,11 @@
+{
+  "id": "",
+  "upstream": "@uifabric:utilities@7.16.0",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "",
+  "downstreams": [
+    "@skatteetaten/frontend-components@3.5.1",
+    "@fellesdatakatalog/skatteetaten-frontend-components@1.0.0"
+  ]
+}

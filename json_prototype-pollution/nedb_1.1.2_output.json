@@ -1,0 +1,21 @@
+{
+  "id": "CVE-2021-23395",
+  "upstream": "nedb@1.1.2",
+  "keymethod": "updates",
+  "keystring": "{ $set: { '__proto__.polluted': 'yes' } }",
+  "location": "lib/model.js:304:14",
+  "downstreams": [
+    "jsreport-core@0.2.1",
+    "jsreport-fs-store@0.1.1",
+    "webgme@0.14.1",
+    "simple-odata-server-nedb@1.0.0",
+    "fortune@1.0.0-alpha.1",
+    "jsreport@0.4.0",
+    "camouflage@0.8.0",
+    "crypsis@0.12.0",
+    "chinachu-upnp-server@0.0.1",
+    "camo@0.1.1",
+    "xl-repo-linker@0.1.20",
+    "butter@0.3.8-5"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CVE-2021-23370",
+  "upstream": "swiper@6.3.5",
+  "keymethod": "extendsDefaults",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "cjs/utils/utils.js:110:25",
+  "downstreams": [
+    "@megafon/ui-shared@2.0.0-beta.141",
+    "@nghiepuit/ui@1.0.0",
+    "@revium/components@1.0.0",
+    "feup-lego-h5@1.0.0",
+    "feup-lego-pc@1.0.0",
+    "mhy@10.1.0",
+    "@magicfinn/gatsby-theme-finn-default@2.0.34"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23433",
+  "upstream": "algoliasearch-helper@3.5.1",
+  "keymethod": "_parseNumber",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "src/functions/merge.js:38:19",
+  "downstreams": []
+}

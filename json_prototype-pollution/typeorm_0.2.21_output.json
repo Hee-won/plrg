@@ -1,0 +1,18 @@
+{
+  "id": "CVE-2020-8158",
+  "upstream": "typeorm@0.2.21",
+  "keymethod": "mergeDeep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@things-factory/shell@2.2.28",
+    "corporisaspernatur@1.0.0",
+    "@ts-core/backend@1.0.10",
+    "@vendure/core@0.10.0",
+    "@nestjs/terminus@6.5.4",
+    "delectuscommodi@1.0.0",
+    "pigallery2@1.8.0",
+    "typeorm-scheduler@1.0.0",
+    "@binary-constructions/stolpersteine-db@1.0.0"
+  ]
+}

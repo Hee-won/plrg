@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28495",
+  "upstream": "total.js@3.3.3-3",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "utils.js:6624:11, <anonymous",
+  "downstreams": []
+}

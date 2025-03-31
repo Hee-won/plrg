@@ -1,0 +1,26 @@
+{
+  "id": "",
+  "upstream": "node-ini@1.0.0",
+  "keymethod": "parse",
+  "keystring": "[__proto__]\npolluted = yes",
+  "location": "node-ini.js:25:66",
+  "downstreams": [
+    "require-ini@0.0.1",
+    "chowder@0.0.1",
+    "microkernel-mod-options@0.9.11",
+    "cap-node-srv-message-broker@29.7.14",
+    "concepto-bridge@1.3.0",
+    "edgegrid-node@1.1.2",
+    "componentjs-tracing@0.9.0",
+    "generator-snaphy@2.0.1",
+    "jcd-devtools@0.1.0",
+    "licenser@0.0.1",
+    "ryba-repos@0.0.1",
+    "namecointool@1.0.0",
+    "pgservice@0.0.1",
+    "filegenerator@1.1.0",
+    "bchain@1.1.1",
+    "syncro@0.0.1",
+    "arya-dbconnect@1.1.0"
+  ]
+}

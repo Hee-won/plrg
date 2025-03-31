@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2018-3719",
+  "upstream": "mixin-deep@1.0.1",
+  "keymethod": "#main",
+  "keystring": "{ constructor: { prototype: { polluted: 'yes' } } }",
+  "location": "index.js:30:15",
+  "downstreams": [
+    "clam-util@0.1.20"
+  ]
+}

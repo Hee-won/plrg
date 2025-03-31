@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2019-10750",
+  "upstream": "deeply@3.0.0",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/reduce_object.js:19:14",
+  "downstreams": [
+    "configly@5.0.0"
+  ]
+}

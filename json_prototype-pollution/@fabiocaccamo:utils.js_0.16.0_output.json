@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "@fabiocaccamo:utils.js@0.16.0",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "",
+  "downstreams": []
+}

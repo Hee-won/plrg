@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2021-23432",
+  "upstream": "mootools@1.5.1",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/mootools-core-1.5.2-server.js:355:24",
+  "downstreams": [
+    "nyks@0.8.3"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2021-25915",
+  "upstream": "changeset@0.0.5",
+  "keymethod": "apply",
+  "keystring": "[{ type: 'put', key: ['__proto__', 'polluted'], value: 'yes' }]",
+  "location": "index.js:81:25",
+  "downstreams": [
+    "observejs@0.0.2",
+    "thalassa-aqueduct@0.1.0",
+    "thalassa-consul@0.0.2",
+    "node-haproxy@0.1.10"
+  ]
+}

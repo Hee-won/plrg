@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2020-8158",
+  "upstream": "typeorm@0.1.0-alpha.42",
+  "keymethod": "mergeDeep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "exort@0.1.2",
+    "oly-orm@0.14.3",
+    "@xroadsed/eta@2.3.1"
+  ]
+}

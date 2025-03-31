@@ -1,0 +1,15 @@
+{
+  "id": "CVE-2021-25915",
+  "upstream": "changeset@0.1.0",
+  "keymethod": "apply",
+  "keystring": "[{ type: 'put', key: ['__proto__', 'polluted'], value: 'yes' }]",
+  "location": "index.js:81:25",
+  "downstreams": [
+    "org.pinf.lib@0.1.6",
+    "minimal-object-diff@0.1.0",
+    "object-history@2.0.0",
+    "observable-delta-stream@0.1.0",
+    "mingkwai-typesetter@0.3.0",
+    "iprofilesync@1.0.1"
+  ]
+}

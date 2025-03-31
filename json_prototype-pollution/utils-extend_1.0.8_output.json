@@ -1,0 +1,30 @@
+{
+  "id": "CVE-2020-8147",
+  "upstream": "utils-extend@1.0.8",
+  "keymethod": "extend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "index.js:46:19",
+  "downstreams": [
+    "file-match@1.0.2",
+    "file-system@2.2.2",
+    "ajax-request@1.2.3",
+    "cssdom@1.0.23",
+    "htmldom@3.0.9",
+    "cssbeautifier@1.0.0",
+    "lighting>1.1.0-20160325-2>htmldom>cssdom@1.0.20",
+    "lighting>1.1.0-20160325-3>htmldom>cssdom@1.0.20",
+    "lighting>1.1.0-20160325-4>htmldom>cssdom@1.0.20",
+    "upload-file@1.2.0",
+    "lighting>1.1.0-20160325>htmldom>cssdom@1.0.20",
+    "lighting>1.1.0-20160325-1>htmldom@0.1.21",
+    "lighting>1.1.0-20160325-1>cssdom@1.0.20",
+    "file-package@1.0.1",
+    "hydra-dev@1.0.0",
+    "small-trans@1.0.0",
+    "hydra-console@1.0.0",
+    "npm-hydra@1.5.0",
+    "mennafouda@1.0.0",
+    "@gosuite/ajax-request-fork@1.3.1",
+    "@ahmedtouchane/todo_tool@1.0.0"
+  ]
+}

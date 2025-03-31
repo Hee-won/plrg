@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "fast-json-patch@2.0.1",
+  "keymethod": "applyPatch",
+  "keystring": "[{ op: 'replace', path: '/__proto__/polluted', value: 'yes' }]",
+  "location": "lib/core.js:28:18",
+  "downstreams": []
+}

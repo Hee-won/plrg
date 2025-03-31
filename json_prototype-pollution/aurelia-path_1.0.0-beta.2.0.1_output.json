@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-41097",
+  "upstream": "aurelia-path@1.0.0-beta.2.0.1",
+  "keymethod": "parseQueryString",
+  "keystring": "__proto__[polluted]=yes",
+  "location": "dist/commonjs/aurelia-path.js:163:42",
+  "downstreams": []
+}

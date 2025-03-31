@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7725",
+  "upstream": "worksmith@1.0.0",
+  "keymethod": "setValue",
+  "keystring": "__proto__.polluted",
+  "location": "index.js:300:30",
+  "downstreams": []
+}

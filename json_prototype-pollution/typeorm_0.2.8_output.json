@@ -1,0 +1,17 @@
+{
+  "id": "CVE-2020-8158",
+  "upstream": "typeorm@0.2.8",
+  "keymethod": "mergeDeep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@flyacts/backend-crud-service@0.5.2",
+    "@flyacts/backend-user-management@0.11.2",
+    "@flyacts/backend@0.4.0",
+    "@habboapi/common@1.0.0",
+    "core-compment-server@0.0.12",
+    "@habboapi/server@1.0.0",
+    "@flyacts/backend-media-management@0.1.0",
+    "@flyacts/backend-core-entities@0.12.0"
+  ]
+}

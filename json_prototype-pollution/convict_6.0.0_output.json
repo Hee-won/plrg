@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "upstream": "convict@6.0.0",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "src/main.js:565:24",
+  "downstreams": [
+    "@hyperledger/cactus-cmd-api-server@1.0.0",
+    "@elenaizaguirre/cactus-cmd-api-server@0.6.10",
+    "@dci-lint/cmd-api-server@0.3.0",
+    "chptr@0.3.6",
+    "@eik/service@1.0.0",
+    "siteleaf-updater@1.1.0",
+    "@dronedeploy/oauth-function-template@1.7.2"
+  ]
+}

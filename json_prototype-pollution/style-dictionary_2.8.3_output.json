@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "upstream": "style-dictionary@2.8.3",
+  "keymethod": "extend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/utils/deepExtend.js:76:26",
+  "downstreams": [
+    "@tiendanube/design-tokens-nimbus@1.0.0"
+  ]
+}

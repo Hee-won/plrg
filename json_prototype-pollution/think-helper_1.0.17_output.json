@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-32736",
+  "upstream": "think-helper@1.0.17",
+  "keymethod": "extend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "index.js:122:22",
+  "downstreams": []
+}

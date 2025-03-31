@@ -1,0 +1,11 @@
+{
+  "id": "",
+  "upstream": "i18next@19.3.1",
+  "keymethod": "deepExtend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@wireapp/desktop-updater-core@0.2.14",
+    "@focus4/core@10.3.0-alpha.0"
+  ]
+}

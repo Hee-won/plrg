@@ -1,0 +1,30 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.17.9",
+  "keymethod": "zipObjectDeep",
+  "keystring": "['__proto__.polluted']",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "newman@3.10.0",
+    "@rduk/configuration@2.2.3",
+    "rollup-plugin-license@0.7.0",
+    "perseverance@1.0.15",
+    "es6-plato@1.0.18",
+    "uvm@1.7.2",
+    "pollmommy@1.1.14",
+    "appium-tizen-tv-driver@0.4.0",
+    "@terrestris/react-geo@8.1.2",
+    "modern-logger@1.5.16",
+    "mint-wrapper@1.0.11",
+    "newman-multiglobal@0.0.2",
+    "appium-espresso-driver@1.0.0-beta.12",
+    "happn-wrapper@1.1.14",
+    "postman-sandbox@3.0.7",
+    "postman-collection@3.0.9",
+    "facebook-login-for-robots@1.1.17",
+    "serverful@1.1.27",
+    "tinder-wrapper@1.0.23",
+    "@travi/any@1.7.3",
+    "@rduk/provider@3.1.2"
+  ]
+}

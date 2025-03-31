@@ -1,0 +1,26 @@
+{
+  "id": "",
+  "upstream": "i18next@19.7.0",
+  "keymethod": "deepExtend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "n2o-framework@7.27.28",
+    "@fellesdatakatalog/skatteetaten-frontend-components@1.0.0",
+    "@visualdl/core@2.0.1",
+    "i18nextify@2.5.11",
+    "@whalecloud/react-codeless-designer-5gv@1.0.63",
+    "@wulucxy/dwv@0.28.0-beta",
+    "@nitro/app@5.6.4",
+    "cypress-react-unit-test@4.12.0",
+    "create-react-app-ts@1.2.0",
+    "fuse-react-app@5.1.0",
+    "gsaas@0.1.0",
+    "n2o-framework-bft@7.23.78",
+    "igo@3.2.6",
+    "cra-template-rb@1.1.1",
+    "@whalecloud/react-codeless-designer@1.0.1",
+    "niuco-design-system@0.1.1",
+    "@energyweb/origin-ui-core@1.7.3-alpha.8129.0"
+  ]
+}

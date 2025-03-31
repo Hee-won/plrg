@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-7707",
+  "upstream": "property-expr@2.0.2",
+  "keymethod": "setter",
+  "keystring": "constructor.prototype.polluted",
+  "location": "index.js:55:28",
+  "downstreams": [
+    "svelte-forms-lib@1.1.1"
+  ]
+}

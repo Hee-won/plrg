@@ -1,0 +1,14 @@
+{
+  "id": "CVE-2021-4278",
+  "upstream": "tree-kit@0.3.6",
+  "keymethod": "['__proto__', 'polluted']",
+  "keystring": "set",
+  "location": "",
+  "downstreams": [
+    "terminal-kit@0.3.9",
+    "string-kit@0.0.18",
+    "spellcast@0.1.2",
+    "leeted@0.1.1",
+    "async-kit@0.5.4"
+  ]
+}

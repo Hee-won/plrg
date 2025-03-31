@@ -1,0 +1,25 @@
+{
+  "id": "CVE-2019-11358",
+  "upstream": "jquery@1.7.2",
+  "keymethod": "extend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "dist/jquery.js:230:21",
+  "downstreams": [
+    "arale-tip@2.0.0",
+    "cubist@0.0.1",
+    "kommissar@1.0.0",
+    "landers.ajax@1.0.2",
+    "landers.form@1.0.6",
+    "landers.iframe@1.0.7",
+    "landers.jquery@0.0.2",
+    "landers.jquery.top-response@1.0.5",
+    "landers.msgbox@1.0.10",
+    "landers.select@1.0.3",
+    "landers.slider@1.0.5",
+    "landers.upload@2.0.27",
+    "mountain@0.0.0alpha",
+    "responsive-tabs@1.5.0",
+    "spofcheck@0.0.1",
+    "arale-dialog@2.0.0"
+  ]
+}

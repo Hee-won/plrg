@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2021-23395",
+  "upstream": "nedb@1.5.1",
+  "keymethod": "updates",
+  "keystring": "{ $set: { '__proto__.polluted': 'yes' } }",
+  "location": "lib/model.js:304:14",
+  "downstreams": [
+    "sync-server@0.1.0",
+    "nedb-active-record@0.1.1"
+  ]
+}

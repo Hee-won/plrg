@@ -1,0 +1,28 @@
+{
+  "id": "CVE-2018-3750",
+  "upstream": "deep-extend@0.5.0",
+  "keymethod": "#main",
+  "keystring": "CVE-2018-3750",
+  "location": "lib/deep-extend.js:117:17",
+  "downstreams": [
+    "immutable-core-model@3.5.14",
+    "@omnia/tooling-composers@0.4.106-vnext",
+    "immutable-core-controller@0.10.12",
+    "@omnia/tooling@0.1.0-vnext",
+    "@omnia/tooling-vue@0.2.0-vnext",
+    "generator-alfresco-common@0.9.26",
+    "@omnia/fx@1.0.10017-preview",
+    "nestia-web@1.0.1000",
+    "@omnia/foundation@0.1.1",
+    "ffffng@0.11.5-beta1",
+    "@omnia/runtime@0.1.0-vnext",
+    "webpack-abstract@0.1.0",
+    "t-compiler@0.0.1",
+    "niltree-desktop@0.0.0-canary.1",
+    "swanky-cli@1.8.0",
+    "dollar-config@0.0.1",
+    "@emartech/boar-koa-server@1.0.3",
+    "yandex-domain-configs@0.0.4",
+    "@coveord/jsadmin-common@6.36.1"
+  ]
+}

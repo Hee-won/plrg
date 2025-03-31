@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2021-23509",
+  "upstream": "json-ptr@1.0.1",
+  "keymethod": "set",
+  "keystring": "/constructor/prototype/polluted",
+  "location": "index.js:277:26",
+  "downstreams": [
+    "tessellate-bundler@2.0.0-alpha.cc5a4e4b"
+  ]
+}

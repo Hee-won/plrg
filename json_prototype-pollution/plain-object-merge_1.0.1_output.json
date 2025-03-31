@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "plain-object-merge@1.0.1",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "dist/index.js:18:29",
+  "downstreams": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7719",
+  "upstream": "locutus@2.0.0",
+  "keymethod": "parse_str",
+  "keystring": "__proto__[polluted]=yes",
+  "location": "",
+  "downstreams": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23328",
+  "upstream": "iniparserjs@1.0.4",
+  "keymethod": "#main",
+  "keystring": "[__proto__]\npolluted=yes",
+  "location": "ini_parser.js:63:50",
+  "downstreams": []
+}

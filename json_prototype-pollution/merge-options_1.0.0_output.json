@@ -1,0 +1,17 @@
+{
+  "id": "CVE-2018-3752",
+  "upstream": "merge-options@1.0.0",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "index.js:73:16",
+  "downstreams": [
+    "homebridge-netatmo-schaloms@0.2.3",
+    "plump-store-localforage@0.14.0",
+    "plump-store-postgres@0.14.0",
+    "plump-store-redis@0.14.0",
+    "plump-store-rest@0.14.0",
+    "plump-strut@0.13.1",
+    "spawn-shell@2.0.0",
+    "box-node-sdk@1.16.0"
+  ]
+}

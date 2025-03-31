@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-7718",
+  "upstream": "gammautils@0.0.3",
+  "keymethod": "deepMerge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/objectUtils.js:146:34",
+  "downstreams": [
+    "route-registrar@0.0.4"
+  ]
+}

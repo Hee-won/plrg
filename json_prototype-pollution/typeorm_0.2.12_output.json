@@ -1,0 +1,15 @@
+{
+  "id": "CVE-2020-8158",
+  "upstream": "typeorm@0.2.12",
+  "keymethod": "mergeDeep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@leal.api/api_utils@1.2.17",
+    "@primecms/core@0.3.0-alpha.1",
+    "@things-shell/server@0.0.1",
+    "api_microservicios.usuario@1.0.0",
+    "ntp-common@0.0.1",
+    "@hatiolab/things-shell@0.6.100"
+  ]
+}

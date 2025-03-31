@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-25914",
+  "upstream": "object-collider@1.0.1",
+  "keymethod": "collide",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "src/utils/CollideUtil.ts:83:22",
+  "downstreams": []
+}

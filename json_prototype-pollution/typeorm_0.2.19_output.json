@@ -1,0 +1,17 @@
+{
+  "id": "CVE-2020-8158",
+  "upstream": "typeorm@0.2.19",
+  "keymethod": "mergeDeep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@fullstack-one/db@0.5.44",
+    "@nestjs/terminus@6.5.2",
+    "@lenne.tech/nest-server@0.0.23",
+    "join-bulk-upsert@0.0.1",
+    "@things-factory/shell@0.6.10",
+    "isolex@0.9.1",
+    "@nodebrick/nodebrick-database@0.0.2",
+    "@counterfactual/postgresql-node-connector@0.0.8"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "",
+  "upstream": "i18next@19.0.2",
+  "keymethod": "deepExtend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@unly/universal-language-detector@2.0.3",
+    "@dhi-solutions/shell@0.0.15",
+    "@lcluber/taipanjs@0.3.12",
+    "@nextcloud/moment@1.0.0",
+    "bookingbug-customer@5.18.0",
+    "@kube-js/kube-ts-react-client@1.7.10",
+    "@sap/ux-ui5-tooling@1.0.0",
+    "@nitro/app@5.1.1",
+    "@sap/ux-ui5-tooling>1.0.10>@sap/generator-fiori-deployment@0.0.3",
+    "@sap/ux-ui5-tooling>1.0.9>@sap/generator-fiori-deployment@0.0.2",
+    "@focus4/core@10.1.5",
+    "@3deye-toolkit/react-event-list@0.0.1-alpha.1",
+    "@3deye-toolkit/react-camera@0.0.1-alpha.1"
+  ]
+}

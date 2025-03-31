@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23820",
+  "upstream": "json-pointer@0.2.1",
+  "keymethod": "set",
+  "keystring": "/__proto__/polluted",
+  "location": "index.js:98:18",
+  "downstreams": []
+}

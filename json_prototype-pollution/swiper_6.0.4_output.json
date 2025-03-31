@@ -1,0 +1,14 @@
+{
+  "id": "CVE-2021-23370",
+  "upstream": "swiper@6.0.4",
+  "keymethod": "extendsDefaults",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "cjs/utils/utils.js:110:25",
+  "downstreams": [
+    "sda-lib-demo@0.1.14",
+    "cione-comp-lib@0.0.1",
+    "styles-ui-cdit@1.0.31",
+    "vuexy-react-admin-dashboard@6.4.1",
+    "banyancloud_ui_test@1.1.0-beta.0"
+  ]
+}

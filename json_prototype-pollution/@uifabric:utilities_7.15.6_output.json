@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "@uifabric:utilities@7.15.6",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "",
+  "downstreams": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "mithril@1.0.0-rc.4",
+  "keymethod": "parseQueryString",
+  "keystring": "__proto__%5Bpolluted%5D=yes",
+  "location": "mithril.js:982:19",
+  "downstreams": []
+}

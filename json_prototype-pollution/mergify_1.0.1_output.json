@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "mergify@1.0.1",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "index.js:15:11",
+  "downstreams": []
+}

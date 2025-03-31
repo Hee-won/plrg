@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-25916",
+  "upstream": "patchmerge@1.0.1",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "index.js:93:24",
+  "downstreams": []
+}

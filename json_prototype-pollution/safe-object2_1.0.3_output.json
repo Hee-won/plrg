@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7726",
+  "upstream": "safe-object2@1.0.3",
+  "keymethod": "setter",
+  "keystring": "['__proto__', 'polluted']",
+  "location": "lib/index.js:1:1869",
+  "downstreams": []
+}

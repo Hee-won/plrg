@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "smart-extend@1.7.0",
+  "keymethod": "deep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "dist/smart-extend.js:1:2739",
+  "downstreams": []
+}

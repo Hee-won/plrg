@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2020-8158",
+  "upstream": "typeorm@0.1.20",
+  "keymethod": "mergeDeep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "reiso@0.2.10",
+    "test-gp-dbs@0.1.1",
+    "cmict-gitpod-db@0.1.5"
+  ]
+}

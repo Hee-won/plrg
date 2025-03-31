@@ -1,0 +1,16 @@
+{
+  "id": "CVE-2021-23624",
+  "upstream": "dotty@0.0.1",
+  "keymethod": "put",
+  "keystring": "__proto__.polluted",
+  "location": "lib/index.js:147:17",
+  "downstreams": [
+    "prop@0.1.1",
+    "unpack-element@1.0.3",
+    "whiplash@0.0.1",
+    "try-celery@0.0.1",
+    "populate@2.0.1",
+    "wr-eventstore@1.0.2",
+    "clever@0.0.1"
+  ]
+}

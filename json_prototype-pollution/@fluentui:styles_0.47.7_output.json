@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "@fluentui:styles@0.47.7",
+  "keymethod": "deepmerge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "",
+  "downstreams": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28277",
+  "upstream": "dset@1.0.0",
+  "keymethod": "#main",
+  "keystring": "__proto__.polluted",
+  "location": "dist/dset.js:6:18",
+  "downstreams": []
+}

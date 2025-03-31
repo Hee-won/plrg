@@ -1,0 +1,15 @@
+{
+  "id": "CVE-2018-3750",
+  "upstream": "deep-extend@0.3.2",
+  "keymethod": "#main",
+  "keystring": "CVE-2018-3750",
+  "location": "lib/deep-extend.js:117:17",
+  "downstreams": [
+    "configs@1.0.3",
+    "deep-extend-cli@0.3.2",
+    "hyperbahn@2.0.10",
+    "local-json@0.0.1",
+    "sitechef@0.0.1",
+    "boar-tasks@0.1.0"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2020-7720",
+  "upstream": "node-forge@0.8.0",
+  "keymethod": "setPath",
+  "keystring": "['__proto__', 'polluted']",
+  "location": "lib/util.js:2536:22",
+  "downstreams": [
+    "mht-iot-sdk@1.0.0",
+    "mht-iot-sdk-js@1.0.0",
+    "pri@2.0.32",
+    "mht-iot-device@0.0.1"
+  ]
+}

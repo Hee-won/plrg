@@ -1,0 +1,14 @@
+{
+  "id": "",
+  "upstream": "i18next@19.3.3",
+  "keymethod": "deepExtend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@nitro/app@5.2.3",
+    "@sjse/component-library@0.0.1-beta.10",
+    "trafimage-maps@1.2.39-beta.1",
+    "visualdl@2.0.0-beta.20",
+    "@nexcella/comein-web@1.1.0-beta.2"
+  ]
+}

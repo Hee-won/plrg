@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-25943",
+  "upstream": "101@1.0.0",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "index.js:32:16",
+  "downstreams": []
+}

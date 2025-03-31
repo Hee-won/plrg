@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2021-23370",
+  "upstream": "swiper@6.1.1",
+  "keymethod": "extendsDefaults",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "cjs/utils/utils.js:110:25",
+  "downstreams": [
+    "lms-ui@1.0.10",
+    "@nghiepuit/ui@1.0.10"
+  ]
+}

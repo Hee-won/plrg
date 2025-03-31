@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2020-7718",
+  "upstream": "gammautils@0.0.54",
+  "keymethod": "deepMerge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/objectUtils.js:146:34",
+  "downstreams": [
+    "json-validator@0.0.34",
+    "@lyra-network/openapi-dev-tool@9.7.4"
+  ]
+}

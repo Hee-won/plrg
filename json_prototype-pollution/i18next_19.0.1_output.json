@@ -1,0 +1,28 @@
+{
+  "id": "",
+  "upstream": "i18next@19.0.1",
+  "keymethod": "deepExtend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "i18nextify@2.5.6",
+    "@kube-js/kube-ts-react-client@1.6.19",
+    "common-resource-library3@0.0.0",
+    "@tesler-ui/core@0.0.0-ci-debug",
+    "@zextras/zapp-shell@0.0.17",
+    "common-resource-library1@0.0.0",
+    "@nitro/app@4.14.4",
+    "common-resource-library4@0.0.0",
+    "common-resource-library5@0.0.0",
+    "@drite/tesler-ui-core@1.15.0",
+    "security-checklist-library@0.0.0",
+    "test-library-security-new@1.0.0",
+    "test-library-security-new1@1.0.0",
+    "test-library-security-new2@1.0.0",
+    "test-library-security-new3@1.0.0",
+    "test-library-security-new4@1.0.0",
+    "test-library-security-new5@1.0.0",
+    "test-library-security-new6@1.0.0",
+    "@cxbox-ui/core@1.34.1"
+  ]
+}

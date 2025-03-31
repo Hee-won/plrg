@@ -1,0 +1,19 @@
+{
+  "id": "CVE-2020-7788",
+  "upstream": "ini@1.0.5",
+  "keymethod": "parse",
+  "keystring": "[__proto__]\npolluted=yes",
+  "location": "ini.js:109:14",
+  "downstreams": [
+    "config-chain@0.3.4",
+    "npm>1.1.71>npmconf>config-chain@1.1.3",
+    "npm>1.1.70>npmconf>config-chain@1.1.3",
+    "canihaz>0.0.6>npm>npmconf>config-chain@1.1.3",
+    "canihaz>0.0.5>npm>npmconf>config-chain@1.1.3",
+    "chowder@0.0.1",
+    "npm-compat@1.0.1",
+    "uso@0.1.4",
+    "poole@0.0.1",
+    "gv@0.1.0"
+  ]
+}

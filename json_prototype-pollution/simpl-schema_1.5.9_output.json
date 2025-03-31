@@ -1,0 +1,24 @@
+{
+  "id": "CVE-2020-7742",
+  "upstream": "simpl-schema@1.5.9",
+  "keymethod": "setDefaultMessages",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "dist/utility/merge.js:31:27",
+  "downstreams": [
+    "@reactioncommerce/api-plugin-shops@1.0.1",
+    "@goodcastle/api-plugin-epayco-credit@1.0.12",
+    "@goodcastle/goodcastle-multitenant@1.0.5",
+    "@goodcastle/api-plugin-multitenant@1.10.0",
+    "@goodcastle/api-plugin-subscriptions@1.0.11",
+    "@goodcastle/goodcastle-epayco-credit@1.0.2",
+    "@goodcastle/api-plugin-epayco-debit@0.0.9",
+    "@goodcastle/subscriptions@1.0.2",
+    "@jerryquickly/api-plugin-shops@0.0.0-development",
+    "@reactioncommerce/api-plugin-files@1.0.0",
+    "@reactioncommerce/api-plugin-settings@1.0.0",
+    "@goodcastle/api-plugin-epayco-cash@0.0.3",
+    "@reactioncommerce/api-plugin-tags@1.0.0",
+    "api-plugin-tags@0.0.0-development",
+    "@demandcluster/api-plugin-files@1.0.0"
+  ]
+}

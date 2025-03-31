@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "extend-merge@1.0.2",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "base-extend.js:41:21",
+  "downstreams": []
+}

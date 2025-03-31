@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "inireader@1.0.0",
+  "keymethod": "IniReader",
+  "keystring": "[__proto__]\npolluted=yes",
+  "location": "lib/inireadercore.js:310:60",
+  "downstreams": []
+}

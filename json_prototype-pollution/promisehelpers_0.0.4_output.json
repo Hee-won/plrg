@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7723",
+  "upstream": "promisehelpers@0.0.4",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "src/index.js:16:25",
+  "downstreams": []
+}

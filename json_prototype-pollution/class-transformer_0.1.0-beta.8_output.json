@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7637",
+  "upstream": "class-transformer@0.1.0-beta.8",
+  "keymethod": "classToPlainFromExist",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "TransformOperationExecutor.ts:163:46",
+  "downstreams": []
+}

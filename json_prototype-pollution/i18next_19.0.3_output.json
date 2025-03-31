@@ -1,0 +1,11 @@
+{
+  "id": "",
+  "upstream": "i18next@19.0.3",
+  "keymethod": "deepExtend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@nitro/app@5.1.4",
+    "@kube-js/kube-ts-react-client@1.7.23"
+  ]
+}

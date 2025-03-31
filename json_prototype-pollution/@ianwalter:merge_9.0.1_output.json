@@ -1,0 +1,18 @@
+{
+  "id": "",
+  "upstream": "@ianwalter:merge@9.0.1",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "",
+  "downstreams": [
+    "@ianwalter/print@8.1.0",
+    "@generates/logger@0.0.6",
+    "@generates/cli@0.0.6",
+    "@ianwalter/requester@2.3.0",
+    "@ianwalter/nrg@0.1.0",
+    "@ianwalter/vuex-reset@4.3.2",
+    "@ianwalter/log@5.0.0",
+    "toms-gulp-config@1.1.2",
+    "@ianwalter/bff-puppeteer@3.0.0"
+  ]
+}

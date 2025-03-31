@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-7737",
+  "upstream": "safetydance@2.0.1",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "index.js:215:25",
+  "downstreams": [
+    "cloudron-manifestformat@5.10.2"
+  ]
+}

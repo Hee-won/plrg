@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2020-7720",
+  "upstream": "node-forge@0.8.1",
+  "keymethod": "setPath",
+  "keystring": "['__proto__', 'polluted']",
+  "location": "lib/util.js:2536:22",
+  "downstreams": [
+    "pri@2.0.59",
+    "wildduck@1.14.1",
+    "generator-roosevelt@0.6.0"
+  ]
+}

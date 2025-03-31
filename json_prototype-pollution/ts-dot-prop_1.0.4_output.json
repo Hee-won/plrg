@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "ts-dot-prop@1.0.4",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "src/index.ts:72:21",
+  "downstreams": []
+}

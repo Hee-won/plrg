@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2021-23370",
+  "upstream": "swiper@6.4.11",
+  "keymethod": "extendsDefaults",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "cjs/utils/utils.js:110:25",
+  "downstreams": [
+    "notationpwa@1.2.1",
+    "vmdkmks@1.2.1",
+    "@yoobic/yobi@7.3.1-20"
+  ]
+}

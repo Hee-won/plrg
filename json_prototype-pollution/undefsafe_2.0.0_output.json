@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2019-10795",
+  "upstream": "undefsafe@2.0.0",
+  "keymethod": "#main",
+  "keystring": "__proto__.polluted",
+  "location": "lib/undefsafe.js:106:17",
+  "downstreams": [
+    "@zambezi/jsbin@3.40.4-ez-bin.5"
+  ]
+}

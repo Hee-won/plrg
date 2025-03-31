@@ -1,0 +1,16 @@
+{
+  "id": "CVE-2021-25915",
+  "upstream": "changeset@0.0.6",
+  "keymethod": "apply",
+  "keystring": "[{ type: 'put', key: ['__proto__', 'polluted'], value: 'yes' }]",
+  "location": "index.js:81:25",
+  "downstreams": [
+    "livelydb@0.0.2",
+    "observestream@0.0.1",
+    "livelystream@0.0.1",
+    "memlively@0.0.1",
+    "level-lively@0.0.1",
+    "pathdb@0.0.1",
+    "angularjs-lively@0.0.1"
+  ]
+}

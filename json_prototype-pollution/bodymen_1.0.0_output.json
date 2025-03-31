@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2019-10792",
+  "upstream": "bodymen@1.0.0",
+  "keymethod": "handler",
+  "keystring": "__proto__",
+  "location": "dist/index.js:44:26",
+  "downstreams": []
+}

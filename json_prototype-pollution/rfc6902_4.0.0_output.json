@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "rfc6902@4.0.0",
+  "keymethod": "applyPatch",
+  "keystring": "/__proto__/polluted",
+  "location": "patch.js:57:21",
+  "downstreams": []
+}

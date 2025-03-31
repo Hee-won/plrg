@@ -1,0 +1,17 @@
+{
+  "id": "CVE-2020-7720",
+  "upstream": "node-forge@0.6.39",
+  "keymethod": "setPath",
+  "keystring": "['__proto__', 'polluted']",
+  "location": "lib/util.js:2536:22",
+  "downstreams": [
+    "pageproxy@1.0.0",
+    "excel-builder@2.0.3",
+    "viva-excel@1.0.2",
+    "excel-builder-webpack@1.0.0",
+    "cloudelements-petit@0.5.2",
+    "yoti@2.0.0",
+    "yoti-node-sdk@1.0.0",
+    "@socialtables/saml-protocol@0.3.2"
+  ]
+}

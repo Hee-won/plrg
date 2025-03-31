@@ -1,0 +1,26 @@
+{
+  "id": "CVE-2021-23444",
+  "upstream": "jointjs@2.2.1",
+  "keymethod": "setByPath",
+  "keystring": "__proto__/polluted",
+  "location": "dist/joint.min.js:49:1313",
+  "downstreams": [
+    "joint-model-npm@1.0.4",
+    "graphql-birdseye-core@1.2.1",
+    "digitaljs@0.1.1",
+    "@neurobutter/neurobutter-ui@0.1.0",
+    "@processmaker/spark-modeler@0.10.0",
+    "@types/rappid@1.5.30",
+    "@processmaker/modeler@0.1.0",
+    "almost-joint-ifml-layout@1.0.0",
+    "cx-com-test@1.0.1",
+    "almost-joint@1.0.0-alpha.10",
+    "graphql-birdseye@1.0.0",
+    "@neurobutter/simple-dag-control@0.1.0",
+    "@davidyaha/graphql-birdseye@1.0.7",
+    "owasp-threat-dragon-core@0.5.5",
+    "sakura-dg@1.0.2",
+    "spring-flo@0.8.10",
+    "@convergence/jointjs-utils@0.3.0"
+  ]
+}

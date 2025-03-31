@@ -1,0 +1,16 @@
+{
+  "id": "CVE-2020-8158",
+  "upstream": "typeorm@0.2.17",
+  "keymethod": "mergeDeep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@apso/server@0.0.1",
+    "@kasun-gunathilaka/shared-modules@1.0.1",
+    "@rucken/auth-nestjs@1.0.11",
+    "@things-factory/shell@0.2.78",
+    "digevo-webhook-models@0.0.28",
+    "router-typescript@1.0.0",
+    "@hatiolab/things-shell@0.6.152"
+  ]
+}

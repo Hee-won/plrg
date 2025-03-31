@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2020-7717",
+  "upstream": "dot-notes@3.1.1",
+  "keymethod": "create",
+  "keystring": "__proto__.polluted",
+  "location": "lib/create.js:43:19",
+  "downstreams": [
+    "it-each@0.4.0",
+    "dockserv@0.1.0"
+  ]
+}

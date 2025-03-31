@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2020-7720",
+  "upstream": "node-forge@0.6.47",
+  "keymethod": "setPath",
+  "keystring": "['__proto__', 'polluted']",
+  "location": "lib/util.js:2536:22",
+  "downstreams": [
+    "heroku-exec-util@0.3.9",
+    "nodewrite-core-keys@1.0.18",
+    "heroku-cli-exec@1.11.0"
+  ]
+}

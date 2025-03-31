@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-8158",
+  "upstream": "typeorm@0.1.19",
+  "keymethod": "mergeDeep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "migrator-js@3.1.0"
+  ]
+}

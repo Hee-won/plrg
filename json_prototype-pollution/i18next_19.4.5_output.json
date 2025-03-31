@@ -1,0 +1,18 @@
+{
+  "id": "",
+  "upstream": "i18next@19.4.5",
+  "keymethod": "deepExtend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "andculturecode-javascript-core@0.1.0",
+    "andculturecode-javascript-react@0.0.9",
+    "i18nextify@2.5.7",
+    "@itsmycargo/batten@0.4.10",
+    "@nitro/app@5.4.0",
+    "andculturecode-javascript-react-components@0.0.1",
+    "@geops/interactive-stationplans@2.2.0",
+    "maycur-business@0.4.0-14",
+    "@energyweb/origin-ui-core@1.3.1-alpha.6310.0"
+  ]
+}

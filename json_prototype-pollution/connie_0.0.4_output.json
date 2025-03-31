@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-7706",
+  "upstream": "connie@0.0.4",
+  "keymethod": "#main",
+  "keystring": "{'__proto__': {'polluted': 'yes'}}",
+  "location": "lib/connie-lang.js:43:28",
+  "downstreams": [
+    "app-context-connie@1.0.1"
+  ]
+}

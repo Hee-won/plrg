@@ -1,0 +1,27 @@
+{
+  "id": "CVE-2018-3750",
+  "upstream": "deep-extend@0.4.0",
+  "keymethod": "#main",
+  "keystring": "CVE-2018-3750",
+  "location": "lib/deep-extend.js:117:17",
+  "downstreams": [
+    "assetgraph@1.24.0",
+    "generator-seneca-redis@0.0.3",
+    "logtron@8.10.2",
+    "livereactload@0.7.0",
+    "generator-vidi-dashboard@0.0.3",
+    "deep-extend-cli@0.4.0",
+    "bol-build@2.0.1",
+    "boar-tasks@2.0.0",
+    "boar-tasks-server@1.0.0",
+    "youku-client@0.0.1",
+    "yaowst@0.0.1",
+    "oauthor@1.0.0",
+    "polygulp@0.0.1",
+    "pyre@0.0.12",
+    "shisell@0.0.1",
+    "generator-seneca-redis2@0.0.1",
+    "boar-tasks-client@1.0.0",
+    "assetgraph-esprima@1.23.0-esprima"
+  ]
+}

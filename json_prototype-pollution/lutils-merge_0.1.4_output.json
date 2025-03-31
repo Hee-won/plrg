@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "upstream": "lutils-merge@0.1.4",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "merge.js:156:23",
+  "downstreams": [
+    "lutils@1.0.1"
+  ]
+}

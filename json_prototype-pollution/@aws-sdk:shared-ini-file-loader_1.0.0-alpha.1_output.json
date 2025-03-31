@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "@aws-sdk:shared-ini-file-loader@1.0.0-alpha.1",
+  "keymethod": "loadSharedConfigFiles",
+  "keystring": "./payload.toml",
+  "location": "",
+  "downstreams": []
+}

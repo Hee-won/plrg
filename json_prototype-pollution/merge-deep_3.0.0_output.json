@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2021-23700",
+  "upstream": "merge-deep@3.0.0",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "index.js:45:19",
+  "downstreams": [
+    "udger-updater-nodejs@1.0.0",
+    "eslint-config-vascular@0.0.1"
+  ]
+}

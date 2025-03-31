@@ -1,0 +1,17 @@
+{
+  "id": "CVE-2020-7718",
+  "upstream": "gammautils@0.0.81",
+  "keymethod": "deepMerge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/objectUtils.js:146:34",
+  "downstreams": [
+    "@lyra-network/openapi-dev-tool@9.9.0",
+    "cnab@0.0.1",
+    "controlino@1.0.1",
+    "nfe-xml-to-pdf@1.0.0",
+    "node-nfe@1.0.10",
+    "node-nfe-nfce@1.0.1",
+    "vziemerutils@1.0.0",
+    "@alexssmusica/node-pdf-nfe@1.0.49"
+  ]
+}

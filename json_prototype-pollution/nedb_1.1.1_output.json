@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2021-23395",
+  "upstream": "nedb@1.1.1",
+  "keymethod": "updates",
+  "keystring": "{ $set: { '__proto__.polluted': 'yes' } }",
+  "location": "lib/model.js:304:14",
+  "downstreams": [
+    "tartare-mock@0.5.0",
+    "webgme@0.10.1",
+    "jsreport@0.3.0"
+  ]
+}

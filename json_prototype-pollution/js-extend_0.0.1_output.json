@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2021-25945",
+  "upstream": "js-extend@0.0.1",
+  "keymethod": "extend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "extend.js:17:23",
+  "downstreams": [
+    "pouchdb@5.4.5",
+    "prcek_pouchdb@0.1.0"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CVE-2019-10794",
+  "upstream": "component-flatten@1.0.1",
+  "keymethod": "#main",
+  "keystring": "{ ref: 'polluted', name: '__proto__' }",
+  "location": "index.js:56:26",
+  "downstreams": [
+    "component-builder@1.2.1",
+    "component-resolver@1.3.0",
+    "component-pin@1.0.5",
+    "component-outdated2@1.0.5",
+    "component-updater@1.0.5",
+    "component@1.1.0",
+    "faiton-builder@1.1.10",
+    "component-builder-www@1.0.0",
+    "decomponentify1@0.8.2",
+    "component2webpack@1.0.0",
+    "component-tsc@0.4.6",
+    "component-specs@0.1.0",
+    "syndicate-build@0.0.0",
+    "faiton@1.0.0",
+    "grunt-suitcss@0.2.3",
+    "component-resolve-list@0.1.0",
+    "component-dev@0.1.0",
+    "component-builder-typescript@1.3.0"
+  ]
+}

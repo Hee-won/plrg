@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2021-23444",
+  "upstream": "jointjs@3.2.0",
+  "keymethod": "setByPath",
+  "keystring": "__proto__/polluted",
+  "location": "dist/joint.min.js:49:1313",
+  "downstreams": [
+    "ublatt@1.2.0",
+    "vue-test-demo-one@0.1.0",
+    "spring-flo@0.10.0"
+  ]
+}

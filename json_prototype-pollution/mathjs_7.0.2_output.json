@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7743",
+  "upstream": "mathjs@7.0.2",
+  "keymethod": "config",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/utils/object.js:131:17",
+  "downstreams": []
+}

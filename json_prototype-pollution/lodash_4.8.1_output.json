@@ -1,0 +1,19 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.8.1",
+  "keymethod": "zipObjectDeep",
+  "keystring": "['__proto__.polluted']",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "ag@0.1.0",
+    "caml@0.8.2",
+    "crossref@1.0.0",
+    "discord-irc@0.8.0",
+    "manpm@1.10.6",
+    "mozaik-ext-jenkins@1.2.0",
+    "mozaik-ext-teamcity@1.0.0",
+    "node-wifi-scanner@0.0.1",
+    "react-localize@1.0.0",
+    "actor-sdk@1.0.220"
+  ]
+}

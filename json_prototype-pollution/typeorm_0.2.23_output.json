@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-8158",
+  "upstream": "typeorm@0.2.23",
+  "keymethod": "mergeDeep",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "@lxdhub/dbsync@1.10.6-alpha.3"
+  ]
+}

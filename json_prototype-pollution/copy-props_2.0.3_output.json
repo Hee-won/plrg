@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28503",
+  "upstream": "copy-props@2.0.3",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "index.js:197:14",
+  "downstreams": []
+}

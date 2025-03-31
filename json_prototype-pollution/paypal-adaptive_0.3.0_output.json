@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-7643",
+  "upstream": "paypal-adaptive@0.3.0",
+  "keymethod": "#main",
+  "keystring": "{['__proto__']: { polluted: 'yes' },userId: 'foo',password: 'bar',signature: 'abcd',appId: '1234',sandbox: '1234'}",
+  "location": "lib/paypal-adaptive.js:31:22",
+  "downstreams": [
+    "dpd-paypal-ap@0.0.6"
+  ]
+}

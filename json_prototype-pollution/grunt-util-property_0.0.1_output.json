@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7641",
+  "upstream": "grunt-util-property@0.0.1",
+  "keymethod": "call",
+  "keystring": "__proto__.polluted",
+  "location": "main.js:41:21",
+  "downstreams": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2020-7727",
+  "upstream": "gedi@1.6.3",
+  "keymethod": "set",
+  "keystring": "[__proto__/polluted]",
+  "location": "gedi.js:393:32",
+  "downstreams": [
+    "gaffa@1.23.2",
+    "gel-transform@0.0.4",
+    "shazam@0.3.2"
+  ]
+}

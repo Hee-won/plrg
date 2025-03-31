@@ -1,0 +1,16 @@
+{
+  "id": "CVE-2020-15256",
+  "upstream": "object-path@0.11.2",
+  "keymethod": "set",
+  "keystring": "[['__proto__'], 'polluted']",
+  "location": "index.js:19:13",
+  "downstreams": [
+    "graphql-compose@0.1.0",
+    "graphql-compose-mongoose@1.0.12",
+    "mongoose-strip-paths@0.0.1",
+    "react-or@1.0.0",
+    "zab-client@0.2.4",
+    "zoo@0.1.10",
+    "axe@0.3.0"
+  ]
+}

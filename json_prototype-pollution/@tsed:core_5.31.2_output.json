@@ -1,0 +1,11 @@
+{
+  "id": "",
+  "upstream": "@tsed:core@5.31.2",
+  "keymethod": "deepExtends",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "",
+  "downstreams": [
+    "ts-express-decorators@5.31.2",
+    "hibye-patient@1.3.0"
+  ]
+}

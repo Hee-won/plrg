@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23452",
+  "upstream": "x-assign@0.1.2",
+  "keymethod": "assign",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "index.js:34:20",
+  "downstreams": []
+}

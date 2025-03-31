@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2019-10798",
+  "upstream": "rdf-graph-array@0.3.0-rc6",
+  "keymethod": "add",
+  "keystring": "{graph: 'foo',subject: '__proto__',predicate: 'polluted',object: 'JHU'}",
+  "location": "index.js:208:29",
+  "downstreams": []
+}

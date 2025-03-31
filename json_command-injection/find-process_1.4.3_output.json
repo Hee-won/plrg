@@ -1,0 +1,16 @@
+{
+  "id": "CVE-2019-10788",
+  "upstream": "find-process@1.4.3",
+  "keymethod": "#main",
+  "keystring": "$(touch find-process)",
+  "location": "lib/utils.js:19:8",
+  "downstreams": [
+    "glace-utils@1.3.5",
+    "@e11/libraries@2.0.0",
+    "pwa-asset-generator@2.2.1",
+    "@pwabuild/pwa-asset-generator@2.3.0",
+    "mext-scripts@0.0.53",
+    "rearguard@5.1.17",
+    "@gaarutyunov/pwa-asset-generator@4.0.0"
+  ]
+}

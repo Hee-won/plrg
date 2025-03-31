@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23359",
+  "upstream": "port-killer@1.0.1",
+  "keymethod": "#main",
+  "keystring": "$(touch port-killer)",
+  "location": "index.js:19:9",
+  "downstreams": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CVE-2017-16042",
+  "upstream": "growl@1.5.1",
+  "keymethod": "#main",
+  "keystring": "`touch growl`",
+  "location": "lib/growl.js:289:3",
+  "downstreams": [
+    "mocha@1.0.0",
+    "mocha2@1.4.1",
+    "brunch@1.4.2",
+    "hub-mocha@1.0.0",
+    "mimosa@0.0.13-alpha",
+    "vock@0.1.1",
+    "litejs>0.1.7>browser-upgrade-lite>promises-aplus-tests>mocha>diff>mocha@1.6.0",
+    "muffin.io@0.1.0",
+    "node-dev@0.2.6",
+    "readymade@0.0.6",
+    "redis-info@0.0.0",
+    "the-grid-compiler@0.1.0",
+    "inspire@0.0.1",
+    "grunt-growl@0.1.0"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "CVE-2020-7786",
+    "upstream": "macfromip@1.1.1",
+    "keymethod": "getMacInLinux",
+    "keystring": "& touch macfromip",
+    "location": "macfromip.js:66:15",
+    "downstreams": [
+        "@dustinblackman/homebridge-samsungtv-control@2.0.1",
+        "homebridge-samsungtv-control@2.0.0",
+        "wiot@0.0.10",
+        "@alisowski/homebridge-samsungtv-control@2.0.2"
+    ]
+}

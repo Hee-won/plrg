@@ -1,0 +1,20 @@
+{
+  "id": "CVE-2015-7982",
+  "upstream": "gm@1.4.2",
+  "keymethod": "compare",
+  "keystring": "$(touch gm)",
+  "location": "lib/compare.js:72:5",
+  "downstreams": [
+    "gmsmith@0.4.5",
+    "spritesmith@0.3.11",
+    "ssa-smith@0.1.0",
+    "increjs@2.0.0",
+    "jpegtransmith@0.1.0",
+    "tower@0.4.1",
+    "jpegorientation@1.0.0",
+    "tower-dev@0.4.1",
+    "tryfb@1.0.0",
+    "v-t-test@0.4.2-22",
+    "express-bootstrap@0.0.0"
+  ]
+}

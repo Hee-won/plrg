@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28425",
+  "upstream": "curljs@0.0.2",
+  "keymethod": "#main",
+  "keystring": "' & touch curljs # '",
+  "location": "index.js:37:12",
+  "downstreams": []
+}

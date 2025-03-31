@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7632",
+  "upstream": "node-mpv@0.9.4",
+  "keymethod": "#main",
+  "keystring": "\" $(touch node-mpv) \"",
+  "location": "lib/mpv/mpv.js:45:16",
+  "downstreams": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2021-26543",
+  "upstream": "git-parse@1.0.4",
+  "keymethod": "gitDiff",
+  "keystring": ". || touch git-parse",
+  "location": "src/git_diff.js:13:3",
+  "downstreams": [
+    "apollo@2.27.4",
+    "@rocali/apollo@2.33.4",
+    "rocali-apollo@2.33.10",
+    "@graphql-hive/cli@0.0.1"
+  ]
+}

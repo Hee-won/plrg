@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-8178",
+  "upstream": "jison@0.4.16",
+  "keymethod": "exec",
+  "keystring": "; touch jison",
+  "location": "build/queueRunner.js:45:12",
+  "downstreams": []
+}

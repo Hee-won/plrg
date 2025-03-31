@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2015-7982",
+  "upstream": "gm@1.13.2",
+  "keymethod": "compare",
+  "keystring": "$(touch gm)",
+  "location": "lib/compare.js:72:5",
+  "downstreams": []
+}

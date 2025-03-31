@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-8132",
+  "upstream": "pdf-image@1.0.1",
+  "keymethod": "numberOfPages",
+  "keystring": "asd.pdf\"; touch pdf-image\"",
+  "location": "index.js:44:7",
+  "downstreams": []
+}

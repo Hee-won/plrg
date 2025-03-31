@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2020-7781",
+  "upstream": "connection-tester@0.0.7",
+  "keymethod": "test",
+  "keystring": "& touch connection-tester",
+  "location": "index.js:15:28",
+  "downstreams": [
+    "promise-test-connection@0.0.2",
+    "connection-test-table@0.1.0"
+  ]
+}

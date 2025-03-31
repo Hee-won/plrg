@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2019-15597",
+  "upstream": "xps@1.0.0",
+  "keymethod": "kill",
+  "keystring": "`touch xps;`",
+  "location": "lib/utils.js:28:5",
+  "downstreams": []
+}

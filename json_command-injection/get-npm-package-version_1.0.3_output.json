@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7795",
+  "upstream": "get-npm-package-version@1.0.3",
+  "keymethod": "#main",
+  "keystring": "& touch get-npm-package-version",
+  "location": "index.js:16:48",
+  "downstreams": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "npm-git-publish@0.2.2-beta",
+  "keymethod": "publish",
+  "keystring": "http://gihub.com ;touch npm-git-publish; #",
+  "location": "lib/publish.js:92:29",
+  "downstreams": []
+}

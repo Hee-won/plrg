@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2019-10776",
+  "upstream": "command-exists@1.0.1",
+  "keymethod": "sync",
+  "keystring": ";touch command-exists",
+  "location": "lib/command-exists.js:78:22",
+  "downstreams": []
+}

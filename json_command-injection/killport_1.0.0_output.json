@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2021-23360",
+    "upstream": "killport@1.0.0",
+    "keymethod": "",
+    "keystring": "",
+    "location": "index.js:9:8",
+    "downstreams": []
+}

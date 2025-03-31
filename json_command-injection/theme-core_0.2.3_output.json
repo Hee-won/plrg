@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28432",
+  "upstream": "theme-core@0.2.3",
+  "keymethod": "utils.sh",
+  "keystring": "touch theme-core",
+  "location": "lib/utils.js:16:17",
+  "downstreams": []
+}

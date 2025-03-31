@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7794",
+  "upstream": "buns@1.0.12",
+  "keymethod": "install",
+  "keystring": "& touch buns",
+  "location": "lib/index.js:678:9",
+  "downstreams": []
+}

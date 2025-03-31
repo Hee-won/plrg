@@ -1,0 +1,10 @@
+{
+    "id": "CVE-2020-28490",
+    "upstream": "async-git@1.13.0",
+    "keymethod": "reset",
+    "keystring": "$(touch async-git)",
+    "location": "lib/reset/index.js:11:16",
+    "downstreams": [
+        "published@1.9.1"
+    ]
+}

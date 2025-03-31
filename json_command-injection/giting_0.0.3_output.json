@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2019-10802",
+  "upstream": "giting@0.0.3",
+  "keymethod": "pull",
+  "keystring": ";touch giting;",
+  "location": "lib/git.js:223:8",
+  "downstreams": []
+}

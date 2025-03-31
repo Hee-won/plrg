@@ -1,0 +1,11 @@
+{
+    "id": "CVE-2020-7730",
+    "upstream": "bestzip@2.1.6",
+    "keymethod": "#main",
+    "keystring": "./; touch bestzip",
+    "location": "lib/bestzip.js:27:27",
+    "downstreams": [
+        "vulnerable-js@1.0.0",
+        "@adobe/aem-site-template-builder@0.1.7"
+    ]
+}

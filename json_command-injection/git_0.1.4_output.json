@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "git@0.1.4",
+  "keymethod": "repo.git",
+  "keystring": "; touch git",
+  "location": "lib/index.js:90:7",
+  "downstreams": []
+}

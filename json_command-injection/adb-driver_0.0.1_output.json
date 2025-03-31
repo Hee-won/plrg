@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-7636",
+  "upstream": "adb-driver@0.0.1",
+  "keymethod": "execADBCommand",
+  "keystring": " & touch adb-driver",
+  "location": "build/AdbDriver.js:26:25",
+  "downstreams": [
+    "adb-commander@0.1.0"
+  ]
+}

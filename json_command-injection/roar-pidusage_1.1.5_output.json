@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23380",
+  "upstream": "roar-pidusage@1.1.5",
+  "keymethod": "stat",
+  "keystring": "$(touch roar-pidusage)",
+  "location": "lib/stats.js:103:5",
+  "downstreams": []
+}

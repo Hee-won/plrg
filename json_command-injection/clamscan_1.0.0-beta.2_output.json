@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7613",
+  "upstream": "clamscan@1.0.0-beta.2",
+  "keymethod": "init",
+  "keystring": "touch clamscan",
+  "location": "index.js:495:36",
+  "downstreams": []
+}

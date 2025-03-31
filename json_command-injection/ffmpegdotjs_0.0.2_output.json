@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23376",
+  "upstream": "ffmpegdotjs@0.0.2",
+  "keymethod": "execute",
+  "keystring": "touch ffmpeg-sdk",
+  "location": "index.js:191:9",
+  "downstreams": []
+}

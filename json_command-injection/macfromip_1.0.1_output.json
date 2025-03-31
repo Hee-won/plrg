@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7786",
+  "upstream": "macfromip@1.0.1",
+  "keymethod": "getMacInLinux",
+  "keystring": "& touch macfromip",
+  "location": "macfromip.js:66:15",
+  "downstreams": []
+}

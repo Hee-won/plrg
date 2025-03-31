@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2015-7982",
+  "upstream": "gm@1.3.2",
+  "keymethod": "compare",
+  "keystring": "$(touch gm)",
+  "location": "lib/compare.js:72:5",
+  "downstreams": [
+    "lazy-image@0.3.2",
+    "connect-image-resizer@0.0.4"
+  ]
+}

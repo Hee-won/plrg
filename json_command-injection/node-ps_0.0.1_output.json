@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7785",
+  "upstream": "node-ps@0.0.1",
+  "keymethod": "lookup",
+  "keystring": "& touch node-ps #",
+  "location": "lib/index.js:72:18",
+  "downstreams": []
+}

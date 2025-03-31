@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23377",
+  "upstream": "lycwed-spritesheetjs@1.0.6",
+  "keymethod": "#main",
+  "keystring": "& touch lycwed-spritesheetjs #",
+  "location": "lib/generator.js:85:7",
+  "downstreams": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "",
+  "upstream": "open@0.0.2",
+  "keymethod": "#main",
+  "keystring": "\"\"`touch open`",
+  "location": "lib/open.js:58:10",
+  "downstreams": [
+    "rem@0.5.15",
+    "yeoman@0.9.6",
+    "grunt-jasmine-runner@0.6.0",
+    "grunt-open@0.1.0",
+    "npm-research@0.0.1",
+    "identica@0.0.1",
+    "greadme@0.1.1",
+    "stop@0.0.0",
+    "mongomate@0.2.0",
+    "nodbg@0.0.3",
+    "meat@0.2.0",
+    "pottercms@0.0.4",
+    "pugme@0.0.0",
+    "pullrequest@0.1.0",
+    "rendermd@0.0.1",
+    "imdone@0.1.0",
+    "sky@0.0.5",
+    "steroids@0.2.9",
+    "grunt-jasmine-coverage@0.1.0",
+    "towelie@0.0.1",
+    "clogs@0.0.1",
+    "cantest@0.0.1"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28494",
+  "upstream": "total.js@3.0.0-83",
+  "keymethod": "stream",
+  "keystring": ";touch total_js;",
+  "location": "image.js:329:12",
+  "downstreams": []
+}

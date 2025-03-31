@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2019-10789",
+    "upstream": "curling@0.2.0",
+    "keymethod": "",
+    "keystring": "",
+    "location": "lib/curl-transport.js:56:3",
+    "downstreams": []
+}

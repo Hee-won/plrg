@@ -1,0 +1,20 @@
+{
+  "id": "CVE-2020-7628",
+  "upstream": "umount@1.1.6",
+  "keymethod": "#main",
+  "keystring": "\" $(touch umount) \"",
+  "location": "build/umount.js:52:24",
+  "downstreams": [
+    "balena-cli@11.36.0",
+    "resin-image@1.1.4",
+    "myfs-test@0.1.1",
+    "etcher-cli@0.0.1",
+    "resin-cli-mc@6.10.2",
+    "resin-cli@0.10.3",
+    "eject-media@0.0.1",
+    "resin-device-toolbox@0.0.1",
+    "appivos-cli@0.0.1",
+    "resin-plugin-multiburn@1.0.0",
+    "@pho-nomenal/5-minute-github-demo@10.0.0"
+  ]
+}

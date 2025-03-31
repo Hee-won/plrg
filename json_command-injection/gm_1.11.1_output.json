@@ -1,0 +1,15 @@
+{
+  "id": "CVE-2015-7982",
+  "upstream": "gm@1.11.1",
+  "keymethod": "compare",
+  "keystring": "$(touch gm)",
+  "location": "lib/compare.js:72:5",
+  "downstreams": [
+    "gfs-image@0.0.1",
+    "grunt-clowncar@0.0.1",
+    "grunt-spritesmith-hd@0.2.4",
+    "pictor@0.0.2",
+    "tailor.js@0.0.0",
+    "crops@0.1.0"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "id": "",
+    "upstream": "freespace@1.0.4",
+    "keymethod": "check",
+    "keystring": "/ ; touch freespace",
+    "location": "index.js:51:16",
+    "downstreams": []
+}

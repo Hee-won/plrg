@@ -1,0 +1,15 @@
+{
+    "id": "",
+    "upstream": "git-lib@1.6.0",
+    "keymethod": "add",
+    "keystring": "test;touch git-lib;",
+    "location": "git.js:13:9",
+    "downstreams": [
+        "commit-cli@2.1.4",
+        "revert-cli@1.0.1",
+        "push-cli@1.0.2",
+        "branch-cli@1.1.0",
+        "semantic-release-tamia@1.1.0",
+        "@andromeda/mir-da@0.0.13"
+    ]
+}

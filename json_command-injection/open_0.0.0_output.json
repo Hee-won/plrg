@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "open@0.0.0",
+  "keymethod": "#main",
+  "keystring": "\"\"`touch open`",
+  "location": "lib/open.js:58:10",
+  "downstreams": []
+}

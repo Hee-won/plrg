@@ -1,0 +1,10 @@
+{
+    "id": "CVE-2020-7635",
+    "upstream": "compass-compile@0.0.1",
+    "keymethod": "compile(options)",
+    "keystring": "touch compass-compile",
+    "location": "lib/compass.js:25:5",
+    "downstreams": [
+        "broccoli-compass-compiler@0.0.6"
+    ]
+}

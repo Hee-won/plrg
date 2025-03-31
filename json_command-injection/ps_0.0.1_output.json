@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23374",
+  "upstream": "ps@0.0.1",
+  "keymethod": "lookup",
+  "keystring": "$(touch ps)",
+  "location": "index.js:404:10",
+  "downstreams": []
+}

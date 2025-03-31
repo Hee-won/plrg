@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23348",
+  "upstream": "portprocesses@1.0.3",
+  "keymethod": "killProcess",
+  "keystring": "$(touch portprocesses)",
+  "location": "exec.js:5:3",
+  "downstreams": []
+}

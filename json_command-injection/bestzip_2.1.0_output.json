@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7730",
+  "upstream": "bestzip@2.1.0",
+  "keymethod": "#main",
+  "keystring": "./; touch bestzip",
+  "location": "lib/bestzip.js:27:27",
+  "downstreams": []
+}

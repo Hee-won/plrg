@@ -1,0 +1,16 @@
+{
+    "id": "CVE-2021-24033",
+    "upstream": "react-dev-utils@11.0.0",
+    "keymethod": "react-dev-utils/getProcessForPort()",
+    "keystring": "11;$(touch react-dev-utils)",
+    "location": "getProcessForPort.js:28:10",
+    "downstreams": [
+        "@thc/webpack-quark-dev-server@1.0.1-beta.0",
+        "@hiro-ui/react-scripts@0.2.3-alpha.108",
+        "@huzan/umi-plugin-config@1.12.5",
+        "@s-ui/bundler@7.0.0",
+        "@efox/emp-cli@1.7.18",
+        "mhy@10.0.0",
+        "@commercetools-frontend/mc-scripts@0.0.0-canary-2020101094725"
+    ]
+}

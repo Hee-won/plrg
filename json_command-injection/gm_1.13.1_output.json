@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2015-7982",
+  "upstream": "gm@1.13.1",
+  "keymethod": "compare",
+  "keystring": "$(touch gm)",
+  "location": "lib/compare.js:72:5",
+  "downstreams": [
+    "fh-gridfs@0.2.4-18",
+    "node-sprite-generator@0.2.1"
+  ]
+}

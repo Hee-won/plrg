@@ -1,0 +1,21 @@
+{
+  "id": "CVE-2015-7982",
+  "upstream": "gm@1.8.2",
+  "keymethod": "compare",
+  "keystring": "$(touch gm)",
+  "location": "lib/compare.js:72:5",
+  "downstreams": [
+    "express-upload-resizer@0.0.6",
+    "docpad-plugin-minicms@2.0.0",
+    "less-sprites@0.2.1",
+    "express-resizer@0.0.1",
+    "woods@0.0.4",
+    "imager@0.1.10",
+    "docpad-plugin-thumbnails@2.0.0",
+    "mantis@0.0.0",
+    "open-thumbnailer@0.1.0",
+    "pageinfo@1.0.0",
+    "cuter@0.0.2",
+    "country-flags@0.0.1"
+  ]
+}

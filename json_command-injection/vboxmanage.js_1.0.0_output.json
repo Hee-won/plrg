@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2019-10783",
+  "upstream": "vboxmanage.js@1.0.0",
+  "keymethod": "start",
+  "keystring": ";touch vboxmanag-js;",
+  "location": "index.js:76:23",
+  "downstreams": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2019-10788",
+  "upstream": "find-process@1.1.1",
+  "keymethod": "#main",
+  "keystring": "$(touch find-process)",
+  "location": "lib/utils.js:19:8",
+  "downstreams": [
+    "@cuties/process@1.2.1",
+    "@guseyn/cutie-process@1.0.7",
+    "ethstats-cli@2.3.10"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2019-10787",
+  "upstream": "im-resize@2.3.2",
+  "keymethod": "#main",
+  "keystring": "& touch im-resize &",
+  "location": "index.js:11:3",
+  "downstreams": [
+    "s3-uploader@1.1.0",
+    "s3-uploader-v1@2.0.2",
+    "wn-s3-uploader@1.0.0",
+    "s3-uploader-proxy@0.0.1"
+  ]
+}

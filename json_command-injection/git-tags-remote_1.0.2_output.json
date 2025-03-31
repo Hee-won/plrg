@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2020-7636",
+    "upstream": "git-tags-remote@1.0.2",
+    "keymethod": "get",
+    "keystring": "https://github.com/sh0ji/git-tags-remote.git; touch git-tags-remote > /tmp/command-injection.test",
+    "location": "index.js:5:2",
+    "downstreams": []
+}

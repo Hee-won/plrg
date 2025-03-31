@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2018-3772",
+  "upstream": "whereis@0.0.2",
+  "keymethod": "#main",
+  "keystring": "; touch whereis",
+  "location": "index.js:4:6",
+  "downstreams": []
+}

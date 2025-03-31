@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23374",
+  "upstream": "ps-visitor@0.0.2",
+  "keymethod": "kill",
+  "keystring": "$(touch ps-visitor)",
+  "location": "index.js:404:10",
+  "downstreams": []
+}

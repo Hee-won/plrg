@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2019-10807",
+  "upstream": "blamer@0.1.10",
+  "keymethod": "blameByFile",
+  "keystring": "& touch blamer &",
+  "location": "src/vcs/git.js:24:5",
+  "downstreams": []
+}

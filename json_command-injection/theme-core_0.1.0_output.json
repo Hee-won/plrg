@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2020-28432",
+  "upstream": "theme-core@0.1.0",
+  "keymethod": "utils.sh",
+  "keystring": "touch theme-core",
+  "location": "lib/utils.js:16:17",
+  "downstreams": [
+    "theme-core-plugin--pattern-lab--php@0.2.0",
+    "theme-core-plugin--sass@0.1.0",
+    "theme-core-plugin--browser-sync@0.1.0"
+  ]
+}

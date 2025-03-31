@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-26275",
+  "upstream": "eslint-fixer@0.0.2",
+  "keymethod": "fix",
+  "keystring": "$(touch eslint-fixer)",
+  "location": "index.js:24:18",
+  "downstreams": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2020-7627",
+  "upstream": "node-key-sender@1.0.4",
+  "keymethod": "execute",
+  "keystring": [
+    "&touch",
+    "node-key-sender"
+  ],
+  "location": "key-sender.js:117:20",
+  "downstreams": []
+}

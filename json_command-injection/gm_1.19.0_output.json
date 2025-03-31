@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2015-7982",
+  "upstream": "gm@1.19.0",
+  "keymethod": "compare",
+  "keystring": "$(touch gm)",
+  "location": "lib/compare.js:72:5",
+  "downstreams": [
+    "express-processimage@2.6.1",
+    "maglev@4.6.0",
+    "exif-image-auto-rotation@1.0.1"
+  ]
+}

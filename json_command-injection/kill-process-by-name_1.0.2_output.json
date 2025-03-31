@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2021-23356",
+  "upstream": "kill-process-by-name@1.0.2",
+  "keymethod": "#main",
+  "keystring": "$(touch kill-process-by-name)",
+  "location": "index.js:12:18",
+  "downstreams": []
+}

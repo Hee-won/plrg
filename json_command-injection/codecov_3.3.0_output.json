@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2020-15123",
+  "upstream": "codecov@3.3.0",
+  "keymethod": "handleInput.upload",
+  "keystring": "& touch codecov &",
+  "location": "lib/codecov.js:419:7",
+  "downstreams": [
+    "@invisionapp/dsm-storybook@0.0.119",
+    "@kube-js/kube-ts-server@1.0.23",
+    "@kube-js/kube-ts-react-client@1.0.5"
+  ]
+}

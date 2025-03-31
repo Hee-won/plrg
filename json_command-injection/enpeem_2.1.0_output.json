@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2019-10801",
+  "upstream": "enpeem@2.1.0",
+  "keymethod": "update",
+  "keystring": "& touch enpeem &",
+  "location": "index.js:71:22",
+  "downstreams": [
+    "machinepack-npm@6.0.0"
+  ]
+}

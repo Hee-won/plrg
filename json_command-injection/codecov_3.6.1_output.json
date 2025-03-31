@@ -1,0 +1,17 @@
+{
+  "id": "CVE-2020-15123",
+  "upstream": "codecov@3.6.1",
+  "keymethod": "handleInput.upload",
+  "keystring": "& touch codecov &",
+  "location": "lib/codecov.js:419:7",
+  "downstreams": [
+    "pri@4.4.0",
+    "@js-items/knex@1.0.24",
+    "@js-items/ky@1.0.10",
+    "@js-items/express@1.0.18",
+    "@kube-js/kube-ts-react-client@1.3.33",
+    "@kube-js/kube-ts-server@1.4.29",
+    "@jsenv/codecov-upload@1.8.0",
+    "@futagoza/dev@0.0.0"
+  ]
+}

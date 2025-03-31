@@ -1,0 +1,12 @@
+{
+    "id": "CVE-2020-28436",
+    "upstream": "google-cloudstorage-commands@0.0.1",
+    "keymethod": "upload",
+    "keystring": "& touch google-cloudstorage-commands",
+    "location": "index.js:11:24",
+    "downstreams": [
+        "video-dash-uploader@0.0.1",
+        "youtube-video-uploader@0.0.1",
+        "chewb-server@0.0.1"
+    ]
+}

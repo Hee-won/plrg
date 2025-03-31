@@ -1,0 +1,24 @@
+{
+    "id": "CVE-2019-10783",
+    "upstream": "lsof@0.1.0",
+    "keymethod": "rawTcpPort",
+    "keystring": "& touch lsof &",
+    "location": "lib/lsof.js:37:8",
+    "downstreams": [
+        "is-mongodb-running@0.0.1",
+        "@servicenow/cli-pre-post-tasks@17.0.1",
+        "network-sniffer@0.1.0",
+        "intruder@0.1.3",
+        "@servicenow/cli-archetype-dev@17.0.1",
+        "spark2@2.0.12",
+        "terminal-devtools@1.0.0-rc1",
+        "pui-react-tools@0.0.1",
+        "ps-dock@0.3.5",
+        "portly@1.0.0",
+        "node-pm@0.11.0",
+        "cloudpub@0.1.0",
+        "mofish@0.2.2",
+        "Nikmo@1.0.1",
+        "@mdslab/iotronic-lightning-rod@2.3.1"
+    ]
+}

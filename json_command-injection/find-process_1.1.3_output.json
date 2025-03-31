@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2019-10788",
+  "upstream": "find-process@1.1.3",
+  "keymethod": "#main",
+  "keystring": "$(touch find-process)",
+  "location": "lib/utils.js:19:8",
+  "downstreams": [
+    "ethstats-cli@2.4.6"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2015-7982",
+  "upstream": "gm@1.2.0",
+  "keymethod": "compare",
+  "keystring": "$(touch gm)",
+  "location": "lib/compare.js:72:5",
+  "downstreams": [
+    "node-asset-builder@0.0.1"
+  ]
+}

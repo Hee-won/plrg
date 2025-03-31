@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2019-10801",
+  "upstream": "enpeem@2.0.1",
+  "keymethod": "update",
+  "keystring": "& touch enpeem &",
+  "location": "index.js:71:22",
+  "downstreams": []
+}

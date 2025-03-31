@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2019-15597",
+  "upstream": "node-df@0.1.1",
+  "keymethod": "#main",
+  "keystring": "/;touch node-df",
+  "location": "lib/index.js:41:5",
+  "downstreams": [
+    "scalra@2.1.2"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2018-3785",
+  "upstream": "git-dummy-commit@1.1.1",
+  "keymethod": "#main",
+  "keystring": ";touch git-dummy-commit;/",
+  "location": "index.js:37:8",
+  "downstreams": []
+}

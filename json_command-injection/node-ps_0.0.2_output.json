@@ -1,0 +1,13 @@
+{
+    "id": "CVE-2020-7785",
+    "upstream": "node-ps@0.0.2",
+    "keymethod": "lookup",
+    "keystring": "& touch node-ps #",
+    "location": "lib/index.js:72:18",
+    "downstreams": [
+        "mydockerjs@2.15.0",
+        "node-spotify-helper@0.2.1",
+        "pstracker@0.0.3",
+        "dockertools@1.8.2"
+    ]
+}

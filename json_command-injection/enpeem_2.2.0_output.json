@@ -1,0 +1,31 @@
+{
+    "id": "CVE-2019-10801",
+    "upstream": "enpeem@2.2.0",
+    "keymethod": "update",
+    "keystring": "& touch enpeem &",
+    "location": "index.js:71:22",
+    "downstreams": [
+        "machinepack-npm@5.1.0",
+        "strapi-generate-new@3.0.0-alpha.21",
+        "mwapi-generate-new@3.0.1",
+        "zenapi-generate-new@1.0.11",
+        "warhead-generator@0.0.0-alpha.2",
+        "lisa-plugins-manager@0.0.10",
+        "bit-docs-generate-html@0.6.0",
+        "tysapi-generate-new@3.0.5",
+        "mobileapi-generate-new@1.0.0",
+        "framevuerk-builder@2.0.3",
+        "pliigo-project-creator@0.0.1-alpha",
+        "ng-bolt-cli@2.0.0",
+        "reservation-admin-rest-ember-generator@0.10.19",
+        "sails-generate-reservation-admin-rest-ember-generator@0.10.1",
+        "cocoons.io@2.0.1",
+        "bit-docs@0.0.11",
+        "boilerp@1.0.1",
+        "try-npm-package-from-submodule@0.1.0",
+        "tent@1.0.10",
+        "sails-generate-zuru-admin@0.10.0",
+        "admin-rest-ember-generator@0.10.10",
+        "admin-json-server-generator@0.10.1"
+    ]
+}

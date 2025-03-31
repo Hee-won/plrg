@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2018-16461",
+  "upstream": "libnmap@0.2.26",
+  "keymethod": "scan",
+  "keystring": "x.x.$(touch libnmap)",
+  "location": "lib/classes/tools.js:114:25",
+  "downstreams": []
+}

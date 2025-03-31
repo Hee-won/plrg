@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2015-7982",
+  "upstream": "gm@1.8.1",
+  "keymethod": "compare",
+  "keystring": "$(touch gm)",
+  "location": "lib/compare.js:72:5",
+  "downstreams": [
+    "jquery-ui-themeroller@0.0.1",
+    "download.jqueryui.com@1.10.0-1"
+  ]
+}

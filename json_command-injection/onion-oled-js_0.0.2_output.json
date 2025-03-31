@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2021-23377",
+    "upstream": "onion-oled-js@0.0.2",
+    "keymethod": "scroll",
+    "keystring": ";touch onion-oled-js #",
+    "location": "src/oled-exp.js:91:16",
+    "downstreams": []
+}

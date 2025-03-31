@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2021-24033",
+  "upstream": "react-dev-utils@11.0.0-next.96",
+  "keymethod": "react-dev-utils/getProcessForPort()",
+  "keystring": "11;$(touch react-dev-utils)",
+  "location": "getProcessForPort.js:28:10",
+  "downstreams": [
+    "react-scripts@4.0.0-next.96"
+  ]
+}

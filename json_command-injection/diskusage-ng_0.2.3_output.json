@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7631",
+  "upstream": "diskusage-ng@0.2.3",
+  "keymethod": "#main",
+  "keystring": "['\"&touch diskusage-ng\"']",
+  "location": "lib/posix.js:11:5",
+  "downstreams": []
+}

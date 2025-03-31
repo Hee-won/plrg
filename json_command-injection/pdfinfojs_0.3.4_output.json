@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2018-3746",
+  "upstream": "pdfinfojs@0.3.4",
+  "keymethod": "getInfo",
+  "keystring": "$(touch pdfinfojs)",
+  "location": "lib/pdfinfo.js:47:23",
+  "downstreams": [
+    "pdftohpubjs@0.1.3"
+  ]
+}

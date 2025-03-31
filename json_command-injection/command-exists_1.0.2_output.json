@@ -1,0 +1,19 @@
+{
+  "id": "CVE-2019-10776",
+  "upstream": "command-exists@1.0.2",
+  "keymethod": "sync",
+  "keystring": ";touch command-exists",
+  "location": "lib/command-exists.js:78:22",
+  "downstreams": [
+    "generator-fireloop@1.0.0-alpha.38",
+    "generator-bombyx-api-php@0.0.5",
+    "melodrama@0.1.0",
+    "swanky-cli@1.1.0",
+    "generator-junketsu@1.0.0",
+    "generator-senketsu@1.5.0",
+    "generator-bombyx-web@0.4.4",
+    "melodrama-scripts@0.1.0",
+    "bento-game-engine@1.0.0",
+    "@shoutem/cli@0.10.0"
+  ]
+}

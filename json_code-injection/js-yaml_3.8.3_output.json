@@ -1,0 +1,28 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.8.3",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "rduk-configuration@1.2.0",
+    "@rduk/configuration@2.0.0",
+    "generator-jhipster@4.3.0",
+    "@risingstack/trace@3.10.0",
+    "express-gateway@0.10.0",
+    "generator-jbooter@1.5.2",
+    "evac@1.5.7",
+    "state-machine-generator@1.0.0",
+    "generator-rasha-jhipster@4.3.0",
+    "generator-rashasoft@4.3.0",
+    "gitlab-radiator@1.1.11",
+    "mage@1.0.4",
+    "multilang@1.0.19",
+    "node-offline-api@0.10.0",
+    "nodefony@2.1.0-beta",
+    "generator-jhipster1@4.5.7",
+    "dredd@5.0.0",
+    "swanky-cli@1.7.0",
+    "@jokeyrhyme/node-init@2.0.0"
+  ]
+}

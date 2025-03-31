@@ -1,0 +1,17 @@
+{
+  "id": "",
+  "upstream": "is-my-json-valid@2.15.0",
+  "keymethod": "validate",
+  "keystring": "x[1 + (Object.prototype.polluted='yes')]",
+  "location": "index.js:172:21",
+  "downstreams": [
+    "oly-mapper@0.6.5",
+    "oly@0.4.6",
+    "superviews.js@3.0.4",
+    "idomview@3.3.1",
+    "api-pls@0.1.0",
+    "validate-by-example@1.2.0",
+    "http-app-router@2.1.0",
+    "beho@1.0.1"
+  ]
+}

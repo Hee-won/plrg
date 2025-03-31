@@ -1,0 +1,25 @@
+{
+  "id": "CVE-2020-7673",
+  "upstream": "node-extend@0.2.0",
+  "keymethod": "#main",
+  "keystring": "function (){});require(`fs`).writeFileSync('node-extend',''); //(){console.log(123)}",
+  "location": "lib/extend.js:31:11",
+  "downstreams": [
+    "pouchdb-seed-design@0.3.0",
+    "appnexus@0.1.0",
+    "enb-make@0.1.4",
+    "component-dev-build@0.0.1",
+    "cqrsnode@0.0.0",
+    "easy-schemas@1.0.0",
+    "component-builder-ignore@0.0.1",
+    "expressy@0.0.1",
+    "hone-sidebar@1.0.0",
+    "n-app-conf@0.2.0",
+    "node-planvine@0.0.1",
+    "agenda@0.1.0",
+    "proxysync-request@4.1.4",
+    "remotelog-local@1.1.0",
+    "yaml-router@0.0.1",
+    "@andromeda/mir-da@0.0.13"
+  ]
+}

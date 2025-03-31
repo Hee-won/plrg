@@ -1,0 +1,11 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.2.6",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "underscore-ebook-template-ja@0.1.0",
+    "project-starter@0.0.13"
+  ]
+}

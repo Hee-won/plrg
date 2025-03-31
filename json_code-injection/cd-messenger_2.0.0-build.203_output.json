@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7675",
+  "upstream": "cd-messenger@2.0.0-build.203",
+  "keymethod": "line",
+  "keystring": "red(); require('fs').writeFileSync('\" + path + \"',``); //",
+  "location": "src/messenger-node.js:70:9",
+  "downstreams": []
+}

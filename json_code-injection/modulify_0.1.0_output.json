@@ -1,0 +1,8 @@
+{
+    "id": "",
+    "upstream": "modulify@0.1.0",
+    "keymethod": "utils.getGlobals",
+    "keystring": "require(`fs`).writeFileSync(`modulify`,``)",
+    "location": "src/modulify.js:74:5",
+    "downstreams": []
+}

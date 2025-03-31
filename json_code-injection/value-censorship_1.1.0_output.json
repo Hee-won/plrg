@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "value-censorship@1.1.0",
+  "keymethod": "#main",
+  "keystring": ";1 +(Object.prototype.polluted = 'yes')//",
+  "location": "index.js:22:19",
+  "downstreams": []
+}

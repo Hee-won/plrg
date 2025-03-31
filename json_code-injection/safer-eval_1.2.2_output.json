@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2019-10759",
+  "upstream": "safer-eval@1.2.2",
+  "keymethod": "#main",
+  "keystring": "console.constructor.constructor('return 1+(Object.prototype.polluted=`yes`)')().env",
+  "location": "lib/index.js:60:17",
+  "downstreams": []
+}

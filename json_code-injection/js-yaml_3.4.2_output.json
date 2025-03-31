@@ -1,0 +1,20 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.4.2",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "enb-bem-techs@2.1.0",
+    "attester-launcher@0.0.2",
+    "review.js@0.9.6",
+    "guv@0.1.2",
+    "graffito@0.0.1",
+    "light-deploy@0.1.0",
+    "qa-control@0.0.18",
+    "prh@0.6.0",
+    "generator-grunt-symfony@0.6.0",
+    "yamltojson@1.0.2",
+    "evac@1.4.3"
+  ]
+}

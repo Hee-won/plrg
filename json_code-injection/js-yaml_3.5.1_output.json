@@ -1,0 +1,12 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.5.1",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "@adobe/commerce-cif-magento-common@1.1.0",
+    "@adobe/commerce-cif-commercetools-common@1.0.2",
+    "bemlint@1.7.0"
+  ]
+}

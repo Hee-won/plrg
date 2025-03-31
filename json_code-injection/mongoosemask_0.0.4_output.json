@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "mongoosemask@0.0.4",
+  "keymethod": "mask",
+  "keystring": "id\"]; require(`fs`)[\"writeFileSync\"](`mongoosemask`,``)//",
+  "location": "index.js:181:5",
+  "downstreams": []
+}

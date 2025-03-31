@@ -1,0 +1,21 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.6.0",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "crossbow-cli@3.0.1",
+    "docpack@1.0.0-alpha",
+    "generator-jhipster@3.2.0",
+    "http-bat@0.1.0-alpha.0",
+    "koa-spec@0.6.2",
+    "ng-constant@1.0.0",
+    "styledown@2.0.0-pre1",
+    "styledown2@2.0.0-pre10",
+    "tavmant@13.0.2",
+    "tedede@0.2.2",
+    "webpack-docs-plugin@1.0.0-alpha",
+    "acl-restify@0.0.3"
+  ]
+}

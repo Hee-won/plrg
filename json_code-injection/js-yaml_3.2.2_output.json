@@ -1,0 +1,26 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.2.2",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "schema-validator-publisher@0.8.8",
+    "enb-bem-techs@0.1.0-beta12",
+    "coffee-bean@0.4.0",
+    "light-framework@0.1.1",
+    "check-porch-integration-env@0.0.3",
+    "taborlin-parse@0.0.4",
+    "taskcluster-base@0.7.19",
+    "doclet@0.1.0",
+    "denke-note@0.0.18",
+    "node-crux@0.0.2",
+    "coke@0.24.4",
+    "topdoc-parse@0.0.2",
+    "http-master@0.7.15",
+    "tinyweb@0.1.2",
+    "attester@2.0.0",
+    "yaml-utils@1.0.0",
+    "api-umbrella-gatekeeper@0.1.0"
+  ]
+}

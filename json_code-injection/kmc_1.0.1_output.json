@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "kmc@1.0.1",
+  "keymethod": "analyze",
+  "keystring": "//{requires:[require('fs').writeFileSync('kmc','')]});",
+  "location": "lib/index.js:164:43",
+  "downstreams": []
+}

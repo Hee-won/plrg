@@ -1,0 +1,14 @@
+{
+  "id": "",
+  "upstream": "is-my-json-valid@2.12.4",
+  "keymethod": "validate",
+  "keystring": "x[1 + (Object.prototype.polluted='yes')]",
+  "location": "index.js:172:21",
+  "downstreams": [
+    "fd-proxy-server@0.0.1",
+    "geojsonvalidator@0.0.1",
+    "phantombuster-sdk@0.0.2",
+    "schemagic@2.1.4",
+    "config-prompt@1.0.0"
+  ]
+}

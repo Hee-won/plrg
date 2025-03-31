@@ -1,0 +1,24 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.5.2",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "smartfile@0.0.11",
+    "enb-bem-techs@2.2.1",
+    "node-gimei@0.0.4",
+    "@rstacruz/tap-speck@0.1.0",
+    "generator-grunt-symfony@0.9.2",
+    "kit-deployer@6.0.0",
+    "generator-confit@0.0.8",
+    "koa-spec@0.0.4",
+    "migraticon@0.0.4",
+    "multitest@0.1.0",
+    "kit-deploymentizer@2.0.0",
+    "node-offline-api@0.7.4",
+    "plywood-proxy@0.1.2",
+    "@longgt-public/node-gimei@0.0.5",
+    "3loc@0.2.0"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "",
+  "upstream": "is-my-json-valid@2.16.1",
+  "keymethod": "validate",
+  "keystring": "x[1 + (Object.prototype.polluted='yes')]",
+  "location": "index.js:172:21",
+  "downstreams": [
+    "rxdb@5.3.0",
+    "@hola.org/har-validator@2.0.6-hola.1",
+    "@luminati-io/har-validator@2.0.6-lum.1",
+    "graphql-scribble@0.0.0",
+    "dlvr@3.0.3"
+  ]
+}

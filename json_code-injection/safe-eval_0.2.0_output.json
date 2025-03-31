@@ -1,0 +1,17 @@
+{
+  "id": " CVE-2020-7710",
+  "upstream": "safe-eval@0.2.0",
+  "keymethod": "#main",
+  "keystring": "this.constructor.prototype.polluted=`yes`",
+  "location": "index.js:13:6",
+  "downstreams": [
+    "apoc@2.1.6",
+    "naver-trends@0.1.0",
+    "trbl-evergreen-mongo@0.0.1",
+    "stringtobsonjs@0.0.1",
+    "superscript@0.11.0",
+    "tani@0.2.0",
+    "slq@0.1.1",
+    "daum-trends@0.1.0"
+  ]
+}

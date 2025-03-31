@@ -1,0 +1,21 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.2.3",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "core@1.0.113",
+    "enb-bem-techs@1.0.0",
+    "dalekjs@0.0.9",
+    "core-dev@2.0.4",
+    "tugboat@2.6.2",
+    "csv-mapper@1.0.7",
+    "cb-server@0.0.10",
+    "http-master@1.0.10",
+    "dalekjs-early@0.0.10",
+    "coke@0.24.8",
+    "api-umbrella-gatekeeper-rc@0.8.16",
+    "api-umbrella-gatekeeper@0.7.0"
+  ]
+}

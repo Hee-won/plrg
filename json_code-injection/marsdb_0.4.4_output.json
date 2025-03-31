@@ -1,0 +1,12 @@
+{
+  "id": "",
+  "upstream": "marsdb@0.4.4",
+  "keymethod": "find",
+  "keystring": "(Object.prototype.polluted=`yes`)",
+  "location": "dist/DocumentMatcher.js:419:23",
+  "downstreams": [
+    "marsdb-localforage@0.0.1",
+    "marsdb-localstorage@0.0.1",
+    "marsdb-angular@0.0.1"
+  ]
+}

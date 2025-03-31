@@ -1,0 +1,10 @@
+{
+    "id": "",
+    "upstream": "m-log@0.0.1",
+    "keymethod": "setColorTheme",
+    "keystring": "yellow\"}); require(`fs`).writeFileSync(`m-log`,``); 23//",
+    "location": "libs/log.js:24:11",
+    "downstreams": [
+        "@andromeda/mir-da@0.0.13"
+    ]
+}

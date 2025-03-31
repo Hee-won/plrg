@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "upstream": "mol-proto@0.0.4",
+  "keymethod": "makeFunction",
+  "keystring": "};require('fs').writeFileSync('./mol-proto', '');{",
+  "location": "lib/proto_function.js:70:5",
+  "downstreams": [
+    "@andromeda/mir-da@0.0.13"
+  ]
+}

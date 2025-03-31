@@ -1,0 +1,14 @@
+{
+  "id": "",
+  "upstream": "is-my-json-valid@2.20.0",
+  "keymethod": "validate",
+  "keystring": "x[1 + (Object.prototype.polluted='yes')]",
+  "location": "index.js:172:21",
+  "downstreams": [
+    "rxdb@8.9.0",
+    "@manuscripts/rxdb@8.2.0-manuscripts1",
+    "@attraqt/activity@0.0.1",
+    "schemagic@6.2.1",
+    "@lycoris-nubila/rxdb@8.7.5-bf1"
+  ]
+}

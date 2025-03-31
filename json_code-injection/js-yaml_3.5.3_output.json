@@ -1,0 +1,24 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.5.3",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "merge-config@2.0.0",
+    "tedede@0.0.8",
+    "delivery-packer@0.1.0",
+    "node-nmconfig@0.4.0",
+    "node-pkg-configuration@1.0.0",
+    "marked-it-core@0.10.0",
+    "marked-it-cli@0.10.0",
+    "mlab-cli@1.0.2",
+    "guild-swagger@0.1.0",
+    "marked-it-core-ie@0.13.1",
+    "ecoscript@0.1.0",
+    "tavmant@13.0.1",
+    "crossbow-cli@3.0.0",
+    "zindex@1.0.0",
+    "@zombiec0rn/zombie-swarm-cli@2.7.1"
+  ]
+}

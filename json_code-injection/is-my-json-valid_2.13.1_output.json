@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "upstream": "is-my-json-valid@2.13.1",
+  "keymethod": "validate",
+  "keystring": "x[1 + (Object.prototype.polluted='yes')]",
+  "location": "index.js:172:21",
+  "downstreams": [
+    "schemagic@4.4.0",
+    "http-app-router@1.0.0",
+    "meadow@1.0.17",
+    "ghost@0.9.0-beta.1",
+    "sendgrid-to-redshift@1.0.1",
+    "spachcock@1.2.0",
+    "fsa-creator@0.1.1"
+  ]
+}

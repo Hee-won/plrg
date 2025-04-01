@@ -2,3 +2,4 @@ node_modules/
 **/.DS_Store
 prototype-pollution/
 test/
+temp_pack_dir

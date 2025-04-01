@@ -1,7 +1,7 @@
 {
     "id": "CVE-2020-7633",
     "upstream": "apiconnect-cli-plugins@6.0.2",
-    "keymethod": "pluginLoader.installPlugin",
+    "keymethod": "installPlugin",
     "keystring": "& touch apiconnect-cli-plugins &",
     "location": "lib/plugin-loader.js:181:18",
     "downstreams": [

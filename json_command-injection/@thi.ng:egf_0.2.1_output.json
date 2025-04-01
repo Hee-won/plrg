@@ -1,7 +1,7 @@
 {
     "id": "CVE-2021-21412",
     "upstream": "@thi.ng:egf@0.2.1",
-    "keymethod": "BUILTINS.gpg",
+    "keymethod": "gpg",
     "keystring": "bar`touch egf`",
     "location": "lib/index.js:157:29",
     "downstreams": []

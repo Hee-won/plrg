@@ -1,7 +1,7 @@
 {
   "id": "CVE-2020-15123",
   "upstream": "codecov@3.0.3",
-  "keymethod": "handleInput.upload",
+  "keymethod": "upload",
   "keystring": "& touch codecov &",
   "location": "lib/codecov.js:419:7",
   "downstreams": []

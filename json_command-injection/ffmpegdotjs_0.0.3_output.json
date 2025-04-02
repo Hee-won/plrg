@@ -1,8 +1,8 @@
 {
   "id": "CVE-2021-23376",
   "upstream": "ffmpegdotjs@0.0.3",
-  "keymethod": "execute",
-  "keystring": "touch ffmpeg-sdk",
+  "keymethod": "trimvideo",
+  "keystring": "package-lock.json\", 0, 30, \"n || touch ffmpegdotjs; #",
   "location": "index.js:191:9",
   "downstreams": []
 }

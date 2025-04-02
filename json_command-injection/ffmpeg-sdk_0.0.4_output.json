@@ -1,8 +1,8 @@
 {
     "id": "CVE-2020-28435",
     "upstream": "ffmpeg-sdk@0.0.4",
-    "keymethod": "",
-    "keystring": "",
+    "keymethod": "execute",
+    "keystring": "touch ffmpeg-sdk",
     "location": "index.js:9:5",
     "downstreams": []
 }

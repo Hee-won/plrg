@@ -1,8 +1,8 @@
 {
     "id": "CVE-2018-16462",
     "upstream": "diskstats@0.0.1",
-    "keymethod": "",
-    "keystring": "",
+    "keymethod": "check",
+    "keystring": "; touch diskstats",
     "location": "lib/stat.js:44:22",
     "downstreams": []
 }

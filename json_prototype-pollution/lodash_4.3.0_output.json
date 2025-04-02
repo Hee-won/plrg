@@ -1,8 +1,8 @@
 {
   "id": "CVE-2019-10744",
   "upstream": "lodash@4.3.0",
-  "keymethod": "zipObjectDeep",
-  "keystring": "['__proto__.polluted']",
+  "keymethod": "merge",
+  "keystring": "{ constructor: { prototype: { polluted: 'yes' } } }",
   "location": "lodash.js:2573:21",
   "downstreams": [
     "grunt-legacy-log-utils@1.0.0",

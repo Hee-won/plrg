@@ -1,11 +1,8 @@
 {
   "id": "CVE-2019-10744",
   "upstream": "lodash@4.8.0",
-  "keymethod": "zipObjectDeep",
-  "keystring": "['__proto__.polluted']",
+  "keymethod": "merge",
+  "keystring": "{ constructor: { prototype: { polluted: 'yes' } } }",
   "location": "lodash.js:2573:21",
-  "downstreams": [
-    "package-test-xc@1.0.2",
-    "lodash-cli@4.8.0"
-  ]
+  "downstreams": ["package-test-xc@1.0.2", "lodash-cli@4.8.0"]
 }

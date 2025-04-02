@@ -1,8 +1,8 @@
 {
   "id": "CVE-2019-10744",
   "upstream": "lodash@4.2.1",
-  "keymethod": "zipObjectDeep",
-  "keystring": "['__proto__.polluted']",
+  "keymethod": "merge",
+  "keystring": "{ constructor: { prototype: { polluted: 'yes' } } }",
   "location": "lodash.js:2573:21",
   "downstreams": [
     "seneca-web@0.7.1",

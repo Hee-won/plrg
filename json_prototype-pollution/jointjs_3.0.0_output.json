@@ -2,7 +2,7 @@
   "id": "CVE-2021-23444",
   "upstream": "jointjs@3.0.0",
   "keymethod": "setByPath",
-  "keystring": "__proto__/polluted",
+  "keystring": "[['__proto__'], 'polluted']",
   "location": "dist/joint.min.js:49:1313",
   "downstreams": []
 }

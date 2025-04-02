@@ -1,0 +1,15 @@
+{
+  "id": "CVE-2020-7673",
+  "upstream": "node-extend@0.2.0",
+  "keymethod": "#main",
+  "keystring": "function (){});require(`fs`).writeFileSync('node-extend',''); //(){console.log(123)}",
+  "location": "lib/extend.js:31:11",
+  "downstreams": [
+    "pouchdb-seed-design@0.3.0",
+    "appnexus@0.1.0",
+    "enb-make@0.1.4",
+    "cqrsnode@0.0.0",
+    "n-app-conf@0.2.0",
+    "agenda@0.1.0"
+  ]
+}

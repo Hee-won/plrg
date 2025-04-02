@@ -1,0 +1,14 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.2.5",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "enb-bem-techs@1.0.2",
+    "gui-tool@0.0.1",
+    "mage@0.0.6",
+    "review.js@0.6.3",
+    "coke@0.25.0"
+  ]
+}

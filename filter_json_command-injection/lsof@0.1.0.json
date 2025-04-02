@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2019-10783",
+  "upstream": "lsof@0.1.0",
+  "keymethod": "rawTcpPort",
+  "keystring": "& touch lsof &",
+  "location": "lib/lsof.js:37:8",
+  "downstreams": [
+    "is-mongodb-running@0.0.1",
+    "portly@1.0.0"
+  ]
+}

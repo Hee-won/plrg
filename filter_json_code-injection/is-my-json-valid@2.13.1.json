@@ -1,0 +1,12 @@
+{
+  "id": "",
+  "upstream": "is-my-json-valid@2.13.1",
+  "keymethod": "validate",
+  "keystring": "x[1 + (Object.prototype.polluted='yes')]",
+  "location": "index.js:172:21",
+  "downstreams": [
+    "http-app-router@1.0.0",
+    "meadow@1.0.17",
+    "ghost@0.9.0-beta.1"
+  ]
+}

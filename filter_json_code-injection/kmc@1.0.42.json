@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "upstream": "kmc@1.0.42",
+  "keymethod": "analyze",
+  "keystring": "//{requires:[require('fs').writeFileSync('kmc','')]});",
+  "location": "lib/index.js:164:43",
+  "downstreams": [
+    "grunt-wtbuild@0.1.0"
+  ]
+}

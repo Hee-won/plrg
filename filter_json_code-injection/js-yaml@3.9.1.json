@@ -1,0 +1,24 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.9.1",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "config-lite@2.1.0",
+    "qnode-config@1.0.2",
+    "@microsoft/rush-lib@5.0.0-dev.21",
+    "generator-jhipster@4.7.0",
+    "backend-plus@0.15.28",
+    "node-config-any@0.9.1",
+    "glyphs2font@1.1.5",
+    "gitlab-radiator@1.1.17",
+    "Haraka@2.8.14",
+    "gemstone-loader-yaml@0.9.10",
+    "nuclide@0.261.0",
+    "parent-project@0.1.0",
+    "qa-control@0.4.11",
+    "gemstone-config@0.9.18",
+    "wnode@0.3.11"
+  ]
+}

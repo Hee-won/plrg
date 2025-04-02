@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.8.1",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "easyamqp@1.0.0",
+    "fluent-server@1.0.0",
+    "generator-jhipster@4.0.6",
+    "gitlab-radiator@1.1.6",
+    "hapi-views@3.4.0",
+    "swanky@2.5.2",
+    "syncano-cli@0.0.1-beta.100"
+  ]
+}

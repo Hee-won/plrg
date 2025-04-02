@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2020-7628",
+  "upstream": "umount@1.1.6",
+  "keymethod": "#main",
+  "keystring": "\" $(touch umount) \"",
+  "location": "build/umount.js:52:24",
+  "downstreams": [
+    "balena-cli@11.36.0",
+    "etcher-cli@0.0.1",
+    "resin-cli@0.10.3",
+    "resin-device-toolbox@0.0.1"
+  ]
+}

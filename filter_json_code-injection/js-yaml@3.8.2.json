@@ -1,0 +1,14 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.8.2",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "generator-jhipster@4.1.1",
+    "duniter@1.4.10",
+    "fabric8-ui@1.13.0",
+    "gitlab-radiator@1.1.10",
+    "swanky@2.5.6"
+  ]
+}

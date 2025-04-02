@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2019-10776",
+  "upstream": "command-exists@1.0.2",
+  "keymethod": "sync",
+  "keystring": ";touch command-exists",
+  "location": "lib/command-exists.js:78:22",
+  "downstreams": [
+    "generator-fireloop@1.0.0-alpha.38",
+    "melodrama-scripts@0.1.0",
+    "@shoutem/cli@0.10.0"
+  ]
+}

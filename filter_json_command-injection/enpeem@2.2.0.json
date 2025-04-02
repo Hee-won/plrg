@@ -1,0 +1,15 @@
+{
+  "id": "CVE-2019-10801",
+  "upstream": "enpeem@2.2.0",
+  "keymethod": "update",
+  "keystring": "& touch enpeem &",
+  "location": "index.js:71:22",
+  "downstreams": [
+    "ng-bolt-cli@2.0.0",
+    "sails-generate-reservation-admin-rest-ember-generator@0.10.1",
+    "boilerp@1.0.1",
+    "sails-generate-zuru-admin@0.10.0",
+    "admin-rest-ember-generator@0.10.10",
+    "admin-json-server-generator@0.10.1"
+  ]
+}

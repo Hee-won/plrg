@@ -1,0 +1,24 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.5.5",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "grunt@1.0.1",
+    "read-config@2.0.0",
+    "node-yaml-config@0.0.4",
+    "smartfile@2.2.0",
+    "grunt-yaml-validator@0.8.0",
+    "qa-control@0.2.7",
+    "evac@1.5.1",
+    "glyphs2font@1.0.6",
+    "ecoscript@0.2.2",
+    "mecano@0.5.4",
+    "ryver@0.1.12",
+    "wee-core@1.2.0",
+    "star@0.3.5",
+    "generator-jhipster@3.0.0",
+    "Haraka@2.7.3"
+  ]
+}

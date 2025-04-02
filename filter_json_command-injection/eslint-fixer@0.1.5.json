@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2021-26275",
+  "upstream": "eslint-fixer@0.1.5",
+  "keymethod": "fix",
+  "keystring": "$(touch eslint-fixer)",
+  "location": "index.js:24:18",
+  "downstreams": [
+    "pg-generator@3.6.0"
+  ]
+}

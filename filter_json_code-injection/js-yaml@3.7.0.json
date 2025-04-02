@@ -1,0 +1,31 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.7.0",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "node-red@0.16.2",
+    "enb-bem-techs@2.2.2",
+    "p-s@3.1.0",
+    "handel@0.11.6",
+    "nodewrite-core-settings@1.0.11",
+    "carto@0.17.3",
+    "hapi-views@3.3.1",
+    "handel-codepipeline@0.0.1",
+    "guv@0.1.19",
+    "greenkeeper@4.1.1",
+    "glyphs2font@1.1.2",
+    "gitlab-radiator@1.0.0",
+    "availity-workflow@2.0.0-alpha.10",
+    "nitro@1.12.17",
+    "fbp-spec@0.2.0",
+    "atomable@1.0.0-beta.18",
+    "enzimify-runkit@0.0.1",
+    "nemesys@0.10.0",
+    "node_plsql@0.10.0",
+    "Haraka@2.8.11",
+    "nuclide@0.201.0",
+    "dnr-editor@0.16.10"
+  ]
+}

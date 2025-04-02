@@ -1,0 +1,29 @@
+{
+  "id": "",
+  "upstream": "open@0.0.3",
+  "keymethod": "#main",
+  "keystring": "`touch open`",
+  "location": "lib/open.js:58:10",
+  "downstreams": [
+    "beefy@2.1.8",
+    "cordova@3.0.0-rc1",
+    "bower@1.0.0",
+    "l10ns@2.4.42",
+    "mavensmate@0.0.35-alpha1",
+    "awesomebox@0.0.25",
+    "xface@1.0.2",
+    "grunt-translate@0.2.0",
+    "get-translation@0.11.0",
+    "gas-manager@0.4.0",
+    "gnusocial@0.0.6",
+    "grunt-preview@0.0.1",
+    "gist-put@0.3.0",
+    "identica@0.0.5",
+    "cloudup@0.1.0",
+    "jproxy@0.0.0",
+    "gh@0.1.10",
+    "canner@0.10.3",
+    "steroids@0.10.0",
+    "up@0.1.0"
+  ]
+}

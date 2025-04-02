@@ -1,0 +1,12 @@
+{
+  "id": "",
+  "upstream": "marsdb@0.5.25",
+  "keymethod": "find",
+  "keystring": "(Object.prototype.polluted=`yes`)",
+  "location": "dist/DocumentMatcher.js:419:23",
+  "downstreams": [
+    "marsdb-react@0.0.2",
+    "marsdb-sync-server@0.0.4",
+    "marsdb-sync-client@0.0.1"
+  ]
+}

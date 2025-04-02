@@ -1,0 +1,14 @@
+{
+  "id": "CVE-2019-10788",
+  "upstream": "find-process@1.4.2",
+  "keymethod": "#main",
+  "keystring": "$(touch find-process)",
+  "location": "lib/utils.js:19:8",
+  "downstreams": [
+    "award-scripts@0.23.0",
+    "maxt-scripts@0.0.30",
+    "mext-scripts@0.0.29",
+    "pwa-asset-generator@2.1.0",
+    "aext-scripts@0.23.1"
+  ]
+}

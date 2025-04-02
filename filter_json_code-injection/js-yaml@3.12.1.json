@@ -1,0 +1,28 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.12.1",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "graphql-code-generator@0.16.1",
+    "gemstone-config@0.9.45",
+    "@tdb/npm@0.1.14",
+    "gemstone-loader-yaml@0.9.29",
+    "wildduck@1.12.4",
+    "graphqlgen@0.6.0-rc9",
+    "barbell@0.1.4",
+    "interactive-landscape@1.0.100",
+    "ghost@2.12.0",
+    "gitlab-radiator@2.4.1",
+    "fbl@1.4.0",
+    "microkernel@2.0.5",
+    "nav-ally@1.2.0",
+    "panther-engine@2.0.1",
+    "raneto@0.16.2",
+    "dredd@7.0.2",
+    "zone-mta@1.15.0",
+    "verdaccio@3.11.2",
+    "@gecogvidanto/server@1.0.0"
+  ]
+}

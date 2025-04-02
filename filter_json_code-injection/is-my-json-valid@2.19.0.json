@@ -1,0 +1,11 @@
+{
+  "id": "",
+  "upstream": "is-my-json-valid@2.19.0",
+  "keymethod": "validate",
+  "keystring": "x[1 + (Object.prototype.polluted='yes')]",
+  "location": "index.js:172:21",
+  "downstreams": [
+    "homebridge-music@0.2.1",
+    "rxdb@8.0.0"
+  ]
+}

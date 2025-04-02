@@ -1,0 +1,28 @@
+{
+  "id": "",
+  "upstream": "js-yaml@3.4.6",
+  "keymethod": "load",
+  "keystring": "{ toString: !<tag:yaml.org,2002:js/function> 'function (){return (this.constructor.prototype.polluted=`yes`)}' } : 1",
+  "location": "lib/js-yaml/type/js/function.js:70:12",
+  "downstreams": [
+    "jscs@2.11.0",
+    "apiconnect-cli-config@1.0.2",
+    "apiconnect-cli-util@3.4.1",
+    "smartfile@0.0.9",
+    "apiconnect-cli-create@1.0.3",
+    "apiconnect-cli-validate@2.4.1",
+    "binder-build-core@1.0.16",
+    "qa-control@0.1.11",
+    "yapl@1.2.2",
+    "evac@1.4.9",
+    "e2d3@0.5.0",
+    "acetate@0.4.0",
+    "wee-core@1.0.0",
+    "Haraka@2.7.0",
+    "grunt-yaml2properties@0.1.2",
+    "glyphs2font@1.0.3",
+    "star@0.3.2",
+    "plywood-proxy@0.1.1",
+    "temoto@0.0.1"
+  ]
+}

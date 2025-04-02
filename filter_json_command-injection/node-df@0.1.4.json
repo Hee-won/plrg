@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2019-15597",
+  "upstream": "node-df@0.1.4",
+  "keymethod": "#main",
+  "keystring": "/;touch node-df",
+  "location": "lib/index.js:41:5",
+  "downstreams": [
+    "spm-agent-nodejs@1.24.15",
+    "sematext-agent-docker@1.29.28",
+    "scalra@1.0.1",
+    "shinobi@1.0.0"
+  ]
+}

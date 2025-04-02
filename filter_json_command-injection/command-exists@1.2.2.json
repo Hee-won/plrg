@@ -1,0 +1,17 @@
+{
+  "id": "CVE-2019-10776",
+  "upstream": "command-exists@1.2.2",
+  "keymethod": "sync",
+  "keystring": ";touch command-exists",
+  "location": "lib/command-exists.js:78:22",
+  "downstreams": [
+    "tnp-cli@2.0.27",
+    "morphi@13.0.48",
+    "tnp@0.0.159",
+    "reaction-cli@0.29.0",
+    "node-cli-tester@0.0.12",
+    "nuclide@0.252.0",
+    "firedev-crud-deamon@13.0.1",
+    "git-npm-version-checker@1.0.0"
+  ]
+}

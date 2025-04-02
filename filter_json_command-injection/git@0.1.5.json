@@ -1,0 +1,24 @@
+{
+  "id": "",
+  "upstream": "git@0.1.5",
+  "keymethod": "git",
+  "keystring": "; touch git",
+  "location": "lib/index.js:90:7",
+  "downstreams": [
+    "cadviewer@6.9.19",
+    "machinepack-git@0.0.5",
+    "alinagpt@4.6.5",
+    "charlimane@2.2.0",
+    "arc-tools@1.0.1",
+    "archon@2.1.0",
+    "bpm-cli@1.0.0",
+    "@wharfkit/account@0.0.2",
+    "ddtxmis@1.1.10",
+    "djitsu@1.2.2",
+    "doc-detective@1.1.0",
+    "@warp-works/warpjs@2.0.0",
+    "codiad@1.0.0",
+    "fx-build@0.0.161",
+    "gitter-critter@1.0.0-beta"
+  ]
+}

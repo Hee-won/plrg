@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2021-29300",
+  "upstream": "samsung-remote@1.2.5",
+  "keymethod": "isAlive",
+  "keystring": "127.0.0.1; touch samsung-remote;",
+  "location": "lib/samsung-remote.js:103:16",
+  "downstreams": [
+    "homestar-samsung-smart-tv@0.0.1"
+  ]
+}

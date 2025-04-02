@@ -17,7 +17,7 @@ const Vuln = {
   3: 'prototype-pollution',
 };
 
-const Vulntype = Vuln[1];
+const Vulntype = Vuln[3];
 const directoryPath = path.join(__dirname, `json_${Vulntype}`);
 const jsonFiles = readdirSync(directoryPath).filter((file) =>
   file.endsWith('.json')
@@ -109,7 +109,7 @@ jsonContents.forEach((jsonContent, index) => {
       process.chdir(__dirname);
 
       // Analyze the extracted package
-      if (analyzeDirectory(packagePath, upstream, keymethod)) {
+      if (analyzeDirectory(packagePath, libName, keymethod)) {
         filterdownstreams.push(downstream);
       }
     } catch (error) {

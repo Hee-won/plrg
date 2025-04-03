@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-28280",
+  "upstream": "predefine@0.0.1",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "index.js:284:21",
+  "downstreams": [
+    "access-token@0.1.1"
+  ]
+}

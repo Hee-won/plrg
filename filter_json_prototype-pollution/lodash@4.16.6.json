@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.16.6",
+  "keymethod": "zipObjectDeep",
+  "keystring": "['__proto__.polluted']",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "@carbon-io/carbon-client@0.5.7"
+  ]
+}

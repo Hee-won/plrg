@@ -1,0 +1,31 @@
+{
+  "id": "CVE-2019-11358",
+  "upstream": "jquery@1.8.3",
+  "keymethod": "extend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "dist/jquery.js:230:21",
+  "downstreams": [
+    "backbone.babysitter@0.0.6",
+    "backbone.drowsy@0.2.3",
+    "backbone.wreqr@0.2.0",
+    "hawkejs@0.0.15",
+    "bootstrap-select@1.6.2",
+    "bootstrap-tour@0.2.0",
+    "cerosine@0.0.4",
+    "chocolat@0.4.11",
+    "htmlbook@0.0.1",
+    "implied@0.0.2",
+    "apostrophe@0.3.10",
+    "lead.js@0.1.0",
+    "grunt-extend@0.3.0",
+    "bacon.jquery@0.3.4",
+    "iframely@0.3.0",
+    "jquery-bootstrap-scrolling-tabs@0.0.1",
+    "jquery.circular@0.1.0",
+    "js2ch@0.0.22",
+    "modal@0.0.0",
+    "nodebb-plugin-ubbmigrator@0.0.1",
+    "oj@0.3.3",
+    "quickblox@1.1.6"
+  ]
+}

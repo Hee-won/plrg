@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2021-23440",
+  "upstream": "set-value@3.0.0",
+  "keymethod": "#main",
+  "keystring": "['__proto__.polluted']",
+  "location": "index.js:41:20",
+  "downstreams": [
+    "@idearium/cli@1.0.0"
+  ]
+}

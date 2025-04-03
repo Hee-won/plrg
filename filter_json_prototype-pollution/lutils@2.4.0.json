@@ -1,0 +1,11 @@
+{
+  "id": "",
+  "upstream": "lutils@2.4.0",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "merge.js:156:23",
+  "downstreams": [
+    "lance@2.10.14",
+    "serverless-build-plugin@2.0.0-1"
+  ]
+}

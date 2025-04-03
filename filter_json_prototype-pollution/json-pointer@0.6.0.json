@@ -1,0 +1,14 @@
+{
+  "id": "CVE-2021-23820",
+  "upstream": "json-pointer@0.6.0",
+  "keymethod": "set",
+  "keystring": "/__proto__/polluted",
+  "location": "index.js:98:18",
+  "downstreams": [
+    "gavel@9.1.5",
+    "@jaspero/form-builder@3.21.0",
+    "openapi-examples-validator@1.1.1",
+    "be5-react@0.1.54",
+    "swagger-examples-validator@1.1.0"
+  ]
+}

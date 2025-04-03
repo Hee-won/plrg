@@ -1,0 +1,29 @@
+{
+  "id": "CVE-2020-7788",
+  "upstream": "ini@1.3.5",
+  "keymethod": "parse",
+  "keystring": "[__proto__]\npolluted=yes",
+  "location": "ini.js:109:14",
+  "downstreams": [
+    "@schematics/update@0.803.29",
+    "@angular/cli@7.3.10",
+    "leo-sdk@4.1.0",
+    "@wdtk/core@0.4.10",
+    "@ampgular/cli@0.0.1-beta.2",
+    "git-user-local@0.2.0",
+    "@signageos/cli@0.6.2",
+    "renovate@21.33.15",
+    "kresus@0.13.0",
+    "aws-saml-login@0.1.0",
+    "awsx@1.0.0",
+    "imv@1.1.0",
+    "@signageos/webpack-plugin@0.0.4",
+    "easy-nrm@1.0.0",
+    "json-log-viewer@0.1.2",
+    "servermap@1.0.0",
+    "simput@1.5.0",
+    "systematic@1.10.0",
+    "ufp-core@0.4.1",
+    "@frdl/frdl@4.0.5"
+  ]
+}

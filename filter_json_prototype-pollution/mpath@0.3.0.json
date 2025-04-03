@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2021-23438",
+  "upstream": "mpath@0.3.0",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "lib/index.js:269:17",
+  "downstreams": [
+    "mongoose@4.11.14",
+    "mongoose-hidden@1.5.0",
+    "lounge@0.14.0"
+  ]
+}

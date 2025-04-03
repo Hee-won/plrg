@@ -1,0 +1,12 @@
+{
+  "id": "",
+  "upstream": "rfc6902@4.0.2",
+  "keymethod": "applyPatch",
+  "keystring": "/__proto__/polluted",
+  "location": "patch.js:57:21",
+  "downstreams": [
+    "boardgame.io@0.46.2",
+    "connectome@0.0.100",
+    "sync-monorepo-packages@0.3.4"
+  ]
+}

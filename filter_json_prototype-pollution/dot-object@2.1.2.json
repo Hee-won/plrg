@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2019-10793",
+  "upstream": "dot-object@2.1.2",
+  "keymethod": "set",
+  "keystring": "__proto__",
+  "location": "index.js:415:25",
+  "downstreams": [
+    "blueprint-hooks-ui@0.64.5",
+    "thorin@1.4.8"
+  ]
+}

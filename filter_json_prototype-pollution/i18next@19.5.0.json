@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "upstream": "i18next@19.5.0",
+  "keymethod": "deepExtend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "i18nextify@2.5.8"
+  ]
+}

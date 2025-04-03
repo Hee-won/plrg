@@ -1,0 +1,15 @@
+{
+  "id": "CVE-2019-11358",
+  "upstream": "jquery@1.9.1",
+  "keymethod": "extend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "dist/jquery.js:230:21",
+  "downstreams": [
+    "bbop-widget-set@0.0.13",
+    "ellipsis-verily@1.0.0",
+    "noctua@0.0.10",
+    "jquery-eclipsefdn-api@0.0.24",
+    "simple-xhr-uploader@0.1.0",
+    "tpl.js@0.0.10"
+  ]
+}

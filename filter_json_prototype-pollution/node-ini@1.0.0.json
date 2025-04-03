@@ -1,0 +1,14 @@
+{
+  "id": "",
+  "upstream": "node-ini@1.0.0",
+  "keymethod": "parse",
+  "keystring": "[__proto__]\npolluted = yes",
+  "location": "node-ini.js:25:66",
+  "downstreams": [
+    "microkernel-mod-options@0.9.11",
+    "componentjs-tracing@0.9.0",
+    "filegenerator@1.1.0",
+    "bchain@1.1.1",
+    "syncro@0.0.1"
+  ]
+}

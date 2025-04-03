@@ -1,0 +1,22 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.17.12",
+  "keymethod": "set",
+  "keystring": "__proto__[polluted]",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "@cumulus/api@1.14.2",
+    "toshihiko@1.0.4",
+    "typewriter@7.1.0",
+    "ep_audio_upload@1.0.2",
+    "@sap-webide/webide-client-tools@3.0.4",
+    "joynr-generator@1.11.0",
+    "bendec@0.6.0",
+    "dependency-cruiser@4.27.0",
+    "ep_image_upload@1.0.13",
+    "ep_video_upload@1.0.0",
+    "joynr@1.17.5",
+    "publish-please@5.5.1",
+    "react-native-advanced-list@0.5.20"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2020-7788",
+  "upstream": "ini@1.1.0",
+  "keymethod": "parse",
+  "keystring": "[__proto__]\npolluted=yes",
+  "location": "ini.js:109:14",
+  "downstreams": [
+    "npmconf@0.0.24",
+    "remote-origin-url@0.2.1",
+    "superenv@0.0.1",
+    "fedtools-logs@0.0.16"
+  ]
+}

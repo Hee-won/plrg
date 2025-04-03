@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2018-3751",
+  "upstream": "merge@2.1.0",
+  "keymethod": "recursive",
+  "keystring": "{ x: { ['__proto__']: { polluted: 'yes' } } }",
+  "location": "lib/index.js:66:14",
+  "downstreams": [
+    "soajs@4.0.19",
+    "soajs.controller@4.0.30"
+  ]
+}

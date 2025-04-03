@@ -1,0 +1,15 @@
+{
+  "id": "CVE-2020-7720",
+  "upstream": "node-forge@0.8.5",
+  "keymethod": "setPath",
+  "keystring": "['__proto__', 'polluted']",
+  "location": "lib/util.js:2536:22",
+  "downstreams": [
+    "hybrid-crypto-js@0.2.4",
+    "jcc_wallet@0.3.9",
+    "ipushpull-js@2.26.8",
+    "libp2p-crypto@0.17.0",
+    "pri@3.3.25",
+    "@hyesungpark/hybrid-crypto-js@0.0.1"
+  ]
+}

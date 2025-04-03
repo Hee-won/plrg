@@ -1,0 +1,14 @@
+{
+  "id": "CVE-2020-15256",
+  "upstream": "object-path@0.6.0",
+  "keymethod": "set",
+  "keystring": "[['__proto__'], 'polluted']",
+  "location": "index.js:19:13",
+  "downstreams": [
+    "tfunk@2.1.0",
+    "merlin@0.0.1-0",
+    "browser-sync@1.6.5",
+    "nodequad@0.0.1",
+    "flipr@0.0.0"
+  ]
+}

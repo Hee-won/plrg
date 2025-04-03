@@ -1,0 +1,21 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.17.4",
+  "keymethod": "zipObjectDeep",
+  "keystring": "['__proto__.polluted']",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "bitcore-lib@0.15.0",
+    "bitcore-lib-cash@0.17.0",
+    "angular-tree-component@4.1.0",
+    "bitcore-lib-terracoin@0.15.5",
+    "bitcore-lib-anon@1.1.0",
+    "bitcore-lib-rapture@0.16.6",
+    "fcash-lib@8.0.2",
+    "lioncore-lib@1.1.0",
+    "creacore-lib@5.1.1",
+    "digibyte@0.14.81",
+    "denariicore-lib@0.15.1",
+    "flocore-lib@0.15.0"
+  ]
+}

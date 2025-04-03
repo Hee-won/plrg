@@ -1,0 +1,18 @@
+{
+  "id": "CVE-2020-7788",
+  "upstream": "ini@1.2.1",
+  "keymethod": "parse",
+  "keystring": "[__proto__]\npolluted=yes",
+  "location": "ini.js:109:14",
+  "downstreams": [
+    "s3-cli@0.13.0",
+    "codebox@1.0.0-alpha.5",
+    "exception@1.0.1",
+    "flora-pac@0.0.7",
+    "firefox-profile@0.3.2",
+    "fedtools-utilities@0.0.30",
+    "fedtools-logs@0.1.10",
+    "node-mediawiki@0.0.2",
+    "repoman@0.0.17"
+  ]
+}

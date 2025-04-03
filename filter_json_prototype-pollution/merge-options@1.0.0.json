@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2018-3752",
+  "upstream": "merge-options@1.0.0",
+  "keymethod": "#main",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "index.js:73:16",
+  "downstreams": [
+    "box-node-sdk@1.16.0"
+  ]
+}

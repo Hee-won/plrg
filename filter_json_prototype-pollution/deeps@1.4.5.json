@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-7716",
+  "upstream": "deeps@1.4.5",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "index.js:226:94",
+  "downstreams": [
+    "firepit@0.0.1"
+  ]
+}

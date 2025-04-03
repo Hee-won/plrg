@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.17.11",
+  "keymethod": "zipObjectDeep",
+  "keystring": "['__proto__.polluted']",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "bitcore-lib@0.16.0",
+    "bitcore-lib-cash@0.19.0",
+    "raidencore-lib@0.13.30"
+  ]
+}

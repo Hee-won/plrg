@@ -1,0 +1,17 @@
+{
+  "id": "CVE-2021-3918",
+  "upstream": "json-schema@0.2.5",
+  "keymethod": "validate",
+  "keystring": "{'$schema': {type: 'object',properties: { ['__proto__']: [Object] },['__proto__']: {}}}",
+  "location": "lib/validate.js:217:27",
+  "downstreams": [
+    "@smallstack/common-components@1.52.0",
+    "typewriter@6.1.8",
+    "@codesweets/core@1.0.49",
+    "@atlassian/clientside-extensions-components@3.1.2-test9-85e70efb",
+    "cambria@0.1.2",
+    "@smallstack/form-components@1.50.0",
+    "jubatus@0.6.4",
+    "@backstage/cli@0.0.0-nightly-202112721938"
+  ]
+}

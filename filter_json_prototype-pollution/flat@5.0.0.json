@@ -1,0 +1,11 @@
+{
+  "id": "",
+  "upstream": "flat@5.0.0",
+  "keymethod": "unflatten",
+  "keystring": "{'__proto__.polluted': 'yes'}",
+  "location": "index.js:193:43",
+  "downstreams": [
+    "my-form-state@1.0.0",
+    "my-react-form-state@2.0.0"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "CVE-2020-15256",
+  "upstream": "object-path@0.8.1",
+  "keymethod": "set",
+  "keystring": "[['__proto__'], 'polluted']",
+  "location": "index.js:19:13",
+  "downstreams": [
+    "browser-sync@1.9.2",
+    "deku@0.4.12",
+    "react-form@0.0.2",
+    "set-property-from-file@1.0.0",
+    "crossbow@0.0.10",
+    "fickle@0.0.1",
+    "sync53@1.0.0",
+    "vinyl-yaml-data@1.0.0"
+  ]
+}

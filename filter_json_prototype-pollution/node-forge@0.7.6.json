@@ -1,0 +1,15 @@
+{
+  "id": "CVE-2020-7720",
+  "upstream": "node-forge@0.7.6",
+  "keymethod": "setPath",
+  "keystring": "['__proto__', 'polluted']",
+  "location": "lib/util.js:2536:22",
+  "downstreams": [
+    "libp2p-crypto@0.12.1",
+    "parcel@1.12.4",
+    "rdf-canonize@0.2.5",
+    "xdl@51.6.4",
+    "@cumulus/api@1.14.2",
+    "enigma-js@0.3.0"
+  ]
+}

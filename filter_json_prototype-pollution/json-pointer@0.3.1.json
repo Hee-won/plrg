@@ -1,0 +1,17 @@
+{
+  "id": "CVE-2021-23820",
+  "upstream": "json-pointer@0.3.1",
+  "keymethod": "set",
+  "keystring": "/__proto__/polluted",
+  "location": "index.js:98:18",
+  "downstreams": [
+    "grunt-json2json@0.1.0",
+    "hubot-slack-api@2.1.0",
+    "dm@0.3.1",
+    "gandhi@0.1.0",
+    "lewd@0.9.0",
+    "node-madgex@0.0.1",
+    "starscream@0.1.0",
+    "acdc@0.1.0"
+  ]
+}

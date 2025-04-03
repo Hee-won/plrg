@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "upstream": "@cookiex:deep@0.0.2",
+  "keymethod": "default",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "",
+  "downstreams": [
+    "typeorm-bridge@0.1.2"
+  ]
+}

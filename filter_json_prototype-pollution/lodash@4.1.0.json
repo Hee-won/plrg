@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.1.0",
+  "keymethod": "merge",
+  "keystring": "{ constructor: { prototype: { polluted: 'yes' } } }",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "node-schema-object@3.2.4",
+    "sanji-core-ui@1.11.3",
+    "universal-redux@3.0.0-rc26"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "CVE-2021-3918",
+  "upstream": "json-schema@0.3.0",
+  "keymethod": "validate",
+  "keystring": "{'$schema': {type: 'object',properties: { ['__proto__']: [Object] },['__proto__']: {}}}",
+  "location": "lib/validate.js:217:27",
+  "downstreams": [
+    "@backstage/cli@0.6.14",
+    "xxscreeps@0.0.5",
+    "cdk-mock@0.0.2",
+    "is-json-schema-subset@1.1.26",
+    "@saeon/logger@6.2.8"
+  ]
+}

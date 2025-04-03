@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2020-28471",
+  "upstream": "properties-reader@2.0.0",
+  "keymethod": "#main",
+  "keystring": "[__proto__]\npolluted = yes",
+  "location": "src/properties-reader.js:200:27",
+  "downstreams": [
+    "@nativescript/webpack@3.0.0",
+    "sfcc-dts@0.0.10"
+  ]
+}

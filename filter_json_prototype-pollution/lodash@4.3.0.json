@@ -1,0 +1,22 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.3.0",
+  "keymethod": "merge",
+  "keystring": "{ constructor: { prototype: { polluted: 'yes' } } }",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "sequelize@3.21.0",
+    "login-plus@0.3.0",
+    "angular-md-table@1.1.1",
+    "dep-rep@0.5.5",
+    "heringsfish-cli@0.4.0",
+    "enb-bemxjst@4.2.0",
+    "couchdb-jwt@1.0.0",
+    "node-schema-object@3.2.10",
+    "kit-deployer@6.0.0",
+    "fireadmin@0.0.4",
+    "propertiesjs@1.4.2",
+    "rook@0.1.0",
+    "apidoc@0.15.0"
+  ]
+}

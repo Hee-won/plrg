@@ -1,0 +1,14 @@
+{
+  "id": "CVE-2019-10794",
+  "upstream": "component-flatten@1.0.1",
+  "keymethod": "#main",
+  "keystring": "{ ref: 'polluted', name: '__proto__' }",
+  "location": "index.js:56:26",
+  "downstreams": [
+    "component-builder@1.2.1",
+    "component-resolver@1.3.0",
+    "component2webpack@1.0.0",
+    "grunt-suitcss@0.2.3",
+    "component-resolve-list@0.1.0"
+  ]
+}

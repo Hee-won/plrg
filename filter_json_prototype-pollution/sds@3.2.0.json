@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2020-7618",
+  "upstream": "sds@3.2.0",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "js:34:13",
+  "downstreams": [
+    "kxk@0.331.0",
+    "konrad@0.131.0"
+  ]
+}

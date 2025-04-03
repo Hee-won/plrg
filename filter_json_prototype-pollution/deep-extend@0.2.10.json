@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2018-3750",
+  "upstream": "deep-extend@0.2.10",
+  "keymethod": "#main",
+  "keystring": "CVE-2018-3750",
+  "location": "lib/deep-extend.js:117:17",
+  "downstreams": [
+    "stringting@0.0.3",
+    "stringle@0.0.1"
+  ]
+}

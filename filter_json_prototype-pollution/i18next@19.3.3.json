@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "upstream": "i18next@19.3.3",
+  "keymethod": "deepExtend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "build/utils.js:391:28",
+  "downstreams": [
+    "visualdl@2.0.0-beta.20"
+  ]
+}

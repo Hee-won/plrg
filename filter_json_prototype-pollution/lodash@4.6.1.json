@@ -1,0 +1,26 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.6.1",
+  "keymethod": "merge",
+  "keystring": "{ constructor: { prototype: { polluted: 'yes' } } }",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "accord@0.22.3",
+    "sanji-core-ui@1.12.1",
+    "searchkit@0.10.1",
+    "victory-core@1.4.3",
+    "strapi@2.0.2",
+    "strapi-generate@2.0.2",
+    "binder-build-core@1.0.16",
+    "login-plus@0.3.1",
+    "polyclay@1.8.0",
+    "victory-chart@7.0.2",
+    "node-schema-object@3.3.4",
+    "commitizen@2.5.1",
+    "jsonlint-cli@1.0.1",
+    "devshare@0.0.2",
+    "cncjs@1.0.1",
+    "cd-utils@0.0.1",
+    "authrocket@0.0.8"
+  ]
+}

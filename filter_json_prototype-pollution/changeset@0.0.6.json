@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2021-25915",
+  "upstream": "changeset@0.0.6",
+  "keymethod": "apply",
+  "keystring": "[{ type: 'put', key: ['__proto__', 'polluted'], value: 'yes' }]",
+  "location": "index.js:81:25",
+  "downstreams": [
+    "pathdb@0.0.1"
+  ]
+}

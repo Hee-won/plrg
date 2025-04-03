@@ -1,0 +1,19 @@
+{
+  "id": "CVE-2020-28282",
+  "upstream": "getobject@0.1.0",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "lib/getobject.js:48:23",
+  "downstreams": [
+    "grunt@0.4.5",
+    "expander@0.3.3",
+    "verb@0.2.15",
+    "grunt-gitinfo@0.1.9",
+    "config-cache@0.1.7",
+    "engulf@0.1.0",
+    "scaffront@0.0.4",
+    "roolz@0.0.1",
+    "grunt-fcoo-grunt-plugin@0.2.1",
+    "castmydata-session@0.0.2"
+  ]
+}

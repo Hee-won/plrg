@@ -1,0 +1,21 @@
+{
+  "id": "CVE-2018-16486",
+  "upstream": "defaults-deep@0.2.4",
+  "keymethod": "#main",
+  "keystring": "{ constructor: { prototype: { polluted: 'yes' } } }",
+  "location": "index.js:26:21",
+  "downstreams": [
+    "load-templates@0.8.9",
+    "swagger-codegen@0.1.1",
+    "dozen@0.4.0",
+    "ds-cctalk@0.2.20",
+    "gulp-eventsauce@0.0.2",
+    "gulp-swagger-codegen@0.0.1",
+    "moleculer-rabbitmq@1.1.6",
+    "remote.object@1.1.2",
+    "parcello@0.1.0",
+    "store-cache@0.0.0",
+    "cctalk-devices@0.1.5",
+    "@colbyr/dot-js@1.0.0"
+  ]
+}

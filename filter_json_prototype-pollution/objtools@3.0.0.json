@@ -1,0 +1,12 @@
+{
+  "id": "",
+  "upstream": "objtools@3.0.0",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "lib/index.js:440:18",
+  "downstreams": [
+    "ziplog@3.0.0",
+    "unimodel-mongo@3.0.0",
+    "littleconf@1.0.0"
+  ]
+}

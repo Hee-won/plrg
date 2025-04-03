@@ -1,0 +1,20 @@
+{
+  "id": "CVE-2020-7792",
+  "upstream": "mout@1.0.0",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "object/set.js:9:48",
+  "downstreams": [
+    "credential@2.0.0",
+    "js-data-rethinkdb@3.0.0-rc.3",
+    "js-data-mongodb@1.0.0-beta.1",
+    "js-data-redis@3.0.0-beta.2",
+    "js-data-documentdb@1.0.0-rc.1",
+    "js-data-sql@1.0.0-beta.1",
+    "grunt-bake@1.9.0",
+    "bivariate@0.4.0",
+    "pv-web-viewer@0.0.0-semantically-release",
+    "pvw-presenter@1.0.0",
+    "@jetbrains/ring-ui@0.1.1"
+  ]
+}

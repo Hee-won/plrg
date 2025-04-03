@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.14.1",
+  "keymethod": "zipObjectDeep",
+  "keystring": "['__proto__.polluted']",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "groundwork.js@1.5.1",
+    "mady@1.4.0",
+    "mutable@1.0.15",
+    "sh-input-checkbox@0.1.5"
+  ]
+}

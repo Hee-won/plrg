@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.10.0",
+  "keymethod": "defaultsDeep",
+  "keystring": "{ constructor: { prototype: { polluted: 'yes' } } }",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "lounge@0.3.3"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2021-3918",
+  "upstream": "json-schema@0.2.0",
+  "keymethod": "validate",
+  "keystring": "{'$schema': {type: 'object',properties: { ['__proto__']: [Object] },['__proto__']: {}}}",
+  "location": "lib/validate.js:217:27",
+  "downstreams": [
+    "stormagent@0.2.10",
+    "stormbolt@0.3.7"
+  ]
+}

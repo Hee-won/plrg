@@ -1,0 +1,20 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.5.1",
+  "keymethod": "merge",
+  "keystring": "{ constructor: { prototype: { polluted: 'yes' } } }",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "apidoc@0.15.1",
+    "conventional-changelog-lint@0.3.2",
+    "hinoki@1.0.0-rc.8",
+    "clarifai@0.4.0",
+    "rsmq@0.6.0",
+    "gelf-pro@0.3.0",
+    "fileception@0.2.0",
+    "enb-bemxjst@5.0.0",
+    "lilacs@0.6.5",
+    "bemlint@1.5.0",
+    "ihme-ui@0.20.0"
+  ]
+}

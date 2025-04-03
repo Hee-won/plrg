@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.6.0",
+  "keymethod": "merge",
+  "keystring": "{ constructor: { prototype: { polluted: 'yes' } } }",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "gigya-dev-toolkit@1.2.7",
+    "gfke-support@0.1.0"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CVE-2018-3750",
+  "upstream": "deep-extend@0.4.1",
+  "keymethod": "#main",
+  "keystring": "CVE-2018-3750",
+  "location": "lib/deep-extend.js:117:17",
+  "downstreams": [
+    "immutable-core-model@1.10.2",
+    "tumbleweed@0.0.2",
+    "immutable-core-controller@0.4.20",
+    "plumbing@1.0.3",
+    "swagger-ui@3.0.7",
+    "afro@3.0.1",
+    "mergin@1.0.0",
+    "vault-config@0.0.17",
+    "powr@0.3.20",
+    "ffffng@0.10.0",
+    "assetgraph@2.4.0",
+    "caml@0.1.0",
+    "apprc@1.0.0",
+    "yaowst@0.1.0",
+    "hgreenkeeper@0.0.1",
+    "specmap@0.5.10",
+    "swanky-cli@1.1.0",
+    "alta@1.0.0"
+  ]
+}

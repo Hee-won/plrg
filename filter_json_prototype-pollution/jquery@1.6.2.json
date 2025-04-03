@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2019-11358",
+  "upstream": "jquery@1.6.2",
+  "keymethod": "extend",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "dist/jquery.js:230:21",
+  "downstreams": [
+    "zappa@0.2.0"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "",
+  "upstream": "@uifabric:utilities@7.0.0-rc001",
+  "keymethod": "merge",
+  "keystring": "{ ['__proto__']: { polluted: 'yes' } }",
+  "location": "",
+  "downstreams": [
+    "@uifabric/foundation@7.0.0-rc001",
+    "office-ui-fabric-react@7.0.0-rc001",
+    "@uifabric/experiments@7.0.0-rc001",
+    "@uifabric/react-cards@7.0.0-rc001",
+    "@uifabric/date-time@7.0.0-rc001"
+  ]
+}

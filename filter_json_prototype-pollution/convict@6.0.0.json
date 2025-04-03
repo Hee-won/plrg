@@ -1,0 +1,10 @@
+{
+  "id": "",
+  "upstream": "convict@6.0.0",
+  "keymethod": "set",
+  "keystring": "__proto__.polluted",
+  "location": "src/main.js:565:24",
+  "downstreams": [
+    "chptr@0.3.6"
+  ]
+}

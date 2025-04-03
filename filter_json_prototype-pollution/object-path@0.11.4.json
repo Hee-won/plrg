@@ -1,0 +1,20 @@
+{
+  "id": "CVE-2020-15256",
+  "upstream": "object-path@0.11.4",
+  "keymethod": "set",
+  "keystring": "[['__proto__'], 'polluted']",
+  "location": "index.js:19:13",
+  "downstreams": [
+    "dynamoose@1.11.1",
+    "rxdb@8.9.0",
+    "@rucken/core@3.9.13",
+    "@rucken/todo-web@3.0.5",
+    "project-booster-vue@3.11.0",
+    "sfdx-jayree@1.10.0",
+    "@demiazz/fluxxor@2.0.1",
+    "fractalis@0.2.1",
+    "nodejs-admin@2.0.0",
+    "react-hooks-shared-state@0.0.1",
+    "storybook-addon-interactive-props@1.0.0-alpha.2"
+  ]
+}

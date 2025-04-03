@@ -1,0 +1,10 @@
+{
+  "id": "CVE-2020-7598",
+  "upstream": "minimist@1.0.0",
+  "keymethod": "#main",
+  "keystring": "--__proto__.polluted",
+  "location": "index.js:189:16",
+  "downstreams": [
+    "luka-era-date@1.0.0"
+  ]
+}

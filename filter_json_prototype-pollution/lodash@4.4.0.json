@@ -1,0 +1,11 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.4.0",
+  "keymethod": "merge",
+  "keystring": "{ constructor: { prototype: { polluted: 'yes' } } }",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "grunt-i18n-js@0.1.4",
+    "ec.datamanager@0.7.1"
+  ]
+}

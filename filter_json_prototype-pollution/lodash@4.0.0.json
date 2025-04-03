@@ -1,0 +1,17 @@
+{
+  "id": "CVE-2019-10744",
+  "upstream": "lodash@4.0.0",
+  "keymethod": "merge",
+  "keystring": "{ constructor: { prototype: { polluted: 'yes' } } }",
+  "location": "lodash.js:2573:21",
+  "downstreams": [
+    "accord@0.22.1",
+    "twilio@3.0.0",
+    "flint-runner@1.4.23",
+    "gigya-dev-toolkit@1.2.3",
+    "flint@1.4.26",
+    "ember-cli-deploy-sm-pack@0.6.0",
+    "motion@0.9.0",
+    "keen-explorer@2.1.0"
+  ]
+}

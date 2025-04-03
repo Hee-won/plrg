@@ -13,6 +13,7 @@ const numberValues = [0];
 const objectValues = [{}];
 const arrayValues = [[]];
 // const functionValues = [() => {}];
+// const nestedValues = [ { a: { b: 1 } },[1, [2, 3]], { x: 1, y: true },Object.create({ polluted: 123 })]; 밑에서도 사용해줘야함
 
 // 🔄 JS 값 → AST 노드 변환
 function valueToAST(value) {
@@ -52,6 +53,7 @@ function generateArgCombinations(argCount, limit = 10) {
     const args = [];
     for (let j = 0; j < argCount; j++) {
       const randVal = allValues[Math.floor(Math.random() * allValues.length)];
+      // randomness 개선해야할수도
       args.push(randVal);
     }
     results.push(args);
@@ -92,7 +94,7 @@ function writeSinglePoCFile(funcName, args, index, outputDir) {
             init: {
               type: 'CallExpression',
               callee: { type: 'Identifier', name: 'require' },
-              arguments: [ { type: 'Literal', value: 'lodash' } ]
+              arguments: [ { type: 'Literal', value: 'lodash' } ] // 이거 value도 downstream이름 파싱한거 넣어줘야..
             }
           }
         ]
@@ -109,25 +111,19 @@ function writeSinglePoCFile(funcName, args, index, outputDir) {
   return filename;
 }
 
-// ✅ 오염 여부 감지 (비교 기반)
-function isPrototypePolluted() {
-  const randomKey = `__check_${Math.random().toString(36).substring(2, 8)}`;
-  const before = ({}[randomKey]);
-  const after = ({}[randomKey]);
-  return before !== after;
-}
 
 // 🧪 실행 및 결과 검증
 function validatePoC(filePath) {
-    // prototype pollution 검증어려움..ㅠ
+    // prototype pollution 검증어려움..ㅠ @성민님
 
     // 🔍 Command Injection 확인
     if (fs.existsSync("a")) {
       console.log(`🔥 [${filePath}] - Command Injection 확인됨 (파일 생성됨)`);
       fs.unlinkSync("a"); // 삭제
       return;
-    }
-
+    } else {
+    console.log(`💥 [${filePath}] - Command Injection 실패!`);
+  }
 }
 
 
@@ -140,5 +136,10 @@ function runPoCMutationAndTest(funcName, argCount, limit = 10, outputDir = __dir
   }
 }
 
-// ▶️ 실행 예시 (b 함수, 인자 3개, 5개의 조합 테스트)
-runPoCMutationAndTest("set", 3, 100);
+const pkg = require("lodash"); // 추후 downstream에서 파싱해오기 (@,/,버전 등 주의)
+const funcName = "set"; // 추후 cg에서 파싱해오기
+const argCount = pkg[funcName].length;
+console.log(argCount)
+
+// ▶️ 실행 예시 (downstream 함수, 인자 .length개, 10개-임의-의 조합 테스트)
+runPoCMutationAndTest(funcName, argCount, 10);

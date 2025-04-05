@@ -1,19 +1,31 @@
 // ✅ PoC 후보 AST 생성기 및 실행/검증 지원
 const fs = require('fs');
 const path = require('path');
+// npm install 해줘야
 const astring = require('astring');
 const { execSync } = require('child_process');
+const { analyzeModule } = require('./getOwnPropertyTree');
+
 
 // 🎯 사용 가능한 값들 정의
-const stringValues = ["__proto__.polluted", "yes"];
+// stringValues 내용 /home/heewon/plrg/keyExpression/unique_itemscommand-injection_a.json에서 불러오기
+// keyExpression Mutator 업데이트 @성민님
+let stringValues = ["__proto__.polluted", "yes", "touch a", "& touch a &", "; touch a"];
+try {
+  stringValues = JSON.parse(
+    fs.readFileSync('/home/heewon/plrg/keyExpression/unique_itemscommand-injection_a.json', 'utf-8')
+  );
+} catch (e) {
+  console.error("❌ stringValues JSON 파일 로딩 실패:", e.message);
+  process.exit(1);
+}
 const numberValues = [0];
-// const booleanValues = [true, false];
-// const nullValues = [null];
-// const undefinedValues = [undefined];
+const booleanValues = [true, false];
+const nullValues = [null];
+const undefinedValues = [undefined];
 const objectValues = [{}];
 const arrayValues = [[]];
-// const functionValues = [() => {}];
-// const nestedValues = [ { a: { b: 1 } },[1, [2, 3]], { x: 1, y: true },Object.create({ polluted: 123 })]; 밑에서도 사용해줘야함
+const functionValues = [() => {}];
 
 // 🔄 JS 값 → AST 노드 변환
 function valueToAST(value) {
@@ -41,12 +53,12 @@ function generateArgCombinations(argCount, limit = 10) {
   const allValues = [
     ...stringValues,
     ...numberValues,
-    // ...booleanValues,
-    // ...nullValues,
-    // ...undefinedValues,
+    ...booleanValues,
+    ...nullValues,
+    ...undefinedValues,
     ...objectValues,
     ...arrayValues,
-    // ...functionValues,
+    ...functionValues,
   ];
   const results = [];
   for (let i = 0; i < limit; i++) {
@@ -62,6 +74,7 @@ function generateArgCombinations(argCount, limit = 10) {
 }
 
 // 📦 하나의 호출문 AST 생성: pkg.b(...)
+// code2AST
 function createCallStatementAST(funcName, args) {
   return {
     type: 'ExpressionStatement',
@@ -80,7 +93,8 @@ function createCallStatementAST(funcName, args) {
 }
 
 // 📝 단일 PoC 파일 생성 및 저장
-function writeSinglePoCFile(funcName, args, index, outputDir) {
+// [ast2code] const pkg = require(""); 만들기
+function writeSinglePoCFile(pkgName, funcName, args, index, outputDir) {
   const ast = {
     type: 'Program',
     body: [
@@ -94,7 +108,7 @@ function writeSinglePoCFile(funcName, args, index, outputDir) {
             init: {
               type: 'CallExpression',
               callee: { type: 'Identifier', name: 'require' },
-              arguments: [ { type: 'Literal', value: 'lodash' } ] // 이거 value도 downstream이름 파싱한거 넣어줘야..
+              arguments: [ { type: 'Literal', value: pkgName } ] // 이거 value도 downstream이름 파싱한거 넣어줘야..
             }
           }
         ]
@@ -106,6 +120,7 @@ function writeSinglePoCFile(funcName, args, index, outputDir) {
 
   const code = astring.generate(ast);
   console.log(code);
+  // 파일도 끝나면 지워야됨. poc 터진건 남기고 싶은데 되려나. 안되면 console.log로 남겨둬..
   const filename = path.join(outputDir, `generated-poc${index + 1}.js`);
   fs.writeFileSync(filename, code, 'utf-8');
   return filename;
@@ -119,27 +134,98 @@ function validatePoC(filePath) {
     // 🔍 Command Injection 확인
     if (fs.existsSync("a")) {
       console.log(`🔥 [${filePath}] - Command Injection 확인됨 (파일 생성됨)`);
-      fs.unlinkSync("a"); // 삭제
-      return;
     } else {
     console.log(`💥 [${filePath}] - Command Injection 실패!`);
+    fs.unlinkSync(filePath); // PoC 삭제
   }
 }
 
 
 // 🚀 전체 흐름: PoC 생성 + 저장 + 실행 + 검증
-function runPoCMutationAndTest(funcName, argCount, limit = 10, outputDir = __dirname) {
+function runPoCMutationAndTest(pkgName, argCount, limit = 10, outputDir = __dirname) {
   const argCombos = generateArgCombinations(argCount, limit);
   for (let i = 0; i < argCombos.length; i++) {
-    const filePath = writeSinglePoCFile(funcName, argCombos[i], i, outputDir);
-    validatePoC(filePath);
+    // parents-children 하나씩 가져오기
+    const family_result = analyzeModule(pkgName, 3);  // module name, depth
+    if (family_result.length === 0) {
+      console.warn(`⚠️ 분석된 함수 없음: ${pkgName}`);
+      continue;
+    }
+    for (let j = 0; j < family_result.length; j++) {
+      const funcName = family_result[j];
+      const filePath = writeSinglePoCFile(pkgName, funcName, argCombos[i], i, outputDir);
+      validatePoC(filePath);
+    }
   }
 }
 
-const pkg = require("lodash"); // 추후 downstream에서 파싱해오기 (@,/,버전 등 주의)
-const funcName = "set"; // 추후 cg에서 파싱해오기
-const argCount = pkg[funcName].length;
-console.log(argCount)
 
-// ▶️ 실행 예시 (downstream 함수, 인자 .length개, 10개-임의-의 조합 테스트)
-runPoCMutationAndTest(funcName, argCount, 10);
+/**
+ * 📦 패키지이름@버전 → 이름, 버전 분리
+ */
+function parsePkgAndVersion(pkgWithVersion: string): { name: string; version: string } {
+  const atIndex = pkgWithVersion.lastIndexOf('@');
+
+  // 🔸 예외 처리: '@'가 없으면 잘못된 입력
+  if (atIndex <= 0) {
+    throw new Error(`Invalid format: ${pkgWithVersion}`);
+  }
+
+  const name = pkgWithVersion.slice(0, atIndex);     // 패키지 이름 (@scope 포함 가능)
+  const version = pkgWithVersion.slice(atIndex + 1); // 버전만 추출
+
+  return { name, version };
+}
+
+// 📦 CLI 실행부
+if (require.main === module) {
+  const inputDir = process.argv[2];
+  if (!inputDir) {
+    console.error('❗ Usage: node impl4.ts <json-folder-path> 아 ts -> js 해야됨');
+    process.exit(1);
+  }
+  const files = fs.readdirSync(inputDir).filter(f => f.endsWith('.json'));
+
+  // upstream json 읽어오기
+  for (const jsonFile of files) {
+    const fullPath = path.join(inputDir, jsonFile);
+    const vulnData = JSON.parse(fs.readFileSync(fullPath, 'utf-8'));
+    const downstreams = vulnData.downstreams || [];
+
+    for (const downstream of downstreams) {
+      const { name: downpkgname, version: downpkgversion } = parsePkgAndVersion(downstream);
+      const pkg = downpkgname;
+      const argCount = 5;
+      const tempDir = path.join(__dirname, 'temp_downstreams', pkg.replace(/\W/g, '_'));
+
+      try {
+        // ✅ temp 디렉터리 생성
+        fs.mkdirSync(tempDir, { recursive: true });
+
+      console.log("📦 해당 downstream 패키지:", downstream);
+
+      // ✅ 취약한 다운스트림 패키지 설치
+      execSync(`npm install ${downstream} --prefix ${tempDir}`, {
+          stdio: 'inherit'
+        });
+
+      // ✅ PoC 실행
+      // 패키지 이름, 걍 일단 5개 냅다 집어넣기, 10개-임의-의 조합 테스트
+      runPoCMutationAndTest(downpkgname, argCount, 10);
+      } 
+      catch (e) {
+        console.error("❌ npm install 또는 실행 실패:", e.message);
+      } finally {
+        // ✅ 항상 디렉터리 삭제
+        try {
+          fs.rmSync(tempDir, { recursive: true, force: true });
+          console.log(`🧹 ${tempDir} 삭제 완료`);
+        } catch (cleanupErr) {
+          console.warn(`⚠️ ${tempDir} 삭제 실패:`, cleanupErr.message);
+        }
+
+      }
+    }
+
+  }
+}

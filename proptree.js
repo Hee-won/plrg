@@ -109,52 +109,53 @@ try {
     let j = 0;
     for (const jsonFile of jsonFiles) {
       j++;
-      const package = path.basename(jsonFile, '.json');
-      const packageName = package.replace(/:/g, '/');
-      const { name, version } = parsePkgAndVersion(packageName);
-      const packageDir = path.join(originalDir, 'packages', name + '_' + j);
 
       const fullPath = path.join(directoryPath, jsonFile);
       const jsonData = JSON.parse(fs.readFileSync(fullPath, 'utf-8'));
       const keyExpression = jsonData.keystring || [];
 
-      console.log(`Processing package: ${packageName}`);
+      // downstreams 배열가 있으면 downstream 대상으로 진행
+      if (jsonData.downstreams && jsonData.downstreams.length > 0) {
+        jsonData.downstreams.forEach((downstream, idx) => {
+        try {
+          // const package = path.basename(jsonFile, '.json');
+          // const packageName = package.replace(/:/g, '/');
+          const { name, version } = parsePkgAndVersion(downstream);
+          const packageDir = path.join(originalDir, 'packages', name + '_' + (j + idx));
 
-      try {
-        // Create package directory
-        fs.mkdirSync(packageDir, { recursive: true });
+          console.log(`Processing package: ${downstream}`);
+          // Create package directory
+          fs.mkdirSync(packageDir, { recursive: true });
 
-        // Change to package directory and install
-        process.chdir(packageDir);
-        execSync(`npm install ${packageName} --prefix ${packageDir}`, {
-          cwd: packageDir,
-          stdio: 'inherit',
-        });
+          // Change to package directory and install
+          process.chdir(packageDir);
+          execSync(`npm install ${downstream} --prefix ${packageDir}`, {
+            cwd: packageDir,
+            stdio: 'inherit',
+          });
 
-        // Parse package name and version
+          // Parse package name and version
 
+          // Analyze the module (proptree)
+          analyzeModule(name, 20);
 
-        // Analyze the module (proptree)
-        analyzeModule(name, 20);
+          // Analyze the paths
+          generateSeed(name);
 
-        // Analyze the paths
-        generateSeed(name);
+          // Generate PoC and verify
+          PoCgenerator(name, 30000, keyExpression, vulnType);
 
-        // Generate PoC and verify
-        PoCgenerator(name, 300, keyExpression, vulnType);
-
-
-
-      } catch (err) {
-        console.error(
-          `Error processing package "${packageName}": ${err.message}`
-        );
-      } finally {
-        fs.rmSync(packageDir, { recursive: true, force: true });
-        process.chdir(originalDir);
+        } catch (err) {
+          console.error(
+            `Error processing package "${downstream}": ${err.message}`
+          );
+        } finally {
+          fs.rmSync(packageDir, { recursive: true, force: true });
+          process.chdir(originalDir);
+        }
       }
-    }
   }
+}
 } catch (err) {
   console.error(`Main execution error: ${err.message}`);
 } finally {

@@ -2,7 +2,7 @@
   "id": "",
   "upstream": "arpping@2.0.0",
   "keymethod": "ping",
-  "keystring": ";touch arpping;",
+  "keystring": ";touch a;",
   "location": "index.js:120:13",
   "downstreams": [
     "homebridge-modern-forms@0.0.2"

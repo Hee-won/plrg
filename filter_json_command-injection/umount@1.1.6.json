@@ -2,7 +2,7 @@
   "id": "CVE-2020-7628",
   "upstream": "umount@1.1.6",
   "keymethod": "#main",
-  "keystring": "\" $(touch umount) \"",
+  "keystring": "\" $(touch a) \"",
   "location": "build/umount.js:52:24",
   "downstreams": [
     "balena-cli@11.36.0",

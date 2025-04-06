@@ -2,7 +2,7 @@
   "id": "CVE-2020-28423",
   "upstream": "monorepo-build@0.1.1",
   "keymethod": "build",
-  "keystring": "& touch monorepo-build",
+  "keystring": "& touch a",
   "location": "lib/util/exec.js:4:54",
   "downstreams": [
     "monorepo-publish@0.1.1"

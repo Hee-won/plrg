@@ -2,7 +2,7 @@
   "id": "CVE-2019-10788",
   "upstream": "strider-git@1.0.3",
   "keymethod": "getBranches",
-  "keystring": "ssaas;touch strider-git; ",
+  "keystring": "ssaas;touch a; ",
   "location": "lib/index.js:151:5",
   "downstreams": [
     "strider-github@2.4.1",

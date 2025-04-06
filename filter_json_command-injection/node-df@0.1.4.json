@@ -2,7 +2,7 @@
   "id": "CVE-2019-15597",
   "upstream": "node-df@0.1.4",
   "keymethod": "#main",
-  "keystring": "/;touch node-df",
+  "keystring": "/;touch a",
   "location": "lib/index.js:41:5",
   "downstreams": [
     "spm-agent-nodejs@1.24.15",

@@ -2,7 +2,7 @@
   "id": "",
   "upstream": "local-devices@2.0.0",
   "keymethod": "#main",
-  "keystring": "127.0.0.1 | touch local-devices",
+  "keystring": "127.0.0.1 | touch a",
   "location": "src/index.js:114:13",
   "downstreams": [
     "alfred-show-network-info@0.2.1",

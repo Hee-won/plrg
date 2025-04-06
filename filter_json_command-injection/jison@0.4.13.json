@@ -2,7 +2,7 @@
   "id": "CVE-2020-8178",
   "upstream": "jison@0.4.13",
   "keymethod": "exec",
-  "keystring": "; touch jison",
+  "keystring": "; touch a",
   "location": "build/queueRunner.js:45:12",
   "downstreams": [
     "jsonpath@0.2.12",

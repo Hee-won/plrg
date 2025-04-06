@@ -4,7 +4,7 @@
   "keymethod": "execute",
   "keystring": [
     "&touch",
-    "node-key-sender"
+    "a"
   ],
   "location": "key-sender.js:117:20",
   "downstreams": [

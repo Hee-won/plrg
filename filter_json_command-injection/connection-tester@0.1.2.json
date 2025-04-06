@@ -2,7 +2,7 @@
   "id": "CVE-2020-7781",
   "upstream": "connection-tester@0.1.2",
   "keymethod": "test",
-  "keystring": "& touch connection-tester",
+  "keystring": "& touch a",
   "location": "index.js:15:28",
   "downstreams": [
     "logstash-relay@1.1.3",

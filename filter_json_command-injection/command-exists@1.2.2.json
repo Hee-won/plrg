@@ -2,7 +2,7 @@
   "id": "CVE-2019-10776",
   "upstream": "command-exists@1.2.2",
   "keymethod": "sync",
-  "keystring": ";touch command-exists",
+  "keystring": ";touch a",
   "location": "lib/command-exists.js:78:22",
   "downstreams": [
     "tnp-cli@2.0.27",

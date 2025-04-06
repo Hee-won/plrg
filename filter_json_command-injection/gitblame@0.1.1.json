@@ -2,7 +2,7 @@
   "id": "CVE-2020-28434",
   "upstream": "gitblame@0.1.1",
   "keymethod": "#main",
-  "keystring": "& touch gitblame",
+  "keystring": "& touch a",
   "location": "lib/gitblame.js:15:3",
   "downstreams": [
     "grunt-lintblame@0.3.3",

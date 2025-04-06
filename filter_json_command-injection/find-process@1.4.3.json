@@ -2,7 +2,7 @@
   "id": "CVE-2019-10788",
   "upstream": "find-process@1.4.3",
   "keymethod": "#main",
-  "keystring": "$(touch find-process)",
+  "keystring": "$(touch a)",
   "location": "lib/utils.js:19:8",
   "downstreams": [
     "glace-utils@1.3.5",

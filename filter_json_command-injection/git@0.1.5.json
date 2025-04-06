@@ -2,7 +2,7 @@
   "id": "",
   "upstream": "git@0.1.5",
   "keymethod": "git",
-  "keystring": "; touch git",
+  "keystring": "; touch a",
   "location": "lib/index.js:90:7",
   "downstreams": [
     "cadviewer@6.9.19",

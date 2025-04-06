@@ -2,7 +2,7 @@
   "id": "CVE-2019-10776",
   "upstream": "scp@0.0.3",
   "keymethod": "send",
-  "keystring": "& touch scp; #",
+  "keystring": "& touch a; #",
   "location": "scp.js:21:3",
   "downstreams": [
     "gulp-scp@0.0.3",

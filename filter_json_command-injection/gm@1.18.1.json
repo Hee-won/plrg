@@ -2,7 +2,7 @@
   "id": "CVE-2015-7982",
   "upstream": "gm@1.18.1",
   "keymethod": "compare",
-  "keystring": "$(touch gm)",
+  "keystring": "$(touch a)",
   "location": "lib/compare.js:72:5",
   "downstreams": [
     "diaporama-maker@0.6.0"

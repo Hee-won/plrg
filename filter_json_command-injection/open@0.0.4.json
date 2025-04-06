@@ -2,7 +2,7 @@
   "id": "",
   "upstream": "open@0.0.4",
   "keymethod": "#main",
-  "keystring": "\"\"`touch open`",
+  "keystring": "\"\"`touch a`",
   "location": "lib/open.js:58:10",
   "downstreams": [
     "grunt-contrib-connect@0.5.0",

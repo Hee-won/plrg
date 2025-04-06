@@ -2,7 +2,7 @@
   "id": "CVE-2019-10801",
   "upstream": "enpeem@2.2.0",
   "keymethod": "update",
-  "keystring": "& touch enpeem &",
+  "keystring": "& touch a &",
   "location": "index.js:71:22",
   "downstreams": [
     "ng-bolt-cli@2.0.0",

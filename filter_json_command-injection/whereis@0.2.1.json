@@ -2,7 +2,7 @@
   "id": "CVE-2018-3772",
   "upstream": "whereis@0.2.1",
   "keymethod": "#main",
-  "keystring": "; touch whereis",
+  "keystring": "; touch a",
   "location": "index.js:4:6",
   "downstreams": [
     "selenium-standalone@2.42.0-2.9.0-1",

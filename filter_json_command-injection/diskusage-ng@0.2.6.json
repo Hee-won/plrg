@@ -2,7 +2,7 @@
   "id": "CVE-2020-7631",
   "upstream": "diskusage-ng@0.2.6",
   "keymethod": "#main",
-  "keystring": "['\"&touch diskusage-ng\"']",
+  "keystring": "['\"&touch a\"']",
   "location": "lib/posix.js:11:5",
   "downstreams": [
     "upaki-sync@1.0.0"

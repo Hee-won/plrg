@@ -129,17 +129,22 @@ function writeSinglePoCFile(pkgName, funcName, args, index, outputDir) {
 
 // 🧪 실행 및 결과 검증
 function validatePoC(filePath) {
-    // prototype pollution 검증어려움..ㅠ @성민님
+  try {
+    // ✅ PoC 파일 실제 실행
+    execSync(`node ${filePath}`, { stdio: 'ignore' }); // 또는 'inherit' 으로 로그 보기
 
     // 🔍 Command Injection 확인
     if (fs.existsSync("a")) {
       console.log(`🔥 [${filePath}] - Command Injection 확인됨 (파일 생성됨)`);
     } else {
-    console.log(`💥 [${filePath}] - Command Injection 실패!`);
-    fs.unlinkSync(filePath); // PoC 삭제
+      console.log(`💥 [${filePath}] - Command Injection 실패!`);
+      fs.unlinkSync(filePath); // 실패한 PoC 파일 삭제
+    }
+  } catch (err) {
+    console.warn(`⚠️ [${filePath}] 실행 중 예외 발생: ${err.message}`);
+    fs.unlinkSync(filePath); // 실패한 PoC 삭제
   }
 }
-
 
 // 🚀 전체 흐름: PoC 생성 + 저장 + 실행 + 검증
 function runPoCMutationAndTest(pkgName, argCount, limit = 10, outputDir = __dirname) {

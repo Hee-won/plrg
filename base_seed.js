@@ -27,8 +27,13 @@ function generateSeed(package) {
       }
     }
   }
-
-  processNode(propertyTree, package);
+  if (package.callable) {
+    seed.push(`${package}(0,0,0,0,0)`);
+  }
+  if (package.constructable) {
+    seed.push(`new ${package}(0,0,0,0,0)`);
+  }
+  processNode(propertyTree, package.children);
   writeFileSync(outputPath, JSON.stringify(seed, null, 2));
 }
 

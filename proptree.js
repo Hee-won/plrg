@@ -63,5 +63,3 @@ function analyzeModule(moduleName, depth_limit) {
 module.exports = {
   analyzeModule,
 };
-
-analyzeModule('libnmap', 3);

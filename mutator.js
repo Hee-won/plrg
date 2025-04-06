@@ -1,5 +1,4 @@
 const { execSync } = require('child_process');
-const { time } = require('console');
 const { readFileSync } = require('fs');
 
 // const keyexpression todo
@@ -45,22 +44,29 @@ function mutate(seed) {
   return result;
 }
 function verify_PoC(package, seed) {
-  const importcode = `const ${package} = require('${package}')`;
+  const PoC = `
+    const a = { ...Object.prototype };
+    const ${package} = require('${package}');
+    ${seed};
+    console.log(!(JSON.stringify(a) === JSON.stringify(Object.prototype)));
+  `;
   try {
-    execSync(`node -e "${importcode + '\n' + seed}"`, {
-      stdio: 'inherit',
+    const stdout = execSync(`node -e "${PoC}"`, {
+      stdio: 'pipe',
     });
-  } catch (error) {
-    console.error('Error during PoC verification:', error.message);
-  }
+    return stdout.toString().trim() === 'true';
+  } catch (error) {}
 }
 
 function mutate_verify(package, seed, timeout) {
   const startTime = Date.now();
   while (Date.now() - startTime < timeout) {
     const mutatedSeed = mutate(seed);
-    verify_PoC(package, mutatedSeed);
-    console.log('Mutated seed:', mutatedSeed);
+    const isVulnerable = verify_PoC(package, mutatedSeed);
+    if (isVulnerable) {
+      console.log('Vulnerable seed:', mutatedSeed);
+      return;
+    }
   }
 }
 

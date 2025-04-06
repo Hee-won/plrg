@@ -131,7 +131,7 @@ function writeSinglePoCFile(pkgName, funcName, args, index, outputDir) {
 function validatePoC(filePath) {
   try {
     // ✅ PoC 파일 실제 실행
-    execSync(`node ${filePath}`, { stdio: 'ignore' }); // 또는 'inherit' 으로 로그 보기
+    execSync(`node ${filePath}`, { stdio: 'inherit' });
 
     // 🔍 Command Injection 확인
     if (fs.existsSync("a")) {

@@ -112,9 +112,8 @@ try {
 
       const fullPath = path.join(directoryPath, jsonFile);
       const jsonData = JSON.parse(fs.readFileSync(fullPath, 'utf-8'));
-      const keyExpression = jsonData.keystring || [];
+      const keyExpression = jsonData.keystring || '';
 
-      // downstreams 배열가 있으면 downstream 대상으로 진행
       if (jsonData.downstreams && jsonData.downstreams.length > 0) {
         jsonData.downstreams.forEach((downstream, idx) => {
         try {
@@ -143,7 +142,7 @@ try {
           generateSeed(name);
 
           // Generate PoC and verify
-          PoCgenerator(name, 30000, keyExpression, vulnType);
+          PoCgenerator(name, 30000, keyExpression, vulnType); // 30초
 
         } catch (err) {
           console.error(
@@ -153,7 +152,7 @@ try {
           fs.rmSync(packageDir, { recursive: true, force: true });
           process.chdir(originalDir);
         }
-      }
+      });
   }
 }
 } catch (err) {

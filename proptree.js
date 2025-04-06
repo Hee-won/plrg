@@ -116,11 +116,12 @@ try {
 
       if (jsonData.downstreams && jsonData.downstreams.length > 0) {
         jsonData.downstreams.forEach((downstream, idx) => {
+        let packageDir = '';
         try {
           // const package = path.basename(jsonFile, '.json');
           // const packageName = package.replace(/:/g, '/');
           const { name, version } = parsePkgAndVersion(downstream);
-          const packageDir = path.join(originalDir, 'packages', name + '_' + (j + idx));
+          packageDir = path.join(originalDir, 'packages', name + '_' + (j + idx));
 
           console.log(`Processing package: ${downstream}`);
           // Create package directory
@@ -155,7 +156,7 @@ try {
       });
   }
 }
-} catch (err) {
+}} catch (err) {
   console.error(`Main execution error: ${err.message}`);
 } finally {
   process.chdir(originalDir);

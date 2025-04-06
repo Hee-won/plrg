@@ -1,6 +1,6 @@
+const path = require('path');
 const { execSync } = require('child_process');
-const { readFileSync } = require('fs');
-
+const fs = require('fs');
 
 function mutate(seed, values) {
   let result = '';
@@ -75,6 +75,8 @@ function mutate_verify(package, seed, timeout, values, vulnType) {
 }
 
 function PoCgenerator(package, timeout, keyexpression, vulnType) {
+  const seedPath = path.join(__dirname, 'seed', `${package}_seed.json`);
+  const seeds = JSON.parse(fs.readFileSync(seedPath, 'utf8'));
   const values = [
     '1',
     '-1',
@@ -101,8 +103,6 @@ function PoCgenerator(package, timeout, keyexpression, vulnType) {
     values.push(`''`);
   }
 
-  const path = `seed/${package}_seed.json`;
-  const seeds = JSON.parse(readFileSync(path, 'utf8'));
   seeds.forEach((seed) => {
     mutate_verify(package, seed, timeout, values, vulnType);
   });

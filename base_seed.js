@@ -1,13 +1,17 @@
 const { readFileSync, writeFileSync, mkdirSync } = require('fs');
+const path = require('path');
 
 function generateSeed(package) {
-  const path = `output/${package}_PropertyTree.json`;
-  const outputPath = `seed/${package}_seed.json`;
-  const outputDir = 'seed';
+  const baseDir = __dirname;
+
+  const inputPath = path.join(baseDir, 'output', `${package}_PropertyTree.json`);
+  const outputPath = path.join(baseDir, 'seed', `${package}_seed.json`);
+  const outputDir = path.dirname(outputPath);
+
 
   mkdirSync(outputDir, { recursive: true });
 
-  const propertyTree = JSON.parse(readFileSync(path, 'utf8'));
+  const propertyTree = JSON.parse(readFileSync(inputpath, 'utf8'));
   const seed = [];
 
   function processNode(node, prefix) {

@@ -57,10 +57,11 @@ function makePropTree(target, depth) {
   return result;
 }
 
-function analyzeModule(packageName, depth_limit) {
+function analyzeModule(packageName, depth_limit, modulePath) {
   let targetObject = {};
   try {
-    targetObject = require(packageName);
+    const absolutePath = path.join(modulePath, 'node_modules', packageName);
+    targetObject = require(absolutePath);
   } catch (err) {
     console.error(
       `Module "${packageName}" not found or error loading: ${err.message}`
@@ -130,14 +131,14 @@ try {
           // Change to package directory and install
           process.chdir(packageDir);
           execSync(`npm install ${downstream} --prefix ${packageDir}`, {
-            cwd: packageDir,
+            
             stdio: 'inherit',
           });
 
           // Parse package name and version
 
           // Analyze the module (proptree)
-          analyzeModule(name, 20);
+          analyzeModule(name, 20, packageDir);
 
           // Analyze the paths
           generateSeed(name);

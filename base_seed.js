@@ -11,7 +11,7 @@ function generateSeed(package) {
 
   mkdirSync(outputDir, { recursive: true });
 
-  const propertyTree = JSON.parse(readFileSync(inputpath, 'utf8'));
+  const propertyTree = JSON.parse(readFileSync(inputPath, 'utf8'));
   const seed = [];
 
   function processNode(node, prefix) {

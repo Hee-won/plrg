@@ -37,4 +37,6 @@ function generateSeed(package) {
   writeFileSync(outputPath, JSON.stringify(seed, null, 2));
 }
 
-generateSeed('libnmap');
+module.exports = {
+  generateSeed,
+};

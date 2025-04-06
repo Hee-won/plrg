@@ -1,11 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
+const generateSeed = require('./base_seed').generateSeed;
+const PoCgenerator = require('./mutator').PoCgenerator;
 
 const Vuln = {
   1: 'command-injection',
-  2: 'code-injection',
-  3: 'prototype-pollution',
+  2: 'prototype-pollution',
+  // 3: 'code-injection',
 };
 
 // Store original directory to return to it later
@@ -92,7 +94,7 @@ try {
   // Ensure output directory exists
   fs.mkdirSync(path.join(originalDir, 'output'), { recursive: true });
 
-  for (let i = 1; i <= 3; i++) {
+  for (let i = 1; i <= 2; i++) {
     const vulnType = Vuln[i];
     const directoryPath = path.join(originalDir, `filter_json_${vulnType}`);
 
@@ -112,6 +114,10 @@ try {
       const { name, version } = parsePkgAndVersion(packageName);
       const packageDir = path.join(originalDir, 'packages', name + '_' + j);
 
+      const fullPath = path.join(directoryPath, jsonFile);
+      const jsonData = JSON.parse(fs.readFileSync(fullPath, 'utf-8'));
+      const keyExpression = jsonData.keystring || [];
+
       console.log(`Processing package: ${packageName}`);
 
       try {
@@ -120,15 +126,25 @@ try {
 
         // Change to package directory and install
         process.chdir(packageDir);
-        execSync(`npm install ${packageName}`, {
+        execSync(`npm install ${packageName} --prefix ${packageDir}`, {
           cwd: packageDir,
           stdio: 'inherit',
         });
 
         // Parse package name and version
 
-        // Analyze the module
+
+        // Analyze the module (proptree)
         analyzeModule(name, 20);
+
+        // Analyze the paths
+        generateSeed(name);
+
+        // Generate PoC and verify
+        PoCgenerator(name, 300, keyExpression, vulnType);
+
+
+
       } catch (err) {
         console.error(
           `Error processing package "${packageName}": ${err.message}`

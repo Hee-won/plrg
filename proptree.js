@@ -1,13 +1,30 @@
 const fs = require('fs');
 const path = require('path');
-// const black_list = ['length', 'name', 'constructor', 'prototype', 'arguments'];
-// maybe need
+const { execSync } = require('child_process');
+
+const Vuln = {
+  1: 'command-injection',
+  2: 'code-injection',
+  3: 'prototype-pollution',
+};
+
+// Store original directory to return to it later
+const originalDir = process.cwd();
+
+function parsePkgAndVersion(pkgWithVersion) {
+  const atIndex = pkgWithVersion.lastIndexOf('@');
+  if (atIndex <= 0) {
+    throw new Error(`Invalid format: ${pkgWithVersion}`);
+  }
+  const name = pkgWithVersion.slice(0, atIndex);
+  const version = pkgWithVersion.slice(atIndex + 1);
+  return { name, version };
+}
 
 function isCallable(f) {
   return typeof f === 'function';
 }
 
-// assertion for [[Construct]]
 function isConstructable(f) {
   try {
     Reflect.construct(function () {}, [], f);
@@ -16,6 +33,7 @@ function isConstructable(f) {
     return false;
   }
 }
+
 function makePropTree(target, depth) {
   const properties = Object.keys(target);
   Object.getPrototypeOf(target) &&
@@ -37,18 +55,27 @@ function makePropTree(target, depth) {
   return result;
 }
 
-function analyzeModule(moduleName, depth_limit) {
+function analyzeModule(packageName, depth_limit) {
   let targetObject = {};
   try {
-    targetObject = require(moduleName);
+    targetObject = require(packageName);
   } catch (err) {
-    console.error(`Module "${moduleName}" not found.`);
+    console.error(
+      `Module "${packageName}" not found or error loading: ${err.message}`
+    );
     return targetObject;
   }
 
-  const result = makePropTree(targetObject, depth_limit, {});
-  const outputFileName = `${moduleName}_PropertyTree.json`;
-  const outputFilePath = path.join(__dirname, 'output', outputFileName);
+  const result = {
+    callable: isCallable(targetObject),
+    constructable: isConstructable(targetObject),
+    children: makePropTree(targetObject, depth_limit),
+  };
+
+  // Create a sanitized filename (remove special characters)
+  const sanitizedName = packageName.replace(/[^a-zA-Z0-9._-]/g, '_');
+  const outputFileName = `${sanitizedName}_PropertyTree.json`;
+  const outputFilePath = path.join(originalDir, 'output', outputFileName);
 
   try {
     fs.mkdirSync(path.dirname(outputFilePath), { recursive: true });
@@ -58,6 +85,64 @@ function analyzeModule(moduleName, depth_limit) {
     console.error(`Failed to save output: ${err.message}`);
   }
   return result;
+}
+
+// Main execution
+try {
+  // Ensure output directory exists
+  fs.mkdirSync(path.join(originalDir, 'output'), { recursive: true });
+
+  for (let i = 1; i <= 3; i++) {
+    const vulnType = Vuln[i];
+    const directoryPath = path.join(originalDir, `filter_json_${vulnType}`);
+
+    if (!fs.existsSync(directoryPath)) {
+      console.error(`Directory not found: ${directoryPath}`);
+      continue;
+    }
+
+    const jsonFiles = fs
+      .readdirSync(directoryPath)
+      .filter((file) => file.endsWith('.json'));
+    let j = 0;
+    for (const jsonFile of jsonFiles) {
+      j++;
+      const package = path.basename(jsonFile, '.json');
+      const packageName = package.replace(/:/g, '/');
+      const { name, version } = parsePkgAndVersion(packageName);
+      const packageDir = path.join(originalDir, 'packages', name + '_' + j);
+
+      console.log(`Processing package: ${packageName}`);
+
+      try {
+        // Create package directory
+        fs.mkdirSync(packageDir, { recursive: true });
+
+        // Change to package directory and install
+        process.chdir(packageDir);
+        execSync(`npm install ${packageName}`, {
+          cwd: packageDir,
+          stdio: 'inherit',
+        });
+
+        // Parse package name and version
+
+        // Analyze the module
+        analyzeModule(name, 20);
+      } catch (err) {
+        console.error(
+          `Error processing package "${packageName}": ${err.message}`
+        );
+      } finally {
+        fs.rmSync(packageDir, { recursive: true, force: true });
+        process.chdir(originalDir);
+      }
+    }
+  }
+} catch (err) {
+  console.error(`Main execution error: ${err.message}`);
+} finally {
+  process.chdir(originalDir);
 }
 
 module.exports = {

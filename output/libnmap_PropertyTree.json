@@ -1,0 +1,10 @@
+{
+  "discover": {
+    "callable": true,
+    "constructable": false
+  },
+  "scan": {
+    "callable": true,
+    "constructable": false
+  }
+}

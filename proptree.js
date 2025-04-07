@@ -117,49 +117,53 @@ try {
       const keyExpression = jsonData.keystring || '';
 
       if (jsonData.downstreams && jsonData.downstreams.length > 0) {
-        jsonData.downstreams.forEach((downstream, idx) => {
-          let packageDir = '';
-          try {
-            // const package = path.basename(jsonFile, '.json');
-            // const packageName = package.replace(/:/g, '/');
-            const { name, version } = parsePkgAndVersion(downstream);
-            packageDir = path.join(
-              originalDir,
-              'packages',
-              name + '_' + (j + idx)
-            );
+        try {
+          jsonData.downstreams.forEach((downstream, idx) => {
+            let packageDir = '';
+            try {
+              // const package = path.basename(jsonFile, '.json');
+              // const packageName = package.replace(/:/g, '/');
+              const { name, version } = parsePkgAndVersion(downstream);
+              packageDir = path.join(
+                originalDir,
+                'packages',
+                name + '_' + (j + idx)
+              );
 
-            console.log(`Processing package: ${downstream}`);
-            // Create package directory
-            fs.mkdirSync(packageDir, { recursive: true });
+              console.log(`Processing package: ${downstream}`);
+              // Create package directory
+              fs.mkdirSync(packageDir, { recursive: true });
 
-            // Change to package directory and install
-            process.chdir(packageDir);
-            console.log(`[++++++] install package directory : ${packageDir}`);
-            execSync(`npm install ${downstream} --prefix ${packageDir}`, {
-              stdio: 'inherit',
-            });
+              // Change to package directory and install
+              process.chdir(packageDir);
+              console.log(`[++++++] install package directory : ${packageDir}`);
+              execSync(`npm install ${downstream} --prefix ${packageDir}`, {
+                stdio: 'inherit',
+              });
 
-            // Parse package name and version
+              // Parse package name and version
 
-            // Analyze the module (proptree)
-            analyzeModule(name, 20, packageDir);
+              // Analyze the module (proptree)
+              analyzeModule(name, 20, packageDir);
 
-            // Analyze the paths
-            generateSeed(name);
+              // Analyze the paths
+              generateSeed(name);
 
-            // Generate PoC and verify
-            PoCgenerator(name, 30000, keyExpression, vulnType); // 30초
-          } catch (err) {
-            console.error(
-              `Error processing package "${downstream}": ${err.message}`
-            );
-          } finally {
-            fs.rmSync(packageDir, { recursive: true, force: true });
-            process.chdir(originalDir);
-          }
-        });
-      }
+              // Generate PoC and verify
+              PoCgenerator(name, 1000, keyExpression, vulnType); // 30초
+            } catch (err) {
+              console.error(
+                `Error processing package "${downstream}": ${err.message}`
+              );
+            } finally {
+              fs.rmSync(packageDir, { recursive: true, force: true });
+              process.chdir(originalDir);
+            }
+          });
+      } catch (outerErr) {
+  console.error(`Error processing JSON file "${jsonFile}": ${outerErr.message}`);
+}
+}
     }
   }
 } catch (err) {

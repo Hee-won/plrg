@@ -63,7 +63,7 @@ function mutate_verify(package, seed, timeout, values, vulnType) {
     i++;
     const mutatedSeed = mutate(seed, values);
 
-    if (vulnType == 2) {
+    if (vulnType == 'command-injection') {
       const isVulnerable_CI = verify_PoC_CI(package, mutatedSeed);
       if (isVulnerable_CI) {
         fs.writeFileSync(
@@ -74,7 +74,7 @@ function mutate_verify(package, seed, timeout, values, vulnType) {
       }
     }
 
-    if (vulnType == 1) {
+    if (vulnType == 'prototype-pollution') {
       const isVulnerable_PP = verify_PoC_PP(package, mutatedSeed);
       if (isVulnerable_PP) {
         fs.writeFileSync(

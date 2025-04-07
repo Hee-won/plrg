@@ -21,7 +21,7 @@ function mutate(seed, values) {
 function verify_PoC_PP(package, seed) {
   const PoC = `
     const a = { ...Object.prototype };
-    const ${package} = require('${package}');
+    const _ = require('${package}');
     ${seed};
     console.log(!(JSON.stringify(a) === JSON.stringify(Object.prototype)));
   `;
@@ -44,6 +44,8 @@ function verify_PoC_CI(package, seed) {
     const _ = require('${package}');
     ${seed};
   `;
+  console.log(`[++++++] Executing PP PoC in: ${process.cwd()}`);
+  console.log(`[++++++] PoC code:\n${PoC}`);
   try {
     execSync(`node -e "${PoC}"`, {
       stdio: 'pipe',

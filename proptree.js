@@ -150,7 +150,7 @@ try {
               generateSeed(name);
 
               // Generate PoC and verify
-              PoCgenerator(name, 1000, keyExpression, vulnType); // 30초
+              PoCgenerator(name, 100, keyExpression, vulnType); // 30초
             } catch (err) {
               console.error(
                 `Error processing package "${downstream}": ${err.message}`
@@ -160,10 +160,12 @@ try {
               process.chdir(originalDir);
             }
           });
-      } catch (outerErr) {
-  console.error(`Error processing JSON file "${jsonFile}": ${outerErr.message}`);
-}
-}
+        } catch (outerErr) {
+          console.error(
+            `Error processing JSON file "${jsonFile}": ${outerErr.message}`
+          );
+        }
+      }
     }
   }
 } catch (err) {

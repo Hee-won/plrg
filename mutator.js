@@ -25,6 +25,9 @@ function verify_PoC_PP(package, seed) {
     ${seed};
     console.log(!(JSON.stringify(a) === JSON.stringify(Object.prototype)));
   `;
+  console.log(`[++++++] Executing PP PoC in: ${process.cwd()}`);
+  console.log(`[++++++] PoC code:\n${PoC}`);
+
   try {
     const stdout = execSync(`node -e "${PoC}"`, {
       stdio: 'pipe',
@@ -38,7 +41,7 @@ function verify_PoC_PP(package, seed) {
 // verify command-injection
 function verify_PoC_CI(package, seed) {
   const PoC = `
-    const ${package} = require('${package}');
+    const _ = require('${package}');
     ${seed};
   `;
   try {

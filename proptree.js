@@ -5,8 +5,8 @@ const generateSeed = require('./base_seed').generateSeed;
 const PoCgenerator = require('./mutator').PoCgenerator;
 
 const Vuln = {
-  1: 'command-injection',
-  2: 'prototype-pollution',
+  1: 'prototype-pollution',
+  2: 'command-injection',
   // 3: 'code-injection',
 };
 
@@ -62,6 +62,7 @@ function analyzeModule(packageName, depth_limit, modulePath) {
   try {
     const absolutePath = path.join(modulePath, 'node_modules', packageName);
     targetObject = require(absolutePath);
+    console.log(`[++++++] analyzeModule package directory : ${absolutePath}`);
   } catch (err) {
     console.error(
       `Module "${packageName}" not found or error loading: ${err.message}`
@@ -78,7 +79,7 @@ function analyzeModule(packageName, depth_limit, modulePath) {
   // Create a sanitized filename (remove special characters)
   const sanitizedName = packageName.replace(/[^a-zA-Z0-9._-]/g, '_');
   const outputFileName = `${sanitizedName}_PropertyTree.json`;
-  const outputFilePath = path.join(originalDir, 'output', outputFileName);
+  const outputFilePath = path.join(originalDir, 'tree', outputFileName);
 
   try {
     fs.mkdirSync(path.dirname(outputFilePath), { recursive: true });
@@ -93,7 +94,7 @@ function analyzeModule(packageName, depth_limit, modulePath) {
 // Main execution
 try {
   // Ensure output directory exists
-  fs.mkdirSync(path.join(originalDir, 'output'), { recursive: true });
+  fs.mkdirSync(path.join(originalDir, 'tree'), { recursive: true });
 
   for (let i = 1; i <= 2; i++) {
     const vulnType = Vuln[i];
@@ -117,47 +118,51 @@ try {
 
       if (jsonData.downstreams && jsonData.downstreams.length > 0) {
         jsonData.downstreams.forEach((downstream, idx) => {
-        let packageDir = '';
-        try {
-          // const package = path.basename(jsonFile, '.json');
-          // const packageName = package.replace(/:/g, '/');
-          const { name, version } = parsePkgAndVersion(downstream);
-          packageDir = path.join(originalDir, 'packages', name + '_' + (j + idx));
+          let packageDir = '';
+          try {
+            // const package = path.basename(jsonFile, '.json');
+            // const packageName = package.replace(/:/g, '/');
+            const { name, version } = parsePkgAndVersion(downstream);
+            packageDir = path.join(
+              originalDir,
+              'packages',
+              name + '_' + (j + idx)
+            );
 
-          console.log(`Processing package: ${downstream}`);
-          // Create package directory
-          fs.mkdirSync(packageDir, { recursive: true });
+            console.log(`Processing package: ${downstream}`);
+            // Create package directory
+            fs.mkdirSync(packageDir, { recursive: true });
 
-          // Change to package directory and install
-          process.chdir(packageDir);
-          execSync(`npm install ${downstream} --prefix ${packageDir}`, {
-            
-            stdio: 'inherit',
-          });
+            // Change to package directory and install
+            process.chdir(packageDir);
+            console.log(`[++++++] install package directory : ${packageDir}`);
+            execSync(`npm install ${downstream} --prefix ${packageDir}`, {
+              stdio: 'inherit',
+            });
 
-          // Parse package name and version
+            // Parse package name and version
 
-          // Analyze the module (proptree)
-          analyzeModule(name, 20, packageDir);
+            // Analyze the module (proptree)
+            analyzeModule(name, 20, packageDir);
 
-          // Analyze the paths
-          generateSeed(name);
+            // Analyze the paths
+            generateSeed(name);
 
-          // Generate PoC and verify
-          PoCgenerator(name, 30000, keyExpression, vulnType); // 30초
-
-        } catch (err) {
-          console.error(
-            `Error processing package "${downstream}": ${err.message}`
-          );
-        } finally {
-          fs.rmSync(packageDir, { recursive: true, force: true });
-          process.chdir(originalDir);
-        }
-      });
+            // Generate PoC and verify
+            PoCgenerator(name, 30000, keyExpression, vulnType); // 30초
+          } catch (err) {
+            console.error(
+              `Error processing package "${downstream}": ${err.message}`
+            );
+          } finally {
+            fs.rmSync(packageDir, { recursive: true, force: true });
+            process.chdir(originalDir);
+          }
+        });
+      }
+    }
   }
-}
-}} catch (err) {
+} catch (err) {
   console.error(`Main execution error: ${err.message}`);
 } finally {
   process.chdir(originalDir);

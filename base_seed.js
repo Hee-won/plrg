@@ -3,11 +3,16 @@ const path = require('path');
 
 function generateSeed(package) {
   const baseDir = __dirname;
+  
+  // Create a sanitized filename (remove special characters)
+  const sanitizedName = package.replace(/[^a-zA-Z0-9._-]/g, '_');
 
-  const inputPath = path.join(baseDir, 'output', `${package}_PropertyTree.json`);
-  const outputPath = path.join(baseDir, 'seed', `${package}_seed.json`);
+  const inputPath = path.join(baseDir, 'tree', `${sanitizedName}_PropertyTree.json`);
+  const outputPath = path.join(baseDir, 'seed-3', `${sanitizedName}_seed.json`);
+
+  console.log(`[++++++] generateSeed outputPath : ${outputPath}`);
+
   const outputDir = path.dirname(outputPath);
-
 
   mkdirSync(outputDir, { recursive: true });
 
@@ -31,13 +36,13 @@ function generateSeed(package) {
       }
     }
   }
-  if (package.callable) {
+  if (propertyTree.callable) {
     seed.push(`${package}(0,0,0,0,0)`);
   }
-  if (package.constructable) {
+  if (propertyTree.constructable) {
     seed.push(`new ${package}(0,0,0,0,0)`);
   }
-  processNode(propertyTree, package.children);
+  processNode(propertyTree.children, package);
   writeFileSync(outputPath, JSON.stringify(seed, null, 2));
 }
 

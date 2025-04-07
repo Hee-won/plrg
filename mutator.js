@@ -2,6 +2,8 @@ const path = require('path');
 const { execSync } = require('child_process');
 const fs = require('fs');
 
+const originalDir = process.cwd();
+
 function mutate(seed, values) {
   let result = '';
   for (let i = 0; i < seed.length; i++) {
@@ -28,7 +30,9 @@ function verify_PoC_PP(package, seed) {
       stdio: 'pipe',
     });
     return stdout.toString().trim() === 'true';
-  } catch (error) {return false;}
+  } catch (error) {
+    return false;
+  }
 }
 
 // verify command-injection
@@ -38,7 +42,7 @@ function verify_PoC_CI(package, seed) {
     ${seed};
   `;
   try {
-    const stdout = execSync(`node -e "${PoC}"`, {
+    execSync(`node -e "${PoC}"`, {
       stdio: 'pipe',
     });
     const fileExists = fs.existsSync('a');
@@ -47,35 +51,48 @@ function verify_PoC_CI(package, seed) {
       return true;
     }
     return false;
-  } catch (error) {return false;}
+  } catch (error) {
+    return false;
+  }
 }
 
 function mutate_verify(package, seed, timeout, values, vulnType) {
   const startTime = Date.now();
+  let i = 0;
   while (Date.now() - startTime < timeout) {
+    i++;
     const mutatedSeed = mutate(seed, values);
 
-    if (vulnType == 1) {
+    if (vulnType == 2) {
       const isVulnerable_CI = verify_PoC_CI(package, mutatedSeed);
       if (isVulnerable_CI) {
-        console.log('Vulnerable seed for CI:', mutatedSeed);
+        fs.writeFileSync(
+          path.join(originalDir, 'PoC', `${package}_PoC_${i}.js`),
+          mutatedSeed
+        );
         return;
       }
     }
 
-    if (vulnType == 2) {
+    if (vulnType == 1) {
       const isVulnerable_PP = verify_PoC_PP(package, mutatedSeed);
       if (isVulnerable_PP) {
-        console.log('Vulnerable seed for PP:', mutatedSeed);
+        fs.writeFileSync(
+          path.join(originalDir, 'PoC', `${package}_PoC_${i}.js`),
+          mutatedSeed
+        );
         return;
       }
     }
-
   }
 }
 
 function PoCgenerator(package, timeout, keyexpression, vulnType) {
-  const seedPath = path.join(__dirname, 'seed', `${package}_seed.json`);
+  // Create a sanitized filename (remove special characters)
+  const sanitizedName = package.replace(/[^a-zA-Z0-9._-]/g, '_');
+
+  const seedPath = path.join(__dirname, 'seed-3', `${sanitizedName}_seed.json`);
+  console.log(`[++++++] PoCgenerator seedPath : ${seedPath}`);
   const seeds = JSON.parse(fs.readFileSync(seedPath, 'utf8'));
   const values = [
     '1',
@@ -95,12 +112,19 @@ function PoCgenerator(package, timeout, keyexpression, vulnType) {
     'new Date()', // Date object
     `'http://example.com'`, // URL string
   ];
+  const outputDirPath = path.join(originalDir, 'PoC');
+  if (!fs.existsSync(outputDirPath)) {
+    fs.mkdirSync(outputDirPath, { recursive: true });
+  }
 
   // const keyexpression todo
-  if (typeof keyexpression === 'string') {
-    values.push(`'${keyexpression}'`);
-  } else {
-    values.push(`''`);
+  const valuesLength = values.length;
+  for (let i = 0; i < valuesLength; i++) {
+    if (typeof keyexpression === 'string') {
+      values.push(`'${keyexpression}'`);
+    } else {
+      values.push(`${keyexpression}`);
+    }
   }
 
   seeds.forEach((seed) => {

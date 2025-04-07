@@ -66,6 +66,11 @@ try {
 
               const absRequirePath = path.join('${packageDir}', 'node_modules', '${package}');
 
+              if (!fs.existsSync(packageDir)) {
+                console.log(`[SKIPPED] Package not installed: ${downstream}`);
+                return; // 또는 continue;
+              }
+              
               // Generate PoC and verify
               PoCgenerator(name, 100, keyExpression, vulnType, absRequirePath); 
 

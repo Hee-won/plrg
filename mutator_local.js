@@ -203,6 +203,11 @@ function PoCgenerator(package, timeout, keyexpression, vulnType, packageDir) {
   const seedPath = path.join(__dirname, 'seed-3', `${sanitizedName}_seed.json`);
   console.log(`[++++++] PoCgenerator seedPath : ${seedPath}`);
 
+  if (!fs.existsSync(seedPath)) {
+    console.error(`❌ Seed file not found for ${packageName}: ${seedPath}`);
+    return;
+  }
+
   const seeds = JSON.parse(fs.readFileSync(seedPath, 'utf8'));
   let values = [
     '1',

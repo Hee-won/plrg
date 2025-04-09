@@ -4,9 +4,17 @@ const path = require('path');
 const { execSync } = require('child_process');
 const PoCgenerator = require('./mutator_local').PoCgenerator;
 
+// 아무리 에러핸들링을 해도 죽는 애들
+const blacklistPath = path.join(__dirname, 'blacklist.txt');
+const blacklist = new Set(
+  fs.existsSync(blacklistPath)
+    ? fs.readFileSync(blacklistPath, 'utf-8').split('\n').map(line => line.trim()).filter(Boolean)
+    : []
+);
+
 const Vuln = {
   1: 'prototype-pollution',
-  2: 'command-injection',
+  // 2: 'command-injection',
   // 3: 'code-injection',
 };
 
@@ -27,7 +35,7 @@ function parsePkgAndVersion(pkgWithVersion) {
 try {
   // Already output directory exists
 
-  for (let i = 1; i <= 2; i++) {
+  for (let i = 1; i <= 1; i++) {
     const vulnType = Vuln[i];
     const directoryPath = path.join(originalDir, `filter_json_${vulnType}`);
 
@@ -49,7 +57,7 @@ try {
 
       if (jsonData.downstreams && jsonData.downstreams.length > 0) {
         try {
-          jsonData.downstreams.forEach((downstream, idx) => {
+          for (const downstream of jsonData.downstreams) {
             let packageDir = '';
             try {
               const { name, version } = parsePkgAndVersion(downstream);
@@ -61,32 +69,38 @@ try {
               packageDir = path.join(originalDir, 'packages', folderName);
 
               const starttime = Date.now();
-              console.log(`Start time: ${starttime}`);
+              console.log(`\nStart time: ${starttime}`);
               console.log(`Processing package: ${downstream}`);
 
-              const absRequirePath = path.join('${packageDir}', 'node_modules', '${package}');
+              const absRequirePath = path.join(packageDir, 'node_modules', name);
+              console.log(`[-----] absRequirePath: ${absRequirePath}`);
 
               if (!fs.existsSync(packageDir)) {
-                console.log(`[SKIPPED] Package not installed: ${downstream}`);
-                return; // 또는 continue;
+                console.log(`[xxxxx] [SKIPPED] Package not installed: ${downstream}`);
+                continue;
               }
-              
+
+              const seedPath = path.join(__dirname, 'seed', `${sanitizedName}@${version}_seed.json`);
+              console.log(`[-----] seedPath: ${seedPath}`);
+              if (!fs.existsSync(seedPath)) {
+                console.log(`[xxxxx] [SKIPPED] No seedPath: ${downstream}`);
+                continue;
+              }
+
+
               // Generate PoC and verify
-              PoCgenerator(name, 100, keyExpression, vulnType, absRequirePath); 
+              PoCgenerator(name, 1, keyExpression, vulnType, absRequirePath, version, keyExpression); 
 
 
             } catch (err) {
               console.error(
-                `Error processing package "${downstream}": ${err.message}`
+                `[xxxxx] Error processing package "${downstream}": ${err.message}`
               );
-            } finally {
-              fs.rmSync(packageDir, { recursive: true, force: true });
-              process.chdir(originalDir);
-            }
-          });
+            } 
+          }
         } catch (outerErr) {
           console.error(
-            `Error processing JSON file "${jsonFile}": ${outerErr.message}`
+            `[xxxxx] Error processing JSON file "${jsonFile}": ${outerErr.message}`
           );
         }
       }
@@ -97,3 +111,4 @@ try {
 } finally {
   process.chdir(originalDir);
 }
+

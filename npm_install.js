@@ -50,7 +50,7 @@ try {
 
               packageDir = path.join(originalDir, 'packages', folderName);
 
-              // ✅ 이미 존재하면 skip
+              // 이미 존재하면 skipppp
               if (fs.existsSync(packageDir)) {
                 console.log(`[SKIPPED] ${downstream} already exists at ${packageDir}`);
                 continue;
@@ -63,7 +63,7 @@ try {
               console.log(`[++++++] install package directory : ${packageDir}`);
 
               try {
-                const output = execSync(`npm install ${downstream} --prefix ${packageDir}`, {
+                const output = execSync(`pnpm install ${downstream} --prefix ${packageDir}`, {
                   encoding: 'utf-8',
                   stdio: 'pipe'
                 });

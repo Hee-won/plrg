@@ -47,7 +47,6 @@ function extractPropertyPath(node) {
   return path;
 }
 
-// First pass: Collect variable assignments
 walk.simple(ast, {
   VariableDeclarator(node) {
     if (node.init) {
@@ -60,24 +59,37 @@ walk.simple(ast, {
     }
   },
 });
+function deepClone(obj) {
+  return JSON.parse(JSON.stringify(obj));
+}
+function resolveArgument(node) {
+  // Deep clone to avoid modifying the original AST
+  const clonedNode = deepClone(node);
 
-function resolveArgument(arg) {
-  // If the argument is an identifier and exists in our environment, return its value
-  walk.simple(arg, {
-    Identifier(node) {
-      if (env[node.name] !== undefined) {
-        node = env[node.name];
+  // Recursively process the node
+  const processNode = (current) => {
+    if (!current || typeof current !== 'object') return current;
+
+    // Replace identifiers with their values from env
+    if (current.type === 'Identifier' && env[current.name]) {
+      return deepClone(env[current.name]);
+    }
+
+    // Process all properties of the node
+    for (const key in current) {
+      if (current.hasOwnProperty(key) && typeof current[key] === 'object') {
+        current[key] = processNode(current[key]);
       }
-    },
-  });
+    }
 
-  // Otherwise, generate the code as is
-  return generate(arg, {
+    return current;
+  };
+
+  return generate(processNode(clonedNode), {
     format: { quotes: 'double' },
   });
 }
 
-// Second pass: Track function calls
 walk.simple(ast, {
   CallExpression(node) {
     if (node.callee.type === 'MemberExpression') {

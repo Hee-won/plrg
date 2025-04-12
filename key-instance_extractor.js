@@ -30,6 +30,11 @@ function extractKeyInstances(filePath) {
     requireVariables.push(match[2]);
   }
 
+  // Check if we found any require statements
+  if (requireVariables.length === 0) {
+    throw new Error('No required modules found in the file');
+  }
+
   // Helper function to extract the full property path from a MemberExpression
   function extractPropertyPath(node) {
     const path = [];
@@ -169,7 +174,14 @@ function extractKeyInstances(filePath) {
 
         // Add all arguments to the results
         if (node.arguments.length > 0) {
-          results.arguments = node.arguments.map((arg) => resolveArgument(arg));
+          results.arguments = node.arguments.map((arg) => {
+            if (arg.start && arg.end) {
+              throw new Error('Invalid argument node');
+            }
+            return resolveArgument(arg);
+          });
+        } else {
+          throw new Error('No arguments found in the function call');
         }
       }
     },
@@ -180,6 +192,6 @@ function extractKeyInstances(filePath) {
 
 // Usage example:
 const results = extractKeyInstances('./PoC.js');
-console.log('Called Functions:', results.arguments);
+console.log('Called Functions:', results);
 
 module.exports = extractKeyInstances;

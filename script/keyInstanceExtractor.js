@@ -20,16 +20,20 @@ function extractKeyInstances(filePath) {
     arguments: [],
   };
 
-  // Find require statements
   const requireRegex =
-    /(const|let|var)\s+(\w+)\s*=\s*require\(['"`](.*?)['"`]\)/g;
+    /(const|let|var)\s+(\w+|\{.*?\})\s*=\s*require\(['"`](.*?)['"`]\)/g;
+  const destructuringRegex =
+    /const\s+\{\s*(\w+)(?:\s*,\s*\w+)*\s*\}\s*=\s*require\(['"`](.*?)['"`]\)/g;
   let match;
+
   const requireVariables = [];
 
+  while ((match = destructuringRegex.exec(code)) !== null) {
+    requireVariables.push(match[1]);
+  }
   while ((match = requireRegex.exec(code)) !== null) {
     requireVariables.push(match[2]);
   }
-
   // Check if we found any require statements
   if (requireVariables.length === 0) {
     throw new Error('No required modules found in the file');
@@ -89,51 +93,12 @@ function extractKeyInstances(filePath) {
     const processedNode = processNode(clonedNode);
 
     // If it's a literal or simple value, return its value
-    if (processedNode.type === 'Literal') {
-      return processedNode.value;
-    } else if (processedNode.type === 'ArrayExpression') {
-      return processedNode.elements.map((elem) => resolveArgument(elem));
-    } else if (processedNode.type === 'ObjectExpression') {
-      const result = {};
-      for (const prop of processedNode.properties) {
-        let key;
-        if (prop.key.type === 'Identifier') {
-          key = prop.key.name;
-        } else if (prop.key.type === 'Literal') {
-          key = prop.key.value;
-        }
-
-        if (key !== undefined) {
-          result[key] = resolveArgument(prop.value);
-        }
-      }
-      return result;
-    } else if (processedNode.type === 'TemplateLiteral') {
-      return generate(processedNode);
-    } else if (processedNode.type === 'CallExpression') {
-      // Only handle JSON.parse calls
-      if (
-        processedNode.callee.type === 'MemberExpression' &&
-        processedNode.callee.object.name === 'JSON' &&
-        processedNode.callee.property.name === 'parse' &&
-        processedNode.arguments.length === 1
-      ) {
-        try {
-          const argValue = resolveArgument(processedNode.arguments[0]);
-          if (typeof argValue === 'string') {
-            return JSON.parse(argValue);
-          }
-        } catch (e) {
-          // If parsing fails, return the original node
-          return processedNode;
-        }
-      }
-      // For other function calls, return the node as is
-      return processedNode;
-    }
-
-    // For other cases, return the AST node
-    return processedNode;
+    const code = generate(processedNode, {
+      format: {
+        compact: true,
+      },
+    });
+    return code;
   }
 
   walk.simple(ast, {
@@ -175,9 +140,6 @@ function extractKeyInstances(filePath) {
         // Add all arguments to the results
         if (node.arguments.length > 0) {
           results.arguments = node.arguments.map((arg) => {
-            if (arg.start && arg.end) {
-              console.warn('⚠️ Invalid argument node : Argument node has unexpected structure');
-            }
             return resolveArgument(arg);
           });
         } else {

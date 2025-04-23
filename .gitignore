@@ -3,3 +3,7 @@ node_modules/
 prototype-pollution/
 test/
 temp_pack_dir
+JSON_prototype-pollution_keyInstanceResults/
+seed-3/
+tree/
+output/

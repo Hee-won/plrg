@@ -1,10 +1,21 @@
 const path = require('path');
-const { execSync } = require('child_process');
 const fs = require('fs');
+const vm = require('vm');
+const child_process = require('child_process');
+
 
 const originalDir = process.cwd();
 
 function mutate(seed, values, requiredValue) {
+  // console.log(`[++++++] Values used for mutation:`);
+  // values.forEach((v, i) => {
+  //   console.log(`  [${i}] ${v}`);
+  // });
+
+  if (typeof requiredValue === 'string' && !/^['"]/.test(requiredValue)) {
+    requiredValue = `'${requiredValue}'`;
+  }
+
   const placeholderCount = [...seed].filter((c) => c === '0').length;
   if (placeholderCount === 0) return seed;
 
@@ -18,9 +29,9 @@ function mutate(seed, values, requiredValue) {
         result += requiredValue;
       } else {
         let randomValue;
-        do {
+        //do {
           randomValue = values[Math.floor(Math.random() * values.length)];
-        } while (randomValue === requiredValue);
+        //} while (randomValue === requiredValue);
         result += randomValue;
       }
       currentIndex++;
@@ -75,7 +86,7 @@ function verify_all_PP(package, seeds, packageDir) {
   fs.writeFileSync(verificationFilePath, verificationCode);
 
   try {
-    const stdout = execSync(`node ${verificationFilePath}`, {
+    const stdout = child_process.execSync(`node ${verificationFilePath}`, {
       stdio: 'pipe',
       timeout: 30000, // 30 second timeout for all seeds
       maxBuffer: 100 * 1024 * 1024, // Increase buffer size to 100MB
@@ -103,105 +114,6 @@ function verify_all_PP(package, seeds, packageDir) {
   return [];
 }
 
-// Single verification for command injection
-function verify_all_CI(package, seeds, packageDir) {
-  console.log(`[++++++] Verifying ${seeds.length} seeds for command injection`);
-
-  const tempDir = path.join(originalDir, 'temp', `verification-${Date.now()}`);
-  fs.mkdirSync(tempDir, { recursive: true });
-
-  const verificationFilePath = path.join(tempDir, 'verify.js');
-  const verificationCode = `
-    const fs = require('fs');
-    const path = require('path');
-    const _ = require('${packageDir}');
-    
-    function testSeed(seed, index) {
-      const uniqueDir = path.join(process.cwd(), 'candidate-' + index);
-      if (fs.existsSync(uniqueDir)) {
-        fs.rmSync(uniqueDir, { recursive: true, force: true });
-      }
-      fs.mkdirSync(uniqueDir); 
-      process.chdir(uniqueDir); 
-      try {
-        eval(seed);
-        if (fs.existsSync('a')) {
-          fs.writeFileSync(path.join(process.cwd(), 'success-' + index), 'vulnerable');
-          fs.unlinkSync('a');
-          return true;
-        }
-        return false;
-      } catch (e) {
-        return false;
-      } finally {
-        process.chdir('..'); 
-        fs.rmSync(uniqueDir, { recursive: true, force: true });
-      }
-    }
-    
-    const seeds = ${JSON.stringify(seeds)};
-    const results = [];
-    const start = Date.now();
-    
-    seeds.forEach((seed, index) => {
-      const isVulnerable = testSeed(seed, index);
-      if (isVulnerable) {
-        const foundAt = Date.now() - start; 
-        results.push({ index, seed, vulnerable: true , foundAt});
-      }
-    });
-    
-    console.log(JSON.stringify(results));
-  `;
-
-  fs.writeFileSync(verificationFilePath, verificationCode);
-
-  const results = [];
-
-  try {
-    const stdout = execSync(`node ${verificationFilePath}`, {
-      stdio: 'pipe',
-      timeout: 30000, // 30 second timeout for all seeds
-      maxBuffer: 100 * 1024 * 1024, // Increase buffer size to 100MB
-    });
-
-    const files = fs.readdirSync(tempDir);
-    for (const file of files) {
-      if (file.startsWith('success-')) {
-        const index = parseInt(file.split('-')[1]);
-        results.push({
-          index,
-          seed: seeds[index],
-          vulnerable: true,
-        });
-      }
-    }
-
-    const output = stdout.toString().trim();
-    if (output) {
-      try {
-        const stdoutResults = JSON.parse(output);
-        for (const result of stdoutResults) {
-          if (!results.some((r) => r.index === result.index)) {
-            results.push(result);
-          }
-        }
-      } catch (e) {
-        console.error('[xxxxx] Failed to parse output:', e);
-      }
-    }
-  } catch (error) {
-    console.error('[xxxxx] Verification execution error:', error.message);
-  } finally {
-    try {
-      fs.rmSync(tempDir, { recursive: true, force: true });
-    } catch (e) {
-      console.error('[xxxxx] Error cleaning up temp directory:', e);
-    }
-  }
-
-  return results;
-}
 
 function generate_mutations(seeds, timeout, values, requiredValue) {
   const startTime = Date.now();
@@ -222,10 +134,17 @@ function generate_mutations(seeds, timeout, values, requiredValue) {
 
   console.log(`[++++++] Generated ${mutatedSeeds.size} unique mutations`);
   console.log(`[++++++] Showing sample mutatedSeeds[0]:`, mutatedArray[0]);
-  console.log(`[++++++] Showing sample mutatedSeeds[1000]:`, mutatedArray[100]);
+  console.log(`[++++++] Showing sample mutatedSeeds[100]:`, mutatedArray[100]);
+  console.log(`[++++++] Showing sample mutatedSeeds[200]:`, mutatedArray[200]);
+  console.log(`[++++++] Showing sample mutatedSeeds[300]:`, mutatedArray[300]);
+  console.log(`[++++++] Showing sample mutatedSeeds[400]:`, mutatedArray[400]);
+  console.log(`[++++++] Showing sample mutatedSeeds[500]:`, mutatedArray[500]);
 
   return [...mutatedSeeds]; // Convert Set back to array
 }
+
+
+/////////////////////////////////////////////////////////////////////////////
 
 function PoCgenerator(
   package,
@@ -249,7 +168,7 @@ function PoCgenerator(
   const sanitizedName = package.replace(/[^a-zA-Z0-9._-]/g, '_');
   const seedPath = path.join(
     __dirname,
-    'seed',
+    'seed_PP',
     `${sanitizedName}@${version}_seed.json`
   );
   console.log(`[++++++] PoCgenerator seedPath : ${seedPath}`);
@@ -279,6 +198,7 @@ function PoCgenerator(
     `'http://example.com'`,
   ];
   // Add keyexpression to values
+  console.log('[DEBUG] typeof keyexpression:', typeof keyexpression);
   if (typeof keyexpression === 'string') {
     for (let i = 0; i < 3; i++) {
       values.push(`'${keyexpression}'`);
@@ -297,6 +217,10 @@ function PoCgenerator(
 
   // Generate mutations
   console.log(`keyexpression: ${keyexpression}`);
+
+  console.log(`[SEED] Original seed count: ${seeds.length}`);
+  console.log(`[SEED] Timeout: ${timeout}ms`);
+
   const mutatedSeeds = generate_mutations(
     seeds,
     timeout / 2,
@@ -306,12 +230,13 @@ function PoCgenerator(
 
   // Verify all seeds at once
   let vulnerableSeeds = [];
-  // if (vulnType === 'prototype-pollution') {
-  //  vulnerableSeeds = verify_all_PP(package, mutatedSeeds, packageDir);
-  // } else 
-  if (vulnType === 'command-injection') {
-     vulnerableSeeds = verify_all_CI(package, mutatedSeeds, packageDir);
-  }
+  if (vulnType === 'prototype-pollution') {
+   vulnerableSeeds = verify_all_PP(package, mutatedSeeds, packageDir);
+  } 
+  // else 
+  // if (vulnType === 'command-injection') {
+  //    vulnerableSeeds = await verify_all_CI(package, mutatedSeeds, packageDir);
+  // }
 
   // Save all vulnerable seeds as PoCs
   if (vulnerableSeeds.length > 0) {

@@ -1,10 +1,8 @@
-// 로컬 설치된 npm 패키지들 대상으로 뽑아진 seed와 tree를 이용해 mutation 돌리
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 const PoCgenerator = require('./mutator').PoCgenerator;
 
-// 아무리 에러핸들링을 해도 죽는 애들
 const blacklistPath = path.join(__dirname, 'blacklist.txt');
 const blacklist = new Set(
   fs.existsSync(blacklistPath)
@@ -13,8 +11,8 @@ const blacklist = new Set(
 );
 
 const Vuln = {
-  1: 'command-injection',
-  // 1: 'prototype-pollution',
+  // 1: 'command-injection',
+  1: 'prototype-pollution',
   // 3: 'code-injection',
 };
 
@@ -32,7 +30,7 @@ function parsePkgAndVersion(pkgWithVersion) {
 }
 
 // Main execution
-try {
+function main() {
   // Already output directory exists
   const starttime = Date.now();
   for (let i = 1; i <= 1; i++) {
@@ -62,6 +60,10 @@ try {
             let packageDir = '';
             try {
               const { name, version } = parsePkgAndVersion(downstream);
+              if (blacklist.has(downstream)) {
+                console.warn(`[xxxxx] SKIPPED: Blacklisted package ${downstream}`);
+                continue;
+              }
 
               // sanitize package name for directory name
               const sanitizedName = name.replace(/[^a-zA-Z0-9._-]/g, '_');
@@ -82,7 +84,7 @@ try {
                 continue;
               }
 
-              const seedPath = path.join(__dirname, 'seed', `${sanitizedName}@${version}_seed.json`);
+              const seedPath = path.join(__dirname, 'seed_PP', `${sanitizedName}@${version}_seed.json`);
               console.log(`[-----] seedPath: ${seedPath}`);
               if (!fs.existsSync(seedPath)) {
                 console.log(`\n[xxxxx] [SKIPPED] No seedPath: ${downstream}`);
@@ -107,13 +109,14 @@ try {
       }
     }
   }
-} catch (err) {
-  console.error(`Main execution error: ${err.message}`);
-} finally {
   process.chdir(originalDir);
 }
 
 
 if (require.main === module) {
+  main().catch(err => {
+    console.error(`[xxxxx] Main execution error: ${err.message}`);
+    process.chdir(originalDir);
+  });
 }
 

@@ -1,1891 +1,585 @@
 [Found] 188 subfolders
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/101_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/101@1.0.0_CVE-2021-25943.json
+[Processing package folder] prototype-pollution/101_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/101@1.0.0_CVE-2021-25943.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/Proto_1.1.4
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/Proto@1.1.4_CVE-2021-23426.json
+[Processing package folder] prototype-pollution/Proto_1.1.4
+[Saved] JSON_pp_keyinstanceExtractor/Proto@1.1.4_CVE-2021-23426.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/Templ8_0.7.0
+[Processing package folder] prototype-pollution/Templ8_0.7.0
 [keyInstance] [❌] 함수 호출 정보가 충분하지 않음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/Templ8@0.7.0_CVE-2020-7702.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/algoliasearch-helper_3.6.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/algoliasearch-helper@3.6.0_CVE-2021-23433.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/arr-flatten-unflatten_1.1.4
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/arr-flatten-unflatten_1.1.4/arr-flatten-unflatten.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/arr-flatten-unflatten@1.1.4_CVE-2020-7713.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/asciitable.js_1.0.2
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/asciitable.js@1.0.2_CVE-2020-7771.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/assign-deep_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/assign-deep@1.0.0_CVE-2019-10745.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/aurelia-path_1.1.7
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/aurelia-path@1.1.0_CVE-2021-41097.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/aws-sdk-shared-ini-file-loader_1.0.0-rc.8
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/_aws-sdk_shared-ini-file-loader@1.0.0-rc.8_CVE-2020-28472.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/bmoor_0.8.11
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/bmoor@0.8.11_CVE-2020-7736.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/bodymen_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/bodymen@1.0.0_CVE-2019-10792.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/brikcss-merge_1.3.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/_brikcss_merge@1.3.0_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/cached-path-relative_1.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/cached-path-relative@1.0.1_CVE-2018-16472.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/changeset_0.1.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/changeset@0.1.0_CVE-2021-25915.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/class-transformer_0.1.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/class-transformer@0.1.1_CVE-2020-7637.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/component-flatten_1.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/component-flatten@1.0.1_CVE-2019-10794.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/confinit_0.3.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/confinit@0.3.0_CVE-2020-7638.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/confucious_0.0.12
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/confucious@0.0.12_CVE-2020-7714.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/connie_0.1.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/connie@0.1.0_CVE-2020-7706.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/controlled-merge_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/controlled-merge@1.0.0_CVE-2020-28268.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/convict_6.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/convict@6.0.0_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/cookiex-deep_0.0.6
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/_cookiex_deep@0.0.6_CVE-2021-23442.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/copy-props_2.0.4
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/copy-props@2.0.4_CVE-2020-28503.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/deap_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/deap@1.0.0_CVE-2018-3749.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/decal_2.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/decal@2.0.0_CVE-2020-28449.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/decal_2.1.3
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/decal@2.1.3_CVE-2020-28450.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/deep-defaults_1.0.5
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/deep-defaults@1.0.5_CVE-2021-25944.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/deep-extend_0.5.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/deep-extend@0.5.0_CVE-2018-3750.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/deep-get-set_1.1.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/deep-get-set@1.1.0_CVE-2020-7715.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/deep-override_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/deep-override@1.0.0_CVE-2021-25941.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/deep-set_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/deep-set@1.0.0_CVE-2020-28276.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/deephas_1.0.5
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/deephas@1.0.5_CVE-2020-28271.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/deeply_3.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/deeply@3.0.0_CVE-2019-10750.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/deepmergefn_1.1.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/deepmergefn@1.1.0_CVE-2021-23417.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/deepref_1.1.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/deepref@1.1.1_CVE-2020-28274.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/deeps_1.4.5
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/deeps@1.4.5_CVE-2020-7716.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/defaults-deep_0.2.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/defaults-deep@0.2.0_CVE-2018-3723.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/defaults-deep_0.2.4
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/defaults-deep@0.2.4_CVE-2018-16486.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/doc-path_2.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/doc-path@2.0.0_CVE-2020-7772.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/dot-notes_3.2.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/dot-notes@3.2.0_CVE-2020-7717.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/dot-object_2.1.2
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/dot-object@2.1.2_CVE-2019-10793.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/dot-prop_2.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/dot-prop@2.0.0_CVE-2020-8116.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/dotty_0.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/dotty@0.0.1_CVE-2021-23624.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/dset_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/dset@1.0.0_CVE-2020-28277.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/eivifj-dot_1.0.2
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/_eivifj_dot@1.0.2_CVE-2020-7639.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/eivindfjeldstad-dot_0.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/eivindfjeldstad-dot@0.0.1_CVE-2020-7639.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/expand-hash_1.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/expand-hash@1.0.1_CVE-2021-25948.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/extend-merge_1.0.5
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/extend-merge@1.0.5_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/extend_3.0.1
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-standard>2.1.2>mdn-browser-compat-data" of package "eslint-config-airbnb-standard>2.1.2>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_06_796Z-debug-0.log
-[에러] eslint-config-airbnb-standard>2.1.2>mdn-browser-compat-data 버전 조회 실패: Command failed: npm view "eslint-config-airbnb-standard>2.1.2>mdn-browser-compat-data" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-standard>2.1.2>mdn-browser-compat-data" of package "eslint-config-airbnb-standard>2.1.2>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_06_796Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-bundle>2.0.3>mdn-browser-compat-data" of package "eslint-config-airbnb-bundle>2.0.3>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_07_008Z-debug-0.log
-[에러] eslint-config-airbnb-bundle>2.0.3>mdn-browser-compat-data 버전 조회 실패: Command failed: npm view "eslint-config-airbnb-bundle>2.0.3>mdn-browser-compat-data" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-bundle>2.0.3>mdn-browser-compat-data" of package "eslint-config-airbnb-bundle>2.0.3>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_07_008Z-debug-0.log
-
-npm error code ENOENT
-npm error syscall open
-npm error path /ssd/heewon/PLRG/scripts/@wellplayed/eslint-config>0.2.0>mdn-browser-compat-data/package.json
-npm error errno -2
-npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/ssd/heewon/PLRG/scripts/@wellplayed/eslint-config>0.2.0>mdn-browser-compat-data/package.json'
-npm error enoent This is related to npm not being able to find a file.
-npm error enoent
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_07_966Z-debug-0.log
-[에러] @wellplayed/eslint-config>0.2.0>mdn-browser-compat-data 버전 조회 실패: Command failed: npm view "@wellplayed/eslint-config>0.2.0>mdn-browser-compat-data" versions --json
-npm error code ENOENT
-npm error syscall open
-npm error path /ssd/heewon/PLRG/scripts/@wellplayed/eslint-config>0.2.0>mdn-browser-compat-data/package.json
-npm error errno -2
-npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/ssd/heewon/PLRG/scripts/@wellplayed/eslint-config>0.2.0>mdn-browser-compat-data/package.json'
-npm error enoent This is related to npm not being able to find a file.
-npm error enoent
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_07_966Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-drupal-bundle>1.0.1>mdn-browser-compat-data" of package "eslint-config-drupal-bundle>1.0.1>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_09_840Z-debug-0.log
-[에러] eslint-config-drupal-bundle>1.0.1>mdn-browser-compat-data 버전 조회 실패: Command failed: npm view "eslint-config-drupal-bundle>1.0.1>mdn-browser-compat-data" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-drupal-bundle>1.0.1>mdn-browser-compat-data" of package "eslint-config-drupal-bundle>1.0.1>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_09_840Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-bundle>2.0.4>mdn-browser-compat-data" of package "eslint-config-airbnb-bundle>2.0.4>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_12_382Z-debug-0.log
-[에러] eslint-config-airbnb-bundle>2.0.4>mdn-browser-compat-data 버전 조회 실패: Command failed: npm view "eslint-config-airbnb-bundle>2.0.4>mdn-browser-compat-data" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-bundle>2.0.4>mdn-browser-compat-data" of package "eslint-config-airbnb-bundle>2.0.4>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_12_382Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-bundle>1.2.0>mdn-browser-compat-data" of package "eslint-config-airbnb-bundle>1.2.0>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_13_377Z-debug-0.log
-[에러] eslint-config-airbnb-bundle>1.2.0>mdn-browser-compat-data 버전 조회 실패: Command failed: npm view "eslint-config-airbnb-bundle>1.2.0>mdn-browser-compat-data" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-bundle>1.2.0>mdn-browser-compat-data" of package "eslint-config-airbnb-bundle>1.2.0>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_13_377Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-bundle>2.0.1>mdn-browser-compat-data" of package "eslint-config-airbnb-bundle>2.0.1>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_13_586Z-debug-0.log
-[에러] eslint-config-airbnb-bundle>2.0.1>mdn-browser-compat-data 버전 조회 실패: Command failed: npm view "eslint-config-airbnb-bundle>2.0.1>mdn-browser-compat-data" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-bundle>2.0.1>mdn-browser-compat-data" of package "eslint-config-airbnb-bundle>2.0.1>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_13_586Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-bundle>2.0.2>mdn-browser-compat-data" of package "eslint-config-airbnb-bundle>2.0.2>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_13_794Z-debug-0.log
-[에러] eslint-config-airbnb-bundle>2.0.2>mdn-browser-compat-data 버전 조회 실패: Command failed: npm view "eslint-config-airbnb-bundle>2.0.2>mdn-browser-compat-data" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-bundle>2.0.2>mdn-browser-compat-data" of package "eslint-config-airbnb-bundle>2.0.2>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_13_794Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-standard>1.6.7>mdn-browser-compat-data" of package "eslint-config-airbnb-standard>1.6.7>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_14_002Z-debug-0.log
-[에러] eslint-config-airbnb-standard>1.6.7>mdn-browser-compat-data 버전 조회 실패: Command failed: npm view "eslint-config-airbnb-standard>1.6.7>mdn-browser-compat-data" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-standard>1.6.7>mdn-browser-compat-data" of package "eslint-config-airbnb-standard>1.6.7>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_14_002Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-standard>2.1.3>mdn-browser-compat-data" of package "eslint-config-airbnb-standard>2.1.3>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_14_212Z-debug-0.log
-[에러] eslint-config-airbnb-standard>2.1.3>mdn-browser-compat-data 버전 조회 실패: Command failed: npm view "eslint-config-airbnb-standard>2.1.3>mdn-browser-compat-data" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-standard>2.1.3>mdn-browser-compat-data" of package "eslint-config-airbnb-standard>2.1.3>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_14_212Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-standard>2.1.4>mdn-browser-compat-data" of package "eslint-config-airbnb-standard>2.1.4>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_15_159Z-debug-0.log
-[에러] eslint-config-airbnb-standard>2.1.4>mdn-browser-compat-data 버전 조회 실패: Command failed: npm view "eslint-config-airbnb-standard>2.1.4>mdn-browser-compat-data" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-standard>2.1.4>mdn-browser-compat-data" of package "eslint-config-airbnb-standard>2.1.4>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_15_159Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-standard>2.1.5>mdn-browser-compat-data" of package "eslint-config-airbnb-standard>2.1.5>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_15_368Z-debug-0.log
-[에러] eslint-config-airbnb-standard>2.1.5>mdn-browser-compat-data 버전 조회 실패: Command failed: npm view "eslint-config-airbnb-standard>2.1.5>mdn-browser-compat-data" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-standard>2.1.5>mdn-browser-compat-data" of package "eslint-config-airbnb-standard>2.1.5>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_15_368Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-standard>2.1.6>mdn-browser-compat-data" of package "eslint-config-airbnb-standard>2.1.6>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_15_579Z-debug-0.log
-[에러] eslint-config-airbnb-standard>2.1.6>mdn-browser-compat-data 버전 조회 실패: Command failed: npm view "eslint-config-airbnb-standard>2.1.6>mdn-browser-compat-data" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-standard>2.1.6>mdn-browser-compat-data" of package "eslint-config-airbnb-standard>2.1.6>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_15_579Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-bundle>2.0.0>mdn-browser-compat-data" of package "eslint-config-airbnb-bundle>2.0.0>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_16_528Z-debug-0.log
-[에러] eslint-config-airbnb-bundle>2.0.0>mdn-browser-compat-data 버전 조회 실패: Command failed: npm view "eslint-config-airbnb-bundle>2.0.0>mdn-browser-compat-data" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-airbnb-bundle>2.0.0>mdn-browser-compat-data" of package "eslint-config-airbnb-bundle>2.0.0>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_16_528Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-drupal-bundle>1.0.0>mdn-browser-compat-data" of package "eslint-config-drupal-bundle>1.0.0>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_16_739Z-debug-0.log
-[에러] eslint-config-drupal-bundle>1.0.0>mdn-browser-compat-data 버전 조회 실패: Command failed: npm view "eslint-config-drupal-bundle>1.0.0>mdn-browser-compat-data" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "eslint-config-drupal-bundle>1.0.0>mdn-browser-compat-data" of package "eslint-config-drupal-bundle>1.0.0>mdn-browser-compat-data": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_52_16_739Z-debug-0.log
-
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/extend@3.0.1_CVE-2018-16492.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/fabiocaccamo-utils.js_0.17.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/_fabiocaccamo_utils.js@0.17.0_CVE-2021-3815.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/fast-json-patch_2.0.4
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/fast-json-patch@2.0.4_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/field_1.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/field@1.0.1_CVE-2020-28269.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/firebase-util_0.3.2
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/_firebase_util@0.3.2_CVE-2020-7765.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/flat-wrap_1.0.2
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/flat-wrap_1.0.2/flat-wrap.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/flat-wrap@1.0.2_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/flat_5.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/flat@5.0.0_CVE-2021-25927.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/flattenizer_0.0.5
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/flattenizer@0.0.5_CVE-2020-28279.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/fluentui-styles_0.47.15
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/_fluentui_styles@0.47.15_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/gammautils_0.0.81
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/gammautils@0.0.81_CVE-2020-7718.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/gedi_1.6.3
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/gedi_1.6.3/gedi.test.js
+[Saved] JSON_pp_keyinstanceExtractor/Templ8@0.7.0_CVE-2020-7702.json
+
+[Processing package folder] prototype-pollution/algoliasearch-helper_3.6.0
+[Saved] JSON_pp_keyinstanceExtractor/algoliasearch-helper@3.6.0_CVE-2021-23433.json
+
+[Processing package folder] prototype-pollution/arr-flatten-unflatten_1.1.4
+[Saved] JSON_pp_keyinstanceExtractor/arr-flatten-unflatten@1.1.4_CVE-2020-7713.json
+
+[Processing package folder] prototype-pollution/asciitable.js_1.0.2
+[Saved] JSON_pp_keyinstanceExtractor/asciitable.js@1.0.2_CVE-2020-7771.json
+
+[Processing package folder] prototype-pollution/assign-deep_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/assign-deep@1.0.0_CVE-2019-10745.json
+
+[Processing package folder] prototype-pollution/aurelia-path_1.1.7
+[Saved] JSON_pp_keyinstanceExtractor/aurelia-path@1.1.0_CVE-2021-41097.json
+
+[Processing package folder] prototype-pollution/aws-sdk-shared-ini-file-loader_1.0.0-rc.8
+[Saved] JSON_pp_keyinstanceExtractor/_aws-sdk_shared-ini-file-loader@1.0.0-rc.8_CVE-2020-28472.json
+
+[Processing package folder] prototype-pollution/bmoor_0.8.11
+[Saved] JSON_pp_keyinstanceExtractor/bmoor@0.8.11_CVE-2020-7736.json
+
+[Processing package folder] prototype-pollution/bodymen_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/bodymen@1.0.0_CVE-2019-10792.json
+
+[Processing package folder] prototype-pollution/brikcss-merge_1.3.0
+[Saved] JSON_pp_keyinstanceExtractor/_brikcss_merge@1.3.0_.json
+
+[Processing package folder] prototype-pollution/cached-path-relative_1.0.1
+[Saved] JSON_pp_keyinstanceExtractor/cached-path-relative@1.0.1_CVE-2018-16472.json
+
+[Processing package folder] prototype-pollution/changeset_0.1.0
+[Saved] JSON_pp_keyinstanceExtractor/changeset@0.1.0_CVE-2021-25915.json
+
+[Processing package folder] prototype-pollution/class-transformer_0.1.1
+[Saved] JSON_pp_keyinstanceExtractor/class-transformer@0.1.1_CVE-2020-7637.json
+
+[Processing package folder] prototype-pollution/component-flatten_1.0.1
+[Saved] JSON_pp_keyinstanceExtractor/component-flatten@1.0.1_CVE-2019-10794.json
+
+[Processing package folder] prototype-pollution/confinit_0.3.0
+[Saved] JSON_pp_keyinstanceExtractor/confinit@0.3.0_CVE-2020-7638.json
+
+[Processing package folder] prototype-pollution/confucious_0.0.12
+[Saved] JSON_pp_keyinstanceExtractor/confucious@0.0.12_CVE-2020-7714.json
+
+[Processing package folder] prototype-pollution/connie_0.1.0
+[Saved] JSON_pp_keyinstanceExtractor/connie@0.1.0_CVE-2020-7706.json
+
+[Processing package folder] prototype-pollution/controlled-merge_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/controlled-merge@1.0.0_CVE-2020-28268.json
+
+[Processing package folder] prototype-pollution/convict_6.0.0
+[Saved] JSON_pp_keyinstanceExtractor/convict@6.0.0_.json
+
+[Processing package folder] prototype-pollution/cookiex-deep_0.0.6
+[Saved] JSON_pp_keyinstanceExtractor/_cookiex_deep@0.0.6_CVE-2021-23442.json
+
+[Processing package folder] prototype-pollution/copy-props_2.0.4
+[Saved] JSON_pp_keyinstanceExtractor/copy-props@2.0.4_CVE-2020-28503.json
+
+[Processing package folder] prototype-pollution/deap_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/deap@1.0.0_CVE-2018-3749.json
+
+[Processing package folder] prototype-pollution/decal_2.0.0
+[Saved] JSON_pp_keyinstanceExtractor/decal@2.0.0_CVE-2020-28449.json
+
+[Processing package folder] prototype-pollution/decal_2.1.3
+[Saved] JSON_pp_keyinstanceExtractor/decal@2.1.3_CVE-2020-28450.json
+
+[Processing package folder] prototype-pollution/deep-defaults_1.0.5
+[Saved] JSON_pp_keyinstanceExtractor/deep-defaults@1.0.5_CVE-2021-25944.json
+
+[Processing package folder] prototype-pollution/deep-extend_0.5.0
+[Saved] JSON_pp_keyinstanceExtractor/deep-extend@0.5.0_CVE-2018-3750.json
+
+[Processing package folder] prototype-pollution/deep-get-set_1.1.0
+[Saved] JSON_pp_keyinstanceExtractor/deep-get-set@1.1.0_CVE-2020-7715.json
+
+[Processing package folder] prototype-pollution/deep-override_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/deep-override@1.0.0_CVE-2021-25941.json
+
+[Processing package folder] prototype-pollution/deep-set_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/deep-set@1.0.0_CVE-2020-28276.json
+
+[Processing package folder] prototype-pollution/deephas_1.0.5
+[Saved] JSON_pp_keyinstanceExtractor/deephas@1.0.5_CVE-2020-28271.json
+
+[Processing package folder] prototype-pollution/deeply_3.0.0
+[Saved] JSON_pp_keyinstanceExtractor/deeply@3.0.0_CVE-2019-10750.json
+
+[Processing package folder] prototype-pollution/deepmergefn_1.1.0
+[Saved] JSON_pp_keyinstanceExtractor/deepmergefn@1.1.0_CVE-2021-23417.json
+
+[Processing package folder] prototype-pollution/deepref_1.1.1
+[Saved] JSON_pp_keyinstanceExtractor/deepref@1.1.1_CVE-2020-28274.json
+
+[Processing package folder] prototype-pollution/deeps_1.4.5
+[Saved] JSON_pp_keyinstanceExtractor/deeps@1.4.5_CVE-2020-7716.json
+
+[Processing package folder] prototype-pollution/defaults-deep_0.2.0
+[Saved] JSON_pp_keyinstanceExtractor/defaults-deep@0.2.0_CVE-2018-3723.json
+
+[Processing package folder] prototype-pollution/defaults-deep_0.2.4
+[Saved] JSON_pp_keyinstanceExtractor/defaults-deep@0.2.4_CVE-2018-16486.json
+
+[Processing package folder] prototype-pollution/doc-path_2.0.0
+[Saved] JSON_pp_keyinstanceExtractor/doc-path@2.0.0_CVE-2020-7772.json
+
+[Processing package folder] prototype-pollution/dot-notes_3.2.0
+[Saved] JSON_pp_keyinstanceExtractor/dot-notes@3.2.0_CVE-2020-7717.json
+
+[Processing package folder] prototype-pollution/dot-object_2.1.2
+[Saved] JSON_pp_keyinstanceExtractor/dot-object@2.1.2_CVE-2019-10793.json
+
+[Processing package folder] prototype-pollution/dot-prop_2.0.0
+[Saved] JSON_pp_keyinstanceExtractor/dot-prop@2.0.0_CVE-2020-8116.json
+
+[Processing package folder] prototype-pollution/dotty_0.0.1
+[Saved] JSON_pp_keyinstanceExtractor/dotty@0.0.1_CVE-2021-23624.json
+
+[Processing package folder] prototype-pollution/dset_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/dset@1.0.0_CVE-2020-28277.json
+
+[Processing package folder] prototype-pollution/eivifj-dot_1.0.2
+[Saved] JSON_pp_keyinstanceExtractor/_eivifj_dot@1.0.2_CVE-2020-7639.json
+
+[Processing package folder] prototype-pollution/eivindfjeldstad-dot_0.0.1
+[Saved] JSON_pp_keyinstanceExtractor/eivindfjeldstad-dot@0.0.1_CVE-2020-7639.json
+
+[Processing package folder] prototype-pollution/expand-hash_1.0.1
+[Saved] JSON_pp_keyinstanceExtractor/expand-hash@1.0.1_CVE-2021-25948.json
+
+[Processing package folder] prototype-pollution/extend-merge_1.0.5
+[Saved] JSON_pp_keyinstanceExtractor/extend-merge@1.0.5_.json
+
+[Processing package folder] prototype-pollution/extend_3.0.1
+[Saved] JSON_pp_keyinstanceExtractor/extend@3.0.1_CVE-2018-16492.json
+
+[Processing package folder] prototype-pollution/fabiocaccamo-utils.js_0.17.0
+[Saved] JSON_pp_keyinstanceExtractor/_fabiocaccamo_utils.js@0.17.0_CVE-2021-3815.json
+
+[Processing package folder] prototype-pollution/fast-json-patch_2.0.4
+[Saved] JSON_pp_keyinstanceExtractor/fast-json-patch@2.0.4_.json
+
+[Processing package folder] prototype-pollution/field_1.0.1
+[Saved] JSON_pp_keyinstanceExtractor/field@1.0.1_CVE-2020-28269.json
+
+[Processing package folder] prototype-pollution/firebase-util_0.3.2
+[Saved] JSON_pp_keyinstanceExtractor/_firebase_util@0.3.2_CVE-2020-7765.json
+
+[Processing package folder] prototype-pollution/flat-wrap_1.0.2
+[Saved] JSON_pp_keyinstanceExtractor/flat-wrap@1.0.2_.json
+
+[Processing package folder] prototype-pollution/flat_5.0.0
+[Saved] JSON_pp_keyinstanceExtractor/flat@5.0.0_CVE-2021-25927.json
+
+[Processing package folder] prototype-pollution/flattenizer_0.0.5
+[Saved] JSON_pp_keyinstanceExtractor/flattenizer@0.0.5_CVE-2020-28279.json
+
+[Processing package folder] prototype-pollution/fluentui-styles_0.47.15
+[Saved] JSON_pp_keyinstanceExtractor/_fluentui_styles@0.47.15_.json
+
+[Processing package folder] prototype-pollution/gammautils_0.0.81
+[Saved] JSON_pp_keyinstanceExtractor/gammautils@0.0.81_CVE-2020-7718.json
+
+[Processing package folder] prototype-pollution/gedi_1.6.3
+[⚠️  extractKeyInstances 실패] prototype-pollution/gedi_1.6.3/gedi.test.js
 No arguments found in the function call
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/gedi@1.6.3_CVE-2020-7727.json
+[Saved] JSON_pp_keyinstanceExtractor/gedi@1.6.3_CVE-2020-7727.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/getobject_0.1.0
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.27>grunt-legacy-util" of package "react-native-gameball>1.0.27>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_05_729Z-debug-0.log
-[에러] react-native-gameball>1.0.27>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.27>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.27>grunt-legacy-util" of package "react-native-gameball>1.0.27>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_05_729Z-debug-0.log
+[Processing package folder] prototype-pollution/getobject_0.1.0
+[Saved] JSON_pp_keyinstanceExtractor/getobject@0.1.0_CVE-2020-28282.json
 
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.22>grunt-legacy-util" of package "react-native-gameball>1.0.22>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_05_938Z-debug-0.log
-[에러] react-native-gameball>1.0.22>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.22>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.22>grunt-legacy-util" of package "react-native-gameball>1.0.22>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_05_938Z-debug-0.log
+[Processing package folder] prototype-pollution/getsetdeep_4.15.0
+[Saved] JSON_pp_keyinstanceExtractor/getsetdeep@4.15.0_.json
 
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "ember-cli-ghost-app>0.1.0>ghost>grunt>grunt-legacy-util" of package "ember-cli-ghost-app>0.1.0>ghost>grunt>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_06_875Z-debug-0.log
-[에러] ember-cli-ghost-app>0.1.0>ghost>grunt>grunt-legacy-util 버전 조회 실패: Command failed: npm view "ember-cli-ghost-app>0.1.0>ghost>grunt>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "ember-cli-ghost-app>0.1.0>ghost>grunt>grunt-legacy-util" of package "ember-cli-ghost-app>0.1.0>ghost>grunt>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_06_875Z-debug-0.log
+[Processing package folder] prototype-pollution/grunt-util-property_0.0.2
+[Saved] JSON_pp_keyinstanceExtractor/grunt-util-property@0.0.2_CVE-2020-7641.json
 
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "cs-blue-button-generate>1.5.11>blue-button-util>grunt>grunt-legacy-util" of package "cs-blue-button-generate>1.5.11>blue-button-util>grunt>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_07_085Z-debug-0.log
-[에러] cs-blue-button-generate>1.5.11>blue-button-util>grunt>grunt-legacy-util 버전 조회 실패: Command failed: npm view "cs-blue-button-generate>1.5.11>blue-button-util>grunt>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "cs-blue-button-generate>1.5.11>blue-button-util>grunt>grunt-legacy-util" of package "cs-blue-button-generate>1.5.11>blue-button-util>grunt>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_07_085Z-debug-0.log
+[Processing package folder] prototype-pollution/hoek_5.0.0
+[Saved] JSON_pp_keyinstanceExtractor/hoek@5.0.0_CVE-2018-3728.json
 
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.29>grunt-legacy-util" of package "react-native-gameball>1.0.29>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_07_293Z-debug-0.log
-[에러] react-native-gameball>1.0.29>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.29>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.29>grunt-legacy-util" of package "react-native-gameball>1.0.29>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_07_293Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.25>grunt-legacy-util" of package "react-native-gameball>1.0.25>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_07_506Z-debug-0.log
-[에러] react-native-gameball>1.0.25>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.25>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.25>grunt-legacy-util" of package "react-native-gameball>1.0.25>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_07_506Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.12>grunt-legacy-util" of package "react-native-gameball>1.0.12>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_07_712Z-debug-0.log
-[에러] react-native-gameball>1.0.12>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.12>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.12>grunt-legacy-util" of package "react-native-gameball>1.0.12>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_07_712Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.11>grunt-legacy-util" of package "react-native-gameball>1.0.11>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_07_928Z-debug-0.log
-[에러] react-native-gameball>1.0.11>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.11>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.11>grunt-legacy-util" of package "react-native-gameball>1.0.11>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_07_928Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.14>grunt-legacy-util" of package "react-native-gameball>1.0.14>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_08_140Z-debug-0.log
-[에러] react-native-gameball>1.0.14>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.14>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.14>grunt-legacy-util" of package "react-native-gameball>1.0.14>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_08_140Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.16>grunt-legacy-util" of package "react-native-gameball>1.0.16>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_08_346Z-debug-0.log
-[에러] react-native-gameball>1.0.16>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.16>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.16>grunt-legacy-util" of package "react-native-gameball>1.0.16>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_08_346Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.18>grunt-legacy-util" of package "react-native-gameball>1.0.18>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_08_551Z-debug-0.log
-[에러] react-native-gameball>1.0.18>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.18>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.18>grunt-legacy-util" of package "react-native-gameball>1.0.18>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_08_551Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.20>grunt-legacy-util" of package "react-native-gameball>1.0.20>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_08_760Z-debug-0.log
-[에러] react-native-gameball>1.0.20>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.20>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.20>grunt-legacy-util" of package "react-native-gameball>1.0.20>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_08_760Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.23>grunt-legacy-util" of package "react-native-gameball>1.0.23>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_08_972Z-debug-0.log
-[에러] react-native-gameball>1.0.23>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.23>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.23>grunt-legacy-util" of package "react-native-gameball>1.0.23>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_08_972Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.26>grunt-legacy-util" of package "react-native-gameball>1.0.26>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_09_917Z-debug-0.log
-[에러] react-native-gameball>1.0.26>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.26>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.26>grunt-legacy-util" of package "react-native-gameball>1.0.26>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_09_917Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.28>grunt-legacy-util" of package "react-native-gameball>1.0.28>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_10_128Z-debug-0.log
-[에러] react-native-gameball>1.0.28>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.28>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.28>grunt-legacy-util" of package "react-native-gameball>1.0.28>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_10_128Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.10>grunt-legacy-util" of package "react-native-gameball>1.0.10>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_10_337Z-debug-0.log
-[에러] react-native-gameball>1.0.10>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.10>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.10>grunt-legacy-util" of package "react-native-gameball>1.0.10>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_10_337Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.8>grunt-legacy-util" of package "react-native-gameball>1.0.8>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_11_319Z-debug-0.log
-[에러] react-native-gameball>1.0.8>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.8>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.8>grunt-legacy-util" of package "react-native-gameball>1.0.8>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_11_319Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.6>grunt-legacy-util" of package "react-native-gameball>1.0.6>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_11_530Z-debug-0.log
-[에러] react-native-gameball>1.0.6>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.6>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.6>grunt-legacy-util" of package "react-native-gameball>1.0.6>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_11_530Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.4>grunt-legacy-util" of package "react-native-gameball>1.0.4>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_11_736Z-debug-0.log
-[에러] react-native-gameball>1.0.4>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.4>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.4>grunt-legacy-util" of package "react-native-gameball>1.0.4>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_11_736Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.9>grunt-legacy-util" of package "react-native-gameball>1.0.9>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_14_224Z-debug-0.log
-[에러] react-native-gameball>1.0.9>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.9>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.9>grunt-legacy-util" of package "react-native-gameball>1.0.9>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_14_224Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "polyfiller-catalog>0.0.25>getusermedia-js>grunt>grunt-legacy-util" of package "polyfiller-catalog>0.0.25>getusermedia-js>grunt>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_14_430Z-debug-0.log
-[에러] polyfiller-catalog>0.0.25>getusermedia-js>grunt>grunt-legacy-util 버전 조회 실패: Command failed: npm view "polyfiller-catalog>0.0.25>getusermedia-js>grunt>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "polyfiller-catalog>0.0.25>getusermedia-js>grunt>grunt-legacy-util" of package "polyfiller-catalog>0.0.25>getusermedia-js>grunt>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_14_430Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "polyfiller-catalog>0.0.29>getusermedia-js>grunt>grunt-legacy-util" of package "polyfiller-catalog>0.0.29>getusermedia-js>grunt>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_15_425Z-debug-0.log
-[에러] polyfiller-catalog>0.0.29>getusermedia-js>grunt>grunt-legacy-util 버전 조회 실패: Command failed: npm view "polyfiller-catalog>0.0.29>getusermedia-js>grunt>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "polyfiller-catalog>0.0.29>getusermedia-js>grunt>grunt-legacy-util" of package "polyfiller-catalog>0.0.29>getusermedia-js>grunt>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_15_425Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gb-react-library-test>1.0.0>grunt-legacy-util" of package "react-native-gb-react-library-test>1.0.0>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_15_632Z-debug-0.log
-[에러] react-native-gb-react-library-test>1.0.0>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gb-react-library-test>1.0.0>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gb-react-library-test>1.0.0>grunt-legacy-util" of package "react-native-gb-react-library-test>1.0.0>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_15_632Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.7>grunt-legacy-util" of package "react-native-gameball>1.0.7>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_15_842Z-debug-0.log
-[에러] react-native-gameball>1.0.7>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.7>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.7>grunt-legacy-util" of package "react-native-gameball>1.0.7>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_15_842Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.5>grunt-legacy-util" of package "react-native-gameball>1.0.5>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_16_052Z-debug-0.log
-[에러] react-native-gameball>1.0.5>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.5>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.5>grunt-legacy-util" of package "react-native-gameball>1.0.5>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_16_052Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.13>grunt-legacy-util" of package "react-native-gameball>1.0.13>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_16_257Z-debug-0.log
-[에러] react-native-gameball>1.0.13>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.13>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.13>grunt-legacy-util" of package "react-native-gameball>1.0.13>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_16_257Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "polyfiller-catalog>0.0.26>getusermedia-js>grunt>grunt-legacy-util" of package "polyfiller-catalog>0.0.26>getusermedia-js>grunt>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_16_465Z-debug-0.log
-[에러] polyfiller-catalog>0.0.26>getusermedia-js>grunt>grunt-legacy-util 버전 조회 실패: Command failed: npm view "polyfiller-catalog>0.0.26>getusermedia-js>grunt>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "polyfiller-catalog>0.0.26>getusermedia-js>grunt>grunt-legacy-util" of package "polyfiller-catalog>0.0.26>getusermedia-js>grunt>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_16_465Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.15>grunt-legacy-util" of package "react-native-gameball>1.0.15>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_16_671Z-debug-0.log
-[에러] react-native-gameball>1.0.15>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.15>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.15>grunt-legacy-util" of package "react-native-gameball>1.0.15>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_16_671Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.17>grunt-legacy-util" of package "react-native-gameball>1.0.17>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_17_661Z-debug-0.log
-[에러] react-native-gameball>1.0.17>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.17>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.17>grunt-legacy-util" of package "react-native-gameball>1.0.17>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_17_661Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.31>grunt-legacy-util" of package "react-native-gameball>1.0.31>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_17_872Z-debug-0.log
-[에러] react-native-gameball>1.0.31>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.31>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.31>grunt-legacy-util" of package "react-native-gameball>1.0.31>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_17_872Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.19>grunt-legacy-util" of package "react-native-gameball>1.0.19>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_18_078Z-debug-0.log
-[에러] react-native-gameball>1.0.19>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.19>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.19>grunt-legacy-util" of package "react-native-gameball>1.0.19>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_18_078Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.30>grunt-legacy-util" of package "react-native-gameball>1.0.30>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_18_286Z-debug-0.log
-[에러] react-native-gameball>1.0.30>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.30>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.30>grunt-legacy-util" of package "react-native-gameball>1.0.30>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_18_286Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.21>grunt-legacy-util" of package "react-native-gameball>1.0.21>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_18_497Z-debug-0.log
-[에러] react-native-gameball>1.0.21>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.21>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.21>grunt-legacy-util" of package "react-native-gameball>1.0.21>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_18_497Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "polyfiller-catalog>0.0.27>getusermedia-js>grunt>grunt-legacy-util" of package "polyfiller-catalog>0.0.27>getusermedia-js>grunt>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_18_705Z-debug-0.log
-[에러] polyfiller-catalog>0.0.27>getusermedia-js>grunt>grunt-legacy-util 버전 조회 실패: Command failed: npm view "polyfiller-catalog>0.0.27>getusermedia-js>grunt>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "polyfiller-catalog>0.0.27>getusermedia-js>grunt>grunt-legacy-util" of package "polyfiller-catalog>0.0.27>getusermedia-js>grunt>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_18_705Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.3>grunt-legacy-util" of package "react-native-gameball>1.0.3>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_18_912Z-debug-0.log
-[에러] react-native-gameball>1.0.3>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.3>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.3>grunt-legacy-util" of package "react-native-gameball>1.0.3>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_18_912Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.24>grunt-legacy-util" of package "react-native-gameball>1.0.24>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_19_121Z-debug-0.log
-[에러] react-native-gameball>1.0.24>grunt-legacy-util 버전 조회 실패: Command failed: npm view "react-native-gameball>1.0.24>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "react-native-gameball>1.0.24>grunt-legacy-util" of package "react-native-gameball>1.0.24>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_19_121Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "mariinsky>1.0.2>grunt" of package "mariinsky>1.0.2>grunt": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_19_326Z-debug-0.log
-[에러] mariinsky>1.0.2>grunt 버전 조회 실패: Command failed: npm view "mariinsky>1.0.2>grunt" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "mariinsky>1.0.2>grunt" of package "mariinsky>1.0.2>grunt": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_19_326Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "litejs>0.1.7>browser-upgrade-lite>promises-aplus-tests>jshint>exit>grunt" of package "litejs>0.1.7>browser-upgrade-lite>promises-aplus-tests>jshint>exit>grunt": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_19_535Z-debug-0.log
-[에러] litejs>0.1.7>browser-upgrade-lite>promises-aplus-tests>jshint>exit>grunt 버전 조회 실패: Command failed: npm view "litejs>0.1.7>browser-upgrade-lite>promises-aplus-tests>jshint>exit>grunt" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "litejs>0.1.7>browser-upgrade-lite>promises-aplus-tests>jshint>exit>grunt" of package "litejs>0.1.7>browser-upgrade-lite>promises-aplus-tests>jshint>exit>grunt": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_19_535Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "mariinsky>1.1.1>grunt-legacy-util" of package "mariinsky>1.1.1>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_31_771Z-debug-0.log
-[에러] mariinsky>1.1.1>grunt-legacy-util 버전 조회 실패: Command failed: npm view "mariinsky>1.1.1>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "mariinsky>1.1.1>grunt-legacy-util" of package "mariinsky>1.1.1>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_31_771Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "mariinsky>1.1.1>grunt" of package "mariinsky>1.1.1>grunt": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_32_798Z-debug-0.log
-[에러] mariinsky>1.1.1>grunt 버전 조회 실패: Command failed: npm view "mariinsky>1.1.1>grunt" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "mariinsky>1.1.1>grunt" of package "mariinsky>1.1.1>grunt": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_32_798Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "mariinsky>1.1.0>grunt-legacy-util" of package "mariinsky>1.1.0>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_33_010Z-debug-0.log
-[에러] mariinsky>1.1.0>grunt-legacy-util 버전 조회 실패: Command failed: npm view "mariinsky>1.1.0>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "mariinsky>1.1.0>grunt-legacy-util" of package "mariinsky>1.1.0>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_33_010Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "mariinsky>1.1.0>grunt" of package "mariinsky>1.1.0>grunt": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_34_011Z-debug-0.log
-[에러] mariinsky>1.1.0>grunt 버전 조회 실패: Command failed: npm view "mariinsky>1.1.0>grunt" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "mariinsky>1.1.0>grunt" of package "mariinsky>1.1.0>grunt": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_34_011Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "mariinsky>1.0.2>grunt-legacy-util" of package "mariinsky>1.0.2>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_34_220Z-debug-0.log
-[에러] mariinsky>1.0.2>grunt-legacy-util 버전 조회 실패: Command failed: npm view "mariinsky>1.0.2>grunt-legacy-util" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "mariinsky>1.0.2>grunt-legacy-util" of package "mariinsky>1.0.2>grunt-legacy-util": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_54_34_220Z-debug-0.log
-
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/getobject@0.1.0_CVE-2020-28282.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/getsetdeep_4.15.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/getsetdeep@4.15.0_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/grunt-util-property_0.0.2
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/grunt-util-property@0.0.2_CVE-2020-7641.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/hoek_5.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/hoek@5.0.0_CVE-2018-3728.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/i18next_19.7.0
+[Processing package folder] prototype-pollution/i18next_19.7.0
 [keyInstance] [❌] 함수 호출 정보가 충분하지 않음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/i18next@19.7.0_.json
+[Saved] JSON_pp_keyinstanceExtractor/i18next@19.7.0_.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/ianwalter-merge_9.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/_ianwalter_merge@9.0.1_ CVE-2021-23397.json
+[Processing package folder] prototype-pollution/ianwalter-merge_9.0.1
+[Saved] JSON_pp_keyinstanceExtractor/_ianwalter_merge@9.0.1_ CVE-2021-23397.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/immer_8.0.0
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/immer_8.0.0/immer.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/immer@8.0.0_CVE-2021-23436.json
+[Processing package folder] prototype-pollution/immer_8.0.0
+[Saved] JSON_pp_keyinstanceExtractor/immer@8.0.0_CVE-2021-23436.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/ini-parser_0.0.2
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/ini-parser@0.0.2_CVE-2020-7617.json
+[Processing package folder] prototype-pollution/ini-parser_0.0.2
+[Saved] JSON_pp_keyinstanceExtractor/ini-parser@0.0.2_CVE-2020-7617.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/ini_1.3.5
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/ini@1.3.5_CVE-2020-7788.json
+[Processing package folder] prototype-pollution/ini_1.3.5
+[Saved] JSON_pp_keyinstanceExtractor/ini@1.3.5_CVE-2020-7788.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/iniparserjs_1.0.4
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/iniparserjs@1.0.4_CVE-2021-23328.json
+[Processing package folder] prototype-pollution/iniparserjs_1.0.4
+[Saved] JSON_pp_keyinstanceExtractor/iniparserjs@1.0.4_CVE-2021-23328.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/inireader_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/inireader@1.0.0_.json
+[Processing package folder] prototype-pollution/inireader_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/inireader@1.0.0_.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/ion-parser_0.5.2
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/ion-parser@0.5.2_CVE-2020-28462.json
+[Processing package folder] prototype-pollution/ion-parser_0.5.2
+[Saved] JSON_pp_keyinstanceExtractor/ion-parser@0.5.2_CVE-2020-28462.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/jointjs_3.4.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/jointjs@3.4.0_CVE-2021-23444.json
+[Processing package folder] prototype-pollution/jointjs_3.4.0
+[Saved] JSON_pp_keyinstanceExtractor/jointjs@3.4.0_CVE-2021-23444.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/jquery_1.11.0
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/jquery_1.11.0/jquery.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/jquery@1.11.0_CVE-2019-11358.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/js-data_3.0.9
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/js-data_3.0.9/js-data.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/js-data@3.0.9_CVE-2021-23574.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/js-extend_0.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/js-extend@0.0.1_CVE-2021-25945.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/js-ini_1.2.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/js-ini@1.2.0_CVE-2020-28461.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/json-pointer_0.6.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/json-pointer@0.6.1_CVE-2021-23820.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/json-ptr_1.1.0
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/json-ptr_1.1.0/json-ptr.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/json-ptr@1.1.0_CVE-2021-23509.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/json-schema_0.3.0
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@snyk/sweater-comb>1.0.10>" of package "@snyk/sweater-comb>1.0.10>@stoplight/spectral-core": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_58_16_720Z-debug-0.log
-[에러] @snyk/sweater-comb>1.0.10>@stoplight/spectral-core 버전 조회 실패: Command failed: npm view "@snyk/sweater-comb>1.0.10>@stoplight/spectral-core" versions --json
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@snyk/sweater-comb>1.0.10>" of package "@snyk/sweater-comb>1.0.10>@stoplight/spectral-core": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_58_16_720Z-debug-0.log
-
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@snyk/sweater-comb>1.0.9>" of package "@snyk/sweater-comb>1.0.9>@stoplight/spectral-core": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_58_18_573Z-debug-0.log
-[에러] @snyk/sweater-comb>1.0.9>@stoplight/spectral-core 버전 조회 실패: Command failed: npm view "@snyk/sweater-comb>1.0.9>@stoplight/spectral-core" versions --json
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@snyk/sweater-comb>1.0.9>" of package "@snyk/sweater-comb>1.0.9>@stoplight/spectral-core": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T19_58_18_573Z-debug-0.log
-
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/json-schema_0.3.0/json-schema.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/json-schema@0.3.0_CVE-2021-3918.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/json8-merge-patch_1.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/json8-merge-patch@1.0.1_CVE-2020-8268.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/jsonpointer_4.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/jsonpointer@4.0.0_CVE-2021-23807.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/just-extend_3.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/just-extend@3.0.0_CVE-2018-16489.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/just-safe-set_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/just-safe-set@1.0.0_ CVE-2021-25952.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/keyd_1.3.4
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/keyd@1.3.4_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/keyget_2.2.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/keyget@2.2.0_CVE-2020-28272.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/libnested_1.5.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/libnested@1.5.0_CVE-2020-28283.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/linux-cmdline_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/linux-cmdline@1.0.0_CVE-2020-7704.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/locutus_2.0.11
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/locutus@2.0.11_CVE-2020-7719.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/lodash_4.17.10
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/lodash@4.17.10_CVE-2019-10744.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/lodash_4.17.11
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/lodash@4.17.11_CVE-2020-8203.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/lodash_4.17.15
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/lodash@4.17.15_CVE-2018-3721 .json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/lodash_4.17.9
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/lodash@4.17.9_CVE-2018-16487.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/lutils-merge_0.2.6
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/lutils-merge@0.2.6_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/lutils_2.4.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/lutils@2.4.0_CVE-2021-23396.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/lyngs-digger_1.0.7
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/lyngs-digger_1.0.7/lyngs-digger.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/_lyngs_digger@1.0.7_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/lyngs-merge_1.0.9
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/lyngs-merge_1.0.9/lyngs-merge.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/_lyngs_merge@1.0.9_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/madlib-object-utils_0.1.6
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/madlib-object-utils@0.1.6_CVE-2020-7701.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/mathjs_7.4.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/mathjs@7.4.0_CVE-2020-7743.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/merge-change_1.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/merge-change@1.0.1_CVE-2021-23421.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/merge-deep2_3.0.5
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/merge-deep2@3.0.5_CVE-2021-23700.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/merge-deep_3.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/merge-deep@3.0.0_CVE-2021-26707.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/merge-objects_1.0.3
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/merge-objects@1.0.3_CVE-2018-3753.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/merge-options_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/merge-options@1.0.0_CVE-2018-3752.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/merge-recursive_0.0.3
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/merge-recursive@0.0.3_CVE-2018-3751.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/merge_2.1.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/merge@2.1.0_CVE-2020-28499.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/mergify_1.0.2
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/mergify@1.0.2_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/minimist_1.0.0
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/minimist_1.0.0/minimist.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/minimist@1.0.0_CVE-2020-7598.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/mithril_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/mithril@1.0.0_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/mixin-deep_1.3.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/mixin-deep@1.3.0_CVE-2018-3719.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/mixin-deep_2.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/mixin-deep@2.0.0_CVE-2019-10746.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/mootools_1.5.2
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/mootools_1.5.2/mootools.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/mootools@1.5.2_CVE-2021-23432.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/mout_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/mout@1.0.0_CVE-2020-7792.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/mpath_0.4.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/mpath@0.4.1_CVE-2021-23438.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/mquery_3.2.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/mquery@3.2.1_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/multi-ini_2.1.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/multi-ini@2.1.0_CVE-2020-28448.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/nconf-toml_0.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/nconf-toml@0.0.1_CVE-2021-25946.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/nedb_1.8.0
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@conneryn/cli>0.1.25>" of package "@conneryn/cli>0.1.25>@c6o/provisioner>@c6o/common": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_10_38_801Z-debug-0.log
-[에러] @conneryn/cli>0.1.25>@c6o/provisioner>@c6o/common 버전 조회 실패: Command failed: npm view "@conneryn/cli>0.1.25>@c6o/provisioner>@c6o/common" versions --json
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@conneryn/cli>0.1.25>" of package "@conneryn/cli>0.1.25>@c6o/provisioner>@c6o/common": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_10_38_801Z-debug-0.log
-
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@c6o/cli>0.1.18>" of package "@c6o/cli>0.1.18>@c6o/common": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_05_863Z-debug-0.log
-[에러] @c6o/cli>0.1.18>@c6o/common 버전 조회 실패: Command failed: npm view "@c6o/cli>0.1.18>@c6o/common" versions --json
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@c6o/cli>0.1.18>" of package "@c6o/cli>0.1.18>@c6o/common": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_05_863Z-debug-0.log
-
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@c6o/cli>0.1.15>" of package "@c6o/cli>0.1.15>@c6o/common": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_13_700Z-debug-0.log
-[에러] @c6o/cli>0.1.15>@c6o/common 버전 조회 실패: Command failed: npm view "@c6o/cli>0.1.15>@c6o/common" versions --json
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@c6o/cli>0.1.15>" of package "@c6o/cli>0.1.15>@c6o/common": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_13_700Z-debug-0.log
-
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@c6o/cli>0.1.12>" of package "@c6o/cli>0.1.12>@c6o/common": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_15_520Z-debug-0.log
-[에러] @c6o/cli>0.1.12>@c6o/common 버전 조회 실패: Command failed: npm view "@c6o/cli>0.1.12>@c6o/common" versions --json
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@c6o/cli>0.1.12>" of package "@c6o/cli>0.1.12>@c6o/common": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_15_520Z-debug-0.log
-
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@c6o/cli>0.0.6>" of package "@c6o/cli>0.0.6>@c6o/common": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_16_472Z-debug-0.log
-[에러] @c6o/cli>0.0.6>@c6o/common 버전 조회 실패: Command failed: npm view "@c6o/cli>0.0.6>@c6o/common" versions --json
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@c6o/cli>0.0.6>" of package "@c6o/cli>0.0.6>@c6o/common": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_16_472Z-debug-0.log
-
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@c6o/cli>0.0.18>" of package "@c6o/cli>0.0.18>@c6o/common": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_17_592Z-debug-0.log
-[에러] @c6o/cli>0.0.18>@c6o/common 버전 조회 실패: Command failed: npm view "@c6o/cli>0.0.18>@c6o/common" versions --json
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@c6o/cli>0.0.18>" of package "@c6o/cli>0.0.18>@c6o/common": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_17_592Z-debug-0.log
-
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@conneryn/cli>0.1.30>" of package "@conneryn/cli>0.1.30>@c6o/common": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_22_523Z-debug-0.log
-[에러] @conneryn/cli>0.1.30>@c6o/common 버전 조회 실패: Command failed: npm view "@conneryn/cli>0.1.30>@c6o/common" versions --json
-npm error code EINVALIDPACKAGENAME
-npm error Invalid package name "@conneryn/cli>0.1.30>" of package "@conneryn/cli>0.1.30>@c6o/common": name can only contain URL-friendly characters.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_22_523Z-debug-0.log
-
+[Processing package folder] prototype-pollution/jquery_1.11.0
 [keyInstance] [❌] 함수 호출 정보가 충분하지 않음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/nedb@1.8.0_CVE-2021-23395.json
+[Saved] JSON_pp_keyinstanceExtractor/jquery@1.11.0_CVE-2019-11358.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/nested-object-assign_1.0.3
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/nested-object-assign@1.0.3_CVE-2021-23329.json
+[Processing package folder] prototype-pollution/js-data_3.0.9
+[Saved] JSON_pp_keyinstanceExtractor/js-data@3.0.9_CVE-2021-23574.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/nested-property_0.0.5
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/nested-property@0.0.5_.json
+[Processing package folder] prototype-pollution/js-extend_0.0.1
+[Saved] JSON_pp_keyinstanceExtractor/js-extend@0.0.1_CVE-2021-25945.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/nestie_1.0.0
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/nestie_1.0.0/nestie.test.js
+[Processing package folder] prototype-pollution/js-ini_1.2.0
+[Saved] JSON_pp_keyinstanceExtractor/js-ini@1.2.0_CVE-2020-28461.json
+
+[Processing package folder] prototype-pollution/json-pointer_0.6.1
+[Saved] JSON_pp_keyinstanceExtractor/json-pointer@0.6.1_CVE-2021-23820.json
+
+[Processing package folder] prototype-pollution/json-ptr_1.1.0
+[Saved] JSON_pp_keyinstanceExtractor/json-ptr@1.1.0_CVE-2021-23509.json
+
+[Processing package folder] prototype-pollution/json-schema_0.3.0
+[Saved] JSON_pp_keyinstanceExtractor/json-schema@0.3.0_CVE-2021-3918.json
+
+[Processing package folder] prototype-pollution/json8-merge-patch_1.0.1
+[Saved] JSON_pp_keyinstanceExtractor/json8-merge-patch@1.0.1_CVE-2020-8268.json
+
+[Processing package folder] prototype-pollution/jsonpointer_4.0.0
+[Saved] JSON_pp_keyinstanceExtractor/jsonpointer@4.0.0_CVE-2021-23807.json
+
+[Processing package folder] prototype-pollution/just-extend_3.0.0
+[Saved] JSON_pp_keyinstanceExtractor/just-extend@3.0.0_CVE-2018-16489.json
+
+[Processing package folder] prototype-pollution/just-safe-set_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/just-safe-set@1.0.0_ CVE-2021-25952.json
+
+[Processing package folder] prototype-pollution/keyd_1.3.4
+[Saved] JSON_pp_keyinstanceExtractor/keyd@1.3.4_.json
+
+[Processing package folder] prototype-pollution/keyget_2.2.0
+[Saved] JSON_pp_keyinstanceExtractor/keyget@2.2.0_CVE-2020-28272.json
+
+[Processing package folder] prototype-pollution/libnested_1.5.0
+[Saved] JSON_pp_keyinstanceExtractor/libnested@1.5.0_CVE-2020-28283.json
+
+[Processing package folder] prototype-pollution/linux-cmdline_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/linux-cmdline@1.0.0_CVE-2020-7704.json
+
+[Processing package folder] prototype-pollution/locutus_2.0.11
+[Saved] JSON_pp_keyinstanceExtractor/locutus@2.0.11_CVE-2020-7719.json
+
+[Processing package folder] prototype-pollution/lodash_4.17.10
+[Saved] JSON_pp_keyinstanceExtractor/lodash@4.17.10_CVE-2019-10744.json
+
+[Processing package folder] prototype-pollution/lodash_4.17.11
+[Saved] JSON_pp_keyinstanceExtractor/lodash@4.17.11_CVE-2020-8203.json
+
+[Processing package folder] prototype-pollution/lodash_4.17.15
+[Saved] JSON_pp_keyinstanceExtractor/lodash@4.17.15_CVE-2018-3721 .json
+
+[Processing package folder] prototype-pollution/lodash_4.17.9
+[Saved] JSON_pp_keyinstanceExtractor/lodash@4.17.9_CVE-2018-16487.json
+
+[Processing package folder] prototype-pollution/lutils-merge_0.2.6
+[Saved] JSON_pp_keyinstanceExtractor/lutils-merge@0.2.6_.json
+
+[Processing package folder] prototype-pollution/lutils_2.4.0
+[Saved] JSON_pp_keyinstanceExtractor/lutils@2.4.0_CVE-2021-23396.json
+
+[Processing package folder] prototype-pollution/lyngs-digger_1.0.7
+[Saved] JSON_pp_keyinstanceExtractor/_lyngs_digger@1.0.7_.json
+
+[Processing package folder] prototype-pollution/lyngs-merge_1.0.9
+[Saved] JSON_pp_keyinstanceExtractor/_lyngs_merge@1.0.9_.json
+
+[Processing package folder] prototype-pollution/madlib-object-utils_0.1.6
+[Saved] JSON_pp_keyinstanceExtractor/madlib-object-utils@0.1.6_CVE-2020-7701.json
+
+[Processing package folder] prototype-pollution/mathjs_7.4.0
+[Saved] JSON_pp_keyinstanceExtractor/mathjs@7.4.0_CVE-2020-7743.json
+
+[Processing package folder] prototype-pollution/merge-change_1.0.1
+[Saved] JSON_pp_keyinstanceExtractor/merge-change@1.0.1_CVE-2021-23421.json
+
+[Processing package folder] prototype-pollution/merge-deep2_3.0.5
+[Saved] JSON_pp_keyinstanceExtractor/merge-deep2@3.0.5_CVE-2021-23700.json
+
+[Processing package folder] prototype-pollution/merge-deep_3.0.0
+[Saved] JSON_pp_keyinstanceExtractor/merge-deep@3.0.0_CVE-2021-26707.json
+
+[Processing package folder] prototype-pollution/merge-objects_1.0.3
+[Saved] JSON_pp_keyinstanceExtractor/merge-objects@1.0.3_CVE-2018-3753.json
+
+[Processing package folder] prototype-pollution/merge-options_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/merge-options@1.0.0_CVE-2018-3752.json
+
+[Processing package folder] prototype-pollution/merge-recursive_0.0.3
+[Saved] JSON_pp_keyinstanceExtractor/merge-recursive@0.0.3_CVE-2018-3751.json
+
+[Processing package folder] prototype-pollution/merge_2.1.0
+[Saved] JSON_pp_keyinstanceExtractor/merge@2.1.0_CVE-2020-28499.json
+
+[Processing package folder] prototype-pollution/mergify_1.0.2
+[Saved] JSON_pp_keyinstanceExtractor/mergify@1.0.2_.json
+
+[Processing package folder] prototype-pollution/minimist_1.0.0
+[⚠️  extractKeyInstances 실패] prototype-pollution/minimist_1.0.0/minimist.test.js
 No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/nestie@1.0.0_.json
+[Saved] JSON_pp_keyinstanceExtractor/minimist@1.0.0_CVE-2020-7598.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/nis-utils_0.6.10
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/nis-utils@0.6.10_CVE-2020-7703.json
+[Processing package folder] prototype-pollution/mithril_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/mithril@1.0.0_.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/node-dig_1.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/node-dig@1.0.1_.json
+[Processing package folder] prototype-pollution/mixin-deep_1.3.0
+[Saved] JSON_pp_keyinstanceExtractor/mixin-deep@1.3.0_CVE-2018-3719.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/node-extend_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/node.extend@1.0.0_CVE-2018-16491.json
+[Processing package folder] prototype-pollution/mixin-deep_2.0.0
+[Saved] JSON_pp_keyinstanceExtractor/mixin-deep@2.0.0_CVE-2019-10746.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/node-forge_0.9.0
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-beta.1>selfsigned" of package "st-start>2.0.0-beta.1>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_42_355Z-debug-0.log
-[에러] st-start>2.0.0-beta.1>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-beta.1>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-beta.1>selfsigned" of package "st-start>2.0.0-beta.1>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_42_355Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.20>selfsigned" of package "st-start>2.0.0-alpha.20>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_42_563Z-debug-0.log
-[에러] st-start>2.0.0-alpha.20>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.20>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.20>selfsigned" of package "st-start>2.0.0-alpha.20>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_42_563Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.10>selfsigned" of package "st-start>2.0.0-alpha.10>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_42_780Z-debug-0.log
-[에러] st-start>2.0.0-alpha.10>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.10>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.10>selfsigned" of package "st-start>2.0.0-alpha.10>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_42_780Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.11>selfsigned" of package "st-start>2.0.0-alpha.11>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_42_989Z-debug-0.log
-[에러] st-start>2.0.0-alpha.11>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.11>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.11>selfsigned" of package "st-start>2.0.0-alpha.11>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_42_989Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.12>selfsigned" of package "st-start>2.0.0-alpha.12>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_43_199Z-debug-0.log
-[에러] st-start>2.0.0-alpha.12>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.12>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.12>selfsigned" of package "st-start>2.0.0-alpha.12>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_43_199Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.13>selfsigned" of package "st-start>2.0.0-alpha.13>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_43_411Z-debug-0.log
-[에러] st-start>2.0.0-alpha.13>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.13>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.13>selfsigned" of package "st-start>2.0.0-alpha.13>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_43_411Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.14>selfsigned" of package "st-start>2.0.0-alpha.14>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_43_620Z-debug-0.log
-[에러] st-start>2.0.0-alpha.14>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.14>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.14>selfsigned" of package "st-start>2.0.0-alpha.14>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_43_620Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.15>selfsigned" of package "st-start>2.0.0-alpha.15>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_43_831Z-debug-0.log
-[에러] st-start>2.0.0-alpha.15>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.15>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.15>selfsigned" of package "st-start>2.0.0-alpha.15>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_43_831Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.16>selfsigned" of package "st-start>2.0.0-alpha.16>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_44_038Z-debug-0.log
-[에러] st-start>2.0.0-alpha.16>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.16>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.16>selfsigned" of package "st-start>2.0.0-alpha.16>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_44_038Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.17>selfsigned" of package "st-start>2.0.0-alpha.17>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_44_246Z-debug-0.log
-[에러] st-start>2.0.0-alpha.17>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.17>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.17>selfsigned" of package "st-start>2.0.0-alpha.17>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_44_246Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.18>selfsigned" of package "st-start>2.0.0-alpha.18>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_44_457Z-debug-0.log
-[에러] st-start>2.0.0-alpha.18>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.18>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.18>selfsigned" of package "st-start>2.0.0-alpha.18>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_44_457Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.19>selfsigned" of package "st-start>2.0.0-alpha.19>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_44_666Z-debug-0.log
-[에러] st-start>2.0.0-alpha.19>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.19>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.19>selfsigned" of package "st-start>2.0.0-alpha.19>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_44_666Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.1>selfsigned" of package "st-start>2.0.0-alpha.1>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_44_880Z-debug-0.log
-[에러] st-start>2.0.0-alpha.1>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.1>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.1>selfsigned" of package "st-start>2.0.0-alpha.1>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_44_880Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.21>selfsigned" of package "st-start>2.0.0-alpha.21>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_45_850Z-debug-0.log
-[에러] st-start>2.0.0-alpha.21>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.21>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.21>selfsigned" of package "st-start>2.0.0-alpha.21>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_45_850Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.22>selfsigned" of package "st-start>2.0.0-alpha.22>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_46_062Z-debug-0.log
-[에러] st-start>2.0.0-alpha.22>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.22>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.22>selfsigned" of package "st-start>2.0.0-alpha.22>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_46_062Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.3>selfsigned" of package "st-start>2.0.0-alpha.3>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_46_274Z-debug-0.log
-[에러] st-start>2.0.0-alpha.3>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.3>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.3>selfsigned" of package "st-start>2.0.0-alpha.3>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_46_274Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.4>selfsigned" of package "st-start>2.0.0-alpha.4>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_46_481Z-debug-0.log
-[에러] st-start>2.0.0-alpha.4>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.4>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.4>selfsigned" of package "st-start>2.0.0-alpha.4>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_46_481Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.5>selfsigned" of package "st-start>2.0.0-alpha.5>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_46_689Z-debug-0.log
-[에러] st-start>2.0.0-alpha.5>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.5>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.5>selfsigned" of package "st-start>2.0.0-alpha.5>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_46_689Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.6>selfsigned" of package "st-start>2.0.0-alpha.6>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_46_900Z-debug-0.log
-[에러] st-start>2.0.0-alpha.6>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.6>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.6>selfsigned" of package "st-start>2.0.0-alpha.6>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_46_900Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.7>selfsigned" of package "st-start>2.0.0-alpha.7>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_47_109Z-debug-0.log
-[에러] st-start>2.0.0-alpha.7>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.7>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.7>selfsigned" of package "st-start>2.0.0-alpha.7>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_47_109Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.9>selfsigned" of package "st-start>2.0.0-alpha.9>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_47_316Z-debug-0.log
-[에러] st-start>2.0.0-alpha.9>selfsigned 버전 조회 실패: Command failed: npm view "st-start>2.0.0-alpha.9>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "st-start>2.0.0-alpha.9>selfsigned" of package "st-start>2.0.0-alpha.9>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_47_316Z-debug-0.log
-
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "fd-test-storybook>0.1.3>selfsigned" of package "fd-test-storybook>0.1.3>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_48_290Z-debug-0.log
-[에러] fd-test-storybook>0.1.3>selfsigned 버전 조회 실패: Command failed: npm view "fd-test-storybook>0.1.3>selfsigned" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "fd-test-storybook>0.1.3>selfsigned" of package "fd-test-storybook>0.1.3>selfsigned": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_11_48_290Z-debug-0.log
-
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/node-forge@0.9.0_CVE-2020-7720.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/node-ini_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/node-ini@1.0.0_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/node-oojs_1.4.0
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/node-oojs_1.4.0/node-oojs.test.js
+[Processing package folder] prototype-pollution/mootools_1.5.2
+[⚠️  extractKeyInstances 실패] prototype-pollution/mootools_1.5.2/mootools.test.js
 No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/node-oojs@1.4.0_CVE-2020-7721.json
+[Saved] JSON_pp_keyinstanceExtractor/mootools@1.5.2_CVE-2021-23432.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/nodee-utils_1.2.2
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/nodee-utils_1.2.2/nodee-utils.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/nodee-utils@1.2.2_CVE-2020-7722.json
+[Processing package folder] prototype-pollution/mout_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/mout@1.0.0_CVE-2020-7792.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/object-collider_1.0.3
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/object-collider_1.0.3/object-collider.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/object-collider@1.0.3_CVE-2021-25914.json
+[Processing package folder] prototype-pollution/mpath_0.4.1
+[Saved] JSON_pp_keyinstanceExtractor/mpath@0.4.1_CVE-2021-23438.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/object-path-set_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/object-path-set@1.0.0_CVE-2020-15256.json
+[Processing package folder] prototype-pollution/mquery_3.2.1
+[Saved] JSON_pp_keyinstanceExtractor/mquery@3.2.1_.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/object-path_0.11.0
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "fd-test-storybook>0.1.3>adjust-sourcemap-loader" of package "fd-test-storybook>0.1.3>adjust-sourcemap-loader": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_13_17_352Z-debug-0.log
-[에러] fd-test-storybook>0.1.3>adjust-sourcemap-loader 버전 조회 실패: Command failed: npm view "fd-test-storybook>0.1.3>adjust-sourcemap-loader" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "fd-test-storybook>0.1.3>adjust-sourcemap-loader" of package "fd-test-storybook>0.1.3>adjust-sourcemap-loader": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_13_17_352Z-debug-0.log
+[Processing package folder] prototype-pollution/multi-ini_2.1.0
+[Saved] JSON_pp_keyinstanceExtractor/multi-ini@2.1.0_CVE-2020-28448.json
 
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/object-path@0.11.4_CVE-2020-15256.json
+[Processing package folder] prototype-pollution/nconf-toml_0.0.1
+[Saved] JSON_pp_keyinstanceExtractor/nconf-toml@0.0.1_CVE-2021-25946.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/object-path_0.11.4
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "fd-test-storybook>0.1.3>adjust-sourcemap-loader" of package "fd-test-storybook>0.1.3>adjust-sourcemap-loader": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_14_08_028Z-debug-0.log
-[에러] fd-test-storybook>0.1.3>adjust-sourcemap-loader 버전 조회 실패: Command failed: npm view "fd-test-storybook>0.1.3>adjust-sourcemap-loader" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "fd-test-storybook>0.1.3>adjust-sourcemap-loader" of package "fd-test-storybook>0.1.3>adjust-sourcemap-loader": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_14_08_028Z-debug-0.log
-
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/object-path@0.11.4_CVE-2021-23434.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/objection_2.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/objection@2.0.0_CVE-2021-3766.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/objnest_5.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/objnest@5.0.0_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/objtools_3.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/objtools@3.0.0_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/objutil_2.17.3
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/objutil_2.17.3/objutil.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/objutil@2.17.3_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/patchmerge_1.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/patchmerge@1.0.1_CVE-2021-25916.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/pathval_1.1.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/pathval@1.1.0_CVE-2020-7751.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/paypal-adaptive_0.4.1
+[Processing package folder] prototype-pollution/nedb_1.8.0
 [keyInstance] [❌] 함수 호출 정보가 충분하지 않음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/paypal-adaptive@0.4.1_CVE-2020-7643.json
+[Saved] JSON_pp_keyinstanceExtractor/nedb@1.8.0_CVE-2021-23395.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/phpjs_1.3.2
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/phpjs@1.3.2_CVE-2020-7700.json
+[Processing package folder] prototype-pollution/nested-object-assign_1.0.3
+[Saved] JSON_pp_keyinstanceExtractor/nested-object-assign@1.0.3_CVE-2021-23329.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/plain-object-merge_1.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/plain-object-merge@1.0.1_.json
+[Processing package folder] prototype-pollution/nested-property_0.0.5
+[Saved] JSON_pp_keyinstanceExtractor/nested-property@0.0.5_.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/predefine_0.1.2
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/predefine@0.1.2_CVE-2020-28280.json
+[Processing package folder] prototype-pollution/nestie_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/nestie@1.0.0_.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/promisehelpers_0.0.5
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/promisehelpers@0.0.5_CVE-2020-7723.json
+[Processing package folder] prototype-pollution/nis-utils_0.6.10
+[Saved] JSON_pp_keyinstanceExtractor/nis-utils@0.6.10_CVE-2020-7703.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/properties-reader_2.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/properties-reader@2.0.0_CVE-2020-28471.json
+[Processing package folder] prototype-pollution/node-dig_1.0.1
+[Saved] JSON_pp_keyinstanceExtractor/node-dig@1.0.1_.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/property-expr_2.0.2
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/property-expr@2.0.2_CVE-2020-7707.json
+[Processing package folder] prototype-pollution/node-extend_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/node.extend@1.0.0_CVE-2018-16491.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/prototyped.js_2.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/prototyped.js@2.0.0_.json
+[Processing package folder] prototype-pollution/node-forge_0.9.0
+[Saved] JSON_pp_keyinstanceExtractor/node-forge@0.9.0_CVE-2020-7720.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/putil-merge_3.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/putil-merge@3.0.0_ CVE-2021-25953.json
+[Processing package folder] prototype-pollution/node-ini_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/node-ini@1.0.0_.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/querymen_2.1.3
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/querymen@2.1.3_CVE-2020-7600.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/rdf-graph-array_0.3.0
-[keyInstance] [❌] 함수 호출 정보가 충분하지 않음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/rdf-graph-array@0.3.0_CVE-2019-10798.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/record-like-deep-assign_1.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/record-like-deep-assign@1.0.1_CVE-2021-23402.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/rfc6902_4.0.2
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/rfc6902@4.0.2_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/safe-flat_2.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/safe-flat@2.0.0_CVE-2021-25927.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/safe-obj_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/safe-obj@1.0.0_CVE-2021-25928.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/safe-object2_1.0.3
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/safe-object2@1.0.3_CVE-2020-7726.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/safetydance_2.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/safetydance@2.0.1_CVE-2020-7737.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/sahmat_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/sahmat@1.0.0_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/sds_3.2.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/sds@3.2.0_CVE-2020-7618.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/set-deep-prop_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/set-deep-prop@1.0.0_CVE-2021-23373.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/set-getter_0.1.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/set-getter@0.1.0_CVE-2021-25949.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/set-in_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/set-in@1.0.0_CVE-2020-28273.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/set-object-value_0.0.5
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/set-object-value@0.0.5_CVE-2020-28281.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/set-or-get_1.2.10
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/set-or-get@1.2.10_CVE-2021-25913.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/set-value_3.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/set-value@3.0.0_CVE-2021-23440.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/shvl_2.0.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/shvl@2.0.1_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/simpl-schema_1.10.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/simpl-schema@1.10.0_CVE-2020-7742.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/smart-extend_1.7.3
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/smart-extend@1.7.3_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/strikeentco-set_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/_strikeentco_set@1.0.0_CVE-2020-28267.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/style-dictionary_2.10.2
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/style-dictionary@2.10.2_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/supermixer_1.0.3
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/supermixer@1.0.3_CVE-2020-24939.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/swiper_6.5.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/swiper@6.5.0_CVE-2021-23370.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/think-config_1.0.0
-[keyInstance] [❌] 함수 호출 정보가 충분하지 않음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/think-config@1.0.0_.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/think-helper_1.1.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/think-helper@1.1.0_CVE-2021-32736.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/tiny-conf_1.1.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/tiny-conf@1.1.0_CVE-2020-7724.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/total.js_3.4.6
-[keyInstance] [❌] 함수 호출 정보가 충분하지 않음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/total.js@3.4.6_CVE-2020-28495.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/tree-kit_0.6.1
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/tree-kit_0.6.1/tree-kit.test.js
+[Processing package folder] prototype-pollution/node-oojs_1.4.0
+[⚠️  extractKeyInstances 실패] prototype-pollution/node-oojs_1.4.0/node-oojs.test.js
 No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/tree-kit@0.6.1_CVE-2021-4278.json
+[Saved] JSON_pp_keyinstanceExtractor/node-oojs@1.4.0_CVE-2020-7721.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/ts-dot-prop_1.4.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/ts-dot-prop@1.4.0_.json
+[Processing package folder] prototype-pollution/nodee-utils_1.2.2
+[Saved] JSON_pp_keyinstanceExtractor/nodee-utils@1.2.2_CVE-2020-7722.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/tsed-core_5.62.3
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/tsed-core_5.62.3/tsed-core.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/_tsed_core@5.62.3_CVE-2020-7748.json
-
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/typeorm_0.2.24
+[Processing package folder] prototype-pollution/object-collider_1.0.3
 [keyInstance] [❌] 함수 호출 정보가 충분하지 않음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/typeorm@0.2.24_CVE-2020-8158.json
+[Saved] JSON_pp_keyinstanceExtractor/object-collider@1.0.3_CVE-2021-25914.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/uifabric-utilities_7.20.2
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/_uifabric_utilities@7.20.2_.json
+[Processing package folder] prototype-pollution/object-path-set_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/object-path-set@1.0.0_CVE-2020-15256.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/undefsafe_2.0.2
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/undefsafe@2.0.2_CVE-2019-10795.json
+[Processing package folder] prototype-pollution/object-path_0.11.0
+[Saved] JSON_pp_keyinstanceExtractor/object-path@0.11.4_CVE-2020-15256.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/upmerge_0.1.7
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/upmerge@0.1.7_.json
+[Processing package folder] prototype-pollution/object-path_0.11.4
+[Saved] JSON_pp_keyinstanceExtractor/object-path@0.11.4_CVE-2021-23434.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/utilitify_1.0.2
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/utilitify_1.0.2/utilitify.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/utilitify@1.0.2_CVE-2019-10808.json
+[Processing package folder] prototype-pollution/objection_2.0.0
+[Saved] JSON_pp_keyinstanceExtractor/objection@2.0.0_CVE-2021-3766.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/utils-extend_1.0.8
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "lighting>1.1.0-20160325-2>htmldom>cssdom" of package "lighting>1.1.0-20160325-2>htmldom>cssdom": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_18_18_540Z-debug-0.log
-[에러] lighting>1.1.0-20160325-2>htmldom>cssdom 버전 조회 실패: Command failed: npm view "lighting>1.1.0-20160325-2>htmldom>cssdom" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "lighting>1.1.0-20160325-2>htmldom>cssdom" of package "lighting>1.1.0-20160325-2>htmldom>cssdom": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_18_18_540Z-debug-0.log
+[Processing package folder] prototype-pollution/objnest_5.0.0
+[Saved] JSON_pp_keyinstanceExtractor/objnest@5.0.0_.json
 
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "lighting>1.1.0-20160325-3>htmldom>cssdom" of package "lighting>1.1.0-20160325-3>htmldom>cssdom": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_18_18_747Z-debug-0.log
-[에러] lighting>1.1.0-20160325-3>htmldom>cssdom 버전 조회 실패: Command failed: npm view "lighting>1.1.0-20160325-3>htmldom>cssdom" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "lighting>1.1.0-20160325-3>htmldom>cssdom" of package "lighting>1.1.0-20160325-3>htmldom>cssdom": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_18_18_747Z-debug-0.log
+[Processing package folder] prototype-pollution/objtools_3.0.0
+[Saved] JSON_pp_keyinstanceExtractor/objtools@3.0.0_.json
 
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "lighting>1.1.0-20160325-4>htmldom>cssdom" of package "lighting>1.1.0-20160325-4>htmldom>cssdom": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_18_18_956Z-debug-0.log
-[에러] lighting>1.1.0-20160325-4>htmldom>cssdom 버전 조회 실패: Command failed: npm view "lighting>1.1.0-20160325-4>htmldom>cssdom" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "lighting>1.1.0-20160325-4>htmldom>cssdom" of package "lighting>1.1.0-20160325-4>htmldom>cssdom": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_18_18_956Z-debug-0.log
+[Processing package folder] prototype-pollution/objutil_2.17.3
+[Saved] JSON_pp_keyinstanceExtractor/objutil@2.17.3_.json
 
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "lighting>1.1.0-20160325>htmldom>cssdom" of package "lighting>1.1.0-20160325>htmldom>cssdom": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_18_19_982Z-debug-0.log
-[에러] lighting>1.1.0-20160325>htmldom>cssdom 버전 조회 실패: Command failed: npm view "lighting>1.1.0-20160325>htmldom>cssdom" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "lighting>1.1.0-20160325>htmldom>cssdom" of package "lighting>1.1.0-20160325>htmldom>cssdom": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_18_19_982Z-debug-0.log
+[Processing package folder] prototype-pollution/patchmerge_1.0.1
+[Saved] JSON_pp_keyinstanceExtractor/patchmerge@1.0.1_CVE-2021-25916.json
 
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "lighting>1.1.0-20160325-1>htmldom" of package "lighting>1.1.0-20160325-1>htmldom": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_18_20_188Z-debug-0.log
-[에러] lighting>1.1.0-20160325-1>htmldom 버전 조회 실패: Command failed: npm view "lighting>1.1.0-20160325-1>htmldom" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "lighting>1.1.0-20160325-1>htmldom" of package "lighting>1.1.0-20160325-1>htmldom": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_18_20_188Z-debug-0.log
+[Processing package folder] prototype-pollution/pathval_1.1.0
+[Saved] JSON_pp_keyinstanceExtractor/pathval@1.1.0_CVE-2020-7751.json
 
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "lighting>1.1.0-20160325-1>cssdom" of package "lighting>1.1.0-20160325-1>cssdom": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_18_20_394Z-debug-0.log
-[에러] lighting>1.1.0-20160325-1>cssdom 버전 조회 실패: Command failed: npm view "lighting>1.1.0-20160325-1>cssdom" versions --json
-npm error code EINVALIDTAGNAME
-npm error Invalid tag name "lighting>1.1.0-20160325-1>cssdom" of package "lighting>1.1.0-20160325-1>cssdom": Tags may not have any characters that encodeURIComponent encodes.
-npm error A complete log of this run can be found in: /home/heewon/.npm/_logs/2025-04-12T20_18_20_394Z-debug-0.log
+[Processing package folder] prototype-pollution/paypal-adaptive_0.4.1
+[keyInstance] [❌] 함수 호출 정보가 충분하지 않음
+[Saved] JSON_pp_keyinstanceExtractor/paypal-adaptive@0.4.1_CVE-2020-7643.json
 
-[⚠️ extractKeyInstances 실패] /ssd/heewon/PLRG/scripts/prototype-pollution/utils-extend_1.0.8/utils-extend.test.js
-No required modules found in the file
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/utils-extend@1.0.8_CVE-2020-8147.json
+[Processing package folder] prototype-pollution/phpjs_1.3.2
+[Saved] JSON_pp_keyinstanceExtractor/phpjs@1.3.2_CVE-2020-7700.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/vega-util_1.13.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/vega-util@1.13.0_CVE-2019-10806.json
+[Processing package folder] prototype-pollution/plain-object-merge_1.0.1
+[Saved] JSON_pp_keyinstanceExtractor/plain-object-merge@1.0.1_.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/viking04-merge_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/_viking04_merge@1.0.0_CVE-2021-3645.json
+[Processing package folder] prototype-pollution/predefine_0.1.2
+[Saved] JSON_pp_keyinstanceExtractor/predefine@0.1.2_CVE-2020-28280.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/worksmith_1.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/worksmith@1.0.0_CVE-2020-7725.json
+[Processing package folder] prototype-pollution/promisehelpers_0.0.5
+[Saved] JSON_pp_keyinstanceExtractor/promisehelpers@0.0.5_CVE-2020-7723.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/x-assign_0.1.4
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/x-assign@0.1.4_CVE-2021-23452.json
+[Processing package folder] prototype-pollution/properties-reader_2.0.0
+[Saved] JSON_pp_keyinstanceExtractor/properties-reader@2.0.0_CVE-2020-28471.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/y18n_3.2.1
-⚠️ Invalid argument node : Argument node has unexpected structure
-⚠️ Invalid argument node : Argument node has unexpected structure
-[keyInstance] [❌] "__proto__" 또는 "constructor.prototype" 포함된 인자가 없음
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/y18n@3.2.1_CVE-2020-7774.json
+[Processing package folder] prototype-pollution/property-expr_2.0.2
+[Saved] JSON_pp_keyinstanceExtractor/property-expr@2.0.2_CVE-2020-7707.json
 
-[Processing package folder] /ssd/heewon/PLRG/scripts/prototype-pollution/yargs-parser_6.0.0
-⚠️ Invalid argument node : Argument node has unexpected structure
-[Saved] /ssd/heewon/PLRG/scripts/JSON_prototype-pollution/yargs-parser@6.0.0_CVE-2020-7608.json
-[✅] All JSONs generated successfully
+[Processing package folder] prototype-pollution/prototyped.js_2.0.0
+[Saved] JSON_pp_keyinstanceExtractor/prototyped.js@2.0.0_.json
+
+[Processing package folder] prototype-pollution/putil-merge_3.0.0
+[Saved] JSON_pp_keyinstanceExtractor/putil-merge@3.0.0_ CVE-2021-25953.json
+
+[Processing package folder] prototype-pollution/querymen_2.1.3
+[Saved] JSON_pp_keyinstanceExtractor/querymen@2.1.3_CVE-2020-7600.json
+
+[Processing package folder] prototype-pollution/rdf-graph-array_0.3.0
+[keyInstance] [❌] 함수 호출 정보가 충분하지 않음
+[Saved] JSON_pp_keyinstanceExtractor/rdf-graph-array@0.3.0_CVE-2019-10798.json
+
+[Processing package folder] prototype-pollution/record-like-deep-assign_1.0.1
+[Saved] JSON_pp_keyinstanceExtractor/record-like-deep-assign@1.0.1_CVE-2021-23402.json
+
+[Processing package folder] prototype-pollution/rfc6902_4.0.2
+[Saved] JSON_pp_keyinstanceExtractor/rfc6902@4.0.2_.json
+
+[Processing package folder] prototype-pollution/safe-flat_2.0.0
+[Saved] JSON_pp_keyinstanceExtractor/safe-flat@2.0.0_CVE-2021-25927.json
+
+[Processing package folder] prototype-pollution/safe-obj_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/safe-obj@1.0.0_CVE-2021-25928.json
+
+[Processing package folder] prototype-pollution/safe-object2_1.0.3
+[Saved] JSON_pp_keyinstanceExtractor/safe-object2@1.0.3_CVE-2020-7726.json
+
+[Processing package folder] prototype-pollution/safetydance_2.0.1
+[Saved] JSON_pp_keyinstanceExtractor/safetydance@2.0.1_CVE-2020-7737.json
+
+[Processing package folder] prototype-pollution/sahmat_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/sahmat@1.0.0_.json
+
+[Processing package folder] prototype-pollution/sds_3.2.0
+[Saved] JSON_pp_keyinstanceExtractor/sds@3.2.0_CVE-2020-7618.json
+
+[Processing package folder] prototype-pollution/set-deep-prop_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/set-deep-prop@1.0.0_CVE-2021-23373.json
+
+[Processing package folder] prototype-pollution/set-getter_0.1.0
+[Saved] JSON_pp_keyinstanceExtractor/set-getter@0.1.0_CVE-2021-25949.json
+
+[Processing package folder] prototype-pollution/set-in_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/set-in@1.0.0_CVE-2020-28273.json
+
+[Processing package folder] prototype-pollution/set-object-value_0.0.5
+[Saved] JSON_pp_keyinstanceExtractor/set-object-value@0.0.5_CVE-2020-28281.json
+
+[Processing package folder] prototype-pollution/set-or-get_1.2.10
+[Saved] JSON_pp_keyinstanceExtractor/set-or-get@1.2.10_CVE-2021-25913.json
+
+[Processing package folder] prototype-pollution/set-value_3.0.0
+[Saved] JSON_pp_keyinstanceExtractor/set-value@3.0.0_CVE-2021-23440.json
+
+[Processing package folder] prototype-pollution/shvl_2.0.1
+[Saved] JSON_pp_keyinstanceExtractor/shvl@2.0.1_.json
+
+[Processing package folder] prototype-pollution/simpl-schema_1.10.0
+[Saved] JSON_pp_keyinstanceExtractor/simpl-schema@1.10.0_CVE-2020-7742.json
+
+[Processing package folder] prototype-pollution/smart-extend_1.7.3
+[Saved] JSON_pp_keyinstanceExtractor/smart-extend@1.7.3_.json
+
+[Processing package folder] prototype-pollution/strikeentco-set_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/_strikeentco_set@1.0.0_CVE-2020-28267.json
+
+[Processing package folder] prototype-pollution/style-dictionary_2.10.2
+[Saved] JSON_pp_keyinstanceExtractor/style-dictionary@2.10.2_.json
+
+[Processing package folder] prototype-pollution/supermixer_1.0.3
+[Saved] JSON_pp_keyinstanceExtractor/supermixer@1.0.3_CVE-2020-24939.json
+
+[Processing package folder] prototype-pollution/swiper_6.5.0
+[Saved] JSON_pp_keyinstanceExtractor/swiper@6.5.0_CVE-2021-23370.json
+
+[Processing package folder] prototype-pollution/think-config_1.0.0
+[keyInstance] [❌] 함수 호출 정보가 충분하지 않음
+[Saved] JSON_pp_keyinstanceExtractor/think-config@1.0.0_.json
+
+[Processing package folder] prototype-pollution/think-helper_1.1.0
+[Saved] JSON_pp_keyinstanceExtractor/think-helper@1.1.0_CVE-2021-32736.json
+
+[Processing package folder] prototype-pollution/tiny-conf_1.1.0
+[Saved] JSON_pp_keyinstanceExtractor/tiny-conf@1.1.0_CVE-2020-7724.json
+
+[Processing package folder] prototype-pollution/total.js_3.4.6
+[keyInstance] [❌] 함수 호출 정보가 충분하지 않음
+[Saved] JSON_pp_keyinstanceExtractor/total.js@3.4.6_CVE-2020-28495.json
+
+[Processing package folder] prototype-pollution/tree-kit_0.6.1
+[Saved] JSON_pp_keyinstanceExtractor/tree-kit@0.6.1_CVE-2021-4278.json
+
+[Processing package folder] prototype-pollution/ts-dot-prop_1.4.0
+[Saved] JSON_pp_keyinstanceExtractor/ts-dot-prop@1.4.0_.json
+
+[Processing package folder] prototype-pollution/tsed-core_5.62.3
+[Saved] JSON_pp_keyinstanceExtractor/_tsed_core@5.62.3_CVE-2020-7748.json
+
+[Processing package folder] prototype-pollution/typeorm_0.2.24
+[keyInstance] [❌] 함수 호출 정보가 충분하지 않음
+[Saved] JSON_pp_keyinstanceExtractor/typeorm@0.2.24_CVE-2020-8158.json
+
+[Processing package folder] prototype-pollution/uifabric-utilities_7.20.2
+[Saved] JSON_pp_keyinstanceExtractor/_uifabric_utilities@7.20.2_.json
+
+[Processing package folder] prototype-pollution/undefsafe_2.0.2
+[Saved] JSON_pp_keyinstanceExtractor/undefsafe@2.0.2_CVE-2019-10795.json
+
+[Processing package folder] prototype-pollution/upmerge_0.1.7
+[Saved] JSON_pp_keyinstanceExtractor/upmerge@0.1.7_.json
+
+[Processing package folder] prototype-pollution/utilitify_1.0.2
+[Saved] JSON_pp_keyinstanceExtractor/utilitify@1.0.2_CVE-2019-10808.json
+
+[Processing package folder] prototype-pollution/utils-extend_1.0.8
+[Saved] JSON_pp_keyinstanceExtractor/utils-extend@1.0.8_CVE-2020-8147.json
+
+[Processing package folder] prototype-pollution/vega-util_1.13.0
+[Saved] JSON_pp_keyinstanceExtractor/vega-util@1.13.0_CVE-2019-10806.json
+
+[Processing package folder] prototype-pollution/viking04-merge_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/_viking04_merge@1.0.0_CVE-2021-3645.json
+
+[Processing package folder] prototype-pollution/worksmith_1.0.0
+[Saved] JSON_pp_keyinstanceExtractor/worksmith@1.0.0_CVE-2020-7725.json
+
+[Processing package folder] prototype-pollution/x-assign_0.1.4
+[Saved] JSON_pp_keyinstanceExtractor/x-assign@0.1.4_CVE-2021-23452.json
+
+[Processing package folder] prototype-pollution/y18n_3.2.1
+[Saved] JSON_pp_keyinstanceExtractor/y18n@3.2.1_CVE-2020-7774.json
+
+[Processing package folder] prototype-pollution/yargs-parser_6.0.0
+[Saved] JSON_pp_keyinstanceExtractor/yargs-parser@6.0.0_CVE-2020-7608.json
+
+✅ 모든 패키지 처리 완료

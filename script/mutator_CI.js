@@ -46,117 +46,169 @@ function mutate(seed, values, requiredValue) {
 }
 
 function verify_all_CI(package, seeds, packageDir, sanitizedName) {
-  console.log(`[++++++] Verifying ${seeds.length} seeds for command injection`);
-
-  const tempDir = path.join(originalDir, 'temp', `${sanitizedName}`,`verification-${Date.now()}`);
-  fs.mkdirSync(tempDir, { recursive: true });
-  //seeds = ["& touch /tmp/a &',function () {},true,'http://example.com',true"]
-  const verificationFilePath = path.join(tempDir, 'verify.js');
-  const verificationCode = `
-    const fs = require('fs');
-    const path = require('path');
-    const _ = require('${packageDir}');
-    
-    function testSeed(seed, index) {
-        if (fs.existsSync('/tmp/a')) {
-          try { fs.unlinkSync('/tmp/a'); } catch (e) {}
-        }
-      const uniqueDir = path.join(process.cwd(), 'candidate-' + index);
-      if (fs.existsSync(uniqueDir)) {
-        fs.rmSync(uniqueDir, { recursive: true, force: true });
-      }
-      fs.mkdirSync(uniqueDir); 
-      process.chdir(uniqueDir); 
-      try {
-        eval(seed);
-        if (fs.existsSync('/tmp/a')) {
-          fs.writeFileSync(path.join(process.cwd(), 'success-' + index), 'vulnerable');
-          fs.unlinkSync('/tmp/a');
-        return true;
-        }
-        return false;
-      } catch (e) {
-        return false;
-      } finally {
-        process.chdir('..'); 
-        try {
-          fs.rmSync(uniqueDir, { recursive: true, force: true });
-        } catch (e) {}
-    }}
-
-    // suppress console.log from target code
-    console.log = () => {};
-
-    const seeds = ${JSON.stringify(seeds)};
-    const results = [];
-
-    seeds.forEach((seed, index) => {
-      const isVulnerable = testSeed(seed, index);
-      if (isVulnerable) {
-        results.push({ index, seed, vulnerable: true});
-        process.stdout.write("CI_RESULTS::" + JSON.stringify(results), () => process.exit(0));
-        process.exit(0);
-      }
-    });
-
-    process.stdout.write("CI_RESULTS::" + JSON.stringify(results));
-  `;
-
-  fs.writeFileSync(verificationFilePath, verificationCode);
-
   const results = [];
+  const MAX_TIMEOUT_MS = 10000;
 
-  try {
-    const stdout = child_process.execSync(`node ${verificationFilePath}`, {
-      stdio: 'pipe',
-      timeout: 10000,
-      maxBuffer: 100 * 1024 * 1024,
-    });
-    //console.log('\n\n\n[stdout]\n\n\n', stdout);
-    const output = stdout.toString().trim();
-    const match = output.match(/CI_RESULTS::(\[.*?\])/s);
-if (match) {
-  const jsonPart = match[1]; // ✅ 정확히 [ ... ] 만 추출
+  for (let index = 0; index < seeds.length; index++) {
+    const seed = seeds[index];
 
-    //console.log('\n\n\n[output]\n\n\n', output);
-    // 💡 JSON 추출: 가장 먼저 나오는 [부터 마지막 ]까지
-    // const startIdx = output.indexOf('CI_RESULTS:: [');
-    // const endIdx = output.lastIndexOf(']');
-    // let jsonPart = '';
-
-    // if (startIdx !== -1 && endIdx !== -1 && endIdx > startIdx) {
-    //  jsonPart = output.substring(startIdx, endIdx + 1);
-      const stdoutResults = JSON.parse(jsonPart);
-
-      //console.log('\n\n\n[stdoutResults]\n\n\n', stdoutResults);
-      for (const result of stdoutResults) {
-        if (!results.some((r) => r.index === result.index)) {
-          results.push(result);
-        }
-      }
-
-      if (results.length === 0) {
-        console.log('[++++++] No PoC triggered');
-      } else {
-        console.log(`[++++++] ${results.length} PoC(s) triggered`);
-      }
-
-    }     else {
-      console.warn('[xxxxx] JSON block not found in output');
-    }
-
-  } catch (error) {
-    console.error('[xxxxx] Verification execution error:', error.message);
-  } finally {
     try {
-      fs.rmSync(tempDir, { recursive: true, force: true });
-    } catch (e) {
-      console.error('[xxxxx] Error cleaning up temp directory:', e);
+      const spawnResult = child_process.spawnSync(
+        'node',
+        [
+          path.join(__dirname, 'verify_CI.js'), // 방금 만든 검증 스크립트 경로
+          packageDir,
+          seed,
+          index.toString()
+        ],
+        {
+          timeout: MAX_TIMEOUT_MS,
+          encoding: 'utf8',
+          maxBuffer: 50 * 1024 * 1024,
+        }
+      );
+
+      if (spawnResult.error) {
+        throw spawnResult.error;
+      }
+      if (spawnResult.stderr && spawnResult.stderr.trim().length > 0) {
+  console.error(`[verify_CI.js stderr] Seed #${index} error:`, spawnResult.stderr.trim());
+}
+
+
+      const output = spawnResult.stdout.trim();
+      const result = JSON.parse(output);
+      if (result.vulnerable) {
+        results.push({ index: result.index, seed: result.seed, vulnerable: true });
+        console.log(`[++++++] Seed #${index} is vulnerable, stopping further tests.`);
+        break;
+      }
+    } catch (error) {
+      console.error(`[xxxxx] Error verifying seed #${index}:`, error.message);
     }
+  }
+
+  if (results.length === 0) {
+    console.log('[++++++] No PoC triggered');
+  } else {
+    console.log(`[++++++] ${results.length} PoC(s) triggered`);
   }
 
   return results;
 }
+
+// function verify_all_CI(package, seeds, packageDir, sanitizedName) {
+//   console.log(`[++++++] Verifying ${seeds.length} seeds for command injection`);
+
+//   const tempDir = path.join(originalDir, 'temp', `${sanitizedName}`,`verification-${Date.now()}`);
+//   fs.mkdirSync(tempDir, { recursive: true });
+//   //seeds = ["& touch /tmp/a &',function () {},true,'http://example.com',true"]
+//   const verificationFilePath = path.join(tempDir, 'verify.js');
+//   const verificationCode = `
+//     const fs = require('fs');
+//     const path = require('path');
+//     const _ = require('${packageDir}');
+    
+//     function testSeed(seed, index) {
+//         if (fs.existsSync('/tmp/a')) {
+//           try { fs.unlinkSync('/tmp/a'); } catch (e) {}
+//         }
+//       const uniqueDir = path.join(process.cwd(), 'candidate-' + index);
+//       if (fs.existsSync(uniqueDir)) {
+//         fs.rmSync(uniqueDir, { recursive: true, force: true });
+//       }
+//       fs.mkdirSync(uniqueDir); 
+//       process.chdir(uniqueDir); 
+//       try {
+//         eval(seed);
+//         if (fs.existsSync('/tmp/a')) {
+//           fs.writeFileSync(path.join(process.cwd(), 'success-' + index), 'vulnerable');
+//           fs.unlinkSync('/tmp/a');
+//         return true;
+//         }
+//         return false;
+//       } catch (e) {
+//         return false;
+//       } finally {
+//         process.chdir('..'); 
+//         try {
+//           fs.rmSync(uniqueDir, { recursive: true, force: true });
+//         } catch (e) {}
+//     }}
+
+//     // suppress console.log from target code
+//     console.log = () => {};
+
+//     const seeds = ${JSON.stringify(seeds)};
+//     const results = [];
+
+//     seeds.forEach((seed, index) => {
+//       const isVulnerable = testSeed(seed, index);
+//       if (isVulnerable) {
+//         results.push({ index, seed, vulnerable: true});
+//         process.stdout.write("CI_RESULTS::" + JSON.stringify(results), () => process.exit(0));
+//         process.exit(0);
+//       }
+//     });
+
+//     process.stdout.write("CI_RESULTS::" + JSON.stringify(results), () => process.exit(0));
+//   `;
+
+//   fs.writeFileSync(verificationFilePath, verificationCode);
+
+//   const results = [];
+
+//   try {
+//     const stdout = child_process.execSync(`node ${verificationFilePath}`, {
+//       stdio: 'pipe',
+//       timeout: 10000,
+//       maxBuffer: 100 * 1024 * 1024,
+//     });
+//     //console.log('\n\n\n[stdout]\n\n\n', stdout);
+//     const output = stdout.toString().trim();
+//     const match = output.match(/CI_RESULTS::(\[.*?\])/s);
+// if (match) {
+//   const jsonPart = match[1]; // ✅ 정확히 [ ... ] 만 추출
+
+//     //console.log('\n\n\n[output]\n\n\n', output);
+//     // 💡 JSON 추출: 가장 먼저 나오는 [부터 마지막 ]까지
+//     // const startIdx = output.indexOf('CI_RESULTS:: [');
+//     // const endIdx = output.lastIndexOf(']');
+//     // let jsonPart = '';
+
+//     // if (startIdx !== -1 && endIdx !== -1 && endIdx > startIdx) {
+//     //  jsonPart = output.substring(startIdx, endIdx + 1);
+//       const stdoutResults = JSON.parse(jsonPart);
+
+//       //console.log('\n\n\n[stdoutResults]\n\n\n', stdoutResults);
+//       for (const result of stdoutResults) {
+//         if (!results.some((r) => r.index === result.index)) {
+//           results.push(result);
+//         }
+//       }
+
+//       if (results.length === 0) {
+//         console.log('[++++++] No PoC triggered');
+//       } else {
+//         console.log(`[++++++] ${results.length} PoC(s) triggered`);
+//       }
+
+//     }     else {
+//       console.warn('[xxxxx] JSON block not found in output');
+//     }
+
+//   } catch (error) {
+//     console.error('[xxxxx] Verification execution error:', error.message);
+//   } finally {
+//     try {
+//       fs.rmSync(tempDir, { recursive: true, force: true });
+//     } catch (e) {
+//       console.error('[xxxxx] Error cleaning up temp directory:', e);
+//     }
+//   }
+
+//   return results;
+// }
 
 
 

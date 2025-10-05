@@ -32,7 +32,7 @@ function parsePkgAndVersion(pkgWithVersion) {
 }
 
 // Main execution
-async function main() {
+function main() {
   // Already output directory exists
   const starttime = Date.now();
   for (let i = 1; i <= 1; i++) {
@@ -113,10 +113,14 @@ async function main() {
 }
 
 
+
 if (require.main === module) {
-  main().catch(err => {
+  try {
+    main();
+  } catch (err) {
     console.error(`[xxxxx] Main execution error: ${err.message}`);
     process.chdir(originalDir);
-  });
+  }
 }
+
 

@@ -51,7 +51,7 @@ function verify_all_CI(package, seeds, packageDir, sanitizedName) {
 
   for (let index = 0; index < seeds.length; index++) {
     const seed = seeds[index];
-
+    console.log(`[DEBUG] Testing seed #${index}: ${seed}`);
     try {
       const spawnResult = child_process.spawnSync(
         'node',
@@ -72,19 +72,24 @@ function verify_all_CI(package, seeds, packageDir, sanitizedName) {
         throw spawnResult.error;
       }
       if (spawnResult.stderr && spawnResult.stderr.trim().length > 0) {
-  console.error(`[verify_CI.js stderr] Seed #${index} error:`, spawnResult.stderr.trim());
-}
-
-
+        console.error(`[DEBUG] Testing seed #${index}:`, spawnResult.stderr.trim());
+      }
+      // 2) stdout에서 JSON 부분만 추출
       const output = spawnResult.stdout.trim();
-      const result = JSON.parse(output);
+      const jsonMatch = output.match(/\{.*\}/s); // 중괄호 {}로 감싸진 부분
+
+      if (!jsonMatch) {
+        throw new Error(`JSON output not found or malformed: ${output}`);
+      }
+
+      const result = JSON.parse(jsonMatch[0]);
       if (result.vulnerable) {
         results.push({ index: result.index, seed: result.seed, vulnerable: true });
         console.log(`[++++++] Seed #${index} is vulnerable, stopping further tests.`);
         break;
       }
     } catch (error) {
-      console.error(`[xxxxx] Error verifying seed #${index}:`, error.message);
+      console.error(`[DEBUG] Verifying seed #${index}:`, error.message);
     }
   }
 
@@ -341,7 +346,7 @@ function PoCgenerator(
     );
     vulnerableSeeds.forEach((result, i) => {  
     
-    const filename = `${sanitizedName}_${i}_PoC.js`;
+    const filename = `${sanitizedName}@${version}_${i}_PoC.js`;
       fs.writeFileSync(
         path.join(outputDirPath, filename),
         result.seed
